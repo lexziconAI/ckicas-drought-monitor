@@ -21,66 +21,10 @@ app.add_middleware(
 # Mount static files
 app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
 
-# Catch-all route for SPA
-@app.get("/{full_path:path}")
-async def serve_spa(full_path: str):
-    # Skip API routes
-    if full_path.startswith("api/") or full_path.startswith("health"):
-        return {"error": "Not found"}
-    
-    # Serve index.html for all other routes (SPA routing)
-    return FileResponse("frontend/dist/index.html")
-
 # Basic health endpoint
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "message": "Ultra-simple CKICAS running"}
-
-# Chatbot models
-class ChatMessage(BaseModel):
-    role: str
-    content: str
-    timestamp: Optional[datetime] = None
-
-class ChatRequest(BaseModel):
-    message: str
-    context: Optional[Dict[str, Any]] = None
-    conversation_history: Optional[List[ChatMessage]] = None
-
-class ChatResponse(BaseModel):
-    model_config = ConfigDict(protected_namespaces=())
-
-    response: str
-    timestamp: datetime
-    model_used: str
-    tokens_used: Optional[int] = None
-
-# Simple chatbot
-class SimpleChatbot:
-    def __init__(self):
-        self.api_key = os.getenv('ANTHROPIC_API_KEY')
-        self.api_available = bool(self.api_key)
-        if not self.api_available:
-            print("  ANTHROPIC_API_KEY not found - using demo mode")
-
-    async def chat(self, message: str) -> ChatResponse:
-        if self.api_available:
-            return ChatResponse(
-                response="API key configured - real Claude response would go here",
-                timestamp=datetime.utcnow(),
-                model_used="claude-haiku-4-5-20251001",
-                tokens_used=50
-            )
-        else:
-            response = f"Hello! I am the CKICAS dashboard assistant. You asked: '{message}'. I'm currently in demo mode without an Anthropic API key, but I can help you understand the dashboard metrics and system performance."
-            return ChatResponse(
-                response=response,
-                timestamp=datetime.utcnow(),
-                model_used="demo_mode",
-                tokens_used=0
-            )
-
-chatbot = SimpleChatbot()
 
 # Admin endpoints
 @app.get("/api/admin/health")
@@ -124,6 +68,12 @@ async def chat_with_dashboard(request: ChatRequest):
             model_used="error",
             tokens_used=0
         )
+
+# Catch-all route for SPA (MUST be last)
+@app.get("/{full_path:path}")
+async def serve_spa(full_path: str):
+    # Serve index.html for all other routes (SPA routing)
+    return FileResponse("frontend/dist/index.html")
 
 if __name__ == "__main__":
     import uvicorn
