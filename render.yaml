@@ -3,9 +3,8 @@ services:
     name: ckicas-backend-final
     runtime: python
     plan: free
-    rootDir: ckicas-deploy
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    buildCommand: cd ckicas-deploy && pip install -r requirements.txt
+    startCommand: cd ckicas-deploy && uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
@@ -19,10 +18,9 @@ services:
     name: ckicas-frontend
     runtime: node
     plan: free
-    rootDir: ckicas-deploy/frontend
-    buildCommand: npm install && npm run build
+    buildCommand: cd ckicas-deploy/frontend && npm install && npm run build
     staticSiteOptions:
-      publishDir: dist
+      publishDir: ckicas-deploy/frontend/dist
     envVars:
       - key: NODE_VERSION
         value: 22
