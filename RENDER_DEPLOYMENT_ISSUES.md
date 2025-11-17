@@ -5,9 +5,70 @@ This document details the persistent deployment failures encountered when deploy
 
 ## Current Status
 - **Date**: November 18, 2025
-- **Latest Commit**: `b8404527` - "Add PYTHON_VERSION to backend render.yaml for Render deployment"
-- **Frontend Status**: ❌ Failed
-- **Backend Status**: ❌ Failed
+- **Latest Commit**: `2314f2de` - "Fix Render deployment: add rootDir for monorepo support - Next.js frontend, FastAPI backend"
+- **Frontend Status**: ⏳ Pending redeployment
+- **Backend Status**: ⏳ Pending redeployment
+
+## ✅ SOLUTION IMPLEMENTED
+
+### What Was Fixed
+- **Root Cause**: Missing `rootDir` configuration for monorepo support
+- **Solution**: Single authoritative `render.yaml` with proper `rootDir` settings
+- **Key Changes**:
+  - Deleted conflicting `ckicas-deploy/render.yaml`
+  - Updated root `render.yaml` with `rootDir: test-dashboard` for frontend
+  - Updated root `render.yaml` with `rootDir: ckicas-deploy` for backend
+  - Corrected frontend configuration for Next.js (not Vite)
+
+### New Configuration
+```yaml
+services:
+  # Frontend - Next.js Web Service
+  - type: web
+    runtime: node
+    name: ckicas-frontend
+    rootDir: test-dashboard          # ← Sets working directory
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: VITE_API_URL
+        value: https://ckicas-drought-monitor-1.onrender.com
+
+  # Backend - Python FastAPI
+  - type: web
+    runtime: python
+    name: ckicas-drought-monitor-1
+    rootDir: ckicas-deploy           # ← Sets working directory
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: NIWA_API_KEY
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+```
+
+### Why This Fixes the Issue
+1. **`rootDir`** tells Render to change to the service directory **before** running any commands
+2. **No `cd` commands needed** - Render handles the directory change automatically
+3. **Paths are relative** to `rootDir` (e.g., `requirements.txt` resolves correctly)
+4. **Frontend correctly configured** as Next.js web service (not static site)
+
+## Expected Outcome
+After redeployment, Render logs should show:
+- Frontend: `npm install` finding `package.json` in `test-dashboard/`
+- Backend: `pip install` finding `requirements.txt` in `ckicas-deploy/`
+
+## If Issues Persist
+If you still see cached configuration, manually set "Root Directory" in Render Dashboard:
+- Frontend service: `test-dashboard`
+- Backend service: `ckicas-deploy`
 
 ## Service Configuration
 
