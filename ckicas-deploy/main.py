@@ -67,7 +67,7 @@ chatbot = SimpleChatbot()
 # Basic health endpoint
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "message": "Ultra-simple CKICAS running"}
+    return {"status": "healthy", "message": "Ultra-simple CKICAS running - updated"}
 
 # Admin endpoints
 @app.get("/api/admin/health")
@@ -154,3 +154,20 @@ async def serve_spa(full_path: str):
     
     # For all other routes, serve the React app (SPA routing)
     return FileResponse("frontend/dist/index.html", media_type="text/html")
+
+@app.post("/api/admin/chat")
+async def chat_with_dashboard(request: dict):
+    try:
+        message = request.get("message", "")
+        print(f"Chat request received: {message}")  # Debug log
+        response = chatbot.chat(message)
+        print(f"Chat response: {response.response}")  # Debug log
+        return response
+    except Exception as e:
+        print(f"Chat error: {str(e)}")  # Debug log
+        return {
+            "response": f"Sorry, I encountered an error: {str(e)}",
+            "timestamp": datetime.utcnow().isoformat(),
+            "model_used": "error",
+            "tokens_used": 0
+        }
