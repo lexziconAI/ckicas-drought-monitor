@@ -1,17 +1,26 @@
 services:
+  # Frontend Static Site
   - type: web
-    name: ckicas-drought-dashboard
-    env: python
+    name: ckicas-frontend
+    env: static
     region: oregon
     plan: free
     buildCommand: |
-      # Install Python dependencies
-      pip install -r requirements.txt
-      # Build frontend
-      cd frontend
       npm install
       npm run build
-      cd ..
+    staticPublishPath: ./frontend/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # Backend API Service
+  - type: web
+    name: ckicas-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: ANTHROPIC_API_KEY

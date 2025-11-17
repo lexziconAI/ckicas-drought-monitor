@@ -1,7 +1,7 @@
 // API Configuration for CKICAS Dashboard
-// For Option B (Single Service): Use relative URLs since frontend and backend are on the same domain
+// For Option A (Separate Services): Use full backend URL
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || '';  // Empty string = relative URLs
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 export const API_CONFIG = {
   baseURL: API_BASE_URL,
