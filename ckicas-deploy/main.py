@@ -64,16 +64,13 @@ async def check_chatbot_health():
 
 @app.post("/api/admin/chat")
 async def chat_with_dashboard(request: ChatRequest):
-    try:
-        response = await chatbot.chat(request.message)
-        return response
-    except Exception as e:
-        return ChatResponse(
-            response=f"Sorry, I encountered an error: {str(e)}",
-            timestamp=datetime.utcnow(),
-            model_used="error",
-            tokens_used=0
-        )
+    # Simplified response for now
+    return ChatResponse(
+        response="Chat functionality temporarily disabled during deployment",
+        timestamp=datetime.utcnow(),
+        model_used="demo",
+        tokens_used=0
+    )
 
 # Specific route for root path
 @app.get("/")
