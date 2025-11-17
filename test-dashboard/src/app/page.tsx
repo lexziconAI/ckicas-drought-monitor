@@ -198,7 +198,7 @@ export default function CKICASDroughtMonitor() {
           <p className="text-gray-600 mb-4">
             Interactive map showing drought risk levels across New Zealand regions. Click on regions or enter coordinates to get detailed risk assessments.
           </p>
-          <DroughtMap apiBaseUrl={API_BASE_URL} />
+          <DroughtMap key="single-drought-map" apiBaseUrl={API_BASE_URL} />
         </div>
 
         {/* AI Assistant Chat */}

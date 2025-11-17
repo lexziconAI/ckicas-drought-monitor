@@ -27,8 +27,8 @@ interface DroughtMapProps {
 
 const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
   const [selectedLocation, setSelectedLocation] = useState<{ lat: number; lon: number } | null>(null);
-  const [mapCenter, setMapCenter] = useState([-41.0, 174.0]); // Wellington, NZ
-  const [mapZoom, setMapZoom] = useState(6);
+  const [mapCenter, setMapCenter] = useState([-40.9, 174.9]); // Better NZ center coordinates
+  const [mapZoom, setMapZoom] = useState(5); // Better zoom for NZ view
   const [droughtData, setDroughtData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -107,12 +107,15 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
   }
 
   return (
-    <div className="relative">
-      <div style={{ height: '500px', width: '100%' }}>
+    <div className="relative w-full h-96 rounded-lg overflow-hidden border border-gray-200">
+      <div className="w-full h-full">
         <MapContainer
+          key="drought-map" // Prevent React re-mounting
           center={mapCenter as [number, number]}
           zoom={mapZoom}
           style={{ height: '100%', width: '100%' }}
+          maxBounds={[[-48, 165], [-34, 180]]} // Restrict panning to NZ region
+          maxBoundsViscosity={1.0} // Prevent dragging outside bounds
           // @ts-ignore - react-leaflet types issue
           onClick={handleMapClick}
         >
