@@ -99,6 +99,15 @@ async def check_chatbot_health():
     except Exception as e:
         return {"status": "unhealthy", "error": str(e)}
 
+@app.post("/api/admin/login")
+async def admin_login():
+    # Simple demo login - in production, use proper authentication
+    return {
+        "access_token": "demo_admin_token_2025",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+
 @app.get("/api/admin/metrics")
 async def get_admin_metrics():
     return {
