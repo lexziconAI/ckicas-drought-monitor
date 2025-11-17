@@ -86,12 +86,30 @@ async def serve_spa(full_path: str):
         else:
             return {"error": "Asset not found"}, 404
     
-    # Serve index.html for all other routes (SPA routing)
-    index_path = "frontend/dist/index.html"
-    if os.path.exists(index_path):
-        return FileResponse(index_path)
-    else:
-        return {"error": "Frontend not built"}, 404
+    # For now, serve a simple HTML response to test routing
+    html_content = """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CKICAS Drought Monitor</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            .header { color: #2c3e50; }
+            .status { color: #27ae60; }
+        </style>
+    </head>
+    <body>
+        <h1 class="header">CKICAS Drought Monitoring Dashboard</h1>
+        <p class="status">✅ Backend Status: Connected</p>
+        <p>Frontend deployment in progress...</p>
+        <div id="app">
+            <p>Loading dashboard...</p>
+        </div>
+    </body>
+    </html>
+    """
+    from fastapi.responses import HTMLResponse
+    return HTMLResponse(content=html_content)
 
 if __name__ == "__main__":
     import uvicorn
