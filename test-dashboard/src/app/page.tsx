@@ -1,6 +1,13 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
+
+// Dynamically import the map component to avoid SSR issues
+const DroughtMap = dynamic(() => import('../components/Map/DroughtMap'), {
+  ssr: false,
+  loading: () => <div className="h-96 bg-gray-100 rounded-lg flex items-center justify-center">Loading map...</div>
+});
 
 interface ApiStatus {
   niwa: boolean;
@@ -79,7 +86,7 @@ export default function CKICASDroughtMonitor() {
         },
         body: JSON.stringify({
           message: chatMessage,
-          context: 'drought_monitoring'
+          context: { type: 'drought_monitoring' }
         }),
       });
       const data = await response.json();
@@ -183,6 +190,15 @@ export default function CKICASDroughtMonitor() {
               <p className="text-xs text-gray-500 mt-2">+{dataSources.length - 3} more sources</p>
             )}
           </div>
+        </div>
+
+        {/* Drought Risk Map */}
+        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">Drought Risk Map - New Zealand</h3>
+          <p className="text-gray-600 mb-4">
+            Interactive map showing drought risk levels across New Zealand regions. Click on regions or enter coordinates to get detailed risk assessments.
+          </p>
+          <DroughtMap apiBaseUrl={API_BASE_URL} />
         </div>
 
         {/* AI Assistant Chat */}
