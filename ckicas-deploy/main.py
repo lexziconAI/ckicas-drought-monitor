@@ -45,20 +45,28 @@ class SimpleChatbot:
         if not self.api_available:
             print("  ANTHROPIC_API_KEY not found - using demo mode")
 
-    async def chat(self, message: str) -> ChatResponse:
-        if self.api_available:
+    def chat(self, message: str):
+        try:
+            if self.api_available:
+                return ChatResponse(
+                    response="API key configured - real Claude response would go here",
+                    timestamp=datetime.utcnow(),
+                    model_used="claude-haiku-4-5-20251001",
+                    tokens_used=50
+                )
+            else:
+                response = f"Hello! I am the CKICAS dashboard assistant. You asked: '{message}'. I'm currently in demo mode without an Anthropic API key, but I can help you understand the dashboard metrics and system performance."
+                return ChatResponse(
+                    response=response,
+                    timestamp=datetime.utcnow(),
+                    model_used="demo_mode",
+                    tokens_used=0
+                )
+        except Exception as e:
             return ChatResponse(
-                response="API key configured - real Claude response would go here",
+                response=f"Sorry, I encountered an error: {str(e)}",
                 timestamp=datetime.utcnow(),
-                model_used="claude-haiku-4-5-20251001",
-                tokens_used=50
-            )
-        else:
-            response = f"Hello! I am the CKICAS dashboard assistant. You asked: '{message}'. I'm currently in demo mode without an Anthropic API key, but I can help you understand the dashboard metrics and system performance."
-            return ChatResponse(
-                response=response,
-                timestamp=datetime.utcnow(),
-                model_used="demo_mode",
+                model_used="error",
                 tokens_used=0
             )
 
