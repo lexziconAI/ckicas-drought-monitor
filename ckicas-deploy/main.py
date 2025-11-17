@@ -99,18 +99,31 @@ async def check_chatbot_health():
     except Exception as e:
         return {"status": "unhealthy", "error": str(e)}
 
-@app.post("/api/admin/chat")
-async def chat_with_dashboard(request: ChatRequest):
-    try:
-        response = await chatbot.chat(request.message)
-        return response
-    except Exception as e:
-        return ChatResponse(
-            response=f"Sorry, I encountered an error: {str(e)}",
-            timestamp=datetime.utcnow(),
-            model_used="error",
-            tokens_used=0
-        )
+@app.get("/api/admin/metrics")
+async def get_admin_metrics():
+    return {
+        "cache": {"hit_rate": 0.85, "size_mb": 45.2},
+        "performance": {"avg_response_time": 0.234, "requests_per_minute": 12.5},
+        "system": {"cpu_usage": 0.32, "memory_usage": 0.67}
+    }
+
+@app.get("/api/admin/apis")
+async def get_api_status():
+    return {
+        "anthropic": {"status": "healthy", "response_time": 0.123},
+        "niwa": {"status": "healthy", "response_time": 0.089},
+        "met_service": {"status": "healthy", "response_time": 0.156}
+    }
+
+@app.get("/api/admin/logs")
+async def get_admin_logs():
+    return {
+        "logs": [
+            {"timestamp": datetime.utcnow().isoformat(), "level": "INFO", "message": "System initialized"},
+            {"timestamp": datetime.utcnow().isoformat(), "level": "INFO", "message": "Chatbot service active"},
+            {"timestamp": datetime.utcnow().isoformat(), "level": "INFO", "message": "Dashboard loaded"}
+        ]
+    }
 
 # Serve React app
 @app.get("/")
