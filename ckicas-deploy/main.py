@@ -75,7 +75,7 @@ chatbot = SimpleChatbot()
 # Basic health endpoint
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "message": "Ultra-simple CKICAS running - updated"}
+    return {"status": "healthy", "message": "CKICAS running - FAST DEPLOY TEST"}
 
 # Admin endpoints
 @app.get("/api/admin/health")
