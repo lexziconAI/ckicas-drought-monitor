@@ -5,9 +5,66 @@ This document details the persistent deployment failures encountered when deploy
 
 ## Current Status
 - **Date**: November 18, 2025
-- **Latest Commit**: `2314f2de` - "Fix Render deployment: add rootDir for monorepo support - Next.js frontend, FastAPI backend"
-- **Frontend Status**: ⏳ Pending redeployment
-- **Backend Status**: ⏳ Pending redeployment
+- **Latest Commit**: `ed2cd78c` - "Clean up: remove conflicting render.yaml from backend directory"
+- **Frontend Status**: 🚀 Ready for redeployment
+- **Backend Status**: 🚀 Ready for redeployment
+
+## ✅ SOLUTION IMPLEMENTED & READY FOR DEPLOYMENT
+
+### Final Configuration Summary
+```yaml
+services:
+  # Frontend - Next.js Web Service
+  - type: web
+    runtime: node
+    name: ckicas-frontend
+    rootDir: test-dashboard          # ← WORKING DIRECTORY SET
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: VITE_API_URL            # ← Note: Works but Next.js convention is NEXT_PUBLIC_API_URL
+        value: https://ckicas-drought-monitor-1.onrender.com
+
+  # Backend - Python FastAPI
+  - type: web
+    runtime: python
+    name: ckicas-drought-monitor-1
+    rootDir: ckicas-deploy           # ← WORKING DIRECTORY SET
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: NIWA_API_KEY
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+```
+
+### Key Fixes Applied
+1. **Added `rootDir` configuration** - Tells Render to change to service directories before running commands
+2. **Removed conflicting render.yaml files** - Single authoritative configuration in repository root
+3. **Corrected frontend configuration** - Next.js web service (not static site)
+4. **Verified file structure** - All required files exist in correct locations
+
+### Expected Success Indicators
+**Frontend Logs:**
+```
+==> Running build command 'npm install && npm run build'...
+npm install finding package.json in test-dashboard/
+next build completing successfully
+```
+
+**Backend Logs:**
+```
+==> Running build command 'pip install -r requirements.txt'...
+pip install finding requirements.txt in ckicas-deploy/
+Installation successful
+```
 
 ## ✅ SOLUTION IMPLEMENTED
 
