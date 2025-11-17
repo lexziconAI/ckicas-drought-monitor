@@ -19,4 +19,4 @@ async def health_check():
 # Root endpoint
 @app.get("/")
 async def serve_root():
-    return "CKICAS Drought Monitoring Dashboard - Backend Connected"
+    return {"message": "CKICAS Drought Monitoring Dashboard - Backend Connected"}
