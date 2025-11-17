@@ -19,8 +19,13 @@ app.add_middleware(
 )
 
 # Mount static files
-app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
-app.mount("/static", StaticFiles(directory="frontend/dist"), name="static")
+try:
+    app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
+    app.mount("/static", StaticFiles(directory="frontend/dist"), name="static")
+except Exception as e:
+    print(f"Warning: Could not mount static files: {e}")
+    # Fallback: serve assets directly from catch-all
+    pass
 
 # Basic health endpoint
 @app.get("/health")
@@ -73,8 +78,20 @@ async def chat_with_dashboard(request: ChatRequest):
 # Catch-all route for SPA (MUST be last)
 @app.get("/{full_path:path}")
 async def serve_spa(full_path: str):
+    # Handle asset requests
+    if full_path.startswith("assets/"):
+        asset_path = f"frontend/dist/{full_path}"
+        if os.path.exists(asset_path):
+            return FileResponse(asset_path)
+        else:
+            return {"error": "Asset not found"}, 404
+    
     # Serve index.html for all other routes (SPA routing)
-    return FileResponse("frontend/dist/index.html")
+    index_path = "frontend/dist/index.html"
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    else:
+        return {"error": "Frontend not built"}, 404
 
 if __name__ == "__main__":
     import uvicorn
