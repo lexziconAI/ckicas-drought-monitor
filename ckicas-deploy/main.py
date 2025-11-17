@@ -179,3 +179,7 @@ async def chat_with_dashboard(request: dict):
             "model_used": "error",
             "tokens_used": 0
         }
+
+@app.get("/ping")
+async def ping():
+    return {"pong": "FAST TEST - " + datetime.utcnow().isoformat()}
