@@ -20,6 +20,7 @@ app.add_middleware(
 
 # Mount static files
 app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
+app.mount("/static", StaticFiles(directory="frontend/dist"), name="static")
 
 # Basic health endpoint
 @app.get("/health")
