@@ -4,12 +4,25 @@ services:
     runtime: python
     plan: free
     rootDir: ckicas-deploy
-    buildCommand: |
-      pip install -r requirements.txt &&
-      cd frontend && npm install && npm run build && cd ..
+    buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
       - key: ANTHROPIC_API_KEY
         sync: false
+      - key: NIWA_API_KEY
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+  - type: static
+    name: ckicas-frontend
+    runtime: node
+    plan: free
+    rootDir: ckicas-deploy/frontend
+    buildCommand: npm install && npm run build
+    staticSiteOptions:
+      publishDir: dist
+    envVars:
+      - key: NODE_VERSION
+        value: 22
