@@ -142,6 +142,10 @@ async def serve_react_app():
 # Catch-all route for React Router (SPA routing)
 @app.get("/{full_path:path}")
 async def serve_spa(full_path: str):
+    # Don't interfere with API routes
+    if full_path.startswith("api/"):
+        return {"error": "API route not found"}, 404
+    
     # Check if it's a static asset request
     if full_path.startswith("assets/"):
         asset_path = f"frontend/dist/{full_path}"
