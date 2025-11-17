@@ -2,7 +2,11 @@ import axios from 'axios';
 import { API_CONFIG } from './config/api.js';
 
 // Create axios instance with default configuration
-const apiClient = axios.create(API_CONFIG);
+const apiClient = axios.create({
+  ...API_CONFIG,
+  // For relative URLs, don't set baseURL to avoid double slashes
+  baseURL: API_CONFIG.baseURL || undefined,
+});
 
 // Request interceptor for adding auth headers if needed
 apiClient.interceptors.request.use(
