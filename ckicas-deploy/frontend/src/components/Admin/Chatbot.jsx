@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
+import apiClient from '../../config/axios';
 import {
   MessageCircle,
   Send,
@@ -62,7 +62,7 @@ function Chatbot({ isOpen, onToggle, health, metrics }) {
         timestamp: msg.timestamp
       }));
 
-      const response = await axios.post('/api/admin/chat', {
+      const response = await apiClient.post('/api/admin/chat', {
         message: userMessage.content,
         context: context,
         conversation_history: conversationHistory

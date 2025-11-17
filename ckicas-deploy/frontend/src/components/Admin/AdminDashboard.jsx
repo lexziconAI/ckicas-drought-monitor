@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import apiClient from '../../config/axios';
 import {
   Activity,
   Database,
@@ -78,10 +78,10 @@ function AdminDashboard() {
   const loadDashboardData = async () => {
     try {
       const [healthRes, metricsRes, apiRes, logsRes] = await Promise.all([
-        axios.get('/api/admin/health'),
-        axios.get('/api/admin/metrics'),
-        axios.get('/api/admin/apis'),
-        axios.get('/api/admin/logs')
+        apiClient.get('/api/admin/health'),
+        apiClient.get('/api/admin/metrics'),
+        apiClient.get('/api/admin/apis'),
+        apiClient.get('/api/admin/logs')
       ]);
 
       setHealth(healthRes.data);

@@ -1,12 +1,28 @@
 services:
+  # Frontend Static Site
   - type: web
-    name: ckicas-backend-final
-    runtime: python3
+    name: ckicas-frontend
+    env: static
+    region: oregon
     plan: free
-    buildCommand: pip install -r requirements.txt  # Force redeploy
+    buildCommand: |
+      npm install
+      npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # Backend API Service
+  - type: web
+    name: ckicas-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11
       - key: ANTHROPIC_API_KEY
         sync: false
+    healthCheckPath: /api/admin/health

@@ -15,7 +15,11 @@ print("FastAPI app created")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://ckicas-frontend.onrender.com",  # Production frontend
+        "http://localhost:5173",  # Local development frontend
+        "http://localhost:3000",  # Alternative local port
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -161,39 +165,3 @@ async def chat_endpoint(request: ChatRequest):
             model_used="error",
             tokens_used=0
         )
-
-# Serve React app
-@app.get("/")
-async def serve_react_app():
-    return FileResponse("frontend/dist/index.html", media_type="text/html")
-
-@app.get("/assets/{file_path:path}")
-async def serve_asset(file_path: str):
-    asset_path = f"frontend/dist/assets/{file_path}"
-    print(f"DEBUG: Serving asset request: {file_path} -> {asset_path}")
-    print(f"DEBUG: File exists: {os.path.exists(asset_path)}")
-    
-    if os.path.exists(asset_path):
-        # Set correct MIME type based on file extension
-        if file_path.endswith('.js'):
-            print(f"DEBUG: Serving JS file with application/javascript MIME type")
-            return FileResponse(asset_path, media_type="application/javascript")
-        elif file_path.endswith('.css'):
-            print(f"DEBUG: Serving CSS file with text/css MIME type")
-            return FileResponse(asset_path, media_type="text/css")
-        else:
-            print(f"DEBUG: Serving file with default MIME type")
-            return FileResponse(asset_path)
-    
-    print(f"DEBUG: Asset not found: {asset_path}")
-    return {"error": "Asset not found"}, 404
-
-# Catch-all route for React Router (SPA routing)
-@app.get("/{full_path:path}")
-async def serve_spa(full_path: str):
-    # Don't interfere with API routes or asset routes
-    if full_path.startswith("api/") or full_path.startswith("assets/"):
-        return {"error": "Route not found"}, 404
-    
-    # For all other routes, serve the React app (SPA routing)
-    return FileResponse("frontend/dist/index.html", media_type="text/html")

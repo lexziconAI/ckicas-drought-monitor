@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import apiClient from '../config/axios';
 import { Shield, Eye, EyeOff } from 'lucide-react';
 
 function AdminLogin() {
@@ -16,7 +16,7 @@ function AdminLogin() {
     setError('');
 
     try {
-      const response = await axios.post('/api/admin/login', credentials);
+      const response = await apiClient.post('/api/admin/login', credentials);
       const { access_token } = response.data;
 
       // Store token (in production, use secure storage)
