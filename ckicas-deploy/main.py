@@ -75,64 +75,13 @@ async def chat_with_dashboard(request: ChatRequest):
 # Specific route for root path
 @app.get("/")
 async def serve_root():
-    # For now, serve a simple HTML response to test routing
-    html_content = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>CKICAS Drought Monitor</title>
-        <style>
-            body { font-family: Arial, sans-serif; margin: 40px; }
-            .header { color: #2c3e50; }
-            .status { color: #27ae60; }
-        </style>
-    </head>
-    <body>
-        <h1 class="header">CKICAS Drought Monitoring Dashboard</h1>
-        <p class="status">✅ Backend Status: Connected</p>
-        <p>Frontend deployment in progress...</p>
-        <div id="app">
-            <p>Loading dashboard...</p>
-        </div>
-    </body>
-    </html>
-    """
-    return HTMLResponse(content=html_content)
+    # Return plain text for testing
+    return "CKICAS Drought Monitoring Dashboard - Backend Connected"
 
 # Catch-all route for SPA (MUST be last)
 @app.get("/{full_path:path}")
 async def serve_spa(full_path: str):
-    # Handle asset requests
-    if full_path.startswith("assets/"):
-        asset_path = f"frontend/dist/{full_path}"
-        if os.path.exists(asset_path):
-            return FileResponse(asset_path)
-        else:
-            return {"error": "Asset not found"}, 404
-    
-    # For now, serve a simple HTML response to test routing
-    html_content = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>CKICAS Drought Monitor</title>
-        <style>
-            body { font-family: Arial, sans-serif; margin: 40px; }
-            .header { color: #2c3e50; }
-            .status { color: #27ae60; }
-        </style>
-    </head>
-    <body>
-        <h1 class="header">CKICAS Drought Monitoring Dashboard</h1>
-        <p class="status">✅ Backend Status: Connected</p>
-        <p>Frontend deployment in progress...</p>
-        <div id="app">
-            <p>Loading dashboard...</p>
-        </div>
-    </body>
-    </html>
-    """
-    return HTMLResponse(content=html_content)
+    return f"Path: {full_path} - SPA routing working"
 
 if __name__ == "__main__":
     import uvicorn
