@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DroughtMap from '../components/Map/DroughtMap';
 import IndicatorGauges from '../components/Indicators/IndicatorGauges';
 import RainfallChart from '../components/Charts/RainfallChart';
 import DataSourcesAccordion from '../components/Sources/DataSourcesAccordion';
 import Header from '../components/Layout/Header';
+import Chatbot from '../components/Admin/Chatbot';
 
 function DroughtDashboard() {
+  const [chatbotOpen, setChatbotOpen] = useState(false);
+
+  // Mock data for chatbot context (in a real app, this would come from API)
+  const mockHealth = {
+    status: 'healthy',
+    response_time_seconds: 0.234,
+    services: ['database', 'cache', 'api']
+  };
+
+  const mockMetrics = {
+    cache: { hit_rate: 0.85, size_mb: 45.2 },
+    performance: { avg_response_time: 0.234, requests_per_minute: 12.5 },
+    system: { cpu_usage: 0.32, memory_usage: 0.67 }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
@@ -94,6 +110,14 @@ function DroughtDashboard() {
           <p className="text-sm mt-2">Data sources cited with timestamps • Confidence levels time-calibrated • No false alarms</p>
         </footer>
       </main>
+
+      {/* Floating Chatbot */}
+      <Chatbot
+        isOpen={chatbotOpen}
+        onToggle={() => setChatbotOpen(!chatbotOpen)}
+        health={mockHealth}
+        metrics={mockMetrics}
+      />
     </div>
   );
 }
