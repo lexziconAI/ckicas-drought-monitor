@@ -130,41 +130,6 @@ async def serve_spa(full_path: str):
     # For all other routes, serve the React app (SPA routing)
     return FileResponse("app/static/index.html", media_type="text/html")
 
-@app.post("/api/admin/login")
-async def admin_login():
-    # Simple demo login - in production, use proper authentication
-    return {
-        "access_token": "demo_admin_token_2025",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-
-@app.get("/api/admin/metrics")
-async def get_admin_metrics():
-    return {
-        "cache": {"hit_rate": 0.85, "size_mb": 45.2},
-        "performance": {"avg_response_time": 0.234, "requests_per_minute": 12.5},
-        "system": {"cpu_usage": 0.32, "memory_usage": 0.67}
-    }
-
-@app.get("/api/admin/apis")
-async def get_api_status():
-    return {
-        "anthropic": {"status": "healthy", "response_time": 0.123},
-        "niwa": {"status": "healthy", "response_time": 0.089},
-        "met_service": {"status": "healthy", "response_time": 0.156}
-    }
-
-@app.get("/api/admin/logs")
-async def get_admin_logs():
-    return {
-        "logs": [
-            {"timestamp": datetime.utcnow().isoformat(), "level": "INFO", "message": "System initialized"},
-            {"timestamp": datetime.utcnow().isoformat(), "level": "INFO", "message": "Chatbot service active"},
-            {"timestamp": datetime.utcnow().isoformat(), "level": "INFO", "message": "Dashboard loaded"}
-        ]
-    }
-
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
