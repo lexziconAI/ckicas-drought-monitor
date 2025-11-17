@@ -159,6 +159,11 @@ async def chat_with_dashboard(request: dict):
             "tokens_used": 0
         }
 
+# Test endpoint to verify POST routes work
+@app.post("/test")
+async def test_endpoint():
+    return {"message": "test successful"}
+
 # Serve React app
 from fastapi.responses import FileResponse
 import os
