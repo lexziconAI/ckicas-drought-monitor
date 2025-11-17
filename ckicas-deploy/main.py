@@ -20,8 +20,3 @@ async def health_check():
 @app.get("/")
 async def serve_root():
     return "CKICAS Drought Monitoring Dashboard - Backend Connected"
-
-# Catch-all route
-@app.get("/{full_path:path}")
-async def serve_spa(full_path: str):
-    return f"Path: {full_path} - SPA routing working"
