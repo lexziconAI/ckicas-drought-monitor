@@ -46,19 +46,27 @@ class SimpleChatbot:
             print("  ANTHROPIC_API_KEY not found - using demo mode")
 
     async def chat(self, message: str) -> ChatResponse:
-        if self.api_available:
+        try:
+            if self.api_available:
+                return ChatResponse(
+                    response="API key configured - real Claude response would go here",
+                    timestamp=datetime.utcnow(),
+                    model_used="claude-haiku-4-5-20251001",
+                    tokens_used=50
+                )
+            else:
+                response = f"Hello! I'm the CKICAS dashboard assistant. You asked: '{message}'. I'm currently in demo mode without an Anthropic API key, but I can help you understand the dashboard metrics and system performance."
+                return ChatResponse(
+                    response=response,
+                    timestamp=datetime.utcnow(),
+                    model_used="demo_mode",
+                    tokens_used=0
+                )
+        except Exception as e:
             return ChatResponse(
-                response="API key configured - real Claude response would go here",
+                response=f"Sorry, I encountered an error: {str(e)}",
                 timestamp=datetime.utcnow(),
-                model_used="claude-haiku-4-5-20251001",
-                tokens_used=50
-            )
-        else:
-            response = f"Hello! I'm the CKICAS dashboard assistant. You asked: '{message}'. I'm currently in demo mode without an Anthropic API key, but I can help you understand the dashboard metrics and system performance."
-            return ChatResponse(
-                response=response,
-                timestamp=datetime.utcnow(),
-                model_used="demo_mode",
+                model_used="error",
                 tokens_used=0
             )
 
@@ -138,7 +146,7 @@ async def get_admin_logs():
 async def chat_with_dashboard(request: ChatRequest):
     try:
         print(f"Chat request received: {request.message}")  # Debug log
-        response = await chatbot.chat(request.message)
+        response = chatbot.chat(request.message)
         print(f"Chat response: {response.response}")  # Debug log
         return response
     except Exception as e:
