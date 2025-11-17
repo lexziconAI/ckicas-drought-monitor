@@ -170,14 +170,22 @@ async def serve_react_app():
 @app.get("/assets/{file_path:path}")
 async def serve_asset(file_path: str):
     asset_path = f"frontend/dist/assets/{file_path}"
+    print(f"DEBUG: Serving asset request: {file_path} -> {asset_path}")
+    print(f"DEBUG: File exists: {os.path.exists(asset_path)}")
+    
     if os.path.exists(asset_path):
         # Set correct MIME type based on file extension
         if file_path.endswith('.js'):
+            print(f"DEBUG: Serving JS file with application/javascript MIME type")
             return FileResponse(asset_path, media_type="application/javascript")
         elif file_path.endswith('.css'):
+            print(f"DEBUG: Serving CSS file with text/css MIME type")
             return FileResponse(asset_path, media_type="text/css")
         else:
+            print(f"DEBUG: Serving file with default MIME type")
             return FileResponse(asset_path)
+    
+    print(f"DEBUG: Asset not found: {asset_path}")
     return {"error": "Asset not found"}, 404
 
 # Catch-all route for React Router (SPA routing)
