@@ -183,9 +183,9 @@ async def serve_asset(file_path: str):
 # Catch-all route for React Router (SPA routing)
 @app.get("/{full_path:path}")
 async def serve_spa(full_path: str):
-    # Don't interfere with API routes
-    if full_path.startswith("api/"):
-        return {"error": "API route not found"}, 404
+    # Don't interfere with API routes or asset routes
+    if full_path.startswith("api/") or full_path.startswith("assets/"):
+        return {"error": "Route not found"}, 404
     
     # For all other routes, serve the React app (SPA routing)
     return FileResponse("frontend/dist/index.html", media_type="text/html")
