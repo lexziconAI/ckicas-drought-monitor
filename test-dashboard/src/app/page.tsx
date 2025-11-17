@@ -149,7 +149,7 @@ export default function CKICASDroughtMonitor() {
             {droughtRisk ? (
               <div>
                 <div className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${getRiskColor(droughtRisk.risk_level)}`}>
-                  {droughtRisk.risk_level.toUpperCase()} RISK
+                  {droughtRisk.risk_level?.toUpperCase() || 'UNKNOWN'} RISK
                 </div>
                 <p className="text-sm text-gray-600 mt-2">
                   Confidence: {Math.round(droughtRisk.confidence * 100)}%
@@ -157,8 +157,8 @@ export default function CKICASDroughtMonitor() {
                 <div className="mt-3">
                   <p className="text-xs text-gray-500 mb-1">Key Factors:</p>
                   <ul className="text-xs text-gray-600 space-y-1">
-                    {droughtRisk.factors?.slice(0, 3).map((factor, index) => (
-                      <li key={index}>• {factor}</li>
+                    {(droughtRisk.factors || []).slice(0, 3).map((factor, index) => (
+                      <li key={index}>• {factor || 'Unknown factor'}</li>
                     ))}
                   </ul>
                 </div>
@@ -174,8 +174,8 @@ export default function CKICASDroughtMonitor() {
             <div className="space-y-2">
               {dataSources.slice(0, 3).map((source, index) => (
                 <div key={index} className="flex justify-between items-center">
-                  <span className="text-sm text-gray-600">{source.name}</span>
-                  <div className={`w-2 h-2 rounded-full ${source.status === 'active' ? 'bg-green-500' : 'bg-yellow-500'}`}></div>
+                  <span className="text-sm text-gray-600">{source.name || 'Unknown Source'}</span>
+                  <div className={`w-2 h-2 rounded-full ${(source.status || 'unknown') === 'active' ? 'bg-green-500' : 'bg-yellow-500'}`}></div>
                 </div>
               ))}
             </div>
