@@ -1,7 +1,7 @@
 ﻿from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, HTMLResponse
 from datetime import datetime
 import os
 import httpx
@@ -100,7 +100,6 @@ async def serve_root():
     </body>
     </html>
     """
-    from fastapi.responses import HTMLResponse
     return HTMLResponse(content=html_content)
 
 # Catch-all route for SPA (MUST be last)
@@ -136,7 +135,6 @@ async def serve_spa(full_path: str):
     </body>
     </html>
     """
-    from fastapi.responses import HTMLResponse
     return HTMLResponse(content=html_content)
 
 if __name__ == "__main__":
