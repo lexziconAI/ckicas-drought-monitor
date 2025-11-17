@@ -25,4 +25,8 @@ services:
     envVars:
       - key: ANTHROPIC_API_KEY
         sync: false
+      - key: NIWA_API_KEY
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
     healthCheckPath: /api/admin/health

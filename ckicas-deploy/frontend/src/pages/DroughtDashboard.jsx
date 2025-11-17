@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useQuery } from 'react-query';
+import axios from 'axios';
 import DroughtMap from '../components/Map/DroughtMap';
 import IndicatorGauges from '../components/Indicators/IndicatorGauges';
 import RainfallChart from '../components/Charts/RainfallChart';
@@ -8,6 +10,18 @@ import Chatbot from '../components/Admin/Chatbot';
 
 function DroughtDashboard() {
   const [chatbotOpen, setChatbotOpen] = useState(false);
+
+  // Fetch data sources
+  const { data: dataSourcesData, isLoading: sourcesLoading } = useQuery(
+    'dataSources',
+    async () => {
+      const response = await axios.get('/api/public/data-sources');
+      return response.data.sources;
+    },
+    {
+      refetchInterval: 5 * 60 * 1000, // Refetch every 5 minutes
+    }
+  );
 
   // Mock data for chatbot context (in a real app, this would come from API)
   const mockHealth = {
@@ -76,22 +90,13 @@ function DroughtDashboard() {
 
             <div className="bg-white rounded-lg shadow-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Data Sources</h3>
-              <DataSourcesAccordion sources={[
-                {
-                  provider: 'NIWA_DataHub',
-                  dataset: 'CliFlo_Station_2112',
-                  timestamp: '2024-11-16T06:00:00Z',
-                  freshness_hours: 8,
-                  parameters: ['rainfall_daily', 'temperature_max']
-                },
-                {
-                  provider: 'Waikato_RC',
-                  dataset: 'SoilMoisture_Ruakura',
-                  timestamp: '2024-11-16T14:00:00Z',
-                  freshness_hours: 0,
-                  parameters: ['soil_moisture_volumetric']
-                }
-              ]} />
+              {sourcesLoading ? (
+                <div className="text-center py-4">
+                  <p className="text-gray-500">Loading data sources...</p>
+                </div>
+              ) : (
+                <DataSourcesAccordion sources={dataSourcesData || []} />
+              )}
             </div>
           </div>
         </div>
