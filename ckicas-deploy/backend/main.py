@@ -20,6 +20,50 @@ app.add_middleware(
 # Mount static files for React assets
 app.mount("/assets", StaticFiles(directory="app/static/assets"), name="assets")
 
+# Chatbot models
+class ChatMessage(BaseModel):
+    role: str
+    content: str
+    timestamp: Optional[datetime] = None
+
+class ChatRequest(BaseModel):
+    message: str
+    context: Optional[Dict[str, Any]] = None
+    conversation_history: Optional[List[ChatMessage]] = None
+
+class ChatResponse(BaseModel):
+    response: str
+    timestamp: datetime
+    model_used: str
+    tokens_used: Optional[int] = None
+
+# Simple chatbot
+class SimpleChatbot:
+    def __init__(self):
+        self.api_key = os.getenv('ANTHROPIC_API_KEY')
+        self.api_available = bool(self.api_key)
+        if not self.api_available:
+            print("  ANTHROPIC_API_KEY not found - using demo mode")
+
+    async def chat(self, message: str) -> ChatResponse:
+        if self.api_available:
+            return ChatResponse(
+                response="API key configured - real Claude response would go here",
+                timestamp=datetime.utcnow(),
+                model_used="claude-haiku-4-5-20251001",
+                tokens_used=50
+            )
+        else:
+            response = f"Hello! I'm the CKICAS dashboard assistant. You asked: '{message}'. I'm currently in demo mode without an Anthropic API key, but I can help you understand the dashboard metrics and system performance."
+            return ChatResponse(
+                response=response,
+                timestamp=datetime.utcnow(),
+                model_used="demo_mode",
+                tokens_used=0
+            )
+
+chatbot = SimpleChatbot()
+
 # Basic health endpoint
 @app.get("/health")
 async def health_check():
