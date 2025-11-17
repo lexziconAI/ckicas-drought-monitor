@@ -7,7 +7,11 @@ from typing import List, Dict, Any, Optional
 from pydantic import BaseModel
 import os
 
+print("Starting CKICAS application...")
+
 app = FastAPI(title="CKICAS Ultra-Simple")
+
+print("FastAPI app created")
 
 app.add_middleware(
     CORSMiddleware,
@@ -16,6 +20,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+print("CORS middleware added")
 
 # Mount static files for React assets
 # app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
@@ -141,6 +147,20 @@ async def get_admin_logs():
             {"timestamp": datetime.utcnow().isoformat(), "level": "INFO", "message": "Dashboard loaded"}
         ]
     }
+
+# Chat endpoint for both admin and main dashboard
+@app.post("/api/chat")
+async def chat_endpoint(request: ChatRequest):
+    try:
+        response = chatbot.chat(request.message)
+        return response
+    except Exception as e:
+        return ChatResponse(
+            response=f"Sorry, I encountered an error: {str(e)}",
+            timestamp=datetime.utcnow(),
+            model_used="error",
+            tokens_used=0
+        )
 
 # Serve React app
 @app.get("/")
