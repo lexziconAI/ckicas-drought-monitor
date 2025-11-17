@@ -18,9 +18,9 @@ services:
     name: ckicas-frontend
     runtime: node
     plan: free
-    buildCommand: cd ckicas-deploy/frontend && npm install && npm run build
+    buildCommand: cd test-dashboard && npm install && npm run build
     staticSiteOptions:
-      publishDir: ckicas-deploy/frontend/dist
+      publishDir: test-dashboard/dist
     envVars:
       - key: NODE_VERSION
         value: 22
