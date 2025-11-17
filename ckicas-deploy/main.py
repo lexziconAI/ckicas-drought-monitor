@@ -59,15 +59,29 @@ class SimpleChatbot:
         self.api_available = bool(self.api_key)
         if not self.api_available:
             print("  ANTHROPIC_API_KEY not found - using demo mode")
+        else:
+            import anthropic
+            self.client = anthropic.Anthropic(api_key=self.api_key)
 
     def chat(self, message: str):
         try:
             if self.api_available:
+                # Make real API call to Claude
+                response = self.client.messages.create(
+                    model="claude-3-haiku-20240307",
+                    max_tokens=500,
+                    messages=[
+                        {"role": "user", "content": f"You are a helpful assistant for the CKICAS drought monitoring dashboard. Help the user understand drought monitoring, weather data, and system functionality. User question: {message}"}
+                    ]
+                )
+
+                ai_response = response.content[0].text
+
                 return ChatResponse(
-                    response="API key configured - real Claude response would go here",
+                    response=ai_response,
                     timestamp=datetime.utcnow(),
-                    model_used="claude-haiku-4-5-20251001",
-                    tokens_used=50
+                    model_used="claude-3-haiku-20240307",
+                    tokens_used=response.usage.input_tokens + response.usage.output_tokens if hasattr(response, 'usage') else 100
                 )
             else:
                 response = f"Hello! I am the CKICAS dashboard assistant. You asked: '{message}'. I'm currently in demo mode without an Anthropic API key, but I can help you understand the dashboard metrics and system performance."
