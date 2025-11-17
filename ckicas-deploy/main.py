@@ -158,7 +158,13 @@ async def serve_spa(full_path: str):
     if full_path.startswith("assets/"):
         asset_path = f"frontend/dist/{full_path}"
         if os.path.exists(asset_path):
-            return FileResponse(asset_path)
+            # Set correct MIME type for different file types
+            if full_path.endswith('.js'):
+                return FileResponse(asset_path, media_type="application/javascript")
+            elif full_path.endswith('.css'):
+                return FileResponse(asset_path, media_type="text/css")
+            else:
+                return FileResponse(asset_path)
     
     # For all other routes, serve the React app (SPA routing)
     return FileResponse("frontend/dist/index.html", media_type="text/html")
