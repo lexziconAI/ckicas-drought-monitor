@@ -75,6 +75,34 @@ async def chat_with_dashboard(request: ChatRequest):
             tokens_used=0
         )
 
+# Specific route for root path
+@app.get("/")
+async def serve_root():
+    # For now, serve a simple HTML response to test routing
+    html_content = """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CKICAS Drought Monitor</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            .header { color: #2c3e50; }
+            .status { color: #27ae60; }
+        </style>
+    </head>
+    <body>
+        <h1 class="header">CKICAS Drought Monitoring Dashboard</h1>
+        <p class="status">✅ Backend Status: Connected</p>
+        <p>Frontend deployment in progress...</p>
+        <div id="app">
+            <p>Loading dashboard...</p>
+        </div>
+    </body>
+    </html>
+    """
+    from fastapi.responses import HTMLResponse
+    return HTMLResponse(content=html_content)
+
 # Catch-all route for SPA (MUST be last)
 @app.get("/{full_path:path}")
 async def serve_spa(full_path: str):
