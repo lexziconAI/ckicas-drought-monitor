@@ -147,6 +147,19 @@ async def get_admin_logs():
 async def serve_react_app():
     return FileResponse("frontend/dist/index.html", media_type="text/html")
 
+@app.get("/assets/{file_path:path}")
+async def serve_asset(file_path: str):
+    asset_path = f"frontend/dist/assets/{file_path}"
+    if os.path.exists(asset_path):
+        # Set correct MIME type based on file extension
+        if file_path.endswith('.js'):
+            return FileResponse(asset_path, media_type="application/javascript")
+        elif file_path.endswith('.css'):
+            return FileResponse(asset_path, media_type="text/css")
+        else:
+            return FileResponse(asset_path)
+    return {"error": "Asset not found"}, 404
+
 # Catch-all route for React Router (SPA routing)
 @app.get("/{full_path:path}")
 async def serve_spa(full_path: str):
@@ -154,38 +167,5 @@ async def serve_spa(full_path: str):
     if full_path.startswith("api/"):
         return {"error": "API route not found"}, 404
     
-    # Check if it's a static asset request
-    if full_path.startswith("assets/"):
-        asset_path = f"frontend/dist/{full_path}"
-        if os.path.exists(asset_path):
-            # Set correct MIME type for different file types
-            if full_path.endswith('.js'):
-                return FileResponse(asset_path, media_type="application/javascript")
-            elif full_path.endswith('.css'):
-                return FileResponse(asset_path, media_type="text/css")
-            else:
-                return FileResponse(asset_path)
-    
     # For all other routes, serve the React app (SPA routing)
     return FileResponse("frontend/dist/index.html", media_type="text/html")
-
-@app.post("/api/admin/chat")
-async def chat_with_dashboard(request: dict):
-    try:
-        message = request.get("message", "")
-        print(f"Chat request received: {message}")  # Debug log
-        response = chatbot.chat(message)
-        print(f"Chat response: {response.response}")  # Debug log
-        return response
-    except Exception as e:
-        print(f"Chat error: {str(e)}")  # Debug log
-        return {
-            "response": f"Sorry, I encountered an error: {str(e)}",
-            "timestamp": datetime.utcnow().isoformat(),
-            "model_used": "error",
-            "tokens_used": 0
-        }
-
-@app.get("/ping")
-async def ping():
-    return {"pong": "FAST TEST - " + datetime.utcnow().isoformat()}
