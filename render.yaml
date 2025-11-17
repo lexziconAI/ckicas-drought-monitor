@@ -9,7 +9,7 @@ services:
     envVars:
       - key: NODE_VERSION
         value: "22"
-      - key: VITE_API_URL
+      - key: NEXT_PUBLIC_API_URL
         value: https://ckicas-drought-monitor-1.onrender.com
 
   # Backend - Python FastAPI
