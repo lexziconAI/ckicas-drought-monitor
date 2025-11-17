@@ -93,9 +93,12 @@ async def get_admin_logs():
 @app.post("/api/admin/chat")
 async def chat_with_dashboard(request: ChatRequest):
     try:
+        print(f"Chat request received: {request.message}")  # Debug log
         response = await chatbot.chat(request.message)
+        print(f"Chat response: {response.response}")  # Debug log
         return response
     except Exception as e:
+        print(f"Chat error: {str(e)}")  # Debug log
         return ChatResponse(
             response=f"Sorry, I encountered an error: {str(e)}",
             timestamp=datetime.utcnow(),
