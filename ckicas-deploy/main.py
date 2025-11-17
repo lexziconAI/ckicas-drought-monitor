@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # Mount static files for React assets
-app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
+# app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
 
 # Chatbot models
 class ChatMessage(BaseModel):
