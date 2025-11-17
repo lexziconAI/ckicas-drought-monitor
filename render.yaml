@@ -1,26 +1,30 @@
 services:
+  # Frontend - Next.js Web Service
   - type: web
-    name: ckicas-backend-final
+    runtime: node
+    name: ckicas-frontend
+    rootDir: test-dashboard
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: VITE_API_URL
+        value: https://ckicas-drought-monitor-1.onrender.com
+
+  # Backend - Python FastAPI
+  - type: web
     runtime: python
-    plan: free
-    buildCommand: cd ckicas-deploy && pip install -r requirements.txt
-    startCommand: cd ckicas-deploy && uvicorn main:app --host 0.0.0.0 --port $PORT
+    name: ckicas-drought-monitor-1
+    rootDir: ckicas-deploy
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: "3.11.0"
       - key: ANTHROPIC_API_KEY
         sync: false
       - key: NIWA_API_KEY
         sync: false
       - key: OPENWEATHER_API_KEY
         sync: false
-  - type: static
-    name: ckicas-frontend
-    runtime: node
-    plan: free
-    buildCommand: cd test-dashboard && npm install && npm run build
-    staticSiteOptions:
-      publishDir: test-dashboard/dist
-    envVars:
-      - key: NODE_VERSION
-        value: 22
