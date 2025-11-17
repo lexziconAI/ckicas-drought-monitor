@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-11-06T14:23:26.643795",
+  "providers": {
+    "anthropic": {
+      "name": "Anthropic Claude",
+      "status": "tested",
+      "models": {
+        "claude-opus-4-1": {
+          "status": "error (400)",
+          "error": "{\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"anthropic-version: \\\"2024-10-22\\\" is not a valid version\"},\"request_id\":\"req_011CUqm87655xVPw3EAMhJg9\"}"
+        },
+        "claude-sonnet-4-5-20250929": {
+          "status": "error (400)",
+          "error": "{\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"anthropic-version: \\\"2024-10-22\\\" is not a valid version\"},\"request_id\":\"req_011CUqm88PhmYW2Bp1hVVesQ\"}"
+        },
+        "claude-haiku-3-5-20241022": {
+          "status": "error (400)",
+          "error": "{\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"anthropic-version: \\\"2024-10-22\\\" is not a valid version\"},\"request_id\":\"req_011CUqm89pmjU9BQQzcpJNuL\"}"
+        }
+      },
+      "error": null,
+      "overall_status": "failed"
+    },
+    "openai": {
+      "name": "OpenAI GPT",
+      "status": "tested",
+      "models": {
+        "gpt-4o": {
+          "status": "working \u2705",
+          "latency_ms": 2313.152
+        },
+        "gpt-4-turbo": {
+          "status": "working \u2705",
+          "latency_ms": 1969.693
+        },
+        "gpt-4o-mini": {
+          "status": "working \u2705",
+          "latency_ms": 1133.566
+        }
+      },
+      "error": null,
+      "overall_status": "working"
+    },
+    "google": {
+      "name": "Google Gemini",
+      "status": "tested",
+      "models": {
+        "gemini-2.5-pro": {
+          "status": "working \u2705",
+          "latency_ms": 2109.2019999999998
+        },
+        "gemini-2.0-flash": {
+          "status": "working \u2705",
+          "latency_ms": 1023.3829999999999
+        },
+        "gemini-2.0-flash-lite": {
+          "status": "working \u2705",
+          "latency_ms": 906.141
+        }
+      },
+      "error": null,
+      "overall_status": "working"
+    },
+    "cohere": {
+      "name": "Groq Fast Inference",
+      "status": "tested",
+      "models": {
+        "llama-3.3-70b-versatile": {
+          "status": "working \u2705",
+          "latency_ms": 771.424
+        },
+        "mixtral-8x7b-32768": {
+          "status": "error (400)",
+          "error": "{\"error\":{\"message\":\"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model t"
+        },
+        "llama-3-70b-8192": {
+          "status": "error (404)",
+          "error": "{\"error\":{\"message\":\"The model `llama-3-70b-8192` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        }
+      },
+      "error": null,
+      "overall_status": "working"
+    },
+    "groq": {
+      "name": "Cohere Command",
+      "status": "tested",
+      "models": {
+        "command-a-03-2025": {
+          "status": "error (400)",
+          "error": "{\"id\":\"d55f63ce-6c19-4f40-888e-df63785cad2c\",\"message\":\"invalid request: message must be at least 1 token long or tool results must be specified.\"}"
+        },
+        "command-r-plus": {
+          "status": "error (400)",
+          "error": "{\"id\":\"85e452ef-eb01-4b4a-994a-7064e002f6a9\",\"message\":\"invalid request: message must be at least 1 token long or tool results must be specified.\"}"
+        },
+        "command-r": {
+          "status": "error (400)",
+          "error": "{\"id\":\"9b45129b-5eae-40f7-9f23-915cf80ba768\",\"message\":\"invalid request: message must be at least 1 token long or tool results must be specified.\"}"
+        }
+      },
+      "error": null,
+      "overall_status": "failed"
+    }
+  },
+  "summary": {
+    "total_providers": 9,
+    "providers_working": 3,
+    "providers_failed": 2,
+    "models_tested": 15,
+    "models_working": 7,
+    "api_keys_found": 9
+  }
+}

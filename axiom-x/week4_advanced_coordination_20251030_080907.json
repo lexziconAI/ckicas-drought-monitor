@@ -1,0 +1,500 @@
+{
+  "coordination_metadata": {
+    "total_execution_time": 24.747262001037598,
+    "adaptive_scaling_enabled": true,
+    "fault_tolerance_enabled": true,
+    "final_worker_count": 2
+  },
+  "coordination_results": {
+    "total_tasks": 20,
+    "successful_tasks": 18,
+    "failed_tasks": 0,
+    "success_rate": 0.9,
+    "final_worker_count": 2
+  },
+  "performance_analysis": {
+    "efficiency_score": 0.657,
+    "scalability_assessment": "limited_scalability",
+    "reliability_score": 0.9,
+    "performance_trends": {
+      "trend": "insufficient_data"
+    }
+  },
+  "fault_tolerance_report": {
+    "failure_patterns": {
+      "Exception": 1
+    },
+    "recovery_actions": [
+      {
+        "attempt": 1,
+        "error": "Exception",
+        "recovery_action": "exponential_backoff_retry",
+        "delay": 2.0
+      }
+    ],
+    "total_recovery_attempts": 1
+  },
+  "constitutional_compliance": {
+    "timestamp": "2025-10-30T08:09:07.723851",
+    "total_violations": 0,
+    "violations_by_constraint": {
+      "satya": 0,
+      "asteya": 0,
+      "ahimsa": 0
+    },
+    "recent_violations": []
+  },
+  "completed_tasks": [
+    {
+      "task_id": "advanced_task_1",
+      "worker_id": 0,
+      "processing_time": 2.077677011489868,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_1",
+          "processed_content": "Advanced processing result for advanced_task_1",
+          "processing_time": 2.077110203489508,
+          "complexity_score": 0.27235196267148276
+        },
+        "execution_time": 2.0776655673980713,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_2",
+      "worker_id": 1,
+      "processing_time": 3.573242664337158,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_2",
+          "processed_content": "Advanced processing result for advanced_task_2",
+          "processing_time": 1.5712499860160691,
+          "complexity_score": 0.22520923223203893
+        },
+        "execution_time": 1.5722525119781494,
+        "attempts": 2,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_3",
+      "worker_id": 0,
+      "processing_time": 2.652244806289673,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_3",
+          "processed_content": "Advanced processing result for advanced_task_3",
+          "processing_time": 2.6508076202803403,
+          "complexity_score": 0.691453519426056
+        },
+        "execution_time": 2.6522390842437744,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_5",
+      "worker_id": 1,
+      "processing_time": 2.109081268310547,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_5",
+          "processed_content": "Advanced processing result for advanced_task_5",
+          "processing_time": 2.1081008094992493,
+          "complexity_score": 0.3389576249142311
+        },
+        "execution_time": 2.1090736389160156,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_16",
+      "worker_id": 0,
+      "processing_time": 2.083693504333496,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_16",
+          "processed_content": "Advanced processing result for advanced_task_16",
+          "processing_time": 2.0832724067424273,
+          "complexity_score": 0.8151551489326347
+        },
+        "execution_time": 2.0836875438690186,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_6",
+      "worker_id": 1,
+      "processing_time": 1.7805068492889404,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_6",
+          "processed_content": "Advanced processing result for advanced_task_6",
+          "processing_time": 1.7794759151658377,
+          "complexity_score": 0.21140680292509434
+        },
+        "execution_time": 1.7804992198944092,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_7",
+      "worker_id": 1,
+      "processing_time": 1.558727502822876,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_7",
+          "processed_content": "Advanced processing result for advanced_task_7",
+          "processing_time": 1.556749228444512,
+          "complexity_score": 0.4292688778032776
+        },
+        "execution_time": 1.5587196350097656,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_17",
+      "worker_id": 0,
+      "processing_time": 2.4340641498565674,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_17",
+          "processed_content": "Advanced processing result for advanced_task_17",
+          "processing_time": 2.4331858703421316,
+          "complexity_score": 0.2450640337705035
+        },
+        "execution_time": 2.4340572357177734,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_20",
+      "worker_id": 1,
+      "processing_time": 2.2403652667999268,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_20",
+          "processed_content": "Advanced processing result for advanced_task_20",
+          "processing_time": 2.238604682036977,
+          "complexity_score": 0.8520652998604924
+        },
+        "execution_time": 2.2403581142425537,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_18",
+      "worker_id": 0,
+      "processing_time": 2.983180046081543,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_18",
+          "processed_content": "Advanced processing result for advanced_task_18",
+          "processing_time": 2.98291962154265,
+          "complexity_score": 0.37982253093579954
+        },
+        "execution_time": 2.9831738471984863,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_8",
+      "worker_id": 0,
+      "processing_time": 1.7943272590637207,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_8",
+          "processed_content": "Advanced processing result for advanced_task_8",
+          "processing_time": 1.793413312053846,
+          "complexity_score": 0.8219653383830412
+        },
+        "execution_time": 1.7943189144134521,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_4",
+      "worker_id": 1,
+      "processing_time": 2.83520245552063,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_4",
+          "processed_content": "Advanced processing result for advanced_task_4",
+          "processing_time": 2.834086185969241,
+          "complexity_score": 0.4885920598419705
+        },
+        "execution_time": 2.8351964950561523,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_11",
+      "worker_id": 1,
+      "processing_time": 1.7519721984863281,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_11",
+          "processed_content": "Advanced processing result for advanced_task_11",
+          "processing_time": 1.7509598882765531,
+          "complexity_score": 0.7067047493382261
+        },
+        "execution_time": 1.7519667148590088,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_9",
+      "worker_id": 0,
+      "processing_time": 2.234612464904785,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_9",
+          "processed_content": "Advanced processing result for advanced_task_9",
+          "processing_time": 2.2335020533742265,
+          "complexity_score": 0.3048189896362622
+        },
+        "execution_time": 2.234605073928833,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_10",
+      "worker_id": 0,
+      "processing_time": 2.005950450897217,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_10",
+          "processed_content": "Advanced processing result for advanced_task_10",
+          "processing_time": 2.005019219453001,
+          "complexity_score": 0.8913577311275953
+        },
+        "execution_time": 2.0059430599212646,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_15",
+      "worker_id": 0,
+      "processing_time": 1.7076826095581055,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_15",
+          "processed_content": "Advanced processing result for advanced_task_15",
+          "processing_time": 1.7064381166922122,
+          "complexity_score": 0.3258639326163372
+        },
+        "execution_time": 1.7076761722564697,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_19",
+      "worker_id": 0,
+      "processing_time": 2.047666072845459,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_19",
+          "processed_content": "Advanced processing result for advanced_task_19",
+          "processing_time": 2.047118006821329,
+          "complexity_score": 0.9795739343498375
+        },
+        "execution_time": 2.0476603507995605,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "task_id": "advanced_task_12",
+      "worker_id": 0,
+      "processing_time": 2.7253475189208984,
+      "result": {
+        "success": true,
+        "result": {
+          "task_id": "advanced_task_12",
+          "processed_content": "Advanced processing result for advanced_task_12",
+          "processing_time": 2.724466113835235,
+          "complexity_score": 0.5429682306857543
+        },
+        "execution_time": 2.725341558456421,
+        "attempts": 1,
+        "recovery_actions": [
+          {
+            "attempt": 1,
+            "error": "Exception",
+            "recovery_action": "exponential_backoff_retry",
+            "delay": 2.0
+          }
+        ]
+      },
+      "success": true
+    }
+  ],
+  "failed_tasks": []
+}

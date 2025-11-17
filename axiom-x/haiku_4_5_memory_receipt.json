@@ -1,0 +1,30 @@
+{
+  "knowledge_subject": "Anthropic Claude Haiku 4.5 Model Setup",
+  "model_identifier": "claude-haiku-4-5-20251001",
+  "timestamp": "2025-11-05T15:31:20.052917",
+  "confirmation": "AXIOM-X routing system updated for Claude Haiku 4.5 model",
+  "routing_instructions_updated": true,
+  "provider_config_key": "claude_haiku_4",
+  "model_name": "claude-haiku-4-5-20251001",
+  "base_url": "https://api.anthropic.com/v1/messages",
+  "api_format": "anthropic_messages_api",
+  "capabilities": [
+    "fast_inference",
+    "cost_effective",
+    "high_quality"
+  ],
+  "performance_metrics": {
+    "speed": 8,
+    "cost": 2,
+    "quality": 7,
+    "tpm_limit": 450000
+  },
+  "setup_requirements": {
+    "api_key_env_var": "ANTHROPIC_API_KEY",
+    "api_key_source": "https://console.anthropic.com/settings/keys",
+    "model_access": "Available to all Anthropic API users",
+    "pricing": " / input MTok,  / output MTok"
+  },
+  "configuration_status": "Model name updated, API key required",
+  "cryptographic_signature": "ca2d7e0c6d68af82fd6c2ed4b1d9006ca2592e18de51de9e6d4027b5a2ca4fe7"
+}

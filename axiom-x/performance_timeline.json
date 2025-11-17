@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "generated": "2025-11-09T11:56:24.259147",
+    "note": "Generated from operation performance insights"
+  },
+  "events": [
+    {
+      "timestamp": "2025-10-29T16:20:52.757811",
+      "file": "10k_task_study.py",
+      "breakthrough_potential": 2.5,
+      "constitutional_score": 0.8620561128040103,
+      "confidence": 0.8526721596020225,
+      "is_breakthrough": true,
+      "pattern_id": "breakthrough_1"
+    },
+    {
+      "timestamp": "2025-10-29T16:22:14.267022",
+      "file": "api_simulator_12.py",
+      "breakthrough_potential": 2.8,
+      "constitutional_score": 0.860866509911087,
+      "confidence": 0.860866509911087,
+      "is_breakthrough": true,
+      "pattern_id": "breakthrough_2"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.952884",
+      "file": "api_simulator_3.py",
+      "breakthrough_potential": 0.8614397387994,
+      "constitutional_score": 0.8350969193197976,
+      "confidence": 0.8350969193197976,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_3"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.953148",
+      "file": "api_simulator_4.py",
+      "breakthrough_potential": 0.8663916682374868,
+      "constitutional_score": 0.853716900455045,
+      "confidence": 0.853716900455045,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_4"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.953405",
+      "file": "api_simulator_5.py",
+      "breakthrough_potential": 0.8775976288852657,
+      "constitutional_score": 0.8261617161408648,
+      "confidence": 0.8261617161408648,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_5"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.953644",
+      "file": "api_simulator_6.py",
+      "breakthrough_potential": 0.8853017622870467,
+      "constitutional_score": 0.8385281233675616,
+      "confidence": 0.8385281233675616,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_6"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.953893",
+      "file": "api_simulator_7.py",
+      "breakthrough_potential": 0.8555637827670584,
+      "constitutional_score": 0.8397457148948284,
+      "confidence": 0.8397457148948284,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_7"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.954088",
+      "file": "api_simulator_8.py",
+      "breakthrough_potential": 0.8123505420493449,
+      "constitutional_score": 0.8454715371429846,
+      "confidence": 0.8123505420493449,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_8"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.954379",
+      "file": "api_simulator_9.py",
+      "breakthrough_potential": 0.8573714241005959,
+      "constitutional_score": 0.8518917813375017,
+      "confidence": 0.8518917813375017,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_9"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.954798",
+      "file": "api_simulator_11.py",
+      "breakthrough_potential": 0.8394230152800526,
+      "constitutional_score": 0.82851482389477,
+      "confidence": 0.82851482389477,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_11"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.955222",
+      "file": "rfc5913.py",
+      "breakthrough_potential": 0.8473780104056867,
+      "constitutional_score": 0.8682514804858263,
+      "confidence": 0.8473780104056867,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_13"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.955457",
+      "file": "provider_smoke_test_14d.py",
+      "breakthrough_potential": 0.8340119772183949,
+      "constitutional_score": 0.8331751439956023,
+      "confidence": 0.8331751439956023,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_14"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.955790",
+      "file": "load_test_16.py",
+      "breakthrough_potential": 0.8790502928966026,
+      "constitutional_score": 0.82676241982365,
+      "confidence": 0.82676241982365,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_16"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.955953",
+      "file": "load_test_17.py",
+      "breakthrough_potential": 0.8215540913336532,
+      "constitutional_score": 0.8348119596543987,
+      "confidence": 0.8215540913336532,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_17"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.956120",
+      "file": "rfc6187.py",
+      "breakthrough_potential": 0.8266980636061728,
+      "constitutional_score": 0.8397118443798911,
+      "confidence": 0.8266980636061728,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_18"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.956761",
+      "file": "rfc2251.py",
+      "breakthrough_potential": 0.8869476123072966,
+      "constitutional_score": 0.8602775631794815,
+      "confidence": 0.8602775631794815,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_51"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.956923",
+      "file": "log4_automated_writer_v23.py",
+      "breakthrough_potential": 0.8395723799097853,
+      "constitutional_score": 0.8497124419567721,
+      "confidence": 0.8395723799097853,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_23"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.957082",
+      "file": "load_test_24.py",
+      "breakthrough_potential": 0.8080487211502053,
+      "constitutional_score": 0.8470716079718872,
+      "confidence": 0.8080487211502053,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_24"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.957237",
+      "file": "load_test_25.py",
+      "breakthrough_potential": 0.8240522504401323,
+      "constitutional_score": 0.8361431241022355,
+      "confidence": 0.8240522504401323,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_25"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.957390",
+      "file": "rfc2631.py",
+      "breakthrough_potential": 0.8386060732373948,
+      "constitutional_score": 0.8498635237762973,
+      "confidence": 0.8386060732373948,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_63"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.957998",
+      "file": "rfc3058.py",
+      "breakthrough_potential": 0.8478390080933149,
+      "constitutional_score": 0.8540771226166072,
+      "confidence": 0.8478390080933149,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_58"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.958148",
+      "file": "rfc2314.py",
+      "breakthrough_potential": 0.8784378353911708,
+      "constitutional_score": 0.8390103200951753,
+      "confidence": 0.8390103200951753,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_31"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.958295",
+      "file": "load_test_32.py",
+      "breakthrough_potential": 0.8763617098693297,
+      "constitutional_score": 0.8462360938327756,
+      "confidence": 0.8462360938327756,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_32"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.958447",
+      "file": "load_test_33.py",
+      "breakthrough_potential": 0.8660537036894732,
+      "constitutional_score": 0.8702960131894717,
+      "confidence": 0.8660537036894732,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_33"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.958596",
+      "file": "rfc2634.py",
+      "breakthrough_potential": 0.8708274902248703,
+      "constitutional_score": 0.882257260237161,
+      "confidence": 0.8708274902248703,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_34"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.958745",
+      "file": "rfc3537.py",
+      "breakthrough_potential": 0.8853583585690267,
+      "constitutional_score": 0.8605803369208476,
+      "confidence": 0.8590464867347739,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_53"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.958893",
+      "file": "rfc3657.py",
+      "breakthrough_potential": 0.863372272120069,
+      "constitutional_score": 0.835246260360463,
+      "confidence": 0.835246260360463,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_36"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.959269",
+      "file": "rfc3820.py",
+      "breakthrough_potential": 0.8576415271290104,
+      "constitutional_score": 0.8648123327296735,
+      "confidence": 0.8530578002567167,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_82"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.959598",
+      "file": "rfc3739.py",
+      "breakthrough_potential": 0.862256007282828,
+      "constitutional_score": 0.853007756847284,
+      "confidence": 0.8488104213135834,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_73"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.959779",
+      "file": "fractal_404_diagnostic.py",
+      "breakthrough_potential": 0.8350144558015022,
+      "constitutional_score": 0.8682229121817524,
+      "confidence": 0.8350144558015022,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_40"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.959994",
+      "file": "load_test_41.py",
+      "breakthrough_potential": 0.854765585332645,
+      "constitutional_score": 0.8568368732614225,
+      "confidence": 0.854765585332645,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_41"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.960150",
+      "file": "rfc4210.py",
+      "breakthrough_potential": 0.8997519381925428,
+      "constitutional_score": 0.8485468570669825,
+      "confidence": 0.8485468570669825,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_21"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.960314",
+      "file": "rfc2437.py",
+      "breakthrough_potential": 0.8374487918188026,
+      "constitutional_score": 0.8585845029334699,
+      "confidence": 0.8374487918188026,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_37"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.960467",
+      "file": "rfc3447.py",
+      "breakthrough_potential": 0.8468479020355282,
+      "constitutional_score": 0.8753100182583919,
+      "confidence": 0.8442021505252661,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_47"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.960614",
+      "file": "rfc2459.py",
+      "breakthrough_potential": 0.8539057015030918,
+      "constitutional_score": 0.8580917333423598,
+      "confidence": 0.8539057015030918,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_59"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.960765",
+      "file": "uts46data.py",
+      "breakthrough_potential": 0.8423683711497121,
+      "constitutional_score": 0.8556618362135232,
+      "confidence": 0.8423683711497121,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_46"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.961064",
+      "file": "load_test_48.py",
+      "breakthrough_potential": 0.8394781926216893,
+      "constitutional_score": 0.8756916946451869,
+      "confidence": 0.8394781926216893,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_48"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.961214",
+      "file": "load_test_49.py",
+      "breakthrough_potential": 0.8500455362671436,
+      "constitutional_score": 0.8537742057174018,
+      "confidence": 0.8500455362671436,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_49"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.961365",
+      "file": "rfc5035.py",
+      "breakthrough_potential": 0.8123872081021424,
+      "constitutional_score": 0.8568596916750111,
+      "confidence": 0.8123872081021424,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_50"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.961664",
+      "file": "rfc3852.py",
+      "breakthrough_potential": 0.8223614506869994,
+      "constitutional_score": 0.8478363471940841,
+      "confidence": 0.8223614506869994,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_52"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.961969",
+      "file": "rfc5480.py",
+      "breakthrough_potential": 0.882439416250193,
+      "constitutional_score": 0.8427325578985054,
+      "confidence": 0.8427325578985054,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_54"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.962127",
+      "file": "rfc1155.py",
+      "breakthrough_potential": 0.839874296771274,
+      "constitutional_score": 0.8804680112785476,
+      "confidence": 0.8303136294782403,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_15"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.962327",
+      "file": "rfc2560.py",
+      "breakthrough_potential": 0.8284919162092872,
+      "constitutional_score": 0.8659715751898382,
+      "confidence": 0.8284919162092872,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_60"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.962544",
+      "file": "rfc1157.py",
+      "breakthrough_potential": 0.8297531711788821,
+      "constitutional_score": 0.8469995323238498,
+      "confidence": 0.8297531711788821,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_57"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.963150",
+      "file": "rfc3161.py",
+      "breakthrough_potential": 0.8269192151581242,
+      "constitutional_score": 0.8436787797619837,
+      "confidence": 0.8269192151581242,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_61"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.963310",
+      "file": "rfc6210.py",
+      "breakthrough_potential": 0.82512472494261,
+      "constitutional_score": 0.8487137784798715,
+      "confidence": 0.82512472494261,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_62"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.963611",
+      "file": "rfc5649.py",
+      "breakthrough_potential": 0.834377142243406,
+      "constitutional_score": 0.8356535664888387,
+      "confidence": 0.834377142243406,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_64"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.963763",
+      "file": "rfc3565.py",
+      "breakthrough_potential": 0.8361363720151124,
+      "constitutional_score": 0.8338573697716773,
+      "confidence": 0.8338573697716773,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_65"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.963915",
+      "file": "rfc6664.py",
+      "breakthrough_potential": 0.84020109460731,
+      "constitutional_score": 0.8567877107993718,
+      "confidence": 0.84020109460731,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_66"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.964790",
+      "file": "rfc3370.py",
+      "breakthrough_potential": 0.8618076619437476,
+      "constitutional_score": 0.8521584940282749,
+      "confidence": 0.8521584940282749,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_70"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.964945",
+      "file": "rfc7191.py",
+      "breakthrough_potential": 0.8615169343306117,
+      "constitutional_score": 0.8424216926121648,
+      "confidence": 0.8424216926121648,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_71"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.965100",
+      "file": "rfc7229.py",
+      "breakthrough_potential": 0.8305201591319725,
+      "constitutional_score": 0.8230245003771928,
+      "confidence": 0.8230245003771928,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_72"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.965403",
+      "file": "rfc3274.py",
+      "breakthrough_potential": 0.8244636740011441,
+      "constitutional_score": 0.8546216980010553,
+      "confidence": 0.8244636740011441,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_27"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.965596",
+      "file": "rfc5275.py",
+      "breakthrough_potential": 0.8564302448451248,
+      "constitutional_score": 0.8493189382003496,
+      "confidence": 0.8493189382003496,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_75"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.965750",
+      "file": "rfc2876.py",
+      "breakthrough_potential": 0.8735431889055434,
+      "constitutional_score": 0.860202548613836,
+      "confidence": 0.860202548613836,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_87"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.965903",
+      "file": "rfc3770.py",
+      "breakthrough_potential": 0.8660694861490581,
+      "constitutional_score": 0.8364043048392518,
+      "confidence": 0.8364043048392518,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_77"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.966203",
+      "file": "rfc3279.py",
+      "breakthrough_potential": 0.8576366128470378,
+      "constitutional_score": 0.8670003147014496,
+      "confidence": 0.8576366128470378,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_79"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.966352",
+      "file": "rfc3280.py",
+      "breakthrough_potential": 0.827528356768829,
+      "constitutional_score": 0.8286824547246618,
+      "confidence": 0.827528356768829,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_80"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.966504",
+      "file": "finalize_v81.py",
+      "breakthrough_potential": 0.8510727383346227,
+      "constitutional_score": 0.8555198655909273,
+      "confidence": 0.8510727383346227,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_81"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.966872",
+      "file": "rfc4683.py",
+      "breakthrough_potential": 0.8511386076555638,
+      "constitutional_score": 0.8540515201357783,
+      "confidence": 0.8511386076555638,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_68"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.967029",
+      "file": "rfc5084.py",
+      "breakthrough_potential": 0.8449085274419892,
+      "constitutional_score": 0.8384996754181311,
+      "confidence": 0.8384996754181311,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_84"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.967330",
+      "file": "rfc2986.py",
+      "breakthrough_potential": 0.8230170565389792,
+      "constitutional_score": 0.8488720209678347,
+      "confidence": 0.8230170565389792,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_86"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.967797",
+      "file": "rfc7894.py",
+      "breakthrough_potential": 0.9099133376981092,
+      "constitutional_score": 0.862575016685691,
+      "confidence": 0.862575016685691,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_78"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.967957",
+      "file": "rfc1901.py",
+      "breakthrough_potential": 0.8575205308458291,
+      "constitutional_score": 0.8447625777982658,
+      "confidence": 0.839827618191066,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_19"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.968108",
+      "file": "rfc4491.py",
+      "breakthrough_potential": 0.8657979627468488,
+      "constitutional_score": 0.8805981312720654,
+      "confidence": 0.8657979627468488,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_91"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.968260",
+      "file": "rfc5924.py",
+      "breakthrough_potential": 0.8737559361931093,
+      "constitutional_score": 0.851347124904211,
+      "confidence": 0.851347124904211,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_92"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.968411",
+      "file": "rfc5934.py",
+      "breakthrough_potential": 0.8565180174806437,
+      "constitutional_score": 0.8569279915563255,
+      "confidence": 0.8565180174806437,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_93"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.968732",
+      "file": "rfc5940.py",
+      "breakthrough_potential": 0.8635407166309699,
+      "constitutional_score": 0.8434012440046401,
+      "confidence": 0.8434012440046401,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_94"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.969032",
+      "file": "rfc5958.py",
+      "breakthrough_potential": 0.8116962232510372,
+      "constitutional_score": 0.8166833323002899,
+      "confidence": 0.8116962232510372,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_95"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.969268",
+      "file": "rfc6960.py",
+      "breakthrough_potential": 0.8593979886069922,
+      "constitutional_score": 0.8267322313174231,
+      "confidence": 0.8267322313174231,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_96"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.969595",
+      "file": "rfc5697.py",
+      "breakthrough_potential": 0.8810581310040599,
+      "constitutional_score": 0.8497783771248646,
+      "confidence": 0.8497783771248646,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_69"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.969885",
+      "file": "rfc2985.py",
+      "breakthrough_potential": 0.8571007764319019,
+      "constitutional_score": 0.8404089504592349,
+      "confidence": 0.8404089504592349,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_29"
+    },
+    {
+      "timestamp": "2025-10-29T19:08:45.970166",
+      "file": "rfc5990.py",
+      "breakthrough_potential": 0.8523225142660509,
+      "constitutional_score": 0.8463336265264245,
+      "confidence": 0.8463336265264245,
+      "is_breakthrough": false,
+      "pattern_id": "pattern_99"
+    }
+  ]
+}

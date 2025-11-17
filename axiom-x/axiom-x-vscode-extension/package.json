@@ -1,0 +1,196 @@
+{
+  "name": "axiom-x-intelligence",
+  "displayName": "Axiom-X Constitutional Intelligence",
+  "description": "IDE that learns optimal parallelization patterns from constitutional receipts",
+  "version": "0.1.0",
+  "publisher": "axiom-intelligence",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "categories": [
+    "Machine Learning",
+    "Other"
+  ],
+  "keywords": [
+    "ai",
+    "constitutional-ai",
+    "parallel-orchestration",
+    "meta-learning",
+    "receipts"
+  ],
+  "activationEvents": [
+    "workspaceContains:**/receipts/*.json",
+    "workspaceContains:**/.axiom/receipts/*.json",
+    "onCommand:axiom-x.analyzeWorkspace",
+    "onCommand:axiom-x.suggestSpawn",
+    "onCommand:axiom-x.fractalStressTest",
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "axiom-x.analyzeWorkspace",
+        "title": "Axiom-X: Analyze Receipt Patterns",
+        "icon": "$(graph)"
+      },
+      {
+        "command": "axiom-x.suggestSpawn",
+        "title": "Axiom-X: Suggest Parallelization Strategy",
+        "icon": "$(rocket)"
+      },
+      {
+        "command": "axiom-x.visualizeClusters",
+        "title": "Axiom-X: Visualize Receipt Clusters",
+        "icon": "$(graph-scatter)"
+      },
+      {
+        "command": "axiom-x.showSpawnAnalysis",
+        "title": "Axiom-X: Show Spawn Analysis"
+      },
+      {
+        "command": "axiom-x.applyOptimization",
+        "title": "Axiom-X: Apply Suggested Optimization"
+      },
+      {
+        "command": "axiom-x.forceRescan",
+        "title": "Axiom-X: Force Receipt Rescan"
+      },
+      {
+        "command": "axiom-x.fractalStressTest",
+        "title": "Axiom-X: Execute Fractal Stress Test",
+        "icon": "$(debug-start)"
+      }
+    ],
+    "configuration": {
+      "title": "Axiom-X Intelligence",
+      "properties": {
+        "axiom-x.openaiApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API key for embeddings (or use workspace .env)",
+          "order": 1
+        },
+        "axiom-x.anthropicApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Anthropic API key for analysis (or use workspace .env)",
+          "order": 2
+        },
+        "axiom-x.receiptPaths": {
+          "type": "array",
+          "default": [
+            "**/receipts/*.json",
+            "**/.axiom/receipts/*.json",
+            "**/factfable/receipts/*.json",
+            "**/ckicas/receipts/*.json",
+            "**/workers/logs/*.json"
+          ],
+          "description": "Glob patterns for receipt files to watch",
+          "order": 3
+        },
+        "axiom-x.embeddingModel": {
+          "type": "string",
+          "default": "text-embedding-3-large",
+          "enum": [
+            "text-embedding-3-small",
+            "text-embedding-3-large"
+          ],
+          "description": "OpenAI embedding model to use",
+          "order": 4
+        },
+        "axiom-x.analysisModel": {
+          "type": "string",
+          "default": "claude-3-7-sonnet-20250219",
+          "description": "LLM model for spawn analysis and recommendations",
+          "order": 5
+        },
+        "axiom-x.minSimilarReceipts": {
+          "type": "number",
+          "default": 5,
+          "description": "Minimum similar receipts needed before showing recommendations",
+          "order": 6
+        },
+        "axiom-x.enableCodeLens": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show inline spawn pattern analysis",
+          "order": 7
+        },
+        "axiom-x.enableDiagnostics": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show warnings for suboptimal patterns",
+          "order": 8
+        },
+        "axiom-x.autoEmbedReceipts": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically embed new receipts in background",
+          "order": 9
+        },
+        "axiom-x.showNotifications": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show notifications when new patterns are discovered",
+          "order": 10
+        }
+      }
+    },
+    "views": {
+      "explorer": [
+        {
+          "id": "axiomXReceipts",
+          "name": "Constitutional Receipts",
+          "icon": "$(file-code)",
+          "contextualTitle": "Axiom-X Intelligence"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "axiomXReceipts",
+        "contents": "No receipts found yet.\n[Generate Your First Receipt](command:axiom-x.analyzeWorkspace)\nOr configure receipt paths in settings."
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "axiom-x.analyzeWorkspace",
+          "when": "workspaceFolderCount > 0"
+        },
+        {
+          "command": "axiom-x.suggestSpawn",
+          "when": "editorIsOpen"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "axiom-x.suggestSpawn",
+          "when": "editorTextFocus",
+          "group": "axiom-x@1"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
+    "eslint": "^8.x",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "openai": "^4.28.0",
+    "@anthropic-ai/sdk": "^0.32.1",
+    "chromadb": "^1.8.1",
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.4.0",
+    "uuid": "^11.0.3"
+  }
+}

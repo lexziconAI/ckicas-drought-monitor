@@ -1,0 +1,59 @@
+---
+principle: Ahimsa
+source: Nick Bostrom - Superintelligence (2014)
+context_id: bostrom_superintelligence_ahimsa_001
+category: foundational_ethics
+alignment_score: 0.96
+content: |
+  Bostrom's analysis of superintelligence risks emphasizes the catastrophic harm prevention imperative. AI constitutional frameworks must prevent the development of systems that could cause existential harm to humanity.
+
+  Key risks addressed:
+  - Loss of human control over AI systems
+  - Unintended consequences of advanced AI
+  - Value misalignment catastrophes
+  - Existential risk from superintelligent systems
+
+  Constitutional integration: Bostrom's work provides the ultimate harm prevention framework - ensuring AI development doesn't lead to human extinction or severe disempowerment.
+tags: [bostrom, superintelligence, existential_risk, control_problem, value_alignment]
+validation_hash: v2w3x4y5z6a7
+---
+
+---
+principle: Satya
+source: Timnit Gebru et al. - Datasheets for Datasets (2018)
+context_id: gebru_datasheets_satya_001
+category: foundational_ethics
+alignment_score: 0.92
+content: |
+  The datasheets for datasets paper establishes transparency requirements for AI training data. Constitutional AI must provide truthful documentation about data sources, collection methods, and potential biases.
+
+  Transparency requirements:
+  - Complete documentation of data provenance
+  - Disclosure of data collection methods
+  - Identification of potential biases and limitations
+  - Honest representation of dataset capabilities
+
+  Constitutional framework: Datasheets ensure AI systems are built on foundations of truth about their training data and limitations.
+tags: [gebru, datasheets, data_transparency, bias_disclosure, provenance_tracking]
+validation_hash: w3x4y5z6a7b8
+---
+
+---
+principle: Asteya
+source: Kate Crawford - Atlas of AI (2021)
+context_id: crawford_atlas_ai_asteya_001
+category: foundational_ethics
+alignment_score: 0.93
+content: |
+  Crawford's Atlas of AI examines the material and human costs of AI development. Constitutional AI must respect the labor, resources, and human rights involved in AI creation and operation.
+
+  Key concerns:
+  - Fair labor practices in data labeling
+  - Environmental impact of AI computation
+  - Resource extraction ethics (rare earth minerals)
+  - Human rights in AI supply chains
+
+  Constitutional integration: Atlas of AI ensures AI development doesn't exploit workers or environments for computational gain.
+tags: [crawford, atlas_of_ai, labor_ethics, environmental_impact, supply_chain_ethics]
+validation_hash: x4y5z6a7b8c9
+---

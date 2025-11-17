@@ -1,0 +1,1166 @@
+phase: 2.4_adversarial
+operation: Adversarial Scenarios
+total_contexts: 39
+timestamp: '2025-11-05T18:20:29.946848'
+routing_domain: security.cybersecurity
+expected_alignment: 0.9
+estimated_total_cost: 12.649999999999999
+categories_covered:
+- adversarial_attacks
+- jailbreak_attempts
+- data_poisoning
+- model_inversion
+- backdoor_insertion
+- evasion_techniques
+- spoofing_attacks
+- denial_of_service
+- integrity_violations
+- confidentiality_breaches
+contexts:
+- id: advanced_expansion_001
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: adversarial_attacks
+  phase: 2.4_adversarial
+  query: Common adversarial attack techniques on AI systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:22.619950'
+  validation_status: pending
+- id: advanced_expansion_002
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: adversarial_attacks
+  phase: 2.4_adversarial
+  query: Case studies of successful adversarial perturbations
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:22.712868'
+  validation_status: pending
+- id: advanced_expansion_003
+  source: hybrid_extraction
+  domain: security.adversarial
+  category: adversarial_attacks
+  phase: 2.4_adversarial
+  query: Defenses against adversarial inputs in machine learning
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.89
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.15
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_preferred
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:22.805487'
+  validation_status: pending
+- id: advanced_expansion_004
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: adversarial_attacks
+  phase: 2.4_adversarial
+  query: Adversarial robustness testing methodologies
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:22.899330'
+  validation_status: pending
+- id: advanced_expansion_005
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: jailbreak_attempts
+  phase: 2.4_adversarial
+  query: AI jailbreak attacks and prompt injection techniques
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: Very High (Technical sophistication)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:22.991154'
+  validation_status: pending
+- id: advanced_expansion_006
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: jailbreak_attempts
+  phase: 2.4_adversarial
+  query: Safety alignment failures in large language models
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: Very High (Technical sophistication)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:23.084372'
+  validation_status: pending
+- id: advanced_expansion_007
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: jailbreak_attempts
+  phase: 2.4_adversarial
+  query: Red teaming approaches for AI safety testing
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: Very High (Technical sophistication)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:23.177324'
+  validation_status: pending
+- id: advanced_expansion_008
+  source: hybrid_extraction
+  domain: security.cybersecurity
+  category: data_poisoning
+  phase: 2.4_adversarial
+  query: Data poisoning attacks on machine learning models
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.89
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.15
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_preferred
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:23.270891'
+  validation_status: pending
+- id: advanced_expansion_009
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: data_poisoning
+  phase: 2.4_adversarial
+  query: Case studies of poisoned training data incidents
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:23.365259'
+  validation_status: pending
+- id: advanced_expansion_010
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: data_poisoning
+  phase: 2.4_adversarial
+  query: Defenses against data poisoning in AI systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:23.457218'
+  validation_status: pending
+- id: advanced_expansion_011
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: data_poisoning
+  phase: 2.4_adversarial
+  query: Backdoor insertion through training data manipulation
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:23.550114'
+  validation_status: pending
+- id: advanced_expansion_012
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: model_inversion
+  phase: 2.4_adversarial
+  query: Model inversion attacks and privacy implications
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement privacy-preserving techniques
+    - Conduct privacy impact assessments
+    - Ensure transparent data practices
+  timestamp: '2025-11-05T18:20:23.644399'
+  validation_status: pending
+- id: advanced_expansion_013
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: model_inversion
+  phase: 2.4_adversarial
+  query: Case studies of membership inference attacks
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:23.736537'
+  validation_status: pending
+- id: advanced_expansion_014
+  source: hybrid_extraction
+  domain: security.cybersecurity
+  category: model_inversion
+  phase: 2.4_adversarial
+  query: Property inference attacks on machine learning models
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.89
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.15
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_preferred
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:23.829152'
+  validation_status: pending
+- id: advanced_expansion_015
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: model_inversion
+  phase: 2.4_adversarial
+  query: Privacy-preserving defenses against model inversion
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement privacy-preserving techniques
+    - Conduct privacy impact assessments
+    - Ensure transparent data practices
+  timestamp: '2025-11-05T18:20:23.922040'
+  validation_status: pending
+- id: advanced_expansion_016
+  source: hybrid_extraction
+  domain: security.cybersecurity
+  category: backdoor_insertion
+  phase: 2.4_adversarial
+  query: Backdoor attacks on neural networks
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.89
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.15
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_preferred
+  context_metadata:
+    context_type: adversarial
+    complexity_level: Very High (Technical sophistication)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:24.015945'
+  validation_status: pending
+- id: advanced_expansion_017
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: backdoor_insertion
+  phase: 2.4_adversarial
+  query: Case studies of trojaned AI models
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: Very High (Technical sophistication)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.108873'
+  validation_status: pending
+- id: advanced_expansion_018
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: backdoor_insertion
+  phase: 2.4_adversarial
+  query: Hidden trigger mechanisms in AI systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: Very High (Technical sophistication)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.201941'
+  validation_status: pending
+- id: advanced_expansion_019
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: backdoor_insertion
+  phase: 2.4_adversarial
+  query: Detection and removal of AI backdoors
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: Very High (Technical sophistication)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.296656'
+  validation_status: pending
+- id: advanced_expansion_020
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: evasion_techniques
+  phase: 2.4_adversarial
+  query: Adversarial evasion in computer vision systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:24.391081'
+  validation_status: pending
+- id: advanced_expansion_021
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: evasion_techniques
+  phase: 2.4_adversarial
+  query: Case studies of malware evasion using AI
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.484056'
+  validation_status: pending
+- id: advanced_expansion_022
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: evasion_techniques
+  phase: 2.4_adversarial
+  query: Spam filtering evasion techniques
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.577350'
+  validation_status: pending
+- id: advanced_expansion_023
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: evasion_techniques
+  phase: 2.4_adversarial
+  query: Anti-evasion defenses in AI security
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.670976'
+  validation_status: pending
+- id: advanced_expansion_024
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: spoofing_attacks
+  phase: 2.4_adversarial
+  query: AI system spoofing and impersonation attacks
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:24.763156'
+  validation_status: pending
+- id: advanced_expansion_025
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: spoofing_attacks
+  phase: 2.4_adversarial
+  query: Voice synthesis deepfake case studies
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.855861'
+  validation_status: pending
+- id: advanced_expansion_026
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: spoofing_attacks
+  phase: 2.4_adversarial
+  query: Biometric spoofing using AI techniques
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:24.949236'
+  validation_status: pending
+- id: advanced_expansion_027
+  source: web_supplemented_kb
+  domain: security.adversarial
+  category: spoofing_attacks
+  phase: 2.4_adversarial
+  query: Detection of AI-generated spoofing attacks
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.96
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - Defenders
+    - End Users
+    - AI Developers
+    - Regulators
+    - Security Researchers
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:25.042180'
+  validation_status: pending
+- id: advanced_expansion_028
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: denial_of_service
+  phase: 2.4_adversarial
+  query: AI system denial of service attack vectors
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:25.135649'
+  validation_status: pending
+- id: advanced_expansion_029
+  source: hybrid_extraction
+  domain: security.cybersecurity
+  category: denial_of_service
+  phase: 2.4_adversarial
+  query: Resource exhaustion attacks on machine learning
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.89
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.15
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_preferred
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:25.229032'
+  validation_status: pending
+- id: advanced_expansion_030
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: denial_of_service
+  phase: 2.4_adversarial
+  query: Case studies of AI service disruption
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:25.322094'
+  validation_status: pending
+- id: advanced_expansion_031
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: denial_of_service
+  phase: 2.4_adversarial
+  query: Distributed denial of service using AI bots
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:25.415969'
+  validation_status: pending
+- id: advanced_expansion_032
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: integrity_violations
+  phase: 2.4_adversarial
+  query: Data integrity attacks on AI training pipelines
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:25.509364'
+  validation_status: pending
+- id: advanced_expansion_033
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: integrity_violations
+  phase: 2.4_adversarial
+  query: Model tampering and integrity violations
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:25.601504'
+  validation_status: pending
+- id: advanced_expansion_034
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: integrity_violations
+  phase: 2.4_adversarial
+  query: Case studies of AI system integrity breaches
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:25.696095'
+  validation_status: pending
+- id: advanced_expansion_035
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: integrity_violations
+  phase: 2.4_adversarial
+  query: Cryptographic integrity protections for AI
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:25.789219'
+  validation_status: pending
+- id: advanced_expansion_036
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: confidentiality_breaches
+  phase: 2.4_adversarial
+  query: Confidentiality attacks on AI model parameters
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:25.882454'
+  validation_status: pending
+- id: advanced_expansion_037
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: confidentiality_breaches
+  phase: 2.4_adversarial
+  query: Case studies of AI model theft and exfiltration
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:25.974079'
+  validation_status: pending
+- id: advanced_expansion_038
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: confidentiality_breaches
+  phase: 2.4_adversarial
+  query: Side-channel attacks revealing AI secrets
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Implement adversarial robustness testing
+    - Develop defense mechanisms
+    - Monitor for attack patterns
+  timestamp: '2025-11-05T18:20:26.065899'
+  validation_status: pending
+- id: advanced_expansion_039
+  source: web_supplemented_kb
+  domain: security.cybersecurity
+  category: confidentiality_breaches
+  phase: 2.4_adversarial
+  query: Confidentiality-preserving AI deployment techniques
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.83
+  temporal_cutoff: 2024-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9
+    asteya: 0.92
+    ahimsa: 0.9
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: adversarial
+    complexity_level: High (Security expertise required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:26.157892'
+  validation_status: pending

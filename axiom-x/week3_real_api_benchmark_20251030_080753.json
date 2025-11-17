@@ -1,0 +1,95 @@
+{
+  "coordination_results": {
+    "total_time": 12.518110990524292,
+    "successful_summaries": 0,
+    "failed_summaries": 10,
+    "total_cost": 0,
+    "total_tokens": 0,
+    "avg_processing_time": 3.242822527885437,
+    "papers_per_second": 0.0
+  },
+  "summaries": [],
+  "failures": [
+    {
+      "paper_id": "paper_1",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 4.19251823425293
+    },
+    {
+      "paper_id": "paper_2",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 3.9240846633911133
+    },
+    {
+      "paper_id": "paper_3",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 4.725813627243042
+    },
+    {
+      "paper_id": "paper_4",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 3.2095558643341064
+    },
+    {
+      "paper_id": "paper_5",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 2.942836284637451
+    },
+    {
+      "paper_id": "paper_6",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 2.739661693572998
+    },
+    {
+      "paper_id": "paper_7",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 2.5579442977905273
+    },
+    {
+      "paper_id": "paper_8",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 2.5552775859832764
+    },
+    {
+      "paper_id": "paper_9",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 2.754554510116577
+    },
+    {
+      "paper_id": "paper_10",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "processing_time": 2.8259785175323486
+    }
+  ],
+  "constitutional_check": {
+    "enforcement_results": {
+      "satya": {
+        "constraint": "satya",
+        "principle": "Truth",
+        "valid": true,
+        "issues": []
+      },
+      "asteya": {
+        "constraint": "asteya",
+        "principle": "Non-stealing",
+        "valid": true,
+        "issues": []
+      },
+      "ahimsa": {
+        "constraint": "ahimsa",
+        "principle": "Non-harm",
+        "valid": true,
+        "issues": []
+      }
+    },
+    "overall_valid": true,
+    "action_required": false
+  },
+  "api_stats": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "total_api_calls": 0,
+    "total_cost": 0.0,
+    "total_tokens": 0
+  }
+}

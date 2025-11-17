@@ -1,0 +1,60 @@
+{
+  "endpoint_analysis": {
+    "http://localhost:3001": {
+      "status_code": null,
+      "response_time": null,
+      "error": "HTTPConnectionPool(host='localhost', port=3001): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000228DBD341A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "chaos_entropy": 0,
+      "fractal_dimension": 0,
+      "is_functional": false
+    },
+    "http://localhost:3001/api/dashboard": {
+      "status_code": null,
+      "response_time": null,
+      "error": "HTTPConnectionPool(host='localhost', port=3001): Max retries exceeded with url: /api/dashboard (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000228DBD15090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "chaos_entropy": 0,
+      "fractal_dimension": 0,
+      "is_functional": false
+    },
+    "http://localhost:3000": {
+      "status_code": 200,
+      "response_time": 1.0839598178863525,
+      "chaos_entropy": 5.162544961202559,
+      "fractal_dimension": 0.7903844182682424,
+      "content_length": 25490,
+      "is_functional": true
+    },
+    "http://localhost:3000/api/dashboard": {
+      "status_code": 404,
+      "response_time": 0.7858016490936279,
+      "chaos_entropy": 5.186401995762613,
+      "fractal_dimension": 0.802875146534142,
+      "content_length": 27303,
+      "is_functional": false
+    }
+  },
+  "routing_patterns": {
+    "functional_endpoints": [
+      "http://localhost:3000"
+    ],
+    "non_functional_endpoints": [
+      "http://localhost:3001",
+      "http://localhost:3001/api/dashboard",
+      "http://localhost:3000/api/dashboard"
+    ],
+    "routing_complexity": 0.25,
+    "anomalies": [],
+    "pattern_dimension": 1.0
+  },
+  "corrections": {
+    "combined_correction": "[29.36993232 34.40535729 28.09033653 29.97043426 33.30818791 29.2604182\n 30.90337273 30.41148976 26.56216808 23.53345514 22.31086797 16.6530434\n 16.47855795 13.08560909]",
+    "dimensional_weights": {
+      "7D_space": 0.8807656268019418,
+      "9D_space": 0.855503111232238,
+      "11D_space": 0.8794098177936176,
+      "14D_space": 0.8806475716909339
+    },
+    "total_resonance": 0.8740815318796828
+  },
+  "timestamp": "2025-11-06T10:56:52.826577"
+}

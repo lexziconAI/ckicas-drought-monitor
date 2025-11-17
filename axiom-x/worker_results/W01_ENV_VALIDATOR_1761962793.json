@@ -1,0 +1,7 @@
+{
+  "python_version": "{sys.version_info.major}.{sys.version_info.minor}",
+  "dependencies_checked": 4,
+  "missing_dependencies": [],
+  "status": "success",
+  "duration": 1.086482286453247
+}

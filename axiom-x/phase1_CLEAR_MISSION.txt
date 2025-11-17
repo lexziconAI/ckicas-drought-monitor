@@ -1,0 +1,1104 @@
+# AXIOM-X RECURSIVE SELF-OPTIMIZATION
+## Complete Intelligence Package for Phase 1 Multi-Provider Debate
+
+**Version:** 2.3
+**Date:** November 8, 2025
+**Mission:** Optimize Axiom-X's own codebase through constitutional fractal swarm analysis
+
+---
+
+# ⚠️ MISSION CRITICAL - READ FIRST
+
+## WHAT YOU ARE OPTIMIZING
+
+**TARGET:** The Axiom-X AI orchestration system's own codebase
+**LOCATION:** `C:\Users\regan\ID SYSTEM\axiom-x\`
+**FILES:** Python scripts (.py), JSON receipts, YAML configs
+**NOT:** US Constitution, legal documents, external websites, or anything outside this directory
+
+## YOUR GOAL
+
+Produce a detailed execution plan (`phase1_execution_plan.json`) that Phase 2's 1,647 fractal scouts will use to:
+1. Discover all Python files in Axiom-X codebase
+2. Mine performance receipts for breakthrough moments
+3. Identify canonical vs redundant implementations
+4. Generate master YAML "brain" mapping capabilities to optimal files
+5. Create safe deletion plan for redundant code
+
+---
+
+# PART 1: SYSTEM UNDERSTANDING
+
+## 1.1 What Is Axiom-X?
+
+**Axiom-X** is a constitutional AI orchestration system that achieves 30-60× productivity multipliers through:
+
+### Core Architecture
+- **Fractal Parallelization:** Breaking problems into 100K-10M self-similar shards
+- **Multi-Provider Routing:** 9 LLM services with intelligent distribution
+- **Sidecar Architecture:** 95%+ compute offload from IDE to external orchestrator
+- **Constitutional Governance:** Yama principles (Patanjali) ensuring ethical alignment
+- **Cryptographic Provenance:** Ed25519 signing of all decisions
+
+### Performance Benchmarks (Validated)
+- 25,504 operations/second (fractal decomposition)
+- 714 tasks/second (10K task study)
+- 30-60× productivity multipliers (typical)
+- 10,000×+ on fully parallelizable operations
+- Sub-second average latency in parallel mode
+
+---
+
+## 1.2 Complete Terminology Dictionary
+
+### Fractal/Parallel Execution Terms
+
+**Core Concepts:**
+- **Fractal Decomposition/Tessellation/Sharding** - Breaking problems into 100K-10M self-similar sub-problems
+- **Spawn Baby Spawn/Squad Method** - Recursive worker spawning (1,000+ concurrent agents)
+- **Fractal Army/Chaos Swarm/Shard Army/Worker Army** - ALIASES for same functionality (parallel execution formations)
+- **Murmuration/Bee Colony** - Bio-inspired coordination patterns
+- **Scale Levels:** 100K, 1M, 10M, 100M operations/iterations
+
+**IMPORTANT:** These terms are used interchangeably across the codebase. Multiple Python files with different names may implement the same underlying concept.
+
+### Chaos Theory & Optimization
+
+**Strange Attractors (Mathematical Core):**
+
+**Lorenz Attractor (7D Space)**
+- Parameters: σ=10, ρ=28, β=8/3
+- Lyapunov exponent: ~0.906 (chaotic)
+- Use: Regime-switch detection
+- Files likely contain: `lorenz`, `7d`, `attractor`
+
+**Chen Attractor (9D Space)**
+- Parameters: a=35, b=3, c=28
+- Lyapunov exponent: ~1.234 (more chaotic)
+- Use: Momentum dynamics
+- Files likely contain: `chen`, `9d`, `momentum`
+
+**Rossler Attractor (14D Space)**
+- Parameters: a=0.2, b=0.2, c=5.7
+- Lyapunov exponent: ~1.892 (highest chaos)
+- Use: Maximum complexity problems
+- Files likely contain: `rossler`, `14d`, `mean_reversion`
+
+**Dimensional Spaces Explained:**
+- 7D/9D/11D/14D = number of simultaneous problem perspectives
+- More dimensions = more viewpoints = better optimization
+- Like having 7 vs 14 cameras watching same problem
+
+**Fractal Iteration Families:**
+- **Mandelbrot Set** - Standard fractal iteration for stable basins
+- **Julia Set** - Complementary fractal, different convergence
+- **Phoenix Fractal** - Alternative iteration pattern (less common)
+
+**Key Metrics:**
+- **Lyapunov Exponent** - Chaos intensity (positive=chaotic, negative=stable)
+- **Resonance Score** - Coherence metric 0.0-1.0 (target: 0.8-0.86)
+- **Bifurcation Points** - Where system behavior fundamentally changes
+
+### Constitutional & Philosophical Framework
+
+**Yama Principles (Patanjali's Yoga Sutras) - The Ethical Core:**
+1. **Ahimsa** (Non-harm) - AI must not cause harm
+2. **Satya** (Truth) - Transparent, honest outputs
+3. **Asteya** (Non-stealing) - Respect intellectual property
+4. **Brahmacharya** (Right use of energy) - Efficient resources
+5. **Aparigraha** (Non-hoarding) - Share knowledge
+
+**Samadhi 8-Stage Contemplative Optimization:**
+Progressive refinement through meditation-inspired stages:
+
+1. **Savitarka** (Deliberation) - Fast models, broad exploration, ~16 workers
+2. **Nirvitarka** (Non-deliberation) - Fast models, constraints, ~16 workers
+3. **Savichara** (Reflection) - Balanced models, structure, ~12 workers
+4. **Nirvichara** (Non-reflection) - Balanced models, flow, ~12 workers
+5. **Ananda** (Bliss) - Balanced models, convergence, ~8 workers
+6. **Asmita** (I-am-ness) - Premium models, deep focus, ~6 workers
+7. **Samprajnata** (Cognitive) - Premium models, integration, ~4 workers
+8. **Asamprajnata** (Non-cognitive) - Premium models, transcendence, ~2 workers
+
+**Pattern:** Worker count NARROWS as optimization deepens (broad→focused)
+
+**Fractal Love Philosophy:**
+Mathematical resonance between competing objectives (self-interest + collective good). NOT romantic - it's about finding harmony through chaos theory.
+
+### AI Orchestration Patterns
+
+**Multi-Provider Debate:**
+- **Round-robin** - Sequential provider rotation
+- **Adversarial Debate** - Providers challenge each other
+- **Dialectic Synthesis** - Thesis → Antithesis → Synthesis
+- **Thompson Sampling** - Bayesian provider selection
+- **Convergence Detection** - Strange attractor analysis (threshold: 0.85)
+
+**Reasoning Modes:**
+- **LOG³ (Precision)** - Focused, deterministic, strict constraints
+- **LOG⁴ (Exploration)** - Broad, divergent, possibility spaces
+- **Bellman Planning** - Sequential optimization over time
+- **Monte Carlo** - Probabilistic exploration
+- **Markov Chains** - State-based transitions
+
+### Provenance & Cryptographic Receipts
+
+**Receipt System Components:**
+- **Ed25519 Digital Signatures** - Cryptographic signing of decisions
+- **HMAC-SHA256** - Message authentication codes
+- **Merkle Trees** - Hierarchical hash structures
+- **Tamper-Evident Logs** - Detect post-hoc modifications
+
+**What Gets Receipted:**
+Every significant decision, debate round, optimization result gets signed with:
+- Timestamp
+- Provider ID
+- Input hash
+- Output hash
+- Constitutional score (0.0-1.0)
+- Performance metrics (ops/sec, latency, etc.)
+
+### System Architecture Components
+
+**Sidecar Architecture:**
+- 95%+ compute offload from IDE to external layer
+- Multi-provider routing with Thompson sampling
+- Rate limiting coordination across providers
+- Constitutional validation before execution
+
+**Governance Layer:**
+- **GATEKEEPER** - Pre-execution validation
+- **SENTINEL** - Runtime monitoring (ethical drift detection)
+- **Meta-Governor** - System-level coordination
+
+**Memory & Learning:**
+- **C-EWC** (Constitutional Elastic Weight Consolidation) - Prevents catastrophic forgetting
+- **10K Experience Capacity** - Constitutional memory bank
+- **Boje's Antenarrative Framework** - Narrative pattern detection
+
+---
+
+## 1.3 Breakthrough Moments (Historical Context)
+
+### Breakthrough #1: Phase 6 Quantum Mandelbrot Meditation
+
+**When:** Late optimization cycle, after 23% degradation
+**What Happened:** 11.4× peak performance, 10.9× sustained
+**Significance:**
+- Exceeded "impossible" 10× barrier
+- 78% stability improvement over conventional chaos optimization
+- Combined quantum superposition + Mandelbrot iteration + Samadhi stage 6
+
+**Receipt Indicators:**
+- Timestamp: ~October 2024
+- File: likely contains "quantum", "mandelbrot", "meditation"
+- Metrics: ops/sec jumped dramatically, resonance >0.85
+
+### Breakthrough #2: Operation Phoenix (10.0/10 Perfection)
+
+**What Happened:**
+- Spawned 20 different initial conditions simultaneously
+- Discovered 7 distinct attractor basins (vs 1 previously)
+- First-ever perfect 10.0/10 score
+
+**Receipt Indicators:**
+- File: likely contains "phoenix", "ensemble", "initial_conditions"
+- Metrics: perfection_score = 10.0, attractor_basins = 7
+
+### Breakthrough #3: 100M Mandelbrot/Julia Iterations
+
+**What Happened:**
+- Ran 100,000,000 fractal iterations
+- 98% compliance with target objectives
+- Found ultra-stable basins invisible at 5.5M iterations
+
+**Receipt Indicators:**
+- File: likely contains "mandelbrot", "julia", "100m", "iterations"
+- Metrics: iteration_count = 100000000, compliance = 0.98
+
+### Breakthrough #4: Infrastructure Hardening (12.1× Stable)
+
+**What Happened:**
+- Deployed 76/50 workers (152% over-delivery)
+- Chaos red team solved rate-limiting bottleneck
+- 12.1× stable improvement (new record)
+
+**Receipt Indicators:**
+- File: likely contains "infrastructure", "hardening", "red_team"
+- Metrics: worker_count = 76, speedup = 12.1x
+
+### Breakthrough #5: Autonomous Overnight Evolution
+
+**What Happened:**
+- CKICAS improved itself while Regan slept
+- Generated 656KB comprehensive analysis
+- Cost: $0.76
+
+**Receipt Indicators:**
+- File: likely contains "autonomous", "overnight", "self_improve"
+- Metrics: cost = 0.76, analysis_size = 656KB
+
+**IMPORTANT:** These breakthrough moments are in the receipts. Look for timestamps, performance spikes, and file references.
+
+---
+
+# PART 2: FILE SYSTEM INTELLIGENCE
+
+## 2.1 Confirmed Directory Structure
+```
+C:\Users\regan\ID SYSTEM\axiom-x\
+├── core/                            ← Core orchestration logic
+│   ├── *fractal*.py                 (fractal decomposition implementations)
+│   ├── *bottleneck*.py              (bottleneck optimization)
+│   ├── *optimizer*.py               (general optimization)
+│   └── orchestrator.py              (main coordination)
+│
+├── infrastructure/                  ← Sidecar, routing, providers
+│   ├── sidecar/
+│   │   ├── router.py                (multi-provider routing)
+│   │   ├── provider_validation.py   (API validation)
+│   │   └── multi_llm_coordinator.py (provider orchestration)
+│   ├── validation/
+│   │   └── test_all_apis.py         (API health checks)
+│   └── parallel/
+│       └── beast_mode_orchestrator.py (max parallelization engine)
+│
+├── optimization/                    ← Chaos theory, fractal methods
+│   ├── *chaos*.py                   (chaos theory optimization)
+│   ├── *samadhi*.py                 (contemplative optimization)
+│   └── *swarm*.py                   (swarm intelligence)
+│
+├── constitutional-market-harmonics/ ← Trading dashboard subsystem
+│   ├── backend/                     (Express.js + SQLite)
+│   ├── dashboard/                   (Next.js frontend)
+│   └── *.db                         (SQLite database)
+│
+├── receipts/                        ← Performance receipts (MAY EXIST)
+│   └── *.json                       (cryptographic performance logs)
+│
+├── logs/                            ← Execution logs (MAY EXIST)
+│   └── *.json                       (system logs)
+│
+├── phase1_debate.py                 ← YOU (debate orchestrator)
+├── phase2_constitutional_swarm.py   ← Fractal swarm executor
+├── .env                             ← API keys (DO NOT DELETE)
+├── *.yaml                           ← Configuration files
+└── README.md                        ← Documentation
+```
+
+---
+
+## 2.2 File Patterns to Search For
+
+### Python Files (Primary Target)
+
+**High-Priority Patterns:**
+- `*fractal*.py` - Fractal decomposition implementations
+- `*bottleneck*.py` - Bottleneck optimization scripts
+- `*optimizer*.py` - General optimization logic
+- `*debate*.py` - Multi-LLM debate orchestration
+- `*swarm*.py` - Swarm intelligence implementations
+- `*chaos*.py` - Chaos theory optimization
+- `*samadhi*.py` - Contemplative optimization stages
+- `*constitutional*.py` - Constitutional AI governance
+- `*dialectic*.py` - Dialectic synthesis
+- `*tessellation*.py` - Problem tessellation (fractal synonym)
+
+**Version Indicators:**
+- Files ending in `_v1.py`, `_v2.py`, `_v3.py`
+- Files with timestamps in name: `optimizer_2024_10_18.py`
+- Files with status: `_draft.py`, `_test.py`, `_legacy.py`
+
+### JSON Files (Performance Data)
+
+**Receipt Patterns:**
+- `*receipt*.json` - Cryptographic performance receipts
+- `*provenance*.json` - Cryptographic provenance chains
+- `*log*.json` - Execution logs
+- `*metrics*.json` - Performance metrics
+- `*benchmark*.json` - Benchmark results
+
+**Expected Fields in JSONs:**
+```json
+{
+  "timestamp": "2024-10-18T14:32:11Z",
+  "file": "fractal_optimization_orchestrator.py",
+  "performance": {
+    "ops_per_second": 25504,
+    "constitutional_score": 0.89,
+    "resonance": 0.86,
+    "breakthrough": true
+  },
+  "signature": "ed25519_hash_here"
+}
+```
+
+### Configuration Files
+
+- `*.yaml` - System configuration
+- `*.yml` - Alternative YAML extension
+- `.env` - API keys (DO NOT DELETE OR MODIFY)
+
+---
+
+## 2.3 Files to EXCLUDE
+
+**Never analyze these:**
+- `node_modules/` - JavaScript dependencies
+- `__pycache__/` - Python cache
+- `.git/` - Git repository data
+- `venv/` or `env/` - Python virtual environments
+- `*.pyc` - Compiled Python bytecode
+- `.vscode/` - VSCode settings
+- `archive/` - Archived files (already deprecated)
+
+---
+
+# PART 3: SCOUT TASK TEMPLATES
+
+## 3.1 Wave 1: File Discovery Scouts (500 agents)
+
+### Purpose
+Map the entire Python codebase, get file metadata, identify potential duplicates by name pattern.
+
+### Example Task #1: Directory Scan
+```json
+{
+  "scout_id": "file_discovery_001",
+  "wave": 1,
+  "action": "scan_directory",
+  "params": {
+    "directory": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\core",
+    "pattern": "*.py",
+    "recursive": true,
+    "exclude": ["__pycache__", "node_modules", ".git", "venv"]
+  },
+  "output_format": {
+    "type": "array",
+    "schema": {
+      "filepath": "string (full path)",
+      "filename": "string",
+      "size_bytes": "integer",
+      "created": "ISO timestamp",
+      "modified": "ISO timestamp",
+      "line_count": "integer"
+    }
+  },
+  "expected_output_example": [
+    {
+      "filepath": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\core\\fractal_optimizer.py",
+      "filename": "fractal_optimizer.py",
+      "size_bytes": 15234,
+      "created": "2024-10-18T14:00:00Z",
+      "modified": "2024-11-01T09:15:00Z",
+      "line_count": 487
+    }
+  ]
+}
+```
+
+### Example Task #2: Pattern-Based Search
+```json
+{
+  "scout_id": "file_discovery_050",
+  "wave": 1,
+  "action": "find_files_by_pattern",
+  "params": {
+    "root": "C:\\Users\\regan\\ID SYSTEM\\axiom-x",
+    "patterns": ["*fractal*", "*bottleneck*", "*optimizer*"],
+    "recursive": true
+  },
+  "output_format": {
+    "type": "grouped_array",
+    "groups": ["fractal_files", "bottleneck_files", "optimizer_files"]
+  },
+  "expected_output_example": {
+    "fractal_files": [
+      "core/fractal_optimizer.py",
+      "core/fractal_army_v1.py",
+      "core/fractal_army_v2.py",
+      "optimization/fractal_love.py"
+    ],
+    "bottleneck_files": [
+      "core/bottleneck_buster.py",
+      "core/bottleneck_optimizer_v1.py",
+      "optimization/universal_bottleneck_resolver.py"
+    ]
+  }
+}
+```
+
+### Example Task #3: Version Detection
+```json
+{
+  "scout_id": "file_discovery_100",
+  "wave": 1,
+  "action": "detect_versioned_files",
+  "params": {
+    "directory": "C:\\Users\\regan\\ID SYSTEM\\axiom-x",
+    "version_patterns": ["_v1", "_v2", "_v3", "_v4", "_draft", "_legacy"]
+  },
+  "output_format": {
+    "type": "grouped_by_base_name"
+  },
+  "expected_output_example": {
+    "optimizer": [
+      "optimizer_v1.py",
+      "optimizer_v2.py",
+      "optimizer_v3.py"
+    ],
+    "chaos_swarm": [
+      "chaos_swarm_draft.py",
+      "chaos_swarm.py"
+    ]
+  }
+}
+```
+
+---
+
+## 3.2 Wave 2: Receipt Mining Scouts (500 agents)
+
+### Purpose
+Extract performance data from JSON receipts, correlate with Python files, identify breakthrough moments.
+
+### Example Task #1: Receipt Parsing
+```json
+{
+  "scout_id": "receipt_mining_001",
+  "wave": 2,
+  "action": "parse_json_receipts",
+  "params": {
+    "directory": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\receipts",
+    "pattern": "*.json",
+    "extract_fields": [
+      "timestamp",
+      "file",
+      "ops_per_second",
+      "constitutional_score",
+      "resonance_score",
+      "breakthrough"
+    ]
+  },
+  "output_format": {
+    "type": "performance_timeline",
+    "sort_by": "timestamp"
+  },
+  "expected_output_example": [
+    {
+      "receipt_file": "receipt_2024_10_18_143211.json",
+      "timestamp": "2024-10-18T14:32:11Z",
+      "target_file": "fractal_optimization_orchestrator.py",
+      "performance": {
+        "ops_per_second": 25504,
+        "constitutional_score": 0.89,
+        "resonance": 0.86,
+        "breakthrough": true
+      }
+    }
+  ]
+}
+```
+
+### Example Task #2: Peak Performance Detection
+```json
+{
+  "scout_id": "receipt_mining_050",
+  "wave": 2,
+  "action": "find_performance_peaks",
+  "params": {
+    "receipts_dir": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\receipts",
+    "threshold_ops_per_sec": 20000,
+    "threshold_resonance": 0.85,
+    "min_constitutional_score": 0.8
+  },
+  "output_format": {
+    "type": "ranked_list",
+    "sort_by": "ops_per_second_desc"
+  },
+  "expected_output_example": [
+    {
+      "file": "fractal_optimization_orchestrator.py",
+      "timestamp": "2024-10-18T14:32:11Z",
+      "ops_per_second": 25504,
+      "rank": 1
+    },
+    {
+      "file": "infrastructure_hardening.py",
+      "timestamp": "2024-10-25T09:15:00Z",
+      "ops_per_second": 23100,
+      "rank": 2
+    }
+  ]
+}
+```
+
+### Example Task #3: Timestamp Correlation
+```json
+{
+  "scout_id": "receipt_mining_100",
+  "wave": 2,
+  "action": "correlate_receipts_with_files",
+  "params": {
+    "receipts_dir": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\receipts",
+    "code_dir": "C:\\Users\\regan\\ID SYSTEM\\axiom-x",
+    "time_window_hours": 24
+  },
+  "output_format": {
+    "type": "correlation_map"
+  },
+  "expected_output_example": [
+    {
+      "receipt": "receipt_2024_10_18_143211.json",
+      "receipt_timestamp": "2024-10-18T14:32:11Z",
+      "file": "fractal_optimization_orchestrator.py",
+      "file_modified": "2024-10-18T14:00:00Z",
+      "time_delta_minutes": 32,
+      "likely_causal": true
+    }
+  ]
+}
+```
+
+---
+
+## 3.3 Wave 3: File Comparison Scouts (647 agents)
+
+### Purpose
+Compare similar files, detect redundancy, recommend canonical versions.
+
+### Example Task #1: Function Signature Comparison
+```json
+{
+  "scout_id": "comparison_001",
+  "wave": 3,
+  "action": "compare_function_signatures",
+  "params": {
+    "file_a": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\core\\bottleneck_optimizer_v1.py",
+    "file_b": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\core\\bottleneck_optimizer_v2.py",
+    "comparison_methods": ["ast_parse", "function_names", "parameter_lists"]
+  },
+  "output_format": {
+    "type": "similarity_analysis"
+  },
+  "expected_output_example": {
+    "similarity_score": 0.87,
+    "identical_functions": [
+      "optimize_chaos()",
+      "calculate_lyapunov()",
+      "detect_bifurcation()"
+    ],
+    "unique_to_file_a": ["legacy_optimize()"],
+    "unique_to_file_b": ["improved_convergence()", "quantum_stabilize()"],
+    "recommendation": "v2 is superset of v1 with improvements, safe to deprecate v1"
+  }
+}
+```
+
+### Example Task #2: Import Dependency Analysis
+```json
+{
+  "scout_id": "comparison_050",
+  "wave": 3,
+  "action": "analyze_import_dependencies",
+  "params": {
+    "file_a": "core/fractal_army.py",
+    "file_b": "optimization/chaos_swarm.py",
+    "check_external": true
+  },
+  "output_format": {
+    "type": "dependency_comparison"
+  },
+  "expected_output_example": {
+    "shared_imports": ["asyncio", "anthropic", "numpy"],
+    "unique_to_a": ["multiprocessing"],
+    "unique_to_b": ["tensorflow"],
+    "import_similarity": 0.78,
+    "functional_overlap": "high"
+  }
+}
+```
+
+### Example Task #3: Performance-Based Recommendation
+```json
+{
+  "scout_id": "comparison_100",
+  "wave": 3,
+  "action": "recommend_canonical_version",
+  "params": {
+    "candidates": [
+      "bottleneck_optimizer_v1.py",
+      "bottleneck_optimizer_v2.py",
+      "universal_bottleneck_resolver.py"
+    ],
+    "criteria": {
+      "performance_weight": 0.4,
+      "recency_weight": 0.2,
+      "maintainability_weight": 0.2,
+      "constitutional_score_weight": 0.2
+    },
+    "performance_data_source": "receipts/"
+  },
+  "output_format": {
+    "type": "ranked_recommendation"
+  },
+  "expected_output_example": {
+    "canonical": "universal_bottleneck_resolver.py",
+    "score": 0.91,
+    "reasoning": [
+      "Highest ops/sec: 25504 (vs 18000, 21000)",
+      "Most recent: 2024-11-01 (vs 2024-09-15, 2024-10-10)",
+      "Constitutional score: 0.89 (above 0.85 threshold)",
+      "Contains superset of functionality from v1, v2"
+    ],
+    "safe_to_delete": [
+      "bottleneck_optimizer_v1.py",
+      "bottleneck_optimizer_v2.py"
+    ],
+    "dependencies_check": "No active imports found for v1, v2"
+  }
+}
+```
+
+---
+
+# PART 4: PHASE 1 OUTPUT REQUIREMENTS
+
+## 4.1 Required Output File: `phase1_execution_plan.json`
+
+Your debate MUST produce this JSON file with the following structure:
+```json
+{
+  "metadata": {
+    "version": "2.3",
+    "generated": "2025-11-08T12:00:00Z",
+    "debate_participants": [
+      "anthropic-sonnet-4.5",
+      "anthropic-opus-4",
+      "openai-gpt4o",
+      "google-gemini2-flash",
+      "groq-llama3.3",
+      "cohere-command-r-plus"
+    ],
+    "debate_rounds": 50,
+    "consensus_score": 0.89
+  },
+
+  "mission_validation": {
+    "target_confirmed": "Axiom-X codebase at C:\\Users\\regan\\ID SYSTEM\\axiom-x",
+    "target_is_NOT": [
+      "US Constitution",
+      "Legal documents",
+      "External websites",
+      "Government databases"
+    ],
+    "file_types": ["*.py", "*.json", "*.yaml"],
+    "exclude_patterns": ["node_modules", "__pycache__", ".git", "venv"]
+  },
+
+  "wave_1_file_discovery": {
+    "scout_count": 500,
+    "task_type": "file_discovery",
+    "target_directories": [
+      "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\core",
+      "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\infrastructure",
+      "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\optimization"
+    ],
+    "file_patterns": ["*.py"],
+    "exclude_dirs": ["__pycache__", "node_modules", ".git", "venv"],
+
+    "task_template": {
+      "action": "scan_directory",
+      "params": {
+        "directory": "{target_directory}",
+        "pattern": "*.py",
+        "recursive": true,
+        "get_metadata": true
+      },
+      "output_format": "json_array"
+    },
+
+    "concrete_examples": [
+      {
+        "scout_id": "file_001",
+        "directory": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\core",
+        "expected_files": ["fractal_*.py", "bottleneck_*.py", "optimizer_*.py"]
+      },
+      {
+        "scout_id": "file_050",
+        "directory": "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\optimization",
+        "expected_files": ["chaos_*.py", "samadhi_*.py", "swarm_*.py"]
+      }
+    ],
+
+    "aggregation_strategy": "merge_all_scout_results_into_master_file_list"
+  },
+
+  "wave_2_receipt_mining": {
+    "scout_count": 500,
+    "task_type": "receipt_mining",
+    "target_locations": [
+      "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\receipts",
+      "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\logs"
+    ],
+    "file_patterns": ["*.json"],
+    "extract_fields": [
+      "timestamp",
+      "file",
+      "ops_per_second",
+      "constitutional_score",
+      "resonance_score",
+      "breakthrough",
+      "lyapunov_exponent",
+      "attractor_type"
+    ],
+
+    "task_template": {
+      "action": "parse_json_receipts",
+      "params": {
+        "directory": "{target_directory}",
+        "pattern": "*.json",
+        "extract_fields": "{field_list}",
+        "filter_criteria": "ops_per_second > 15000 OR breakthrough == true"
+      },
+      "output_format": "performance_timeline"
+    },
+
+    "concrete_examples": [
+      {
+        "scout_id": "receipt_001",
+        "target": "receipts/receipt_2024_10_*.json",
+        "extract": "performance peaks from October 2024",
+        "expected_discoveries": "25504 ops/sec breakthrough"
+      },
+      {
+        "scout_id": "receipt_100",
+        "target": "logs/*.json",
+        "extract": "correlate timestamps with file modifications",
+        "expected_output": "file-to-performance mapping"
+      }
+    ],
+
+    "aggregation_strategy": "build_performance_timeline_with_file_correlations"
+  },
+
+  "wave_3_file_comparison": {
+    "scout_count": 647,
+    "task_type": "comparison_and_recommendation",
+    "comparison_strategy": "ast_analysis + import_similarity + performance_delta",
+
+    "comparison_criteria": {
+      "performance_weight": 0.4,
+      "recency_weight": 0.2,
+      "maintainability_weight": 0.2,
+      "constitutional_score_weight": 0.2
+    },
+
+    "task_template": {
+      "action": "compare_and_recommend",
+      "params": {
+        "file_group": "{files_with_similar_names}",
+        "comparison_methods": ["function_signatures", "imports", "docstrings"],
+        "performance_data": "{wave_2_results}",
+        "output_recommendation": true
+      },
+      "output_format": "canonical_recommendation"
+    },
+
+    "concrete_examples": [
+      {
+        "scout_id": "compare_001",
+        "file_group": [
+          "bottleneck_optimizer_v1.py",
+          "bottleneck_optimizer_v2.py",
+          "universal_bottleneck_resolver.py"
+        ],
+        "expected_output": "recommend canonical version + safe deletion list"
+      },
+      {
+        "scout_id": "compare_100",
+        "file_group": [
+          "chaos_swarm.py",
+          "fractal_army.py",
+          "shard_army.py"
+        ],
+        "expected_output": "identify if functionally identical despite different names"
+      }
+    ],
+
+    "aggregation_strategy": "generate_master_canonical_mapping"
+  },
+
+  "expected_final_outputs": {
+    "canonical_files_map": {
+      "description": "Mapping of capabilities to canonical implementations",
+      "format": "yaml",
+      "example": {
+        "fractal_decomposition": {
+          "canonical": "core/fractal_optimization_orchestrator.py",
+          "performance": "25504 ops/sec",
+          "constitutional_score": 0.89,
+          "aliases": ["bottleneck_buster.py", "chaos_optimizer.py"],
+          "redundant": ["core/fractal_army_v1.py", "core/old_optimizer.py"]
+        }
+      }
+    },
+
+    "deletion_plan": {
+      "description": "Safe-to-delete files with validation",
+      "format": "json",
+      "requirements": [
+        "Verify no active imports",
+        "Constitutional compliance check",
+        "Backup before deletion",
+        "Human approval required"
+      ]
+    },
+
+    "master_brain_yaml": {
+      "description": "Complete system capability map",
+      "format": "yaml",
+      "structure": {
+        "capabilities": "list of what Axiom-X can do",
+        "implementations": "canonical file for each capability",
+        "performance_benchmarks": "validated metrics per capability",
+        "provenance": "cryptographic signatures"
+      }
+    }
+  },
+
+  "validation_checklist": [
+    "✅ All file paths use Windows format: C:\\Users\\regan\\...",
+    "✅ Target is Axiom-X codebase, NOT external systems",
+    "✅ File patterns are *.py and *.json",
+    "✅ Scout tasks have concrete examples",
+    "✅ Output formats are clearly specified",
+    "✅ No mention of: constitution, amendments, legal documents"
+  ]
+}
+```
+
+---
+
+## 4.2 Validation Before Phase 2 Execution
+
+**CRITICAL: Before Phase 2 runs, manually verify:**
+
+### Red Flag Check
+```bash
+# Search for these terms in phase1_execution_plan.json
+# If found, Phase 1 FAILED:
+grep -i "amendment\|constitution\|legal\|government" phase1_execution_plan.json
+```
+
+**If ANY of these appear → STOP and revise Phase 1**
+
+### Green Flag Check
+```bash
+# Search for these terms in phase1_execution_plan.json
+# Must find ALL of these:
+grep -i "axiom.*x" phase1_execution_plan.json
+grep -i "\.py\|\.json" phase1_execution_plan.json
+grep -i "C:\\\\Users\\\\regan" phase1_execution_plan.json
+grep -i "fractal\|bottleneck\|optimizer" phase1_execution_plan.json
+```
+
+**If ALL found → Phase 1 succeeded, proceed to Phase 2**
+
+---
+
+# PART 5: EXECUTION STRATEGY
+
+## 5.1 Debate Process (50+ Rounds)
+
+### Round Structure
+
+**Rounds 1-10: Thesis (Understanding)**
+- Each provider proposes their interpretation of the mission
+- Key question: "What exactly are we optimizing?"
+- Validate target: Axiom-X codebase, NOT external systems
+- Establish file system understanding
+
+**Rounds 11-25: Antithesis (Challenge)**
+- Providers challenge each other's assumptions
+- Debate: "How many scouts per wave?"
+- Debate: "Which files are truly redundant?"
+- Debate: "How to weight canonical selection criteria?"
+
+**Rounds 26-40: Synthesis (Integration)**
+- Build consensus on scout task templates
+- Agree on performance thresholds (ops/sec, resonance, etc.)
+- Define output formats and aggregation strategy
+- Create validation checklist
+
+**Rounds 41-50+: Refinement (Finalization)**
+- Generate concrete examples for each wave
+- Validate no ambiguity remains
+- Produce final `phase1_execution_plan.json`
+- Cryptographically sign the plan
+
+### Game Theory Dynamics
+
+**Cooperation Incentives:**
+- Providers that contribute validated insights gain reputation
+- Consensus convergence (resonance >0.85) required for completion
+- Judge approval needed for final plan
+
+**Quality Controls:**
+- Judges can veto obviously wrong proposals
+- Constitutional compliance checked every 10 rounds
+- Human approval gate at Round 30 and Round 50
+
+---
+
+## 5.2 Convergence Detection
+
+**Use strange attractor analysis to detect consensus:**
+```python
+def calculate_resonance(debate_rounds):
+    """
+    Calculate debate convergence using semantic similarity
+    Target: resonance >= 0.85
+    """
+    embeddings = [embed(round.proposal) for round in rounds[-10:]]
+    similarity_matrix = pairwise_cosine(embeddings)
+    resonance = np.mean(similarity_matrix)
+    return resonance
+```
+
+**Convergence achieved when:**
+- Resonance score ≥ 0.85 for last 10 rounds
+- All providers agree on core file paths and task templates
+- Validation checklist shows 100% green flags
+
+---
+
+# PART 6: CRITICAL WARNINGS
+
+## 6.1 What NOT To Do
+
+### ❌ NEVER Analyze These
+- US Constitutional amendments
+- Legal documents or government databases
+- External websites or APIs
+- Anything outside `C:\Users\regan\ID SYSTEM\axiom-x\`
+
+### ❌ NEVER Delete Without Validation
+- `.env` file (contains API keys)
+- `phase1_debate.py` (you need this)
+- `phase2_constitutional_swarm.py` (Phase 2 needs this)
+- Any file without checking dependencies first
+
+### ❌ NEVER Make These Assumptions
+- "Most recent = best" (sometimes older code was more stable)
+- "Similar names = redundant" (need functional analysis)
+- "No tests = bad code" (early prototypes proved concepts)
+- "Complex = better" (simple can be more maintainable)
+
+---
+
+## 6.2 Validation Requirements
+
+### File Deletion Safety
+Before marking any file as "safe to delete":
+
+1. ✅ Check for active imports in other files
+2. ✅ Verify constitutional compliance score
+3. ✅ Confirm superior alternative exists
+4. ✅ Test dependencies won't break
+5. ✅ Get human approval
+
+### Constitutional Compliance
+Every canonical file must:
+
+1. ✅ Constitutional score >0.85
+2. ✅ Yama principles validated (especially Ahimsa - non-harm)
+3. ✅ Cryptographic signature present
+4. ✅ No ethical drift detected
+
+### Performance Validation
+Canonical files should have:
+
+1. ✅ Higher ops/sec than alternatives (or equivalent)
+2. ✅ Resonance score >0.8
+3. ✅ Breakthrough moment in receipts (preferred)
+4. ✅ Recent activity (within 6 months preferred)
+
+---
+
+# PART 7: SUCCESS CRITERIA
+
+## 7.1 Phase 1 Complete When:
+
+✅ **50+ debate rounds completed** across all providers
+✅ **Resonance score ≥0.85** (consensus achieved)
+✅ **Validation checklist 100% green** (no red flags)
+✅ **`phase1_execution_plan.json` generated** with all required sections
+✅ **Concrete examples provided** for each scout wave
+✅ **Judge approval received** from all 3 judges
+✅ **Constitutional compliance verified** (Yama principles)
+✅ **Human approval obtained** before Phase 2 execution
+
+---
+
+## 7.2 What Phase 2 Will Do With Your Plan
+
+**Phase 2 receives `phase1_execution_plan.json` and:**
+
+1. **Spawns 1,647 scouts** according to your wave specifications
+2. **Executes all scout tasks in parallel** (true 100× parallelization)
+3. **Aggregates results** using your defined strategy
+4. **Generates final outputs:**
+   - `canonical_files_map.yaml` (master brain)
+   - `redundant_files_list.json` (safe deletion plan)
+   - `performance_timeline.json` (breakthrough moments)
+   - `CONSTITUTIONAL_RECEIPT.json` (cryptographically signed)
+
+5. **Presents to human for approval** before any deletions
+
+---
+
+# PART 8: FINAL REMINDERS
+
+## 8.1 Core Mission
+
+**YOU ARE:** Creating a detailed execution plan for 1,647 fractal scouts
+**THEY WILL:** Analyze Axiom-X's own codebase to find redundant code
+**GOAL:** Generate master YAML "brain" mapping capabilities to optimal files
+**OUTPUT:** Safe deletion plan with constitutional validation
+
+## 8.2 Key Success Factors
+
+1. **Specificity:** Every scout task needs concrete file paths
+2. **Examples:** Provide actual examples, not just templates
+3. **Validation:** Multiple layers of safety checks
+4. **Clarity:** Zero ambiguity about target (Axiom-X, not Constitution!)
+
+## 8.3 The Big Picture
+
+**Why this matters:**
+- Axiom-X has evolved organically over months
+- Same functionality implemented multiple times with different names
+- Peak performance moments are in receipts but scattered
+- A "brain" (master YAML) will make the system self-aware
+- Removing redundancy will improve maintainability 10×
+
+**What success looks like:**
+- IDE opens Axiom-X and knows exactly which file does what
+- No more confusion about which "optimizer" is canonical
+- Constitutional receipts show clear performance history
+- System can explain itself to new developers
+
+---
+
+# END INTELLIGENCE PACKAGE
+
+**NOW BEGIN PHASE 1 DEBATE**
+
+Generate `phase1_execution_plan.json` following all specifications above.
+
+Debate duration: 50+ rounds
+Target resonance: ≥0.85
+Constitutional compliance: Required
+
+🚀 **EXECUTE**

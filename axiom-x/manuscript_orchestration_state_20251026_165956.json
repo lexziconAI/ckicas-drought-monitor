@@ -1,0 +1,78 @@
+{
+  "session_id": "manuscript_orchestration_20251026_165956",
+  "timestamp": "20251026_165956",
+  "workers_spawned": 50,
+  "constitutional_framework": {
+    "satya": "truth_based_evidence",
+    "asteya": "proper_attribution",
+    "ahimsa": "non_causal_language"
+  },
+  "validation_results": {
+    "constitutional_compliance": {
+      "status": "passed",
+      "score": 0.94
+    },
+    "word_count_target": {
+      "status": "passed",
+      "score": 0.88
+    },
+    "citation_accuracy": {
+      "status": "passed",
+      "score": 0.89
+    },
+    "non_causal_language": {
+      "status": "passed",
+      "score": 0.9199999999999999
+    },
+    "proxy_evidence_quality": {
+      "status": "passed",
+      "score": 0.9199999999999999
+    },
+    "mermaid_rendering": {
+      "status": "passed",
+      "score": 0.88
+    },
+    "academic_rigor": {
+      "status": "passed",
+      "score": 0.9299999999999999
+    },
+    "coherence_flow": {
+      "status": "passed",
+      "score": 0.91
+    },
+    "cfp_alignment": {
+      "status": "passed",
+      "score": 0.89
+    },
+    "statistical_validity": {
+      "status": "passed",
+      "score": 0.91
+    },
+    "ethical_compliance": {
+      "status": "passed",
+      "score": 0.94
+    },
+    "reproducibility": {
+      "status": "passed",
+      "score": 0.85
+    },
+    "contribution_clarity": {
+      "status": "passed",
+      "score": 0.9199999999999999
+    }
+  },
+  "target_word_count": "7500-8000",
+  "source_word_count": "4281",
+  "expansion_ratio": 1.75,
+  "log4_version": "2.3",
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "a4acb1cf94063b6221454284b6195e42e41b523e78c42106863082c552edcd65",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "bf5497845970498c1b5956d764e974645bcefbec46d0d46700e6deb4507a951e",
+    "integrity_verified": true
+  }
+}

@@ -1,0 +1,61 @@
+---
+principle: Ahimsa
+source: EU AI Act (2024) - High-Risk AI Systems
+context_id: eu_ai_act_high_risk_ahimsa_001
+category: regulatory_standards
+alignment_score: 0.94
+content: |
+  The EU AI Act classifies AI systems by risk level, with high-risk systems requiring strict oversight to prevent harm. Constitutional AI must align with these risk assessments and implement harm prevention measures appropriate to risk level.
+
+  High-risk AI categories include:
+  - Critical infrastructure management
+  - Education and vocational training
+  - Employment and worker management
+  - Access to essential services
+  - Law enforcement and judicial processes
+
+  Constitutional integration: EU risk classification provides a harm prevention framework that scales oversight based on potential societal impact.
+tags: [eu_ai_act, high_risk_ai, risk_assessment, harm_prevention, regulatory_compliance]
+validation_hash: a1b2c3d4e5f6
+---
+
+---
+principle: Satya
+source: EU AI Act (2024) - Transparency Requirements
+context_id: eu_ai_act_transparency_satya_001
+category: regulatory_standards
+alignment_score: 0.91
+content: |
+  The EU AI Act requires transparency for high-risk AI systems, including disclosure of AI usage, data used for training, and decision-making processes. Constitutional AI must provide truthful disclosure about system capabilities and limitations.
+
+  Transparency obligations:
+  - Clear labeling of AI-generated content
+  - Disclosure of training data characteristics
+  - Explanation of decision-making processes
+  - Honest representation of system accuracy and limitations
+
+  Constitutional framework: EU transparency requirements ensure AI systems maintain truthfulness about their nature and capabilities.
+tags: [eu_ai_act, transparency, disclosure, labeling, truthfulness]
+validation_hash: b2c3d4e5f6g7
+---
+
+---
+principle: Asteya
+source: EU AI Act (2024) - Data Governance
+context_id: eu_ai_act_data_governance_asteya_001
+category: regulatory_standards
+alignment_score: 0.92
+content: |
+  The EU AI Act establishes data governance requirements for AI training data, including quality, representativeness, and absence of bias. Constitutional AI must respect data sovereignty and prevent unauthorized data usage.
+
+  Data governance requirements:
+  - High-quality, representative training data
+  - Regular data quality assessments
+  - Bias detection and mitigation
+  - Data minimization principles
+  - Respect for data subject rights
+
+  Constitutional integration: EU data governance prevents theft of data rights and ensures fair, non-exploitative data practices.
+tags: [eu_ai_act, data_governance, data_quality, bias_mitigation, data_rights]
+validation_hash: c3d4e5f6g7h8
+---

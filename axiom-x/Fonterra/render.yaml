@@ -1,0 +1,80 @@
+services:
+  # Main web service (API + Frontend)
+  - type: web
+    name: nz-drought-dashboard
+    env: python
+    region: singapore  # Closest to NZ for latency
+    plan: free  # Upgrade to 'starter' ($7/mo) for production
+    buildCommand: |
+      # Backend dependencies
+      pip install --upgrade pip
+      pip install -r backend/requirements.txt
+
+      # Frontend build
+      cd frontend
+      npm ci
+      npm run build
+      cd ..
+
+      # Database migrations
+      cd backend
+      python -c "from app.models.database import create_tables; import asyncio; asyncio.run(create_tables())"
+      cd ..
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: drought-db
+          property: connectionString
+      - key: NIWA_API_KEY
+        sync: false  # Set manually in Render dashboard
+      - key: NIWA_DATAHUB_EMAIL
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+      - key: ENVIRONMENT
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      - key: CACHE_TTL_HOURS
+        value: 12  # Brahmacharya: cache expiry
+      - key: RATE_LIMIT_PER_DAY
+        value: 1000  # Aparigraha: public API limit
+
+  # Background data refresh job
+  - type: cron
+    name: drought-data-refresh-daily
+    env: python
+    schedule: "0 18 * * *"  # 6am NZ time (UTC+12)
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python jobs/fetch_niwa_data.py
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: drought-db
+          property: connectionString
+      - key: NIWA_API_KEY
+        sync: false
+      - key: NIWA_DATAHUB_EMAIL
+        sync: false
+
+  # Hourly council sensor poll
+  - type: cron
+    name: drought-council-refresh-hourly
+    env: python
+    schedule: "0 * * * *"  # Every hour
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python jobs/fetch_council_data.py
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: drought-db
+          property: connectionString
+
+databases:
+  - name: drought-db
+    databaseName: drought
+    user: drought_user
+    plan: free  # 256MB (sufficient for MVP)
+    # Upgrade to 'starter' ($7/mo, 1GB) for production

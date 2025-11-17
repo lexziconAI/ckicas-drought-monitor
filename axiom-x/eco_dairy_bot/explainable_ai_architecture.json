@@ -1,0 +1,29 @@
+{
+  "transparency_layer": {
+    "ai_decision_format": {
+      "recommendation": "string",
+      "reasoning": "string",
+      "confidence": "float",
+      "alternatives": [
+        "list"
+      ],
+      "student_explanation": "string"
+    },
+    "logging": {
+      "all_decisions_logged": true,
+      "student_accessible": true,
+      "teacher_dashboard": true
+    }
+  },
+  "student_interface": {
+    "ai_reasoning_sidebar": true,
+    "confidence_indicators": true,
+    "alternative_explanations": true,
+    "feedback_mechanism": true
+  },
+  "teacher_tools": {
+    "ai_insight_dashboard": true,
+    "decision_audit_trail": true,
+    "transparency_reports": true
+  }
+}

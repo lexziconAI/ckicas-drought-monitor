@@ -1,0 +1,312 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: axiom-x-with-sidecar
+  labels:
+    app: axiom-x
+    version: v1.0
+    tier: backend
+spec:
+  containers:
+  # Main App
+  - name: axiom-x
+    image: axiom-x:latest
+    imagePullPolicy: IfNotPresent
+    ports:
+    - containerPort: 8000
+      name: http
+      protocol: TCP
+    - containerPort: 9090
+      name: metrics
+      protocol: TCP
+    env:
+    - name: AXIOM_X_ENV
+      value: "production"
+    - name: ANTHROPIC_API_KEY
+      valueFrom:
+        secretKeyRef:
+          name: axiom-x-secrets
+          key: anthropic-api-key
+    - name: OPENAI_API_KEY
+      valueFrom:
+        secretKeyRef:
+          name: axiom-x-secrets
+          key: openai-api-key
+    volumeMounts:
+    - name: shared-logs
+      mountPath: /app/logs
+    - name: shared-data
+      mountPath: /app/data
+    - name: config
+      mountPath: /app/config
+    resources:
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+      limits:
+        memory: "1Gi"
+        cpu: "500m"
+    livenessProbe:
+      httpGet:
+        path: /health
+        port: 8000
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      timeoutSeconds: 5
+      failureThreshold: 3
+    readinessProbe:
+      httpGet:
+        path: /ready
+        port: 8000
+      initialDelaySeconds: 10
+      periodSeconds: 5
+      timeoutSeconds: 3
+      failureThreshold: 3
+    
+  # Log Sidecar
+  - name: log-aggregator
+    image: fluent/fluentd:v1.16-1
+    volumeMounts:
+    - name: shared-logs
+      mountPath: /logs
+      readOnly: true
+    - name: fluentd-config
+      mountPath: /fluentd/etc
+    env:
+    - name: FLUENT_UID
+      value: "0"
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "50m"
+      limits:
+        memory: "128Mi"
+        cpu: "100m"
+    
+  # Metrics Sidecar
+  - name: metrics-exporter
+    image: prom/node-exporter:latest
+    ports:
+    - containerPort: 9100
+      name: node-metrics
+      protocol: TCP
+    args:
+    - '--path.rootfs=/host'
+    - '--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)'
+    volumeMounts:
+    - name: proc
+      mountPath: /host/proc
+      readOnly: true
+    - name: sys
+      mountPath: /host/sys
+      readOnly: true
+    resources:
+      requests:
+        memory: "32Mi"
+        cpu: "25m"
+      limits:
+        memory: "64Mi"
+        cpu: "50m"
+    
+  # Security Sidecar
+  - name: security-scanner
+    image: aquasec/trivy:latest
+    command: ['sh', '-c']
+    args:
+    - |
+      while true; do
+        echo "Security scan $(date)"
+        trivy fs /app --severity HIGH,CRITICAL --format json --output /scan-results/trivy-report.json || true
+        sleep 3600
+      done
+    volumeMounts:
+    - name: app-code
+      mountPath: /app
+      readOnly: true
+    - name: scan-results
+      mountPath: /scan-results
+    resources:
+      requests:
+        memory: "128Mi"
+        cpu: "50m"
+      limits:
+        memory: "256Mi"
+        cpu: "150m"
+    
+  # Config Sidecar
+  - name: config-sync
+    image: alpine/git:latest
+    command: ['sh', '-c']
+    args:
+    - |
+      while true; do
+        echo "Config sync $(date)"
+        sleep 300
+      done
+    volumeMounts:
+    - name: config
+      mountPath: /config
+    resources:
+      requests:
+        memory: "16Mi"
+        cpu: "10m"
+      limits:
+        memory: "32Mi"
+        cpu: "25m"
+  
+  initContainers:
+  - name: db-migration
+    image: axiom-x:latest
+    command: ['python', '-c']
+    args:
+    - |
+      import sys
+      print("DB migrations...")
+      sys.exit(0)
+    env:
+    - name: DATABASE_URL
+      valueFrom:
+        secretKeyRef:
+          name: axiom-x-secrets
+          key: database-url
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "50m"
+      limits:
+        memory: "128Mi"
+        cpu: "100m"
+  
+  volumes:
+  - name: shared-logs
+    emptyDir:
+      sizeLimit: 500Mi
+  - name: shared-data
+    persistentVolumeClaim:
+      claimName: axiom-x-data-pvc
+  - name: config
+    configMap:
+      name: axiom-x-config
+  - name: fluentd-config
+    configMap:
+      name: fluentd-config
+  - name: app-code
+    emptyDir: {}
+  - name: scan-results
+    emptyDir: {}
+  - name: proc
+    hostPath:
+      path: /proc
+  - name: sys
+    hostPath:
+      path: /sys
+  
+  restartPolicy: Always
+  terminationGracePeriodSeconds: 30
+  serviceAccountName: axiom-x-sa
+  
+  securityContext:
+    runAsNonRoot: true
+    runAsUser: 1000
+    fsGroup: 1000
+    seccompProfile:
+      type: RuntimeDefault
+  
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 1
+        preference:
+          matchExpressions:
+          - key: workload-type
+            operator: In
+            values:
+            - ai-processing
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fluentd-config
+data:
+  fluent.conf: |
+    <source>
+      @type tail
+      path /logs/*.log
+      pos_file /var/log/fluentd-pos/axiom-x.pos
+      tag axiom-x
+      <parse>
+        @type json
+        time_key timestamp
+        time_format %Y-%m-%dT%H:%M:%S.%L%z
+      </parse>
+    </source>
+    
+    <match axiom-x>
+      @type forward
+      <server>
+        host log-aggregator-service
+        port 24224
+      </server>
+      <buffer>
+        @type file
+        path /var/log/fluentd-buffer/
+        flush_interval 5s
+      </buffer>
+    </match>
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: axiom-x-config
+data:
+  app.yaml: |
+    environment: production
+    log_level: INFO
+    providers:
+      anthropic: {enabled: true}
+      openai: {enabled: true}
+      groq: {enabled: true}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: axiom-x-service
+  labels:
+    app: axiom-x
+spec:
+  type: LoadBalancer
+  selector:
+    app: axiom-x
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8000
+    protocol: TCP
+  - name: metrics
+    port: 9090
+    targetPort: 9090
+    protocol: TCP
+
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: axiom-x-data-pvc
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
+  storageClassName: standard
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: axiom-x-sa
+  labels:
+    app: axiom-x

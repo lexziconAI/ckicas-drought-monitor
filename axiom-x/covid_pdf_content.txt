@@ -1,0 +1,1353 @@
+PAGE 1:
+CKICAS  Iterative  Narrative s 
+Overview  
+This chapter provides an in -depth exploration of the Community Kinetic  Intellgent Complex 
+Adapt ive Systems  Research ( CKICAS ) methodology, a novel approach conceptualised and 
+refined during the tumultuous initial six to nine months of the COVID -19 pandemic. CKICAS  
+came into existence not as a pre -planned research scheme but as an evolving framework, 
+honed through the researcher's immersive experiences in the field and observations in real -
+world settings.  
+Genesis of CKICAS  
+CKICAS  was not a predefined research approach t the onset of the pandemic. Instead, it 
+emerged iteratively, informed by the researcher's ongoing interactions with community 
+members, first -hand experiences in pandemic response, and cumulative insights from 
+scholarly literature. This bottom -up evolution  allowed the methodology to be intrinsically 
+aligned with the complex and dynamic realities posed by the COVID -19 crisis.  
+Theoretical Foundations  
+At its core, CKICAS  amalgamates key components from three foundational methodologies: 
+Design Science Research, Action Research, and Community -Based Participatory Research. 
+The integration of these methodologies yields a comprehensive, multi -dimensional 
+framework that serves as an organising structure for the researcher's community -based 
+activities.  
+Design Science Research  
+Incorporating elements from Design Science Research, CKICAS  places a significant emphasis on 
+creating innovative solutions, often in the form of systems or models, to address pressing 
+community challenges.  
+Action Research  
+By adopting principles from Action Research, the methodology encourages an interactive, 
+cyclical process where the research not only informs action but is also revised based on the 
+outcomes of that action.  
+Community -Based Participatory Research  
+The inclusion of Community -Based Participatory Research elements ensures that community 
+members are active collaborators in the research process, thereby enriching the empirical 
+data and improving the relevance and applicability of research outcomes.  
+Methodological Components  
+CKICAS  is structured around five interconnected stages, each serving a unique yet 
+complementary role in the research process. These stages are:  
+1. Observation : Initial data collection and situational analysis to understand the context and 
+identify key issues.  
+2. Theory Building : Formulation of hypotheses and conceptual frameworks based on initial 
+observations.  
+
+PAGE 2:
+3. Systems Development : Creation of systems, models, or interventions to address identified 
+issues.  
+4. Community Action : Implementation of the developed systems in the community, involving 
+active participation from community members.  
+5. Validation : Evaluation of the outcomes to assess the effectiveness of the systems and to 
+refine the underlying theories.  
+Utility in the Context of COVID -19 
+In the volatile, uncertain, complex, and ambiguous (VUCA) environment of the COVID -19 
+pandemic, CKICAS  has proven to be exceptionally adaptable. It has enabled the researcher 
+to seamlessly shift between gathering empirical data from community -based initiatives and 
+crafting theoretical models that inform subsequent stages of research.  
+Retrospective Structuring  
+It is noteworthy that all activities related to pandemic response have been retrospectively 
+aligned with the CKICAS  methodology. This post -hoc framing provides a coherent structure 
+that not only aids in the systematic reporting of research activities but also facilitates a 
+nuanced analysis of the empirical data and outcomes.  
+Conclusion  
+Through its amalgamation of multiple research paradigms and its iterative, flexible nature, 
+CKICAS  has emerged as an invaluable framework for conducting research in the uniquely 
+challenging context of the COVID -19 pandemic. This chapter aims to elucidate the nuanced 
+components and stages of CKICAS , offering a thorough understanding that may be valuable 
+for both academic researchers and practitioners alike.  
+ 
+1. Enhancing Institutional Pandemic Preparedness and Response  
+Observation:  The unprecedented onset of the COVID -19 pandemic exposed glaring vulnerabilities 
+and deficiencies in the existing pandemic preparedness protocols, procedures, and infrastructure 
+within public and private institutions across sectors, including universities , public transportation 
+networks, retail outlets, and media organisations. For example, even before COVID -19 arrived in 
+New Zealand, from the researchers own everyday experience it was obvious that  his own  universit y  
+lacked robust sanitisation and disinfe ction standards for high -touch surfaces such as computer labs 
+and keyboards. Once the virus has arrived it was also obvious that p ublic transport systems did not 
+have clear guidelines or messaging around mask -wearing for passengers. And r etail stores had 
+inconsistent or ambiguous policies for staff and customers regarding masks and social distancing. 
+Media outlets, despite being major information channels, did not always effectively communicate 
+public health guidelines.  
+These systemic gaps in pandemic preparedness are reminiscent of the principle highlighted by 
+Nunamaker et al. (1991) concerning the centrality of problem identification and formulation in 
+decision -making systems. Similarly, in the context of public health crises, the proactive identification 
+of potential issues and challenges is paramount. Researchers Dryhurst et al. (2020) emphasise the 
+critical nature of public understanding and adherence to measures during health crises, 
+underscoring the importance of pr eparedness and timely response. For the researcher, with a PhD 
+
+PAGE 3:
+focus on Community Resilience and crisis response, the COVID -19 pandemic highlighted the pressing 
+need for coordinated interventions across institutional contexts. Such coordination he believed at 
+the time would be paramount to enhance pandemic preparedness capabilities and crisis response 
+mechanisms amidst the escalating threat of COVID -19. 
+ 
+Theory Building:  To gain a comprehensive perspective on the complexities at hand, the researcher 
+drew upon foundational Systems Thinking, as articulated by seminal works of both Senge (1990) and 
+Meadows (2008). This framing and  perspective not only provided a lens to view institutions as 
+complex adaptive systems within broader socio -technical landscapes but also instilled confidence 
+that, if the  researcher  were to act, it would be based on strategies grounded in empirical logic. The 
+comprehensive analysis il luminated key points for initiating systemic change. Stakeholder theory 
+principles (Harrison et al., 2015) highlighted the essential nature of broad cross -sector collaboration, 
+emphasi sing the coordination of diverse actors in pandemic response networks. Furthermore, 
+insights from recognised crisis management frameworks (Rodríguez, 2007) acted as a guiding light, 
+shedding light on evidence -backed strategies for addressing public health emergencies.  
+Given the unpredictability of the COVID -19 situation, the researcher adopted Chaos Theory (Lorenz, 
+1963), with a specific focus on its tenet of fractality and the principle of self -similarity. This principle 
+posits that patterns recur at every scale in a f ractal system, much like the way the pandemic 
+mirrored similar patterns of spread and impact across different regions and populations. 
+Furthermore, Chaos Theory emphasises that seemingly minor initial shifts can precipitate a cascade 
+of substantial, unfore seen outcomes — a profound analogy for the pandemic's dynamic, non -linear 
+progression. This theoretical grounding not only honed the researcher's understanding but also 
+fortified the conviction to act amidst the pervasive uncertainties.  
+In the interdisciplinary fields of behavioural economics and health psychology, the importance of 
+targeted intervention strategies has been recognised. Notable concepts such as 'nudging', as 
+described by Thaler and Sunstein (2008), and the Behaviour Change  Wheel, developed by Michie et 
+al. (2011), highlight the necessity of tailored interventions. These concepts are particularly critical for 
+reinforcing practices like social distancing and maintaining hygiene in shared spaces. By synthesising 
+insights from these theoretical frameworks, the efficacy of any single intervention would  likely  be 
+enhanced. Adopting such paradigms not only provides a robust theoretical underpinning but also 
+assures that the resultant actions are more likely to produce meaningful outcomes.  
+Systems Development:   
+At the dawn of the pandemic, the researcher found themselves at an intersection of responsibility 
+and capability. The question was not only how to understand the unfolding crisis through an 
+academic lens but also how to wield this knowledge to effect tangi ble, ethical change.  
+Relying on the foundational tenets of Systems Thinking from thought leaders like Senge (1990) and 
+Meadows (2008), the researcher sought to comprehend the pandemic as a complex, interconnected 
+web of challenges. But understanding was only the first step; th e goal was to translate this 
+knowledge into actionable strategies.  
+Guided by the ethical framework posited by Harrison et al. (2015), the researcher was acutely aware 
+of the moral imperatives tied to their role. Navigating the intricate landscape of stakeholder 
+relationships, there was a constant emphasis on ensuring that  interventions were both efficacious 
+and ethically sound.  
+
+PAGE 4:
+The principles of collective intelligence, as expounded by Woolley et al. (2010), became pivotal in 
+this endeavour. This led to a dual approach: developing bespoke interventions while also 
+championing and refining existing strategies. The underlying belief  was that diverse insights, when 
+unified, could craft solutions tailored to the unique needs of communities.  
+To operationalise these strategies, established change models, specifically Kotter's (Kotter, 1995) 
+and Lewin's (Lewin, 1946) theories, were employed. These models offered a structured pathway for 
+the phased implementation of interventions, ensuring commun ity engagement and acceptance.  
+The researcher's initiative at the University of Auckland stands as a testament to this approach. 
+Having identified vulnerabilities in communal spaces, a robust campaign was launched advocating 
+for enhanced sanitisation measures in computer labs. Despite f acing initial hurdles, the researcher's 
+persistent efforts bore fruit. When the university reopened, the labs were equipped with clear 
+sanitisation reminders, symbolising the confluence of rigorous academic insight and impactful real -
+world change.  
+Validation:   
+Throughout the research process, the researcher maintained a steadfast commitment to empirical 
+rigour, consistently seeking insights from domain experts. Initially, validation for the sanitisation 
+initiatives was bolstered by collaboration with microbial s pecialists. As the pandemic progressed, this 
+collaboration expanded to include prominent New Zealand epidemiologists, notably those credited 
+with the nation's effective elimination strategies, as documented by Baker, Wilson, & Anglemyer 
+(2020). Their exper tise played a pivotal role in refining the interventions and enhancing the 
+credibility of the researcher's efforts.  
+From the outset, the researcher decided to dedicate their energy to pragmatic current and future 
+interventions, meticulously benchmarking these efforts against the academic literature. 
+Foundational works in epidemiology, public health, and organisational p sychology provided the 
+theoretical underpinning. This foundation ensured that current strategies, including targeted 
+awareness campaigns, social media initiatives, and digital activism, were both theoretically grounded 
+and empirically validated. Looking ah ead, the researcher was well -positioned to either lead or 
+support innovative interventions. These anticipated strategies aim ed to address long -term pandemic 
+preparedness, mental well -being during prolonged crises, community -led health initiatives, and 
+enhanced public health communication.  
+Collaboration with respected figures in the field was instrumental. A notable outcome of these 
+partnerships was the piece spotlighting New Zealand's exemplary pandemic response. Titled "NZ as 
+the beacon of light in a Covid -19 world: Lessons in solidarity, kindness, forgiveness" (Duff, 2020) and 
+featured on the University of Auckland's news site, the article was enriched by invaluable advice and 
+insights provided by Baker. This collaboration underscores the profound impact that expert guidance 
+can have in sh aping narratives and disseminating critical information.  
+Embracing a holistic approach to validation, the researcher combined formal methodologies with 
+grassroots observations. Demonstrating profound commitment, the researcher dedicated significant 
+hours to firsthand monitoring of sanitisation compliance outside  university computer labs. As the 
+pandemic continued, the researcher took on the role of a keen observer in supermarkets, spending 
+countless hours walking the aisles to informally assess the community's adherence to mask -wearing 
+guidelines. These grassroot s observations, when combined with the insights and guidance from 
+experts such as Baker et al. (2020), more than likely formed part of a broader societal intervention. 
+While the researcher championed and contributed to understanding these community dynamic s, the 
+
+PAGE 5:
+overarching success of such interventions was a collaborative endeavour. This collective approach 
+ensured that strategies were grounded in both academic rigour and the lived experiences of the 
+community.  
+Community Action:  
+ 
+At the pandemic's onset, the researcher, in collaboration with close friends, initiated a collective 
+named "Caring 4 Whanau." This group swiftly established a digital footprint through a website, 
+Facebook page, Twitter handle, and a podcast that persisted throughout the first lockdown. As the 
+researcher's public visibility expanded, he seamlessly integrated into the New Zealand chapter of 
+Masks4All, a chapter of the globally recognised movement born in the Czech Republic.  
+This chapter evolved into a dynamic hub of community -based public health evangelists, 
+encompassing GPs, students, housewives, and others committed to public health advocacy. 
+Together, the group identified and addressed gaps in pandemic preparedness across an array of 
+settings, from public transport to residential complexes. The researcher, using his academic 
+background and growing public presence, facilitated dialogues with key sector leaders, presenting 
+data -driven proposals to an array of stakeholders, fr om transport authorities to educational 
+administrators.  
+During this phase, the insights of Howard, a US founder of Masks4All and lead author of a pivotal 
+study (Howard et al., 2021), became invaluable. This established a collaborative nexus between 
+Howard, the researcher, and the NZ Masks4All chapter, further e nriched by Baker's expertise, even 
+though he wasn't an official Masks4All member.  
+With this multi -faceted engagement, the Masks4All NZ chapter's credibility flourished. The 
+researcher, while being an essential part of the initiative, often spearheaded media appearances, all 
+the while supported by community activist allies. The collabora tive nature of these interventions 
+was accentuated through press releases for various ethnic media channels. Theoretical frameworks, 
+such as those by Cialdini (2001), Figueroa et al. (2002), and Graham et al. (2006), were adeptly 
+employed to ensure widespr ead adoption.  
+On a grassroots level, local gatherings and hyperlocal group engagements became platforms for the 
+community to mould, disseminate, and supervise the interventions. Strategic social media 
+campaigns further amplified the reach and sustained public engagement . 
+Outcome:  
+The collective efforts of the Masks4All NZ chapter, underpinned by Systems Thinking and diverse 
+collaborations, adeptly addressed pandemic preparedness gaps across numerous settings. Marrying 
+academic perspectives with community feedback, they crafted inte rventions resonating both in 
+theory and practice. The chapter, including the researcher, became indispensable bridges between 
+New Zealand's Ministry of Health and myriad stakeholders. Their media engagements, often 
+spearheaded by the researcher bu t buoyed by community activists, augmented the impact and 
+credibility of their endeavours. Direct community engagements further tailored interventions to 
+meet specific challenges. Collectively, their approach underscores the importance of inclusive, 
+stakeh older -driven strategies during health crises and offers a blueprint for future resilience -centric 
+initiatives.  
+ 
+ 
+
+PAGE 6:
+ 
+2. Empowering Marginalised Communities: Grassroots Interventions Amidst a Pandemic 
+Crisis  
+Observation:  
+The sweeping emergence of the COVID -19 pandemic in early 2020 brought with it a cascade of 
+challenges, most notably, an acute shortage of pivotal preventative supplies such as hand sanitisers, 
+face masks, and personal protective equipment. As communities g lobally confronted these deficits, 
+the complexity of the situation in South Auckland stood out due to its unique socio -cultural 
+landscape and the pronounced vulnerabilities of its residents.  
+The Māori and Pacific Islander communities within South Auckland, owing to various socio -economic 
+and health factors, found themselves disproportionately affected. Anecdotal reports from these 
+communities painted a vivid and grim portrait of their struggle s. The challenges went beyond the 
+mere procurement of essential supplies. Panic -driven behaviours, such as stockpiling, compounded 
+their vulnerabilities, making the shortage emblematic of the broader societal inequalities that these 
+communities have histor ically faced (Marmot & Allen, 2020).  
+The established supply chains, already marred by inefficiencies, seemed ill -prepared to address the 
+escalating demand, especially in areas like South Auckland where the situation was exacerbated by 
+pre-existing social disparities. Central to these challeng es was the observation that mainstream 
+pandemic measures, which perhaps worked for broader populations, faltered when it came to 
+addressing the nuanced needs of the Māori and Pacific Islanders. This inadequacy was a stark 
+reminder that one -size-fits-all st rategies were insufficient for such distinct communities.  
+The observational phase was pivotal in shedding light on these systemic failures. Not only did it 
+provide a real -time snapshot of the immediate challenges, but it also exposed the chronic 
+inadequacies in the supply mechanisms. This South Auckland narrative  resonated with Nunamaker 
+et al.’s (1991) insights on the significance of informed decision -making. Equipped with accurate 
+insights, there emerge d an opportunity for proactive identification and mitigation of community -
+specific challenges before they ampli fied into full -blown crises. Moreover, this scenario dovetailed 
+with Kruk et al.'s (2015) discussions on the health system's resilience, highlighting the pressing need 
+for anticipatory strategies and grassroots innovation to bridge the glaring gaps brought to light by 
+the pandemic.  
+Theory Building:  
+Addressing the intricate challenges faced by the Māori and Pacific Islander communities necessitated 
+an underpinning of robust theoretical frameworks. Such an approach would not only illuminate the 
+complexities of the situation but also pave the way for ta ilored interventions. Central to this 
+theoretical exploration were Systems Thinking principles, as elucidated by both Senge (1990) and 
+Meadows (2008). This paradigm provided an invaluable perspective, enabling a holistic view of 
+vulnerable communities as i ntricate, interconnected systems. Through this dual lens, the 
+multifaceted factors shaping community dynamics could be more thoroughly understood, allowing 
+for a granular examination of the prevalent challenges.  
+However, the broader view of Systems Thinking was complemented by delving into the realm of 
+social innovation theories (Mulgan , 2007). Recognising that community -centric solutions often yield 
+the most pertinent resolutions to complex societal challenges (Israel et al., 1998), this theoretical 
+framework accentuated the importance of pioneering locale -specific strategies, especiall y in periods 
+
+PAGE 7:
+of crisis. Such a stance underscored the need for inventive ideation and a shift from traditional top -
+down approaches. Importantly, it also highlighted the importance of integrating the cultural 
+nuances, practices, and values intrinsic to the Māori and Pac ific communities, ensuring that 
+interventions were not only innovative but also culturally respectful.  
+The social determinants of health model added another dimension to this theoretical framework, 
+offering insights into the myriad socio -economic, cultural, and environmental factors that influence 
+community health (Marmot et al., 2008). This model delved de ep into the root causes of community 
+vulnerabilities, grounding the research in a profoundly contextual understanding. Complementing 
+this, principles from design science (Hevner et al., 2004) were woven into the theoretical 
+exploration. Renowned for their meticulous approach to problem delineation and solution crafting, 
+these principles endowed the researcher with robust tools for both investigation and intervention 
+development.  
+To bring this theoretical approach full circle, the principles and methodologies of participatory action 
+research were embraced (Susman & Evered, 1978; Reason & Bradbury, 2008). Championing a 
+collaborative approach, this methodology underscored the importa nce of the community's active 
+participation in crafting solutions. Such an approach ensured that the devised interventions were 
+rooted deeply within the community, tailored to their unique needs, and designed in collaboration 
+with them.  
+Systems Development:  
+In the wake of COVID -19's emergence in New Zealand, the imperative to craft immediate and 
+sustainable solutions was magnified by the prevailing atmosphere of collective responsibility. This 
+sense of urgency necessitated the development of tangible, communi ty-centric interventions 
+tailored to the unique challenges faced by South Auckland.  
+In response, the researcher, building on pre -established insights and relationships, prioritised forging 
+trusted collaborations with Māori and Pacific stakeholders. These collaborations birthed a series of 
+targeted initiatives that were informed by the pri nciples of social innovation frameworks (Mulgan, 
+2007) and steered by design science methodologies (Hevner et al., 2004). These interventions, 
+grounded in South Auckland's societal context, epitomised the transformative potential of 
+grassroots initiatives in addressing overwhelming challenges.  
+A flagship intervention was the backyard sanitiser production project, helmed by the researcher. 
+This endeavour, inspired by Mulgan's social innovation tenets, highlighted the efficacy of 
+community -led solutions in tackling global challenges. By locally so urcing key components, such as 
+ethanol, and adhering to guidelines set by the WHO, this initiative showcased how hyperlocal efforts 
+could fill the void left by disrupted, larger -scale supply chains.  
+In tandem, the "Communities Take Action!" workshop materialised in South Auckland, co -developed 
+by the researcher in consultation with key community leaders. This workshop, a blend of knowledge 
+dissemination and collaborative action, served as both a pract ical and educational platform. With 
+sessions like community -oriented mask -making workshops and in -depth discussions fostering 
+community resilience, it acted as a prototype for potential community -driven initiatives that could 
+be adapted and replicated in d iverse contexts.  
+Championing participatory action research principles (O’Brien et al., 2007), the researcher facilitated 
+dialogues, identifying community vulnerabilities and strategising on amplifying community assets. 
+These collaborative discussions paved the way for the co-creation of grassroots strategies, 
+meticulously tailored to resonate with the needs and priorities of Māori and Pacific communities.  
+
+PAGE 8:
+Cumulatively, these endeavours fostered a collective sense of purpose and empowerment, 
+bolstering the community's ability to proactively tackle crises. Integrating the spirit of social 
+innovation, capitalising on pre -existing community networks, and nurtur ing collaborative ethos, 
+these initiatives solidified the foundation for enduring community resilience, even amidst 
+monumental challenges.  
+Validation:  
+To ensure the efficacy, safety, and cultural pertinence of the interventions, a rigorous validation 
+process was meticulously orchestrated. The validation extended beyond mere empirical vetting; it 
+sought to amalgamate scientific rigor with deep -rooted community wisdom.  Initially, empirical 
+consultations set the tone for validation. The researcher liaised with public health experts, 
+particularly those affiliated with the University of Auckland. Their expertise was instrumental in 
+providing real -time validation for both th e sanitiser formula and the mask designs, ensuring that the 
+interventions w ere anchored in empirical evidence and adhered to best practices.  
+Simultaneously, it was paramount to ensure that the interventions resonated with the communities 
+they intended to serve  (Israel et al., 1998) . In line with this ethos, the researcher initiated continual 
+dialogues with community leaders, healthcare workers, and representatives from the Māori and 
+Pacific communities. Conversations, guided by the principles of Nelson & Prilleltensky (2010), were 
+pivotal in tailoring interventions to be culturally sensitive and contextually pertinent. This iterative 
+feedback lo op, added layers of cultural and contextual relevance, ensuring that each initiative was 
+deeply rooted in Māori and Pacific values.  
+Community -driven validation emerged as another linchpin in the validation process. Adhering to the 
+principles of social innovation (Mulgan, 2007) and participatory research methods (Reason & 
+Bradbury, 2008), the community was positioned not as a mere benef iciary but as an active 
+participant in the validation journey. This approach championed the ethos that for an intervention to 
+truly be effective, it must be validated by the very community it seeks to aid.  Later stages of 
+validation expanded the scope even  further. They integrated contemporary mediums, incorporating 
+feedback from social media analytics and liaisons with community -based organisations, such as the 
+Lions Club and Rotary. This multi -tiered, integrative validation approach ensured that the 
+inter ventions were scientifically robust, culturally aligned, and deeply embedded within the 
+community's fabric, offering a holistic perspective on their potential impact and efficacy.  
+Community Action:  
+ 
+The pandemic, while presenting unprecedented challenges, also illuminated opportunities to 
+leverage the transformative potential of community action. At the heart of the researcher's 
+approach lay an unwavering commitment to social innovation and participat ory action research, 
+with the goal of mobilising communities towards enduring grassroots solutions.  
+To maximise the impact of developed interventions, the researcher, alongside a dedicated group of 
+community activists, championed a dual -pronged dissemination strategy. Initially, digital outreach 
+was employed, tapping into the expansive reach of social me dia platforms. Knowledge on sanitiser -
+making techniques and mask -crafting instructions were disseminated, ensuring broad accessibility 
+and real -time engagement, particularly among younger demographics. This initiative resonated with 
+Mulgan’s emphasis on pr oliferating innovative solutions in social innovation (Mulgan, 2007).  
+
+PAGE 9:
+Recognising the limitations of solely relying on digital means, the researcher also sought 
+collaboration with traditional community entities, such as the Lions Club and Rotary Club. These 
+alliances, deeply entrenched in the principles of social innovation,  leveraged the considerable 
+influence and trust these organisations held within communities. Thus, grassroots initiatives, even if 
+originating from a single community hall, could resonate on a larger scale, amplifying their impact.  
+Central to this community action ethos was the aspiration to cultivate resilience. Through consistent 
+feedback, community dialogues, and monitoring, interventions were continually refined, aiming not 
+just to address the pandemic's immediate challenges but also to enhance long -term community 
+resilience. Relationships, either with grassroots leaders or institutional entities, formed the 
+foundation for lasting partnerships. This comprehensive approach not only prepared communities to 
+tackle the immediate ramif ications of the pandemic but also strengthened their readiness for 
+potential future challenges.  
+Outcomes:  
+Amidst the unprecedented challenges of the COVID -19 pandemic, the community -centric 
+interventions in South Auckland realised tangible and impactful results. Through collaborative 
+efforts, over 400 litres of hand sanitiser were produced and distributed acro ss diverse community 
+groups and churches, ensuring that essential protective measures reached even the most 
+vulnerable. Parallel to this, a proactive mask -making initiative gained momentum in local high 
+schools, promoting a proactive response among the you nger population. These endeavours, deeply 
+rooted in the synergies of health, participatory research, and community empowerment theories, 
+successfully addressed the immediate necessities posed by the pandemic. More importantly, they 
+laid a foundation for fo stering resilience, empowerment, and health equity in these communities, 
+preparing them for future challenges.  
+ 
+3. Bolstering Mask Advocacy Through Online Communities of Practice  
+Observation:  
+In the nascent stages of the COVID -19 pandemic's global ramifications, the researcher undertook an 
+initiative characterised by both its simplicity and pertinence. Adorning a home -constructed t -shirt 
+inscribed with the emblematic phrase, "My mask protects you, your mask protects me," the 
+researcher subtly yet effectively underscored the mutual reciprocity inherent in mask -wearing. This 
+act, while modest, garnered attention from  local media outlets, thereby accentuating its pertinence 
+amidst the prevailing public health discourse.  
+The media's coverage of this initiative serendipitously intersected with the interests of the principal 
+figures spearheading the New Zealand chapter of Masks4All — a movement with its genesis in the 
+Czech Republic. Recognising the confluence of their objec tives with the researcher's proactive 
+stance, an invitation for collaborative engagement was proffered. As the researcher integrated into 
+this collective, he rapidly emerged as a pivotal entity within the Masks4All NZ infrastructure. This 
+assembly matured into a diverse conglomeration of individuals, spanning general practitioners, 
+students, and homemakers, yet unified by their fervent dedication to the principles of public health 
+advocacy.  
+Leveraging the dynamic nature of online communities, the chapter, bolstered by the researcher's 
+academic expertise and growing public recognition, undertook a thorough examination of gaps in 
+pandemic preparedness related to mask usage. Their extensive effo rts led to detailed discussions 
+
+PAGE 10:
+with various stakeholders, from transport officials to leaders in educational institutions. The primary 
+goal was to disseminate evidence -based knowledge on the effectiveness of masks, aiming to 
+cultivate a widespread culture of mask advocacy and adherence.  
+Amidst this backdrop of escalating influence, the NZ Masks4All chapter's trajectory was further 
+invigorated by their collaboration with Jeremy Howard, a distinguished figure in the global Masks4All 
+campaign. Howard, credited with significant advocacy miles tones, notably persuading US senators to 
+publicly acknowledge the merits of masks in the pandemic's early phase, remained a steadfast 
+collaborator. His co -authored research, "An evidence review of face masks against COVID -19" 
+(Howard et al., 2021), substan tiated the empirical foundations of mask advocacy. Howard's 
+sustained interactions with the NZ chapter over the pandemic's initial 18 months amplified their 
+advocacy endeavours, coalescing to foreground the salience of mask -wearing during this tumultuous 
+period.  
+Theory Building:  
+Central to the burgeoning success of the #Masks4All NZ group was its nature as a community of 
+practice. Drawing from the seminal works of Lave & Wenger (1991) and Wenger (1998), such 
+communities are grounded in the notion of shared learning and mutual enga gement. Here, 
+individuals, driven by a common purpose, pool their expertise and experiences, fostering a collective 
+learning environment. In the digital age, this takes on an amplified significance. The #Masks4All NZ 
+group, through its virtual platform, tr anscended geographical barriers, converging a myriad of voices 
+under a unified cause. Such a community, when orchestrated effectively, could not only disseminate 
+knowledge but also become a force for tangible change.  
+While the community of practice theory provided the structural architecture, the principles of 
+collective intelligence added another layer of depth. Woolley et al. (2010) elucidated that when 
+individuals collaborate, the group's collective intelligence oft en surpasses the sum of its parts. In the 
+context of #Masks4All NZ, this meant harnessing the diverse expertise of its members – from 
+healthcare professionals to passionate laypersons – to create an intelligence ecosystem that was 
+dynamic, responsive, and above all, effective in its advocacy efforts.  
+Yet, the task was not just about pooling collective intelligence but also about disseminating it 
+effectively. Here, the insights from knowledge translation theory, particularly the works of Ian 
+Graham, became invaluable. The goal was to transform empirical  findings on mask -wearing into 
+actionable insights, tailored for the group's diverse demographic (Graham et al., 2006).  
+Lastly, in an age where online communities are ubiquitous, understanding their unique dynamics 
+was paramount. Scholars like Berger (2013) and Bandura (2009) have delved into how online 
+platforms can mould interactions and engender specific behaviours. For the #Masks4All NZ 
+community, this meant designing interventions that resonated with the unique affordances of online 
+platforms, from the immediacy of feedback to the virality of shareable content.  
+In summary, by fusing the principles of communities of practice, collective intelligence, knowledge 
+translation, and online community dynamics, a robust theoretical foundation was established. This 
+served as the bedrock upon which the #Masks4All NZ communi ty's advocacy efforts were 
+conceptualised and executed.  
+Systems Development:  
+In the intricate landscape of digital communication, understanding the interplay between 
+technological modalities and human discourse becomes imperative. The #Masks4All NZ initiative, 
+
+PAGE 11:
+primarily anchored within the structured environment of a Facebook group, exemplifies the efficacy 
+of harnessing collective intellectual capacities within a community of practice, whilst adeptly 
+navigating an array of digital platforms.  
+The Facebook group, with its structured environment, emerged as the principal locus for 
+engagement, providing a space for collaborative discourse where members could proactively engage 
+in scholarly exchanges, elucidate empirical findings, and challenge extant misconceptions regarding 
+mask utility.  
+To augment the rich tapestry of engagement within the Facebook environment, several auxiliary 
+digital instruments were judiciously integrated. Google Forms was employed to orchestrate 
+structured data collection, meticulously capturing nuanced perspectives of the community. 
+Advocacy efforts, underpinned by empirical evidence, were channelled through petitions hosted on 
+Change.org, targeting policy -making entities to ensure the scholarly voice of the community 
+reverberated within legislative corridors. Concur rently, the visual -centric medium of Instagram was 
+utilised to propagate mask -making initiatives, aligning with the platform's predilection for visual 
+dissemination.  
+Throughout this developmental trajectory, strict adherence to the principles of knowledge 
+translation was maintained (Graham et al., 2006). Content dissemination, irrespective of its digital 
+medium, was meticulously calibrated to cater to the heterogeneous  demographic composition of 
+the community. Thus, while academic and professional constituents were engaged through 
+comprehensive scholarly syntheses, the wider community was apprised through lucid infographics 
+and succinct academic narratives.  
+In summation, the systems development phase exemplified a judicious amalgamation of 
+technological infrastructures, theoretical paradigms, and the dynamics of online community 
+engagement, thereby positioning the #Masks4All NZ community at the forefront of e rudite mask 
+advocacy.  
+Validation:  
+To assess the efficacy of the #Masks4All NZ initiative, it was crucial to adopt an approach steeped in 
+the principles of participatory validation, with the Facebook group acting as the nexus of this 
+evaluative process. Given the inherent dynamics of online  communities of practice, validation could 
+be immediate, transparent, and inclusive.  
+Posts, infographics, and shared research within the group were not just static content; they became 
+vibrant threads of discourse, evidenced by the flurry of likes, comments, and shares. Each comment, 
+whether it affirmed or critiqued the shared content, act ed as a real -time feedback mechanism, 
+harnessing the collective intelligence of the community. This immediate feedback, unique to online 
+community dynamics, enabled the administrative team to rapidly refine the advocacy strategies, 
+ensuring they remained r esonant with the community's ethos.  
+Furthermore, periodic surveys, hosted within the group, provided structured avenues to gauge 
+members' perceptions, concerns, and suggestions. These surveys, designed with the digital 
+affordances of the Facebook platform in mind, ensured that every member, irrespective of their 
+background, could voice their perspective. Thus, the validation process was not just an evaluative 
+tool; it embodied the very principles of a community of practice, fostering shared learning and 
+mutual engagement.  
+Community Action:  
+
+PAGE 12:
+As the heart and soul of the #Masks4All NZ initiative, community action was underpinned by the 
+principles of collective intelligence and online community dynamics. The Facebook group, acting as 
+the central hub, played a pivotal role in channelling this col lective intelligence into coordinated 
+advocacy efforts.  
+Every member, by virtue of their participation in this digital community of practice, became not just 
+a consumer of information but an active agent of change. Posts were designed, keeping in mind the 
+unique affordances of social media, to be more than just  informative; they were crafted to be 
+conversation starters. Each post, whether it shared the latest research or debunked prevalent mask 
+myths, was tailored to spark discussions, tap into the collective intelligence of the group, and drive 
+grassroots advoc acy. 
+Harnessing the principles of social influence, members were encouraged to not just engage within 
+the group but also to act as ambassadors outside its confines. By sharing key posts, creating and 
+leveraging campaign -specific hashtags, and initiating mask -related challenges, members could 
+extend the advocacy efforts to their personal networks. This digital ripple effect, where online 
+engagements translated into real -world actions, was testament to the power of online community 
+dynamics.  
+Yet, the group's impact was not limited to the digital realm. Recognising the potential for offline 
+impact, members were mobilised for tangible advocacy initiatives. Equipped with digital toolkits 
+comprising infographics, research summaries, and persuasive  narratives, members engaged with 
+local entities, from policymakers to community leaders, driving home the importance of universal 
+masking. Collaborative drives with local businesses and institutions further amplified these efforts, 
+ensuring that the group 's advocacy was felt in both digital and physical spaces.  
+In essence, the #Masks4All NZ community action epitomised the transformative potential of online 
+communities of practice. By seamlessly merging collective intelligence with the dynamism of online 
+communities, it showcased how digital platforms can become p otent vehicles for real -world change.  
+Outcome:  
+The #Masks4All NZ community's influence and reach achieved a significant milestone, with the 
+group amassing over 7,500 active members at its zenith. This remarkable growth attested to the 
+community's resonant message and its proficiency in engaging a diver se audience. The dynamic and 
+continuous exchanges that took place within the group further underscored its pivotal role in mask 
+advocacy in New Zealand. Such pronounced engagement within an online community of practice 
+showcased the transformative potentia l of digitally -mediated grassroots movements. Grounded in 
+evidence -based knowledge and a distinct mission, platforms like #Masks4All NZ profoundly 
+influenced public perceptions and behaviours surrounding critical public health initiatives, echoing 
+Benkler' s insights on the transformative nature of participatory digital networks (Benkler, 2006).  
+ 
+4. Navigating Public Health Challenges: Leveraging Communication and Collective Conformity 
+for Impactful Outcomes.  
+Observation:  
+In the initial months of the COVID -19 pandemic, New Zealand, like many nations, faced the daunting 
+task of ensuring public adherence to vital preventive measures. Based on the researcher's extensive 
+observations during the early phase of the 2020 nationwid e lockdown, he noticed that a surprisingly 
+
+PAGE 13:
+low percentage of supermarket patrons wore face masks. After spending significant hours in 
+supermarkets, gauging mask compliance, he estimated that less than 10% of visitors adopted this 
+protective measure. This was concerning, especially given the burgeon ing global evidence 
+highlighting the importance of masks in curbing virus transmission.  
+Several factors could have contributed to this low adherence. The government's initial reserved 
+approach towards promoting universal mask -wearing might have influenced public attitudes, 
+causing hesitation. Additionally, societal misconceptions, fuelled by cognitive biases or 
+misinformation, further exacerbated the issue. To the researcher, it became clear that a robust 
+communication strategy was imperative. Such a strategy needed to do more than just inform; it 
+needed to inspire and galvanise the public int o action, harnessing the impact of positive emotional 
+framing and societal norms.  
+The societal response to the pandemic was not merely a reflection of individual beliefs but was also 
+deeply influenced by collective thought processes and prevailing social norms. It was evident that 
+simply broadcasting the importance of preventive measure s wouldn't suffice. The approach had to 
+be nuanced, tapping into the collective psyche, dispelling myths, and fostering an environment 
+where adhering to preventive guidelines became the societal norm, not the exception.  
+Theory Building:  
+To architect an impactful communication strategy, it was imperative to delve deep into a multitude 
+of theories spanning social psychology, behavioural sciences, and persuasion techniques. One 
+foundational pillar was the prospect theory by Kahneman & Tversk y (1979). This theory elucidated 
+the nuances of decision -making under uncertainty, suggesting that individuals are more receptive 
+when behavio urs are framed as gainful actions. For instance, by portraying mask -wearing as a means 
+of safeguarding oneself and  the community, rather than a burdensome obligation, public adherence 
+might be bolstered.  
+Merely employing positive framing would not be enough. During challenging times, especially when 
+faced with a ubiquitous threat like a pandemic, invoking a sense of unity and community spirit 
+becomes paramount. Here, Fredrickson's (2004) broaden -and-build theory offers invaluable insights. 
+This theory posits that positive emotions can expand individuals' thought -action repertoires, 
+prompting a wider range of constructive responses. In the context of the pandemic, by accentuating 
+positive narratives —such as acts of kindness, resilience, and manifestations of community spirit —a 
+public health  campaign might want to  aim to amplify these broadening effects. Such a strategy 
+would not only inspire individuals to adopt protective measures like mask -wearing for their own 
+safety but also foster a heightened sense of responsibility towards the collective well -being. As 
+Fredrickson suggests, the positive emotions stemming from these narratives could build enduring 
+personal and social resources, thereby strengthening community bonds and encouraging sustained 
+adherence to health guidelines for the benefit of all.  
+Cialdini's influential work on persuasion (2001) further enriched this theoretical tapestry. 
+Recognising that individuals often seek validation and are influenced by societal norms, showcasing 
+widespread mask adoption as the prevalent norm could gently nudge ( Thaler and Sunstein , 2008),  
+individuals towards compliance. The role of societal influencers, underscored by Hovland & Weiss's 
+(1951) research on authority influence, was equally pivotal. Collaborating with these influential 
+figures could amplify the impact of any community health campaign the researcher embarked upon. 
+With insights from these diverse theoretical realms, the researcher envisioned a comprehensive 
+
+PAGE 14:
+communication ethos. This ethos, rooted deeply in motivation, inspiration, and action, would aim to 
+foster not just awareness but also a genuine commitment to community -wide health and well -being.  
+Systems Development:  
+In the face of the pandemic's pervasive uncertainty, the need to galvanise proactive public health 
+behaviours was evident. This necessitated a multifaceted approach, rooted deeply in evidence and 
+tailored to New Zealand's unique socio -cultural backdrop. Th e formation of the "Caring 4 Whanau" 
+collective by the researcher, which notably ran a podcast during the initial lockdown, and the 
+subsequent involvement with "Masks 4 All New Zealand" became pivotal initiatives.  
+Though spearheaded by the researcher, these efforts were underpinned by significant support from 
+his community -based allies. Professor Baker's collaboration, in particular, provided added credibility 
+and expertise to the campaign.  
+Central to the campaign's strategy was a comprehensive pitch deck. This detailed plan outlined a 
+wide range of digital and traditional interventions, each conceptualised to serve as digital 
+information kiosks. The pitch deck featured the establishment and promotion of Facebook pages, 
+websites, Instagram channels, and YouTube videos. Additionally, it included shareable digital 
+pamphlets on mask -making techniques, online petitions, and lobbying approaches tailored for 
+politicians and other decision -makers. Ed itorials at the university further amplified the message, 
+while strategically crafted TV and radio spots were integrated to ensure the campaign's message 
+resonated across diverse demographic segments.  
+The campaign was imbued with a spirit celebrating New Zealanders' sense of community. By framing 
+health measures as collective acts of caring, the campaign sought to foster unity. Engaging with 
+respected community figures further enriched the campaign. The ir involvement, grounded in the 
+principles of authority and source credibility as outlined by Hovland & Weiss (1951), provided the 
+campaign with authenticity.  
+Building upon Cialdini's (2001) principles of social proof, the campaign prominently showcased 
+testimonials and stories from individuals endorsing preventive measures. This strategy aimed to 
+instil a sense of belonging and emphasise that health guideline a dherence was both a responsible 
+and popular choice.  
+By weaving these diverse elements together, the Systems Development phase birthed a robust, 
+adaptive, and empathetic campaign. This campaign was poised to make a lasting impact on public 
+health behaviours in New Zealand.  
+Validation:  
+For an initiative of such scale and importance, rigorous validation was paramount. It wasn't merely 
+about ensuring the accuracy of the information disseminated but validating its resonance, relevance, 
+and impact on diverse community subsets. The campaign's  content underwent rigorous reviews by a 
+diverse group of experts spanning fields such as behaviour change (Bandura, 2001), health 
+communication (Kreuter & Wray, 2003), and community engagement (Laverack, 2006). Their 
+feedback was instrumental in refining the campaign's tone, ensuring it struck the right balance 
+between informativeness and inspiration.  
+Beyond expert consultations, the campaign sought validation from its most important stakeholder: 
+the community. Representative focus groups, reflective of New Zealand's diverse demographic 
+tapestry, were convened. These sessions, anchored in the principles  of participatory research and 
+
+PAGE 15:
+community engagement (Nelson & Prilleltensky, 2010), offered invaluable insights into the 
+campaign's reception, helping identify areas of strength and potential refinement. The feedback 
+loops were continuous, with the campaign evolving in real -time, inform ed by ground realities and 
+community feedback.  
+Moreover, the campaign's reach and impact were predominantly gauged through qualitative 
+methods and media analysis frameworks (McQuail, 2010). Anecdotal feedback, community 
+discussions, and engagement metrics like shares provided a nuanced picture of the c ampaign's 
+resonance within the community. While some accomplished statisticians within the Masks4All group 
+aided in discerning pandemic spread statistics, the approach largely leaned on qualitative insights 
+and lived experiences. This nuanced approach ensu red that the campaign remained agile, 
+responsive, and deeply attuned to the community's needs and sentiments. Through this rich, multi -
+layered validation process, the campaign not only ensured its credibility but also fortified its place as 
+a trusted sourc e of information and inspiration during these challenging times.  
+Community Action:  
+Central to the campaign's ethos was the belief that impactful change is amplified by grassroots, 
+community -led initiatives, rather than solely by top -down directives. Recognising the power of 
+community, a broad approach was taken to ensure deep penetration  of the campaign's messages 
+across New Zealand's diverse communities.  
+Respected community figures played a pivotal role, championing the campaign's ethos and serving 
+as role models. Their endorsement, echoing Cialdini's principles of authority and social proof (2001), 
+lent significant credibility to the campaign's messages.  
+The digital landscape, especially social media, was harnessed extensively. Hyperlocal groups, online 
+forums, and influencers were engaged, fostering organic dialogues around the campaign's core 
+themes. These platforms transformed into vibrant hubs for shar ed responsibility and solidarity.  
+To augment the campaign's reach, traditional media channels were not overlooked. Strategic radio 
+and TV spots were curated, targeting varied demographics. Newspaper representations, tailored to 
+the cultural nuances of different communities, further solidif ied the campaign's presence in the 
+public domain.  
+Collaborations with established community organisations further propelled the campaign. Through 
+these partnerships, ground events and seminars were organised, ensuring comprehensive 
+community outreach. By integrating principles of dynamic knowledge transla tion (Graham et al., 
+2006), these activities translated the campaign's messages into actionable, locally -relevant 
+initiatives.  
+In essence, the Community Action phase exemplified the transformative power of collective effort. It 
+illuminated how unified communities, driven by shared vision and purpose, can surmount even the 
+direst challenges. Through a blend of digital engagement, t raditional media, and grassroots 
+initiatives, the campaign became an emblem of hope and action amidst global adversity.  
+Outcome:  
+The campaign's impact was evident in the shifting public attitudes and heightened adoption of 
+recommended health measures. As communities coalesced around the campaign's positive 
+messages, there was a noticeable uptick in health -conscious behaviours like m ask-wearing and 
+physical distancing. The campaign's triumph was not just in disseminating information but in 
+
+PAGE 16:
+touching hearts, translating individual motivations into collective actions. While precise 
+quantification of health outcomes remains a future endeavour, initial observations hint at bolstered 
+community resilience. The campaign underscored the potential of positive, community -centric 
+communication. It served as a beacon, showing that research -backed, community -anchored 
+interventions can indeed spark transformative movements. The Masks4All group, including the 
+researcher, took immense pride in being part of t his transformative journey, shaping a more resilient 
+and health -conscious New Zealand.  
+5. Understanding Influences on Preventative Health Behaviors: An Academic Landscape 
+Survey  
+Observation:  
+The COVID -19 pandemic unveiled several layers of complexity concerning public health measures in 
+New Zealand. In particular, the inconsistent enforcement of mask mandates across different public 
+spaces sparked intrigue. While certain areas with higher risk s like public transport and airplanes had 
+clear mask mandates, other frequently populated areas like supermarkets and salons for the longest 
+time left the decision to individuals. This lack of uniformity brought forth several questions. Why 
+were individual s choosing not to wear masks in spaces where it wasn’t mandated? Were there 
+external factors influencing these decisions? Or perhaps, were there gaps in the public's 
+understanding of the importance of these preventative measures? The need to probe deeper i nto 
+these behavioural intricacies was evident.  
+As one delves deeper into the observational data, certain patterns and anomalies become evident. 
+For instance, while some public spaces witnessed a surge in voluntary mask usage over time, others 
+remained largely unaffected. This disparity in behavioural c hange over a similar timeframe pointed 
+towards underlying factors that might be influencing these choices. Were people in certain locations 
+more informed? Or perhaps, were there local influencers who played a pivotal role in shaping public 
+opinion? Such ob servational nuances emphasized the need for a comprehensive academic 
+exploration into the matter.  
+Drawing inspiration from the foundations of academic research, the observations seemed to 
+resonate with Nunamaker et al.’s (1991) problem awareness principle. The principle underlines the 
+significance of not just observing and identifying problems but delv ing deeper to understand their 
+root causes and seeking out timely and effective solutions. In the context of the pandemic, this 
+meant not just observing behavioural trends but understanding the factors that led to these 
+patterns. The observations laid the groundwork for a deeper academic exploration into the myriad 
+factors influencing preventative health behaviours . 
+Theory Building:  
+To understand the underlying factors that shaped these behaviours, the researcher delved deeply 
+into a range of social psychology theories. The Theory of Planned Behaviour, as delineated by Ajzen 
+(1991), offers a foundational framework. This theory suggests that individual intentions and actions 
+often arise from their attitudes towards the behaviour,  their perceived behavioural control, and the 
+subjective norms around them. Through this lens, the researcher sought to decipher the variations 
+in mask -wearing decisions, understanding the complex interplay of personal beliefs, societal 
+pressures, and perc eived control.  
+The Social Identity Theory (Tajfel, 1974) added another dimension, postulating that individuals often 
+act according to the norms and beliefs of the group they identify with. This theory became 
+
+PAGE 17:
+instrumental in understanding the collective dynamics at play during the pandemic, particularly in 
+relation to mask -wearing.  
+To delve into the nuances of persuasion, the researcher referenced the elaboration likelihood model 
+by Petty & Cacioppo (1986) and Cialdini's principles of influence (Cialdini, 2001). While the former 
+speaks to how messages are processed, either centrally with much thought or peripherally with less 
+deliberation, Cialdini's work provided insights into the tactics that can make certain messages more 
+compelling, such as the use of authority figures or the principle of reciprocity.  
+Lastly, drawing from behavioural economics, the researcher incorporated the insights of Thaler 
+(2015), who highlighted the impact of 'nudges' in influencing public behaviour. By understanding 
+how small prompts can lead to significant behavioural shifts, th e researcher aimed to design 
+interventions that subtly guide individuals towards desired health behaviours, like wearing masks.  
+However, while these seminal works provided invaluable theoretical foundations, they did not 
+specifically address behavioural dynamics in crisis situations like a pandemic. Recognising this gap, 
+the researcher contemplated the nuances unique to such unprec edented scenarios. There was an 
+inherent curiosity about what academics, specifically working in this space, might elucidate 
+regarding the individual and collective nuances that emerge during such crises.  
+Systems Development:  
+In response to the pandemic's intricate challenges, the Masks4All group, recognising the potential 
+gaps in our understanding of health behaviours, proposed an innovative approach. We decided to 
+create an informal survey targeting the academic community to gain a broader perspective on 
+health behaviours, especially regarding mask -wearing. While rooted in the the oretical underpinnings 
+of social psychology, the survey's design remained exploratory, intended to serve as a 
+complementary tool to enhance our community -driven initiatives.  
+For this endeavour, 60 academics were selected, hailing predominantly from New Zealand. These 
+academics spanned various disciplines, including Marketing, Behavioural Economics, Social and 
+Health Psychology, and Human Geography. Of these, 43 academics compl eted the survey.  
+The survey was structured to investigate the multifaceted factors influencing mask -wearing 
+behaviours. Drawing from the rich theoretical backdrop, questions were crafted to probe into 
+personal beliefs, societal pressures, perceived behavioural control, as informed by the Theory of 
+Planned Behavior (Ajzen, 1991). Additionally, the survey aimed to untangle the complexities of 
+group dynamics in influencing individual decisions, informed by the Social Identity Theory (Tajfel, 
+1974).  
+In line with the elaboration likelihood model (Petty & Cacioppo, 1986), the survey also sought to 
+discern the avenues through which individuals received and processed information about the 
+pandemic, influencing their behavioural choices. Given its explorat ory nature, the survey underwent 
+iterative refinements, incorporating feedback from both social psychology experts and community 
+allies. The primary aim was to ensure that the survey, while being comprehensive, also resonated 
+with the practical experiences  and challenges faced by the community, offering perspectives that 
+might be overlooked in more conventional research methods.  
+Validation:  
+While the survey's design aimed to tap into the insights of an academic community, I, as the 
+researcher, emphasised to our Masks4All group that the survey was exploratory and non -academic 
+
+PAGE 18:
+in its essence. I stressed that we should not view it as a traditional reliable or valid research 
+instrument. Instead, it should be seen as an informal tool, offering anecdotal insights that might 
+guide our strategies and interventions. This perspective, w hile underscoring the survey's limitations, 
+did not diminish its value but rather set a realistic framework for its interpretation and application.  
+The preliminary version of the survey was circulated among the selected group of academics. Their 
+feedback, while not forming part of a traditional validation process, was invaluable, offering insights 
+into potential gaps, ambiguities, and areas of focus. This feedback -oriented approach ensured clarity 
+and relevance, aligning the survey with the objectives of our Masks4All group. The preliminary 
+responses provided an initial glimpse into behavioural influencers, aiding our group in refining 
+community -based strategies.  
+This blend of academic respondents and an informal survey tool underscored our commitment to 
+understanding the myriad factors influencing preventative health behaviours in New Zealand, 
+positioning us to make informed decisions in our community -driven effor ts during the pandemic.  
+Community Action:  
+Armed with the insights from the survey, our approach within the Masks4All group experienced a 
+nuanced evolution. The survey's findings, though anecdotal, provided us with a newfound 
+confidence, enabling us to anchor our local activities within the broader  purview of health science. 
+Anecdotally, this integration seemed to bolster our credibility, especially when engaging with family, 
+friends, and the broader community.  
+The feedback from the academic community shaped our digital campaigns across platforms like 
+Facebook, YouTube, and podcasts. These platforms morphed into dynamic information hubs, 
+fostering community dialogue and disseminating evidence -informed narratives.  
+Our traditional media outreach – through radio, TV spots, and newspaper editorials – was enriched 
+and amplified. These channels resonated with feedback and sentiments from the academic 
+community, bolstering our outreach and impact.  
+Endorsements from trusted community figures and influencers, underpinned by insights from the 
+survey, synergised our efforts, leading to greater community acceptance and action. Our community 
+interventions, both digital and on the ground, reached even the most remote areas of New Zealand.  
+Reflecting on this phase of Community Action, the importance of collaboration, informed 
+understanding, and evidence -backed action was evident. Being part of the Masks4All group, I felt 
+immense pride in our journey – a testament to the power of community -led initiatives, informed by 
+anecdotal insights, in fostering collective resilience and well -being during challenging times like the 
+pandemic.  
+Outcome:  
+Upon incorporating academic insights into our Masks4All initiatives, tangible shifts were observed in 
+the community's attitudes and behaviours. Our digital campaigns experienced heightened 
+engagement, while our on -the-ground activities received increased r eceptivity. This mirrored the 
+successful blending of informal academic feedback with practical community action. Furthermore, 
+anecdotal feedback indicated richer, more informed discussions on mask -wearing within local 
+communities. Such discussions frequent ly referenced the survey's findings, suggesting a growing 
+recognition of its value. In essence, intertwining grassroots initiatives with academic perspectives 
+
+PAGE 19:
+fortified our group's efforts, making a pronounced impact during the challenging times of the 
+pandemic.  
+6. Applying Normative Influence Theory to Increase Mask Compliance  
+Observation:  
+The global onset of the COVID -19 pandemic catalysed unparalleled changes in public health 
+directives and societal behaviours. One of the most pronounced shifts was the adoption of mask -
+wearing as a preventative measure. Within the confines of the residential complex where the 
+researcher resided, it was evident that residents' mask -wearing behaviours were inconsistent. Some 
+conscientiously wore masks, recognising their ro le in mitigating virus transmission. Yet, a significant 
+portion appeared indifferent, navigating common areas without masks. Conversations with these 
+residents elucidated diverse reasons for their reluctance: some lamented the unavailability of masks 
+in lo cal stores, others bemoaned their prohibitive costs, while a few simply expressed disdain for the 
+perceived discomfort of wearing them. The gravity of such non -compliance was profound, especially 
+given the elevated risks associated with enclosed communal s paces, where air circulation could 
+potentially facilitate the virus's spread.  
+Parallel to this, anecdotal reports from members of the Masks4All New Zealand group, dispersed 
+throughout the country, sketched a varied tableau of mask -wearing behaviours among supermarket 
+staff. Some supermarkets stood out as paragons of public health co mpliance, with almost every staff 
+member donning a mask, resulting in compliance rates that approached a commendable 90%. Yet, in 
+stark contrast, other outlets showcased a palpable laxity in adherence, with compliance rates 
+plummeting to a worrying 30%. Su ch disparities, witnessed in ostensibly similar commercial 
+environments, heightened the urgency for customised interventions that could address the 
+underlying causes of such non -compliance. This patchwork of behaviours found echoes in Cialdini et 
+al.’s (19 90) focus theory of normative conduct, highlighting the influential role of societal norms and 
+peer behaviours in shaping individual decisions.  
+Theory Building:  
+Central to the approach was the focus theory of normative conduct (Cialdini et al., 1990). This theory 
+elucidates that individuals often model their actions based on perceived norms within their social 
+circles. If mask -wearing were championed as a normativ e behaviour, it could drive widespread 
+adoption.  
+Complementing this perspective is the Social Identity Theory by Tajfel and Turner (1979). This theory 
+posits that individuals' behaviours are significantly influenced by the groups they affiliate with. 
+Fishbein and Ajzen's (1975) Theory of Reasoned Action further expands on this, suggesting that 
+individual behaviours are a culmination of intentions driven by attitudes towards the behaviour and 
+subjective norms. By positioning mask -wearing as a group norm and aligning attitudes positively 
+towards it, there's  a heightened likelihood of compliance (Fishbein & Ajzen, 1975).  
+Additionally, the Health Belief Model (Rosenstock, 1974) offers insights into individuals' decisions to 
+adopt health -related behaviours, emphasising perceived threats and benefits. By understanding and 
+leveraging these perceptions, interventions can be tai lored to emphasise the personal and 
+communal benefits of mask -wearing, driving compliance (Rosenstock, 1974).  
+Systems Development:  
+
+PAGE 20:
+With a sound theoretical foundation in place, the next step was to design tailored interventions. For 
+the residential apartment building, an initiative was conceptualised that involved distributing 
+reusable fabric masks to all residents. Accompanying each mask was an explanatory flyer detailing 
+the objective behind the initiative – namely, to encourage mask usage in shared communal spaces. 
+This was seen as a tangible step to ensure the safety and health of all residents. By providing the 
+masks and coupling them with persuasive messaging, the goal was to trigger a critical mass of mask 
+usage, ultimately reaching a tipping point where mask -wearing became the norm.  
+On the supermarket front, the strategy was notably multifaceted. To ascertain compliance rates 
+among both staff and shoppers, 'mystery shopping' visits were orchestrated. These discreet 
+evaluations were conducted by members of the Masks4All New Zealand gro up. The researcher 
+played a pivotal role in coordinating these efforts, ensuring that observations were systematically 
+captured. Following these visits, regular online debriefing sessions were hosted by the researcher, 
+where members discussed their observa tions and shared insights. These collective observations, 
+which encompassed behaviours of both staff and shoppers, were then relayed to the corporate 
+headquarters at regular intervals. The data collated provided management with a clear picture of 
+the store s where compliance was not up to the mark. Armed with this invaluable information, 
+targeted interventions could be rolled out. These ranged from issuing compliance reminders to store 
+managers to launching retraining programmes that highlighted the importan ce of mask -wearing. By 
+harnessing both top -down directives from management and the intrinsic power of peer influence, 
+the overarching aim was to solidify mask -wearing as a habitual practice among both the 
+supermarket staff and shoppers.  
+Both interventions, though distinct in their settings, converged on a central theme: establishing a 
+critical mass of mask -wearing. Drawing on Lewin's work on change processes and field theory 
+(1947), the goal was to create conditions where mask -wearing wou ld transition from being a 
+sporadic behaviour to an ingrained social norm. This shift in collective behaviour, akin to reaching a 
+critical threshold or 'tipping point' as later popularised by Gladwell (2000), aimed to solidify mask -
+wearing as a regular pra ctice. Additionally, the interventions drew inspiration from the nudge 
+theory, which underscores the potential of subtly guiding individuals towards desired behaviours 
+(Thaler & Sunstein, 2008).  
+Validation:  
+Post -implementation, the effectiveness of the interventions was gauged through various 
+mechanisms. In the residential apartment setting, observational data served as the primary 
+validation tool. In the weeks following the mask distribution, there was a dis cernible uptick in mask 
+usage within communal areas. From an initial baseline of less than 10%, compliance surged to over 
+70%, as per observational estimates. This was further corroborated through informal conversations 
+with residents, with the majority ex pressing a positive sentiment towards the initiative.  
+For the supermarket intervention, the validation process was extensive and collaborative. The 
+Masks4All 'mystery shoppers' engaged in regular debriefing sessions after their visits. The researcher 
+played a lead role in these debriefings, consolidating the findings from various members and 
+ensuring a cohesive understanding of observations. Every few days, for a duration of approximately 
+six weeks, these consolidated findings were reported to the senior management of the supermarket 
+chain, specifically those in charge of Covid health compliance. This real -time feedback loop allowed 
+senior management to swiftly identify compliance challenges in specific stores and implement 
+corrective measures. Feedback from store managers was also solicited, offering a granula r view of 
+the intervention's impact at the store level.  
+
+PAGE 21:
+While both interventions yielded positive preliminary results, there were acknowledged limitations. 
+The reliance on observational and anecdotal evidence, in the absence of more rigorous validation 
+tools like surveys or third -party evaluations, meant that t he findings, though promising, required 
+further validation. Future iterations could benefit from incorporating more systematic validation 
+methods to ensure a comprehensive assessment of the interventions' efficacy.  
+Community Action:  
+The interventions embarked upon were not just mechanistic strategies to promote mask -wearing; 
+they were deeply rooted in fostering community solidarity and responsibility during an unparalleled 
+health crisis.  
+Within the residential complex, the distribution of masks was accompanied by detailed flyers that 
+did more than merely instruct. They narrated a narrative of mutual benefit, urging residents to view 
+mask -wearing not just as a personal protective measure bu t as a collective commitment to the 
+community's safety. This sentiment was further amplified through strategically placed notices in 
+shared spaces like lobbies and lifts, regularly reminding residents of their collective role and 
+responsibility in combatti ng the spread of the virus.  
+The supermarket strategy was more intricate, reflective of the broader public it catered to. Beyond 
+the top -down directives from management that emphasised mask -wearing, the real strength lay in 
+the grassroots efforts of the Masks4All members. Their role a s 'mystery shoppers' was pivotal, as 
+they spent endless hours observing, documenting, and analysing compliance in various supermarket 
+outlets. Their commitment to the cause was evident not just in their rigorous evaluations but also in 
+their sustained effo rts beyond the formal observation period. Even after the 6 -week project 
+concluded, several dedicated members of Masks4All persisted in their monitoring efforts. They 
+continued to engage with local store managers, fostering a collaborative approach to impro ving 
+mask compliance. This ongoing dialogue ensured that the momentum gained during the formal 
+intervention was not lost. Instead, it facilitated an environment where mask -wearing became less 
+about organisational directives and more about community -led act ion. Through these concerted 
+efforts, mask -wearing was positioned not just as a transient response to a pandemic but as a long -
+term commitment to community well -being.  
+Outcome:  
+The preliminary outcomes of both interventions were encouraging. Observational data from the 
+residential setting indicated a significant uptick in mask -wearing post -intervention. In supermarkets, 
+compliance improved markedly, with some stores even nearing optimal adherence levels. While the 
+Masks4All mystery project cannot claim full credit for these improvements, individual members felt 
+that their sustained efforts and engagements with store managers were not in vain, making a 
+tangible difference in the la rger campaign. However, these positive shifts, rooted in observational 
+and anecdotal feedback, underline the need for more rigorous, future evaluations.  
+ 
+7. Enhancing Safety of Close Contact Services Through Stakeholder Collaboration  
+Observation:  
+In the intricate landscape of New Zealand's response to the COVID -19 pandemic, the methodical 
+reopening of various sectors ushered in a host of challenges. The beauty industry, encapsulating 
+services such as hairdressing, nail salons, spas, and make -up studios, was particularly fraught with 
+
+PAGE 22:
+dilemmas. The very nature of these services demands close physical interactions between providers 
+and clients, thereby amplifying the urgency for meticulous safety protocols. Delving into various 
+digital platforms, which act as barometers of prevailing pub lic sentiment, revealed a tapestry of 
+concerns voiced by both customers and those entrenched in the industry. These platforms, beyond 
+our Masks4All group, included myriad online forums engaging in fervent debates regarding the 
+challenges faced by the beaut y sector. Such forums, serving as microcosms of broader societal 
+apprehensions, underscored a prevalent anxiety about ensuring health and safety as services sought 
+to recommence. The synthesis of these digital narratives highlighted an urgent imperative: t he 
+establishment of evidence -backed, practicable guidelines tailored to the unique contours of the 
+beauty industry.  
+This burgeoning digital narrative elucidated a conspicuous void: the dire need for cogent, empirically 
+underpinned guidelines to allay these proliferating apprehensions. Recognising the gravity of the 
+scenario was paramount. Given the beauty sector's integral role as a substantial economic 
+contributor and its significance as a primary livelihood source for myriad individuals, its secure 
+operational resumption was of paramount importance. The conundrum was multifaceted: it 
+necessitated not only the synthesis of comprehensive guidelines but also the assur ance that these 
+directives would be both pragmatic and efficacious, thus fostering an environment of trust and 
+assurance amongst all involved parties.  
+Further analysis of digital discussions and qualitative data highlighted a clear concern, echoing the 
+problem awareness principle as outlined by Nunamaker et al. (1991). It was evident that the beauty 
+industry, in preparation for resumption of operations, required well -designed interventions 
+grounded in empirical research, yet adapted to the specific needs of the sector. Within the 
+Masks4All community, particular attention was given to this sector, notably with the inclusion of 
+some members who were promine nt leaders within the beauty industry. Their contributions further 
+emphasised the need for a collaborative approach, integrating scientific knowledge with practical 
+industry considerations  
+Theory Building:  
+Addressing the challenges identified in the observation stage required a theoretical foundation that 
+integrated rigorous academic principles with tangible real -world applicability. The Masks4All group, 
+having established itself as a credible entity in publ ic health advocacy, was poised to play a pivotal 
+role in this juncture. With its members encompassing both general public advocates and esteemed 
+leaders within the beauty industry, the group's expertise and credibility offered a unique advantage 
+in bridgin g the knowledge gap and augmenting the industry's efforts to navigate the complexities of 
+the pandemic.  
+The concept of trust, as delineated by Kelton et al. (2008), emerged as a core theoretical tenet. 
+Given the profound uncertainties of the pandemic era, fostering trust in the guidelines and 
+recommendations became paramount. The beauty industry, faced with the imperative of ensuring 
+health safety while resuming operations, would benefit immensely from the credibility and expertise 
+offered by Masks4All.  
+Supplementing this was the collaborative governance model articulated by Ansell and Gash (2008). 
+The model underscores the value of collaborative efforts between diverse stakeholders to achieve 
+cohesive outcomes. In the context of the beauty industry, it n ecessitated a collaborative synthesis of 
+insights from health experts, industry leaders, and the Masks4All community. Such an approach 
+
+PAGE 23:
+aimed to produce guidelines steeped in empirical evidence while being nuanced for the specific 
+requirements of the beauty sector.  
+The integration of these theories provided a comprehensive blueprint for action. The primary 
+objective was to establish a milieu underpinned by open communication, mutual respect, and trust. 
+By actively involving Masks4All, with its accumulated expertise a nd industry connections, in the 
+process of guideline formulation, the strategy sought to ensure that the ensuing guidelines would 
+not only be rooted in scientific rigour but also practical and implementable. This spirit of inclusivity 
+and collaboration res onated with the tenets of participatory action research, which emphasises the 
+proactive involvement of all stakeholders in problem -solving processes (Lewin, 1946; Nelson & 
+Prilleltensky, 2010).  
+Systems Development:  
+In advancing the strategies and insights gleaned from the observation and theoretical foundation 
+stages, the emphasis transitioned to operationalising this knowledge. The Masks4All group, fortified 
+by its established credibility in the realm of public heal th advocacy, proactively reached out to 
+industry stakeholders. A methodologically structured communication was conveyed to these 
+stakeholders, delineating the tangible risks associated with reinstating close -contact services in the 
+beauty sector amidst the  pandemic's backdrop. Crucially, this outreach was underscored by a 
+collaborative proposition: leveraging the Masks4All group's consolidated expertise, particularly that 
+of the researcher and his collaborations with prominent figures like Professor Baker, to assist the 
+industry in adeptly circumnavigating these challenges.  
+To further augment the credibility and potency of this outreach, the collaboration with Professor 
+Baker, a preeminent epidemiologist in New Zealand, was prominently spotlighted. Harnessing his 
+stature and the trust he had cultivated during the pandemic pro vided an additional layer of 
+assurance to industry stakeholders, fostering an environment conducive for active engagement and 
+collaboration.  
+The systems development phase epitomised the ethos of collaborative synergy. The objective was 
+dual -faceted: to amalgamate scientific acumen with the practical operational dynamics of the beauty 
+sector. Drawing upon organizational development principles, a s elucidated by Schein (1996), this 
+initiative endeavoured to coalesce expertise from diverse quarters to sculpt guidelines that 
+resonated with scientific integrity and operational pragmatism.  
+Within this collaborative matrix, the Masks4All group, and particularly the researcher, took on a 
+pivotal role. Given the researcher's established rapport with Hair & Barber New Zealand (H&BNZ, 
+formerly NZARH), this association was instrumental in sculptin g a section within the health and 
+safety plan, explicitly focused on mask usage. This integration was not merely symbolic; it signified 
+the culmination of collaborative efforts, synthesising scientific research with industry -specific 
+nuances to curate guid elines that were both empirically robust and practically implementable.  
+Validation:  
+To authenticate the feasibility and applicability of the collaborative approach, engagements with 
+pivotal industry stakeholders were initiated. A primary contact was the Chairperson of the New 
+Zealand Registered Hairdressers Association (NZARH). An exhaust ive meeting request was 
+dispatched to the NZARH, elucidating the potential health risks associated with the reopening of 
+salons during the pandemic's ongoing threat.  
+
+PAGE 24:
+The prompt affirmation from the NZARH Chairperson to participate in the proposed meeting was a 
+significant indicator. This swift response not only indicated the industry's acute awareness of the 
+present challenges but also their commitment to a collective strategy for mitigation. The validation 
+process, informed by principles from community psychology (Nelson & Prilleltensky, 2010), sought 
+feedback from industry participants. The aim was to ensure that the resultant guidelines were 
+contextually tailored and  possessed actionable clarity.  
+A salient milestone in the validation process was the recognition of the NZARH's health and safety 
+plan during a Ministry of Health Press Conference. It was spotlighted and lauded as a model, 
+delineating how close -contact sectors should contemplate their r eopening strategy amidst the 
+pandemic. This accolade underscored the success of the collaborative efforts and heightened the 
+credibility and acceptance of the guidelines among industry stakeholders, thereby fostering 
+increased adherence and implementation.  
+Community Action:  
+Upon validation, the collaborative framework was mobilised. A series of virtual consultations was 
+convened, amalgamating insights from New Zealand's preeminent epidemiologist and the NZARH 
+Chairperson. These dialogues were centred on synergising scientific  health principles with the 
+operational dynamics of the beauty industry.  
+The collaborative consultations culminated in a comprehensive set of guidelines. Recognising the 
+exigency of the situation, these directives were swiftly disseminated across New Zealand's hair 
+salons, leveraging NZARH's extensive network. The iterative dev elopment process, augmented with 
+regular feedback, ensured that the guidelines were not merely top -down edicts but were informed 
+by ground -level insights.  
+The community action phase epitomised collaborative ethos. With the validated guidelines in place, 
+a series of training webinars and workshops were proposed to further familiarise industry 
+professionals with the new protocols. These sessions aimed at not o nly disseminating the guidelines 
+but also at addressing concerns, clarifying ambiguities, and ensuring that salons were well -equipped 
+to implement the new protocols effectively. Stakeholder feedback loops were established, allowing 
+for real -time feedback a nd potential refinements to the guidelines based on on -ground experiences.  
+Central to this was the strategic application of normative and social influence principles, tailored to 
+the unique context of the beauty industry. The initiative aimed to foster a sense of shared 
+responsibility, seeking to accelerate the adoption of safety  protocols across the beauty sector. 
+Collaborative efforts were also channelled into public awareness campaigns, ensuring that 
+customers were cognisant of the measures in place and could make informed decisions when 
+seeking beauty services.  
+ 
+Outcome:  
+The collaborative efforts culminated in the creation of robust guidelines tailored for the beauty 
+industry's unique requirements, which gained widespread adoption across New Zealand. The public 
+endorsement of the NZARH's health and safety plan during a Min istry of Health Press Conference 
+amplified its credibility and acceptance. Coupled with proactive training initiatives, regular feedback 
+mechanisms, and public awareness campaigns, the beauty industry was well -equipped to ensure 
+health and safety amidst th e pandemic's challenges, demonstrating a remarkable blend of scientific 
+acumen and industry -specific pragmatism.  
+
+PAGE 25:
+ 
+8. Enhancing Pandemic Response through Comprehensive Cross -Sector Collaborations  
+Observation:  
+In the backdrop of New Zealand's evolving stance during the COVID -19 pandemic, the Masks4All 
+group, having already carved a niche for itself through grassroots advocacy, sought to pinpoint and 
+address areas where policy measures appeared to falter in the f ace of burgeoning scientific 
+evidence. The collective's direct community engagements bore witness to a disconcerting trend: 
+despite the mounting empirical support for mask usage, public transit settings like buses and trains 
+remained conspicuous zones of n on-compliance.  
+Revisiting their prior endeavours revealed an enlightening pattern. The collective’s conscientious 
+attempts to inculcate mask -wearing habits within specific residential communities, although 
+effective in microcosms, underscored a larger challenge: the real  hurdle was not isolated 
+behavioural change, but the harmonisation of such changes at a national scale. The disparity 
+between localised achievements and nationwide inconsistencies hinted at a broader systemic 
+misalignment. It became evident that to effectu ate a pan -national behavioural shift, a more 
+integrated approach was imperative, fusing policy directives with grassroots advocacy.  
+Given the heightened credibility and extensive partnerships the Masks4All team had cultivated, they 
+were uniquely poised to spearhead this integrated initiative. Their meticulously curated body of 
+community -based research and intervention outcomes not only  spotlighted the extant gaps but also 
+underscored the efficacy and impact of collaborative, community -driven interventions. This robust 
+empirical foundation offered a compelling narrative, underscoring the need for weaving together 
+expertise from various d omains – be it public health, policy formulation, or community advocacy – 
+into a coherent, synergised pandemic response strategy.  
+Theory Building:  
+The strategy's foundation drew heavily from Rogers' (2003) Diffusion of Innovations theory, 
+highlighting the essential role of communication channels and social systems in advancing the 
+adoption of new behaviours such as mask -wearing. This theory elucidates how innovations spread 
+through populations, underscoring the importance of early adopters and influential nodes within 
+social networks.  
+Furthermore, the Social Network Theory (Christakis & Fowler, 2007) provided valuable insights into 
+the dynamics of human interconnectivity. By understanding the patterns and influences within these 
+networks, it becomes feasible to identify key nodes or ind ividuals that can be leveraged to amplify 
+the spread of mask -wearing norms and behaviours.  
+The Theory of Planned Behaviour (Ajzen, 1985) was also integrated into the strategy. This theory 
+posits that individuals' behaviours are shaped by their attitudes, perceived social norms, and their 
+perceived control over the behaviour. By understanding and  influencing these components, one can 
+foster environments that are more conducive to behavioural change.  
+Lastly, the Agenda -Setting Theory (McCombs & Shaw, 1972) informed the approach towards media 
+engagement. This theory emphasises the media's ability to influence the importance placed on 
+certain topics within the public agenda. With this in mind, the strate gy sought to ensure that mask -
+wearing and its associated benefits remained a salient topic in media discourse.  
+
+PAGE 26:
+Synthesising these theoretical frameworks, a comprehensive strategy emerged. The Masks4All 
+group, with its robust ties to health professionals and its accrued credibility, sought to foster a 
+dialogue that seamlessly integrated grassroots advocacy with top -tier policy recommendations. The 
+media's role, fortified by the insights from the group's community endeavours, was instrumental in 
+keeping the discourse on mask -wearing policies both prevalent and informed.  
+Systems Development:  
+Informed by their in -depth observations and the theoretical constructs, the Masks4All group pivoted 
+towards a more holistic systems development approach, weaving together various strands of 
+expertise and influence.  
+Recognising the profound importance of robust scientific insights in driving public health policies, 
+the group established early dialogues with leading epidemiologists. These interactions were 
+instrumental in distilling and synthesising the burgeoning body  of research on mask efficacy into 
+tangible, actionable insights. By doing so, the collective sought to ensure that any advocacy or policy 
+recommendations were grounded firmly in empirical evidence.  
+Given the group's accrued credibility, they found themselves in a unique position to act as conduits 
+between the scientific community, policymakers, and key stakeholders in the transport sector. Initial 
+engagements were set up with policymakers, heads of A uckland Transport, Wellington Metlink, and 
+senior representatives from Air New Zealand. These structured dialogues presented these 
+stakeholders with a meticulously curated amalgamation of scientific insights and community 
+observations. The aim was to creat e an informed consensus, bridging the gaps between scientific 
+recommendations, policy directives, and on -ground operational realities in the transport sector.  
+Parallelly, the media's role in shaping public perception and influencing policy discourse was 
+capitalised upon. Armed with community -based data, investigative journalists were engaged to 
+spotlight the evident discrepancies between prevailing public health  policies, transport practices, 
+and the emerging scientific consensus. Their narratives, informed by Masks4All's grassroots data, 
+lent weight to the call for a more harmonised and evidence -driven approach in both policy and 
+transport operations.  
+Moreover, recognising the pivotal role of communities in driving behavioural change, the group 
+collaborated with local community leaders and advocates to amplify the mask -wearing narrative at 
+the grassroots level. These endeavours sought to foster an envir onment where mask -wearing was 
+not just seen as a top -down directive but as a community -driven initiative, underpinned by both 
+scientific rationale and a collective commitment to public health.  
+Thus, the systems development phase was emblematic of Masks4All's commitment to a multi -
+pronged and integrative approach. By synchronising top -down policy advocacy with bottom -up 
+community initiatives, and ensuring that both were informed by the latest sci entific insights, the 
+group aimed to sculpt a comprehensive, cohesive, and sustainable pandemic response strategy.  
+Validation : 
+The process of evaluating the influence and success of the collaborative strategies necessitated a 
+nuanced and multi -faceted approach. With a particular emphasis on the transport sector, 
+monitoring of policy shifts in entities like Auckland Transport, Well ington Metlink, and Air New 
+Zealand was paramount. In a significant move, Auckland Transport swiftly instituted mandatory 
+mask guidelines, an initiative that was promptly echoed by Air New Zealand in its domestic 
+operations.  
+
+PAGE 27:
+In a bid to gain a more tangible grasp of the on -the-ground impacts of these policy changes, an 
+informal observational approach reminiscent of the 'mystery shopper' technique previously 
+employed in supermarkets was adopted across major transit hubs. This m ethod aimed to 
+unobtrusively gauge real -world compliance to the new mask -wearing directives. The results were 
+telling, with a discernible increase in mask -wearing compliance post the introduction of these 
+policies, reinforcing the efficacy of such collabor ative efforts.  
+The media's influence in shaping public perceptions was another critical facet of the validation 
+process. An in -depth analysis of mask -centric narratives across diverse media platforms, from 
+television broadcasts to digital channels, revealed a heightened emphasis on the importance of 
+mask -wearing. While collaborations like those with Masks4All might have played a part, it was 
+evident that a broader narrative shift was taking place in the media, attesting to the power of 
+informed journalism in driving publi c discourse.  
+To further refine the understanding of community sentiments, a qualitative study was conducted. 
+This exercise shed light on a heartening shift in perceptions, with communities now viewing mask -
+wearing more as a collective duty than a mere individual choice . 
+Overall, the validation phase underscored the tangible benefits of a harmonised approach, aligning 
+policies, media narratives, and ground realities through effective cross -sector collaborations.  
+Community Action : 
+While policy alignment was a significant milestone, the Masks4All collective was acutely aware that 
+sustaining such gains necessitated ongoing community engagement. Drawing upon the Potential for 
+Collective Action theory (Marwell et al., 1988), the group endeavoured to ensure that mask -wearing 
+evolved from a mere policy directive to becoming a deeply rooted societal norm.  
+In pursuit of this objective, Masks4All amplified its grassroots initiatives. Notable among these were 
+high -visibility mask distribution drives at pivotal transit hubs. Concurrently, media campaigns were 
+orchestrated, showcasing notable influencers and lea ders from diverse sectors exhibiting 
+responsible mask -wearing behaviours. These endeavours were crafted with the intent to normalise 
+mask -wearing, transitioning its perception from an external imposition to a universally endorsed 
+practice.  
+Beyond this, Masks4All sought collaborations with local educational and community organisations. 
+These collaborations facilitated the roll -out of tailored educational campaigns, meticulously 
+designed to debunk prevalent myths surrounding mask usage. Drawin g from the rich tapestry of 
+insights accrued from their past engagements, these campaigns were tailored to be culturally 
+resonant and contextually apt.  
+The emphasis was unequivocally on cultivating a culture of collective responsibility. The goal was to 
+move beyond the narrative of mask -wearing as a top -down mandate and embed it as a community -
+driven ethic. Through their expansive partnerships and grassro ots networks, Masks4All was 
+committed to maintaining and bolstering public advocacy around mask -wearing. This was envisioned 
+as a means to ensure its continuity as a societal norm and a community -led movement, even as the 
+broader policy terrain continued t o evolve.  
+ 
+ 
+Outcome:  
+
+PAGE 28:
+The comprehensive and integrative strategies adopted by Masks4All underscored the power of 
+cross -sector collaborations in effectuating meaningful change. By harmonising top -down policy 
+directives with grassroots advocacy, and ensuring that such efforts wer e underpinned by rigorous 
+scientific insights, tangible strides were made in addressing the pressing challenge of mask 
+compliance in public transit settings. Moreover, the strategic engagements with key transport 
+stakeholders like Auckland Transport, Welli ngton Metlink, and Air New Zealand illuminated the value 
+of informed consensus -building. While the collective's efforts were instrumental, the broader 
+societal shift towards mask -wearing was a testament to the combined influences of informed media 
+narrativ es, robust community engagements, and responsive policy shifts. In essence, this iteration 
+epitomised the philosophy that while individual efforts can sow the seeds of change, it is through 
+collective, synergistic actions that sustainable transformations a re truly realised. References: 
+Christakis, N. A., & Fowler, J. H. (2007). The spread of obesity in a large social network over 32 years. 
+New England Journal of Medicine, 357(4), 370 -379. Kahneman, D. (2011). Thinking, fast and slow. 
+Macmillan. Marwell, G., & Oliver, P. (1993 ). The critical mass in collective action. Cambridge 
+University Press. McQuail, D. (2010). McQuail's mass communication theory (6th ed.). Sage 
+Publications. Nelson, G., & Prilleltensky, I. (2010). Community psychology: In pursuit of liber ation 
+and well -being. Palgrave Macmillan. Rogers, E. M. (2003). Diffusion of innovations (5th ed.). Simon 
+and Schuster.  
+ 
+ 
+9. Fostering Global Solidarity: An In -Depth Exploration into Securing Essential PPE Supplies 
+for Pacific Island Nations  
+Observation:  
+The relentless advance of COVID -19 drew sharp focus to the vulnerabilities of certain global regions, 
+with Pacific Island nations emerging as a particular area of concern. Initial engagements, especially in 
+Pacific communities such as Mangere, painted a gr im picture. The scarcity of protective gear, notably 
+reusable masks, was palpable. The clarion call from advocacy networks, especially #mask4all, 
+underscored the urgency. The researcher's South Korean affiliations serendipitously positioned him 
+as a bridge  between New Zealand's leading epidemiologists and potential solutions. The burning 
+question: Could the New Zealand government feasibly equip every citizen with a reusable mask? 
+(Nunamaker et al., 1991; Kahneman, 2011).  
+The urgency and magnitude of the issue necessitated immediate action. Observations revealed that 
+while global powers grappled with the pandemic, regions like the Pacific Islands faced exacerbated 
+challenges due to their unique geographical and socioeconomi c fabric. The lack of essential 
+protective gear was a stark reminder of the pressing need for intervention. The vocal advocacy of 
+the #mask4all network underscored the broader Pacific regions' vulnerabilities and the glaring gaps 
+in preparedness.  
+The researcher's affiliations with South Korea became an unexpected beacon of hope. New 
+Zealand's leading epidemiologists, cognizant of this connection, reached out, exploring the feasibility 
+of a nationwide mask provision initiative. This development unde rscored the potential for cross -
+border collaboration and knowledge exchange to address the pressing challenges posed by the 
+pandemic.  
+Theory Building:  
+
+PAGE 29:
+Crafting a solution required a robust theoretical foundation. The Diffusion of Innovations theory by 
+Rogers (2003) provided invaluable insights. It illuminated pathways for diffusing innovative solutions 
+across geographically dispersed and culturally diver se communities. However, the challenge wasn't 
+merely logistical or technical; it was deeply ethical. Principles of global justice, as articulated by 
+Pogge (2008), highlighted the ethical imperative of ensuring equitable access to healthcare 
+resources acros s the globe.  
+The quest to foster mask -wearing compliance was complex, necessitating a multidimensional 
+approach. Drawing inspiration from the Diffusion of Innovations theory, there was an emphasis on 
+understanding how best to introduce and propagate the mask -wearing no rm across diverse Pacific 
+communities. Furthermore, the ethical dimensions of the challenge were underscored by principles 
+of global justice. This highlighted the moral duty to ensure equitable access to essential health 
+resources, positioning it as a univ ersal right rather than a privilege.  
+Integrating these perspectives, the researcher's approach was further enriched by insights from 
+international development paradigms (Krätke & Byiers, 2014). These models emphasized a multi -
+pronged strategy, blending rigorous assessment, fostering internati onal alliances, and most crucially, 
+empowering local communities to take ownership of the interventions. This holistic approach aimed 
+to ensure sustained benefits and resilience in the face of future challenges.  
+Systems Development:  
+The quest for solutions led to the discovery of the International Youth Culture Exchange Federation 
+(IYCEF) based in South Korea. Their philanthropic initiative, the "Be Thoughtful" donation project, 
+resonated deeply with the researcher's objectives. Recog nising the potential synergy, a 
+comprehensive strategy, anchored in network theory (Senge, 1990) and change management 
+paradigms (Lewin, 1946), was formulated. The goal: to harness global networks and foster capacity 
+building at the grassroots level.  
+The alliance with IYCEF offered a glimmer of hope. Their "Be Thoughtful" donation project, with its 
+philanthropic ethos, aligned seamlessly with the researcher's mission. Recognising the inherent 
+synergies, a multifaceted collaboration was envisaged. Drawi ng upon network theory and change 
+management principles, a strategy was developed to maximise the impact of this partnership. The 
+objective was clear: to utilise global networks effectively while strengthening the recipient 
+communities, ensuring they were better prepared to navigate future crises.  
+Collaborative endeavours took shape. The researcher's strategy centred on leveraging the expansive 
+reach and resources of IYCEF while ensuring that the interventions were tailor -made for Pacific 
+communities. Integrating principles from network theory and c hange management, the initiatives 
+were designed to not just address immediate needs but to lay the groundwork for sustained 
+resilience and self -sufficiency. The essence was to strike a balance between providing immediate 
+relief and fostering long -term comm unity empowerment.  
+Validation:  
+As interventions unfolded, ensuring their contextual relevance was paramount. Pacific Island health 
+officials, community leaders, and other pivotal stakeholders were extensively consulted. These 
+consultations facilitated the establishment of iterative feed back loops, enabling ongoing strategy 
+refinement. This commitment to continuous feedback and adaptation ensured the interventions 
+remained attuned to the unique needs and aspirations of each Pacific community (Nelson & 
+Prilleltensky, 2010).  
+
+PAGE 30:
+Validation wasn't a one -off phase but a continuous, iterative process. Pacific Island health officials, 
+community torchbearers, and other stakeholders became integral collaborators, offering invaluable 
+feedback and insights. This collaborative approach ensured the strategies evolved in real -time, 
+always aligning with the unique nuances and needs of the communities. The emphasis was on co -
+creation, ensuring the solutions were not just for the communities but crafted with them.  
+The validation efforts underscored the commitment to ensuring the interventions resonated deeply 
+with the target communities. The rich dialogues and consultations with Pacific Island stakeholders 
+illuminated the path forward, enabling the fine -tuning of st rategies based on granular, on -the-
+ground insights. The approach was holistic, weaving together expert perspectives, community 
+voices, and real -world observations to ensure the initiatives were impactful and culturally sensitive.  
+Community Action:  
+Buoyed by the initial successes, the scope of the initiative expanded. Pacific nations like Tokelau and 
+the Cook Islands became focal points of intervention. A slew of proactive engagements was rolled 
+out, encompassing consultation sessions, knowledge diss emination forums, and community -centric 
+events. The initiative's resonance was amplified in the broader media landscape, with notable 
+features on radio stations and television networks. A poignant narrative spotlighting the dedication 
+of the researcher and  the 'Caring 4 Whanau' group aired during a prime -time news slot, 
+encapsulating the heart and spirit of the initiative (Cialdini, 2001).  
+The ripple effects of the initiative were palpable. The burgeoning momentum catalysed an expansion 
+of the project's scope, encompassing Pacific nations like Tokelau and the Cook Islands. With a 
+broader canvas to work on, a series of community engagements w ere meticulously curated. From 
+immersive consultation sessions to knowledge dissemination workshops, the emphasis was on 
+fostering community ownership. The efforts captured media attention, culminating in a touching 
+feature during prime -time news, highligh ting the relentless commitment of the researcher and the 
+'Caring 4 Whanau' group.  
+The community -centric approach underpinned every facet of the initiative. From engaging with 
+Pacific nations to crafting interventions that resonated with local contexts, the emphasis was on 
+empowering communities. The broader impact of these efforts trans cended the tangible outcomes. 
+The media landscape took note, and the initiative's ethos and successes found voice through radio, 
+television, and print. The community's stories, their challenges, and the transformative journey they 
+embarked upon with the re searcher and 'Caring 4 Whanau' group became a beacon of hope, 
+inspiration, and global solidarity.  
+Reflecting on Outcomes:  
+The tangible results of the interventions were promising. Pacific Island nations, once grappling with a 
+dire shortage of PPE, found themselves better equipped to navigate the pandemic's challenges. 
+Beyond the numbers, however, lay a narrative of global camaraderie and collaboration. The journey 
+underscored the potential of collective action, illuminating pathways for fostering global solidarity in 
+the face of shared challenges.  
+The interventions yielded palpable outcomes. Pacific Island communities, once on the brink of a 
+health catastrophe, witnessed a transformative shift in their preparedness. The tangible benefits, 
+however, were merely a facet of the broader narrative. At its  core, the journey was a testament to 
+the power of global collaboration, empathy, and shared purpose.  
+
+PAGE 31:
+Evaluating the outcomes, the successes were evident. Pacific Island nations, once vulnerable, were 
+now better positioned to face the pandemic's challenges. However, the journey's true essence lay in 
+the stories of collaboration, compassion, and community e mpowerment. It was a tale of global 
+solidarity, of diverse stakeholders uniting with a shared vision, illuminating the path for future 
+collaborations and interventions.  
+References:  Cialdini, R. B. (2001). Influence: Science and practice. Allyn and Bacon. Kahneman, D. 
+(2011). Thinking, fast and slow. Macmillan. Krätke, F., & Byiers, B. (Eds.). (2014). The political 
+economy of aid and accountability: The rise and fall of budget suppor t in Tanzania. Routledge. Lewin, 
+K. (1946). Action research and minority problems. Journal of Social Issues, 2(4), 34 -46. Nelson, G., & 
+Prilleltensky, I. (2010). Community psychology: In pursuit of liberation and well -being. Palgrave 
+Macmillan. Nunamaker, J. F., Chen, M., & Purdin, T. D. (1991). Systems development in information 
+systems research. Journal of Management Information Systems, 7(3), 89 -106. Pogge, T. (2008). 
+World poverty and human rights: Cosmopolitan responsibilities and reforms. J ohn Wiley & Sons. 
+Rogers, E. M. (2003). Diffusion of innovations (5th ed.). Simon and Schuster. Senge, P. M. (1990). The 
+fifth discipline: The art and practice of the learning organization. Doubleday/Currency.  
+ 
+ 
+ 
+

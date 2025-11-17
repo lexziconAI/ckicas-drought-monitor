@@ -1,0 +1,59 @@
+---
+principle: Asteya
+source: John Rawls - A Theory of Justice
+context_id: rawls_veil_ignorance_asteya_001
+category: foundational_ethics
+alignment_score: 0.91
+content: |
+  Rawls' veil of ignorance - designing principles from an original position without knowing one's own position in society - ensures fairness in resource distribution. In AI constitutional terms, this means designing systems that are fair regardless of which user or use case they serve.
+
+  AI fairness implications:
+  - Equal treatment across different user groups
+  - Fair resource allocation regardless of user identity
+  - Prevention of discriminatory outcomes
+  - Justice as fairness in AI decision-making
+
+  Constitutional integration: Rawls provides the fairness framework for Asteya, ensuring AI systems don't favor some users over others in resource access or quality of service.
+tags: [rawls, veil_of_ignorance, justice_as_fairness, equality, non-discrimination]
+validation_hash: j0k1l2m3n4o5
+---
+
+---
+principle: Ahimsa
+source: John Rawls - A Theory of Justice
+context_id: rawls_difference_principle_ahimsa_001
+category: foundational_ethics
+alignment_score: 0.92
+content: |
+  Rawls' difference principle - inequalities are justified only if they benefit the least advantaged - provides a justice-based approach to harm prevention. AI systems should not create or perpetuate unjust inequalities that harm vulnerable populations.
+
+  Key requirements:
+  - Prevention of algorithmic discrimination
+  - Mitigation of bias against disadvantaged groups
+  - Equitable access to AI benefits
+  - Harm prevention for society's most vulnerable
+
+  Constitutional framework: The difference principle ensures AI development and deployment don't increase social inequalities or harm marginalized communities.
+tags: [rawls, difference_principle, social_justice, inequality_prevention, bias_mitigation]
+validation_hash: k1l2m3n4o5p6
+---
+
+---
+principle: Satya
+source: John Rawls - Political Liberalism
+context_id: rawls_public_reason_satya_001
+category: foundational_ethics
+alignment_score: 0.87
+content: |
+  Rawls' idea of public reason - justifying principles through shared rational discourse - requires AI systems to provide transparent, rational justifications for their outputs. Users should be able to understand and evaluate AI decision-making.
+
+  AI transparency requirements:
+  - Explainable decision-making processes
+  - Rational justification for outputs
+  - Publicly accessible reasoning frameworks
+  - Avoidance of opaque or arbitrary decisions
+
+  Constitutional integration: Public reason ensures AI systems can be held accountable and their outputs rationally evaluated by human users.
+tags: [rawls, public_reason, transparency, accountability, rational_justification]
+validation_hash: l2m3n4o5p6q7
+---

@@ -1,0 +1,332 @@
+2025-11-06 00:50:23,904 [INFO] [ULTRA-PARALLEL LAUNCHER INITIALIZED]
+2025-11-06 00:50:23,905 [INFO] [Hardware: 24 cores, 31.3GB RAM]
+2025-11-06 00:50:23,905 [INFO] [Max Workers: 48 threads]
+2025-11-06 00:50:23,905 [INFO] [Target: 80-90% CPU utilization, 30-50x speedup]
+2025-11-06 00:50:23,905 [INFO] [LAUNCH] STARTING ULTRA-PARALLEL EXECUTION...
+2025-11-06 00:50:23,905 [INFO] ================================================================================
+2025-11-06 00:50:23,906 [INFO] [WEB] Launching Flask server on port 5000...
+2025-11-06 00:50:23,906 [INFO] [CREATE] Log collector started
+2025-11-06 00:50:23,906 [INFO] [WEB] Launching Express server on port 3000...
+2025-11-06 00:50:23,907 [INFO] [MONITOR] Health monitor started
+2025-11-06 00:50:23,908 [INFO] [OK] Primary: Log Collector - Complete
+2025-11-06 00:50:23,912 [INFO] [SUCCESS] Launched: static-server.js (PID: 45192)
+2025-11-06 00:50:23,913 [INFO] [SUCCESS] Launched: python-server.py (PID: 39908)
+2025-11-06 00:50:23,913 [INFO] [OK] Primary: Flask Server - Complete
+2025-11-06 00:50:23,914 [INFO] [OK] Primary: Express Server - Complete
+2025-11-06 00:50:23,914 [INFO] [OK] Primary: Health Monitor - Complete
+2025-11-06 00:50:23,914 [INFO] [FRACTAL] DEPLOYING FRACTAL ARMY (50 workers)...
+2025-11-06 00:50:23,915 [INFO] [CREATE] Created worker script: chaos_attractor_worker_1.py
+2025-11-06 00:50:23,916 [INFO] [CREATE] Created worker script: chaos_attractor_worker_2.py
+2025-11-06 00:50:23,917 [INFO] [CREATE] Created worker script: chaos_attractor_worker_3.py
+2025-11-06 00:50:23,918 [INFO] [CREATE] Created worker script: chaos_attractor_worker_4.py
+2025-11-06 00:50:23,919 [INFO] [CREATE] Created worker script: chaos_attractor_worker_5.py
+2025-11-06 00:50:23,919 [INFO] [CREATE] Created worker script: chaos_attractor_worker_6.py
+2025-11-06 00:50:23,920 [INFO] [CREATE] Created worker script: chaos_attractor_worker_7.py
+2025-11-06 00:50:23,922 [INFO] [CREATE] Created worker script: chaos_attractor_worker_8.py
+2025-11-06 00:50:23,922 [INFO] [SUCCESS] Launched: chaos_attractor_worker_1.py (PID: 44688)
+2025-11-06 00:50:23,922 [INFO] [SUCCESS] Launched: chaos_attractor_worker_3.py (PID: 38348)
+2025-11-06 00:50:23,923 [INFO] [SUCCESS] Launched: chaos_attractor_worker_2.py (PID: 14732)
+2025-11-06 00:50:23,923 [INFO] [CREATE] Created worker script: chaos_attractor_worker_9.py
+2025-11-06 00:50:23,924 [INFO] [SUCCESS] Launched: chaos_attractor_worker_5.py (PID: 20424)
+2025-11-06 00:50:23,924 [INFO] [SUCCESS] Launched: chaos_attractor_worker_4.py (PID: 36684)
+2025-11-06 00:50:23,924 [INFO] [CREATE] Created worker script: chaos_attractor_worker_10.py
+2025-11-06 00:50:23,924 [INFO] [SUCCESS] Launched: chaos_attractor_worker_6.py (PID: 40972)
+2025-11-06 00:50:23,925 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_1.py
+2025-11-06 00:50:23,926 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_2.py
+2025-11-06 00:50:23,927 [INFO] [SUCCESS] Launched: chaos_attractor_worker_7.py (PID: 14984)
+2025-11-06 00:50:23,927 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_3.py
+2025-11-06 00:50:23,928 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_4.py
+2025-11-06 00:50:23,929 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_5.py
+2025-11-06 00:50:23,929 [INFO] [SUCCESS] Launched: chaos_attractor_worker_8.py (PID: 6188)
+2025-11-06 00:50:23,930 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_6.py
+2025-11-06 00:50:23,931 [INFO] [SUCCESS] Launched: chaos_attractor_worker_9.py (PID: 44932)
+2025-11-06 00:50:23,931 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_7.py
+2025-11-06 00:50:23,932 [INFO] [SUCCESS] Launched: chaos_attractor_worker_10.py (PID: 40400)
+2025-11-06 00:50:23,933 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_8.py
+2025-11-06 00:50:23,934 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_1.py (PID: 17864)
+2025-11-06 00:50:23,934 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_9.py
+2025-11-06 00:50:23,935 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_2.py (PID: 19816)
+2025-11-06 00:50:23,936 [INFO] [CREATE] Created worker script: constitutional_scorer_worker_10.py
+2025-11-06 00:50:23,936 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_4.py (PID: 42944)
+2025-11-06 00:50:23,937 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_3.py (PID: 43964)
+2025-11-06 00:50:23,938 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_5.py (PID: 40704)
+2025-11-06 00:50:23,938 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_6.py (PID: 17324)
+2025-11-06 00:50:23,938 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_1.py
+2025-11-06 00:50:23,940 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_2.py
+2025-11-06 00:50:23,940 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_7.py (PID: 36180)
+2025-11-06 00:50:23,941 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_3.py
+2025-11-06 00:50:23,941 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_8.py (PID: 26156)
+2025-11-06 00:50:23,943 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_4.py
+2025-11-06 00:50:23,944 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_9.py (PID: 25208)
+2025-11-06 00:50:23,945 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_5.py
+2025-11-06 00:50:23,947 [INFO] [SUCCESS] Launched: constitutional_scorer_worker_10.py (PID: 16764)
+2025-11-06 00:50:23,947 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_1.py (PID: 44256)
+2025-11-06 00:50:23,947 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_6.py
+2025-11-06 00:50:23,950 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_2.py (PID: 27860)
+2025-11-06 00:50:23,950 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_3.py (PID: 44752)
+2025-11-06 00:50:23,951 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_7.py
+2025-11-06 00:50:23,954 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_4.py (PID: 11928)
+2025-11-06 00:50:23,954 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_8.py
+2025-11-06 00:50:23,955 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_5.py (PID: 37588)
+2025-11-06 00:50:23,956 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_9.py
+2025-11-06 00:50:23,958 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_6.py (PID: 44624)
+2025-11-06 00:50:23,959 [INFO] [CREATE] Created worker script: portfolio_optimizer_worker_10.py
+2025-11-06 00:50:23,962 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_7.py (PID: 25724)
+2025-11-06 00:50:23,964 [INFO] [CREATE] Created worker script: trade_simulator_worker_1.py
+2025-11-06 00:50:23,966 [INFO] [CREATE] Created worker script: trade_simulator_worker_2.py
+2025-11-06 00:50:23,967 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_9.py (PID: 15136)
+2025-11-06 00:50:23,967 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_8.py (PID: 45364)
+2025-11-06 00:50:23,969 [INFO] [CREATE] Created worker script: trade_simulator_worker_3.py
+2025-11-06 00:50:23,970 [INFO] [SUCCESS] Launched: portfolio_optimizer_worker_10.py (PID: 45868)
+2025-11-06 00:50:23,973 [INFO] [CREATE] Created worker script: trade_simulator_worker_4.py
+2025-11-06 00:50:23,975 [INFO] [SUCCESS] Launched: trade_simulator_worker_2.py (PID: 17244)
+2025-11-06 00:50:23,975 [INFO] [CREATE] Created worker script: trade_simulator_worker_5.py
+2025-11-06 00:50:23,976 [INFO] [SUCCESS] Launched: trade_simulator_worker_1.py (PID: 42604)
+2025-11-06 00:50:23,980 [INFO] [SUCCESS] Launched: trade_simulator_worker_3.py (PID: 44056)
+2025-11-06 00:50:23,981 [INFO] [CREATE] Created worker script: trade_simulator_worker_6.py
+2025-11-06 00:50:23,982 [INFO] [SUCCESS] Launched: trade_simulator_worker_4.py (PID: 19708)
+2025-11-06 00:50:23,985 [INFO] [CREATE] Created worker script: trade_simulator_worker_7.py
+2025-11-06 00:50:23,986 [INFO] [SUCCESS] Launched: trade_simulator_worker_5.py (PID: 23120)
+2025-11-06 00:50:23,990 [INFO] [SUCCESS] Launched: trade_simulator_worker_6.py (PID: 28012)
+2025-11-06 00:50:23,991 [INFO] [CREATE] Created worker script: trade_simulator_worker_8.py
+2025-11-06 00:50:23,997 [INFO] [SUCCESS] Launched: trade_simulator_worker_7.py (PID: 14956)
+2025-11-06 00:50:23,997 [INFO] [CREATE] Created worker script: trade_simulator_worker_9.py
+2025-11-06 00:50:24,001 [INFO] [CREATE] Created worker script: trade_simulator_worker_10.py
+2025-11-06 00:50:24,005 [INFO] [CREATE] Created worker script: data_processor_worker_1.py
+2025-11-06 00:50:24,010 [INFO] [SUCCESS] Launched: trade_simulator_worker_8.py (PID: 22136)
+2025-11-06 00:50:24,010 [INFO] [CREATE] Created worker script: data_processor_worker_2.py
+2025-11-06 00:50:24,014 [INFO] [CREATE] Created worker script: data_processor_worker_3.py
+2025-11-06 00:50:24,016 [INFO] [SUCCESS] Launched: data_processor_worker_1.py (PID: 45828)
+2025-11-06 00:50:24,016 [INFO] [SUCCESS] Launched: trade_simulator_worker_10.py (PID: 16216)
+2025-11-06 00:50:24,017 [INFO] [SUCCESS] Launched: trade_simulator_worker_9.py (PID: 45140)
+2025-11-06 00:50:24,018 [INFO] [CREATE] Created worker script: data_processor_worker_4.py
+2025-11-06 00:50:24,022 [INFO] [SUCCESS] Launched: data_processor_worker_2.py (PID: 25860)
+2025-11-06 00:50:24,024 [INFO] [CREATE] Created worker script: data_processor_worker_5.py
+2025-11-06 00:50:24,024 [INFO] [SUCCESS] Launched: data_processor_worker_3.py (PID: 32808)
+2025-11-06 00:50:24,030 [INFO] [CREATE] Created worker script: data_processor_worker_6.py
+2025-11-06 00:50:24,032 [INFO] [SUCCESS] Launched: data_processor_worker_4.py (PID: 35872)
+2025-11-06 00:50:24,033 [INFO] [CREATE] Created worker script: data_processor_worker_7.py
+2025-11-06 00:50:24,036 [INFO] [CREATE] Created worker script: data_processor_worker_8.py
+2025-11-06 00:50:24,037 [INFO] [SUCCESS] Launched: data_processor_worker_5.py (PID: 25956)
+2025-11-06 00:50:24,039 [INFO] [SUCCESS] Launched: data_processor_worker_6.py (PID: 16760)
+2025-11-06 00:50:24,041 [INFO] [CREATE] Created worker script: data_processor_worker_9.py
+2025-11-06 00:50:24,043 [INFO] [SUCCESS] Launched: data_processor_worker_7.py (PID: 38452)
+2025-11-06 00:50:24,044 [INFO] [CREATE] Created worker script: data_processor_worker_10.py
+2025-11-06 00:50:24,044 [INFO] [SUCCESS] Fractal Army: chaos_attractor_1 deployed
+2025-11-06 00:50:24,045 [INFO] [SUCCESS] Fractal Army: chaos_attractor_2 deployed
+2025-11-06 00:50:24,045 [INFO] [SUCCESS] Fractal Army: chaos_attractor_3 deployed
+2025-11-06 00:50:24,045 [INFO] [SUCCESS] Fractal Army: chaos_attractor_4 deployed
+2025-11-06 00:50:24,047 [INFO] [SUCCESS] Launched: data_processor_worker_8.py (PID: 45584)
+2025-11-06 00:50:24,054 [INFO] [SUCCESS] Fractal Army: chaos_attractor_5 deployed
+2025-11-06 00:50:24,054 [INFO] [SUCCESS] Launched: data_processor_worker_9.py (PID: 32564)
+2025-11-06 00:50:24,055 [INFO] [SUCCESS] Launched: data_processor_worker_10.py (PID: 44452)
+2025-11-06 00:50:24,055 [INFO] [SUCCESS] Fractal Army: chaos_attractor_6 deployed
+2025-11-06 00:50:24,056 [INFO] [SUCCESS] Fractal Army: chaos_attractor_7 deployed
+2025-11-06 00:50:24,057 [INFO] [SUCCESS] Fractal Army: chaos_attractor_8 deployed
+2025-11-06 00:50:24,057 [INFO] [SUCCESS] Fractal Army: chaos_attractor_9 deployed
+2025-11-06 00:50:24,058 [INFO] [SUCCESS] Fractal Army: chaos_attractor_10 deployed
+2025-11-06 00:50:24,058 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_1 deployed
+2025-11-06 00:50:24,059 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_2 deployed
+2025-11-06 00:50:24,059 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_3 deployed
+2025-11-06 00:50:24,059 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_4 deployed
+2025-11-06 00:50:24,059 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_5 deployed
+2025-11-06 00:50:24,060 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_6 deployed
+2025-11-06 00:50:24,060 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_7 deployed
+2025-11-06 00:50:24,060 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_8 deployed
+2025-11-06 00:50:24,061 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_9 deployed
+2025-11-06 00:50:24,061 [INFO] [SUCCESS] Fractal Army: constitutional_scorer_10 deployed
+2025-11-06 00:50:24,061 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_1 deployed
+2025-11-06 00:50:24,061 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_2 deployed
+2025-11-06 00:50:24,062 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_3 deployed
+2025-11-06 00:50:24,062 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_4 deployed
+2025-11-06 00:50:24,062 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_5 deployed
+2025-11-06 00:50:24,063 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_6 deployed
+2025-11-06 00:50:24,063 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_7 deployed
+2025-11-06 00:50:24,063 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_8 deployed
+2025-11-06 00:50:24,064 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_9 deployed
+2025-11-06 00:50:24,064 [INFO] [SUCCESS] Fractal Army: portfolio_optimizer_10 deployed
+2025-11-06 00:50:24,064 [INFO] [SUCCESS] Fractal Army: trade_simulator_1 deployed
+2025-11-06 00:50:24,064 [INFO] [SUCCESS] Fractal Army: trade_simulator_2 deployed
+2025-11-06 00:50:24,065 [INFO] [SUCCESS] Fractal Army: trade_simulator_3 deployed
+2025-11-06 00:50:24,065 [INFO] [SUCCESS] Fractal Army: trade_simulator_4 deployed
+2025-11-06 00:50:24,065 [INFO] [SUCCESS] Fractal Army: trade_simulator_5 deployed
+2025-11-06 00:50:24,065 [INFO] [SUCCESS] Fractal Army: trade_simulator_6 deployed
+2025-11-06 00:50:24,067 [INFO] [SUCCESS] Fractal Army: trade_simulator_7 deployed
+2025-11-06 00:50:24,068 [INFO] [SUCCESS] Fractal Army: trade_simulator_8 deployed
+2025-11-06 00:50:24,068 [INFO] [SUCCESS] Fractal Army: trade_simulator_9 deployed
+2025-11-06 00:50:24,070 [INFO] [SUCCESS] Fractal Army: trade_simulator_10 deployed
+2025-11-06 00:50:24,071 [INFO] [SUCCESS] Fractal Army: data_processor_1 deployed
+2025-11-06 00:50:24,077 [INFO] [SUCCESS] Fractal Army: data_processor_2 deployed
+2025-11-06 00:50:24,077 [INFO] [SUCCESS] Fractal Army: data_processor_3 deployed
+2025-11-06 00:50:24,078 [INFO] [SUCCESS] Fractal Army: data_processor_4 deployed
+2025-11-06 00:50:24,078 [INFO] [SUCCESS] Fractal Army: data_processor_5 deployed
+2025-11-06 00:50:24,078 [INFO] [SUCCESS] Fractal Army: data_processor_6 deployed
+2025-11-06 00:50:24,079 [INFO] [SUCCESS] Fractal Army: data_processor_7 deployed
+2025-11-06 00:50:24,079 [INFO] [SUCCESS] Fractal Army: data_processor_8 deployed
+2025-11-06 00:50:24,079 [INFO] [SUCCESS] Fractal Army: data_processor_9 deployed
+2025-11-06 00:50:24,081 [INFO] [SUCCESS] Fractal Army: data_processor_10 deployed
+2025-11-06 00:50:24,084 [INFO] [FRACTAL] Army: 50 workers deployed!
+2025-11-06 00:50:24,084 [INFO] [TOOLS] Launching additional parallel tasks...
+2025-11-06 00:50:24,101 [INFO] [SUCCESS] Launched: performance_profiler.py (PID: 43748)
+2025-11-06 00:50:24,118 [INFO] [SUCCESS] Launched: websocket_tester.py (PID: 41536)
+2025-11-06 00:50:24,121 [INFO] [SUCCESS] Launched: database_optimizer.py (PID: 34900)
+2025-11-06 00:50:24,129 [INFO] [SUCCESS] Launched: api_stress_test.py (PID: 45620)
+2025-11-06 00:50:24,131 [INFO] [SUCCESS] Launched: chaos_worker_1.py (PID: 12780)
+2025-11-06 00:50:24,142 [INFO] [SUCCESS] Launched: chaos_worker_2.py (PID: 45508)
+2025-11-06 00:50:24,149 [INFO] [SUCCESS] Launched: constitutional_worker_1.py (PID: 46032)
+2025-11-06 00:50:24,151 [INFO] [SUCCESS] Launched: chaos_worker_3.py (PID: 39064)
+2025-11-06 00:50:24,152 [INFO] [OK] Real-time performance profiler: Launched
+2025-11-06 00:50:24,154 [INFO] [OK] Database query optimizer: Launched
+2025-11-06 00:50:24,155 [INFO] [OK] WebSocket stream tester: Launched
+2025-11-06 00:50:24,155 [INFO] [OK] API endpoint stress test: Launched
+2025-11-06 00:50:24,157 [INFO] [OK] Chaos attractor calculator 1: Launched
+2025-11-06 00:50:24,158 [INFO] [OK] Chaos attractor calculator 2: Launched
+2025-11-06 00:50:24,158 [INFO] [OK] Chaos attractor calculator 3: Launched
+2025-11-06 00:50:24,159 [INFO] [OK] Constitutional scorer 1: Launched
+2025-11-06 00:50:24,163 [INFO] [SUCCESS] Launched: constitutional_worker_2.py (PID: 43864)
+2025-11-06 00:50:24,164 [INFO] [SUCCESS] Launched: constitutional_worker_3.py (PID: 17576)
+2025-11-06 00:50:24,165 [INFO] [SUCCESS] Launched: constitutional_worker_4.py (PID: 44864)
+2025-11-06 00:50:24,165 [INFO] [OK] Constitutional scorer 2: Launched
+2025-11-06 00:50:24,166 [INFO] [SUCCESS] Launched: constitutional_worker_5.py (PID: 19832)
+2025-11-06 00:50:24,167 [INFO] [OK] Constitutional scorer 3: Launched
+2025-11-06 00:50:24,168 [INFO] [OK] Constitutional scorer 4: Launched
+2025-11-06 00:50:24,168 [INFO] [OK] Constitutional scorer 5: Launched
+2025-11-06 00:50:24,169 [INFO] [FIRE] Launching extreme additions...
+2025-11-06 00:50:24,202 [INFO] [SUCCESS] Launched: api_simulator_2.py (PID: 40488)
+2025-11-06 00:50:24,202 [INFO] [SUCCESS] Launched: api_simulator_1.py (PID: 45804)
+2025-11-06 00:50:24,207 [INFO] [SUCCESS] Launched: multi_provider_test.py (PID: 18040)
+2025-11-06 00:50:24,218 [INFO] [SUCCESS] Launched: dashboard_renderer.py (PID: 10580)
+2025-11-06 00:50:24,238 [INFO] [SUCCESS] Launched: csv_exporter.py (PID: 29888)
+2025-11-06 00:50:24,239 [INFO] [SUCCESS] Launched: json_exporter.py (PID: 44596)
+2025-11-06 00:50:24,239 [INFO] [SUCCESS] Launched: trade_simulator.py (PID: 21188)
+2025-11-06 00:50:24,242 [INFO] [SUCCESS] Launched: error_stress_test.py (PID: 45948)
+2025-11-06 00:50:24,249 [INFO] [SUCCESS] Launched: memory_profiler.py (PID: 46048)
+2025-11-06 00:50:24,257 [INFO] [SUCCESS] Launched: rate_limit_optimizer.py (PID: 32376)
+2025-11-06 00:50:24,258 [INFO] [SUCCESS] Launched: api_simulator_3.py (PID: 44280)
+2025-11-06 00:50:24,264 [INFO] [SUCCESS] Launched: api_simulator_5.py (PID: 25376)
+2025-11-06 00:50:24,266 [INFO] [SUCCESS] Launched: api_simulator_6.py (PID: 40036)
+2025-11-06 00:50:24,271 [INFO] [SUCCESS] Launched: api_simulator_7.py (PID: 35072)
+2025-11-06 00:50:24,271 [INFO] [SUCCESS] Launched: api_simulator_8.py (PID: 44136)
+2025-11-06 00:50:24,273 [INFO] [SUCCESS] Launched: api_simulator_9.py (PID: 40216)
+2025-11-06 00:50:24,299 [INFO] [SUCCESS] Launched: api_simulator_4.py (PID: 34300)
+2025-11-06 00:50:24,342 [INFO] [OK] API request simulator 1: Launched
+2025-11-06 00:50:24,343 [INFO] [OK] API request simulator 2: Launched
+2025-11-06 00:50:24,343 [INFO] [OK] Multi-provider routing test: Launched
+2025-11-06 00:50:24,344 [INFO] [OK] Real-time dashboard renderer: Launched
+2025-11-06 00:50:24,344 [INFO] [OK] CSV export worker: Launched
+2025-11-06 00:50:24,347 [INFO] [OK] JSON export worker: Launched
+2025-11-06 00:50:24,347 [INFO] [OK] Trade simulation engine: Launched
+2025-11-06 00:50:24,347 [INFO] [OK] Error handling stress test: Launched
+2025-11-06 00:50:24,348 [INFO] [OK] Memory leak detector: Launched
+2025-11-06 00:50:24,348 [INFO] [OK] Rate limit calibrator: Launched
+2025-11-06 00:50:24,348 [INFO] [OK] API request simulator 3: Launched
+2025-11-06 00:50:24,348 [INFO] [OK] API request simulator 4: Launched
+2025-11-06 00:50:24,348 [INFO] [OK] API request simulator 5: Launched
+2025-11-06 00:50:24,349 [INFO] [OK] API request simulator 6: Launched
+2025-11-06 00:50:24,349 [INFO] [OK] API request simulator 7: Launched
+2025-11-06 00:50:24,349 [INFO] [OK] API request simulator 8: Launched
+2025-11-06 00:50:24,349 [INFO] [OK] API request simulator 9: Launched
+2025-11-06 00:50:24,349 [INFO] [SUCCESS] Launched: api_simulator_11.py (PID: 45020)
+2025-11-06 00:50:24,349 [INFO] [SUCCESS] Launched: api_simulator_10.py (PID: 45652)
+2025-11-06 00:50:24,350 [INFO] [OK] API request simulator 10: Launched
+2025-11-06 00:50:24,350 [INFO] [OK] API request simulator 11: Launched
+2025-11-06 00:50:24,352 [INFO] [SUCCESS] Launched: api_simulator_12.py (PID: 44244)
+2025-11-06 00:50:24,352 [INFO] [OK] API request simulator 12: Launched
+2025-11-06 00:50:24,355 [INFO] [CHART] Monitoring systems active
+2025-11-06 00:50:24,356 [INFO] [OK] Verification systems active
+2025-11-06 00:50:24,356 [INFO] ================================================================================
+2025-11-06 00:50:24,356 [INFO] [SUCCESS] ULTRA-PARALLEL EXECUTION COMPLETE!
+2025-11-06 00:50:24,357 [INFO] [TIME] Total time: 0.5 seconds
+2025-11-06 00:50:24,357 [INFO] [CYCLE] Processes launched: 84
+2025-11-06 00:50:24,357 [INFO] [OK] Active processes: 54
+2025-11-06 00:50:24,358 [INFO] [POWER] CPU utilization target: 80-90%
+2025-11-06 00:50:24,358 [INFO] [SPEED] Speed improvement: 30-50× baseline
+2025-11-06 00:50:24,358 [INFO] ================================================================================
+2025-11-06 00:50:25,938 [INFO] [HEALTH] Flask server: HEALTHY
+2025-11-06 00:50:29,957 [WARNING] [WARNING] Health check error: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/dashboard (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002D785A6F250>, 'Connection to localhost timed out. (connect timeout=2)'))
+2025-11-06 00:50:42,062 [INFO] [STOP] Shutdown requested
+2025-11-06 00:50:42,063 [INFO] [STOP] Terminated: static-server.js
+2025-11-06 00:50:42,063 [INFO] [STOP] Terminated: python-server.py
+2025-11-06 00:50:42,064 [INFO] [STOP] Terminated: chaos_attractor_worker_1.py
+2025-11-06 00:50:42,064 [INFO] [STOP] Terminated: chaos_attractor_worker_3.py
+2025-11-06 00:50:42,064 [INFO] [STOP] Terminated: chaos_attractor_worker_2.py
+2025-11-06 00:50:42,064 [INFO] [STOP] Terminated: chaos_attractor_worker_5.py
+2025-11-06 00:50:42,064 [INFO] [STOP] Terminated: chaos_attractor_worker_4.py
+2025-11-06 00:50:42,064 [INFO] [STOP] Terminated: chaos_attractor_worker_6.py
+2025-11-06 00:50:42,065 [INFO] [STOP] Terminated: chaos_attractor_worker_7.py
+2025-11-06 00:50:42,065 [INFO] [STOP] Terminated: chaos_attractor_worker_8.py
+2025-11-06 00:50:42,065 [INFO] [STOP] Terminated: chaos_attractor_worker_9.py
+2025-11-06 00:50:42,065 [INFO] [STOP] Terminated: chaos_attractor_worker_10.py
+2025-11-06 00:50:42,065 [INFO] [STOP] Terminated: constitutional_scorer_worker_1.py
+2025-11-06 00:50:42,065 [INFO] [STOP] Terminated: constitutional_scorer_worker_2.py
+2025-11-06 00:50:42,065 [INFO] [STOP] Terminated: constitutional_scorer_worker_4.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: constitutional_scorer_worker_3.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: constitutional_scorer_worker_5.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: constitutional_scorer_worker_6.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: constitutional_scorer_worker_7.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: constitutional_scorer_worker_8.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: constitutional_scorer_worker_9.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: constitutional_scorer_worker_10.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: portfolio_optimizer_worker_1.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: portfolio_optimizer_worker_2.py
+2025-11-06 00:50:42,066 [INFO] [STOP] Terminated: portfolio_optimizer_worker_3.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: portfolio_optimizer_worker_4.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: portfolio_optimizer_worker_5.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: portfolio_optimizer_worker_6.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: portfolio_optimizer_worker_7.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: portfolio_optimizer_worker_9.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: portfolio_optimizer_worker_8.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: portfolio_optimizer_worker_10.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: trade_simulator_worker_2.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: trade_simulator_worker_1.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: trade_simulator_worker_3.py
+2025-11-06 00:50:42,067 [INFO] [STOP] Terminated: trade_simulator_worker_4.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: trade_simulator_worker_5.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: trade_simulator_worker_6.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: trade_simulator_worker_7.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: trade_simulator_worker_8.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: data_processor_worker_1.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: trade_simulator_worker_10.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: trade_simulator_worker_9.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: data_processor_worker_2.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: data_processor_worker_3.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: data_processor_worker_4.py
+2025-11-06 00:50:42,068 [INFO] [STOP] Terminated: data_processor_worker_5.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: data_processor_worker_6.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: data_processor_worker_7.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: data_processor_worker_8.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: data_processor_worker_9.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: data_processor_worker_10.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: performance_profiler.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: websocket_tester.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: database_optimizer.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: api_stress_test.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: chaos_worker_1.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: chaos_worker_2.py
+2025-11-06 00:50:42,069 [INFO] [STOP] Terminated: constitutional_worker_1.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: chaos_worker_3.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: constitutional_worker_2.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: constitutional_worker_3.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: constitutional_worker_4.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: constitutional_worker_5.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: api_simulator_2.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: api_simulator_1.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: multi_provider_test.py
+2025-11-06 00:50:42,070 [INFO] [STOP] Terminated: dashboard_renderer.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: csv_exporter.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: json_exporter.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: trade_simulator.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: error_stress_test.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: memory_profiler.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: rate_limit_optimizer.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: api_simulator_3.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: api_simulator_5.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: api_simulator_6.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: api_simulator_7.py
+2025-11-06 00:50:42,071 [INFO] [STOP] Terminated: api_simulator_8.py
+2025-11-06 00:50:42,072 [INFO] [STOP] Terminated: api_simulator_9.py
+2025-11-06 00:50:42,072 [INFO] [STOP] Terminated: api_simulator_4.py
+2025-11-06 00:50:42,072 [INFO] [STOP] Terminated: api_simulator_11.py
+2025-11-06 00:50:42,072 [INFO] [STOP] Terminated: api_simulator_10.py
+2025-11-06 00:50:42,072 [INFO] [STOP] Terminated: api_simulator_12.py
+2025-11-06 00:50:42,072 [INFO] [BYE] Ultra-parallel execution shutdown complete

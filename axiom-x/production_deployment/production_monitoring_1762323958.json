@@ -1,0 +1,222 @@
+{
+  "monitoring_summary": {
+    "total_checks": 24,
+    "duration_hours": 24,
+    "mean_compliance": 0.9025125,
+    "std_compliance": 0.014913323850197498,
+    "min_compliance": 0.8684,
+    "max_compliance": 0.9266,
+    "mean_degradation": 0.0542625,
+    "max_degradation": 0.0787,
+    "mean_stability": 0.853575,
+    "min_stability": 0.815
+  },
+  "stability_assessment": {
+    "target_achievement": {
+      "compliance_target_met": true,
+      "degradation_limit_met": true,
+      "stability_maintained": true
+    },
+    "performance_metrics": {
+      "sustained_compliance": 0.9025125,
+      "max_degradation": 0.0787,
+      "compliance_variation": 0.014913323850197498,
+      "stability_score": 0.83148476625
+    },
+    "recommendations": []
+  },
+  "monitoring_data": [
+    {
+      "check_number": 1,
+      "timestamp": "2025-11-05T19:25:57.709448",
+      "compliance": 0.9094,
+      "degradation": 0.0598,
+      "stability_score": 0.8551,
+      "entanglement_strength": 0.8833
+    },
+    {
+      "check_number": 2,
+      "timestamp": "2025-11-05T19:25:57.736302",
+      "compliance": 0.9119,
+      "degradation": 0.0539,
+      "stability_score": 0.8628,
+      "entanglement_strength": 0.8439
+    },
+    {
+      "check_number": 3,
+      "timestamp": "2025-11-05T19:25:57.751667",
+      "compliance": 0.9127,
+      "degradation": 0.0601,
+      "stability_score": 0.8579,
+      "entanglement_strength": 0.8848
+    },
+    {
+      "check_number": 4,
+      "timestamp": "2025-11-05T19:25:57.767222",
+      "compliance": 0.9109,
+      "degradation": 0.0577,
+      "stability_score": 0.8583,
+      "entanglement_strength": 0.8386
+    },
+    {
+      "check_number": 5,
+      "timestamp": "2025-11-05T19:25:57.781936",
+      "compliance": 0.9008,
+      "degradation": 0.0501,
+      "stability_score": 0.8557,
+      "entanglement_strength": 0.8728
+    },
+    {
+      "check_number": 6,
+      "timestamp": "2025-11-05T19:25:57.796907",
+      "compliance": 0.9212,
+      "degradation": 0.0328,
+      "stability_score": 0.8909,
+      "entanglement_strength": 0.8311
+    },
+    {
+      "check_number": 7,
+      "timestamp": "2025-11-05T19:25:57.811769",
+      "compliance": 0.8858,
+      "degradation": 0.0398,
+      "stability_score": 0.8505,
+      "entanglement_strength": 0.8751
+    },
+    {
+      "check_number": 8,
+      "timestamp": "2025-11-05T19:25:57.827519",
+      "compliance": 0.9266,
+      "degradation": 0.0503,
+      "stability_score": 0.8801,
+      "entanglement_strength": 0.8412
+    },
+    {
+      "check_number": 9,
+      "timestamp": "2025-11-05T19:25:57.843518",
+      "compliance": 0.9121,
+      "degradation": 0.0442,
+      "stability_score": 0.8718,
+      "entanglement_strength": 0.8067
+    },
+    {
+      "check_number": 10,
+      "timestamp": "2025-11-05T19:25:57.858964",
+      "compliance": 0.9217,
+      "degradation": 0.0402,
+      "stability_score": 0.8846,
+      "entanglement_strength": 0.8651
+    },
+    {
+      "check_number": 11,
+      "timestamp": "2025-11-05T19:25:57.873868",
+      "compliance": 0.8968,
+      "degradation": 0.0352,
+      "stability_score": 0.8652,
+      "entanglement_strength": 0.8384
+    },
+    {
+      "check_number": 12,
+      "timestamp": "2025-11-05T19:25:57.890102",
+      "compliance": 0.9011,
+      "degradation": 0.0471,
+      "stability_score": 0.8586,
+      "entanglement_strength": 0.8509
+    },
+    {
+      "check_number": 13,
+      "timestamp": "2025-11-05T19:25:57.906048",
+      "compliance": 0.9258,
+      "degradation": 0.0518,
+      "stability_score": 0.8778,
+      "entanglement_strength": 0.8604
+    },
+    {
+      "check_number": 14,
+      "timestamp": "2025-11-05T19:25:57.922097",
+      "compliance": 0.9067,
+      "degradation": 0.0787,
+      "stability_score": 0.8353,
+      "entanglement_strength": 0.8525
+    },
+    {
+      "check_number": 15,
+      "timestamp": "2025-11-05T19:25:57.937963",
+      "compliance": 0.8872,
+      "degradation": 0.0567,
+      "stability_score": 0.8368,
+      "entanglement_strength": 0.8443
+    },
+    {
+      "check_number": 16,
+      "timestamp": "2025-11-05T19:25:57.952919",
+      "compliance": 0.8684,
+      "degradation": 0.0615,
+      "stability_score": 0.815,
+      "entanglement_strength": 0.8879
+    },
+    {
+      "check_number": 17,
+      "timestamp": "2025-11-05T19:25:57.968541",
+      "compliance": 0.8892,
+      "degradation": 0.0589,
+      "stability_score": 0.8368,
+      "entanglement_strength": 0.8665
+    },
+    {
+      "check_number": 18,
+      "timestamp": "2025-11-05T19:25:57.984470",
+      "compliance": 0.9007,
+      "degradation": 0.0736,
+      "stability_score": 0.8344,
+      "entanglement_strength": 0.864
+    },
+    {
+      "check_number": 19,
+      "timestamp": "2025-11-05T19:25:57.999768",
+      "compliance": 0.8944,
+      "degradation": 0.078,
+      "stability_score": 0.8247,
+      "entanglement_strength": 0.8453
+    },
+    {
+      "check_number": 20,
+      "timestamp": "2025-11-05T19:25:58.015342",
+      "compliance": 0.8897,
+      "degradation": 0.0537,
+      "stability_score": 0.8419,
+      "entanglement_strength": 0.8526
+    },
+    {
+      "check_number": 21,
+      "timestamp": "2025-11-05T19:25:58.031470",
+      "compliance": 0.8821,
+      "degradation": 0.0564,
+      "stability_score": 0.8323,
+      "entanglement_strength": 0.8586
+    },
+    {
+      "check_number": 22,
+      "timestamp": "2025-11-05T19:25:58.046922",
+      "compliance": 0.9072,
+      "degradation": 0.0489,
+      "stability_score": 0.8628,
+      "entanglement_strength": 0.873
+    },
+    {
+      "check_number": 23,
+      "timestamp": "2025-11-05T19:25:58.062488",
+      "compliance": 0.8874,
+      "degradation": 0.0613,
+      "stability_score": 0.833,
+      "entanglement_strength": 0.8565
+    },
+    {
+      "check_number": 24,
+      "timestamp": "2025-11-05T19:25:58.078432",
+      "compliance": 0.9105,
+      "degradation": 0.0516,
+      "stability_score": 0.8635,
+      "entanglement_strength": 0.8433
+    }
+  ]
+}

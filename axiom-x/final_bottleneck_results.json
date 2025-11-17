@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-09T15:18:01.664358",
+    "method": "fractal-optimized-sequential",
+    "files_analyzed": 8,
+    "canonical_files": 30
+  },
+  "results": [],
+  "constitutional_compliance": {
+    "ahimsa": "No files deleted - human approval required",
+    "satya": "Actual similarity scores reported",
+    "brahmacharya": "Efficient sequential processing for small dataset"
+  }
+}

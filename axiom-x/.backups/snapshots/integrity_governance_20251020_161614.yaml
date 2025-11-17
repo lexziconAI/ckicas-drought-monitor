@@ -1,0 +1,83 @@
+# AXIOM-X Integrity Governance Configuration
+# Based on LOG³ structural-antifragility findings
+# Version: 1.0.0
+# Mode: PARANOID
+
+system:
+  name: "AXIOM-X v8"
+  integrity_mode: "PARANOID"
+  entropy_budget_bits_per_sec: 1000
+  write_latency_p95_ms: 50
+  sidecar_share_min: 0.95
+
+autosave:
+  enabled: true
+  interval_sec: 120
+  compression_coordination: true
+  backup_before_write: true
+
+transactional_writes:
+  enabled: true
+  integrity_level: "STANDARD"  # Options: MINIMAL, STANDARD, PARANOID
+  strategies:
+    - name: "atomic_write"
+      description: "Write to temp file, verify, then atomic rename"
+      enabled: true
+    - name: "rollback_on_failure"
+      description: "Restore from backup if write fails verification"
+      enabled: true
+      rollback_timeout_sec: 5
+
+compression:
+  isolation_enabled: true
+  avoid_concurrent_compression: true
+  compression_guard_window_sec: 10
+
+integrity_auditing:
+  enabled: true
+  checks:
+    - name: "sha256_verification"
+      frequency: "post_write"
+    - name: "line_count_validation"
+      frequency: "post_write"
+      min_lines_threshold: 500  # For sprint_runner.py
+    - name: "syntax_validation"
+      frequency: "post_write"
+      parser: "ast"
+    - name: "entropy_check"
+      frequency: "periodic"
+      max_entropy_index: 1.0
+
+telemetry:
+  enabled: true
+  capture:
+    - "write_operations"
+    - "integrity_violations"
+    - "rollback_events"
+    - "compression_conflicts"
+  export_format: "json"
+  export_path: "telemetry/integrity/"
+
+thresholds:
+  error_rate_max: 0.007  # 0.7%
+  entropy_index_max: 1.0
+  write_failure_tolerance: 3  # Max consecutive failures before alert
+
+policies:
+  on_integrity_violation:
+    - "log_event"
+    - "trigger_rollback"
+    - "notify_operator"
+  on_compression_conflict:
+    - "defer_compression"
+    - "log_warning"
+  on_concurrent_write:
+    - "acquire_lock"
+    - "serialize_access"
+
+protected_files:
+  - "sprint_runner.py"
+  - "core/budget_guard.py"
+  - "core/provenance.py"
+  - "infrastructure/sidecar/router.py"
+  - "infrastructure/sidecar/tracker.py"

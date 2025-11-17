@@ -1,0 +1,789 @@
+phase: '2.1'
+operation: Ethics Literature Expansion
+total_contexts: 46
+timestamp: '2025-11-05T17:59:22.004395'
+routing_domain: philosophy.ethics
+expected_alignment: 0.91
+contexts:
+- id: ethics_expansion_001
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: classical_ethics
+  query: Core principles of Immanuel Kant's ethical philosophy
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.107895'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_002
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: classical_ethics
+  query: Immanuel Kant's concept of the good life
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.216180'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_003
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: classical_ethics
+  query: Key ethical concepts from Immanuel Kant's works
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.325708'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_004
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: classical_ethics
+  query: Core principles of John Stuart Mill's ethical philosophy
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.433932'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_005
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: classical_ethics
+  query: John Stuart Mill's concept of the good life
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.540589'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_006
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: classical_ethics
+  query: Key ethical concepts from John Stuart Mill's works
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.650024'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_007
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: classical_ethics
+  query: Core principles of Aristotle's ethical philosophy
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.760482'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_008
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: utilitarianism
+  query: Mill's distinction between higher and lower pleasures
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.867658'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_009
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: utilitarianism
+  query: Utilitarian calculus and its applications
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:17.974115'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_010
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: utilitarianism
+  query: Mill's distinction between higher and lower pleasures
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.082261'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_011
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: utilitarianism
+  query: Utilitarian calculus and its applications
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.189662'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_012
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: utilitarianism
+  query: Mill's distinction between higher and lower pleasures
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.299832'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_013
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: utilitarianism
+  query: Utilitarian calculus and its applications
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.409643'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_014
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Kant's categorical imperative formulations
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.519163'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_015
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Duty-based ethics vs consequentialism
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.626769'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_016
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Universalizability in Kantian ethics
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.736550'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_017
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Kant's categorical imperative formulations
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.844729'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_018
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Duty-based ethics vs consequentialism
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:18.953856'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_019
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Universalizability in Kantian ethics
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.062803'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_020
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Kant's categorical imperative formulations
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.170500'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_021
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Duty-based ethics vs consequentialism
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.280228'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_022
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Universalizability in Kantian ethics
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.390104'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_023
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: deontology
+  query: Kant's categorical imperative formulations
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.497405'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_024
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Aristotle's doctrine of the mean
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.605569'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_025
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Cardinal virtues in classical philosophy
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.715545'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_026
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Character development in ethical theory
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.823486'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_027
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Aristotle's doctrine of the mean
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:19.934456'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_028
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Cardinal virtues in classical philosophy
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.040883'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_029
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Character development in ethical theory
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.149929'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_030
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Aristotle's doctrine of the mean
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.260330'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_031
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Cardinal virtues in classical philosophy
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.369381'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_032
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Character development in ethical theory
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.476497'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_033
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: virtue_ethics
+  query: Aristotle's doctrine of the mean
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.586609'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_034
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: eastern_ethics
+  query: Buddhist Eightfold Path principles
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.695851'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_035
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: eastern_ethics
+  query: Confucian Five Constant Virtues
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.804469'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_036
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: contemporary_ethics
+  query: Rawls' theory of justice as fairness
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:20.913115'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_037
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: contemporary_ethics
+  query: Contractarian ethics in modern philosophy
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.021874'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_038
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: contemporary_ethics
+  query: Ethics in the age of technology
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.132610'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_039
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: applied_ethics
+  query: Ethical considerations in AI development
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.240475'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_040
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: applied_ethics
+  query: Environmental ethics and sustainability
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.349188'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_041
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: applied_ethics
+  query: Business ethics and corporate responsibility
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.458927'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_042
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: metaethics
+  query: Cognitivism vs non-cognitivism in ethics
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.568932'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_043
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: metaethics
+  query: Moral realism vs anti-realism
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.677068'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_044
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: metaethics
+  query: The is-ought problem in ethics
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.785563'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_045
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: normative_ethics
+  query: Virtue ethics vs rule-based ethics
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:21.894325'
+  phase: '2.1'
+  validation_status: pending
+- id: ethics_expansion_046
+  source: knowledge_base_extraction
+  domain: philosophy.ethics
+  category: normative_ethics
+  query: Relativism vs universalism in ethics
+  extraction_method: kb_routing_optimized
+  confidence_score: 0.95
+  temporal_cutoff: 2023-08
+  alignment_score: 0.92
+  yama_principles:
+    satya: 0.95
+    asteya: 0.9
+    ahimsa: 0.88
+  routing_validation: internal_only
+  timestamp: '2025-11-05T17:59:22.001861'
+  phase: '2.1'
+  validation_status: pending

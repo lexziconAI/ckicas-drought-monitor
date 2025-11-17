@@ -1,0 +1,77 @@
+# AXIOM-X .gitignore
+
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Telemetry & Logs
+telemetry/storage/*.db
+telemetry/storage/*.db-journal
+telemetry/storage/*.log
+*.log
+
+# Locks
+.locks/
+*.lock
+
+# Temporary files
+*.tmp
+.tmp_*
+temp/
+
+# Provenance keys (sensitive!)
+*.key
+*.pem
+
+# Test files
+test_*.txt
+test_*.json
+
+# Quarantine & Archive
+quarantine/
+archive/
+
+# Cache
+.cache/
+*.cache

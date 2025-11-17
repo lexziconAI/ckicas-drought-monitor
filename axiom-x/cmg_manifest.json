@@ -1,0 +1,125 @@
+{
+  "count": 22,
+  "files": [
+    {
+      "path": "cmg/src/policy_engine.py",
+      "bytes": 11645,
+      "lines": 268
+    },
+    {
+      "path": "cmg/src/policy_store.py",
+      "bytes": 10872,
+      "lines": 308
+    },
+    {
+      "path": "cmg/src/social_oracles.py",
+      "bytes": 7655,
+      "lines": 219
+    },
+    {
+      "path": "cmg/src/meta_scheduler.py",
+      "bytes": 9984,
+      "lines": 250
+    },
+    {
+      "path": "cmg/src/audit_bridge.py",
+      "bytes": 9105,
+      "lines": 265
+    },
+    {
+      "path": "cmg/src/simlab.py",
+      "bytes": 12543,
+      "lines": 344
+    },
+    {
+      "path": "cmg/configs/cmg_providers.yaml",
+      "bytes": 2413,
+      "lines": 93
+    },
+    {
+      "path": "cmg/configs/cmg_policies.yaml",
+      "bytes": 3536,
+      "lines": 127
+    },
+    {
+      "path": "cmg/configs/cmg_scheduler.yaml",
+      "bytes": 2754,
+      "lines": 107
+    },
+    {
+      "path": "cmg/configs/cmg_dataflow.yaml",
+      "bytes": 4735,
+      "lines": 169
+    },
+    {
+      "path": "cmg/governance/CMG_CONSTITUTION.md",
+      "bytes": 18571,
+      "lines": 421
+    },
+    {
+      "path": "cmg/tests/unit_policy_engine.py",
+      "bytes": 3966,
+      "lines": 117
+    },
+    {
+      "path": "cmg/tests/unit_policy_store.py",
+      "bytes": 4584,
+      "lines": 141
+    },
+    {
+      "path": "cmg/tests/property_tests.py",
+      "bytes": 9748,
+      "lines": 290
+    },
+    {
+      "path": "cmg/tests/chaos_tests.py",
+      "bytes": 8224,
+      "lines": 261
+    },
+    {
+      "path": "cmg/tests/a11y_privacy_tests.py",
+      "bytes": 6711,
+      "lines": 227
+    },
+    {
+      "path": "cmg/tests/process_tests.py",
+      "bytes": 10411,
+      "lines": 333
+    },
+    {
+      "path": "cmg/runbooks/cmg_ops.md",
+      "bytes": 10739,
+      "lines": 483
+    },
+    {
+      "path": "cmg/runbooks/cmg_smoke.md",
+      "bytes": 17133,
+      "lines": 694
+    },
+    {
+      "path": "cmg/telemetry/cmg_schema.json",
+      "bytes": 13493,
+      "lines": 418
+    },
+    {
+      "path": "cmg/eval/cmg_eval_plan.md",
+      "bytes": 16915,
+      "lines": 599
+    },
+    {
+      "path": "cmg/docs/cmg_decision_brief.md",
+      "bytes": 26555,
+      "lines": 761
+    }
+  ],
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "02248f8d3176644ffc44e29e530297176b3f7a6ab4ebe7eac36697fa026a3e96",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "f0f7b9daec4740956a3fa9ebbb9d898bd1bebbb0228dcdc70bf0485e2dbfebfd",
+    "integrity_verified": true
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "task": "Implement LOG4 overhaul with semantic disambiguation, triple accountability provenance, and Samadhi-profile unification",
+  "scale": "complex",
+  "profile": "lab-burst",
+  "ticks": 1,
+  "max_operations": 1000000,
+  "total_materialised": 150,
+  "total_duplicates_removed": 0,
+  "total_pruned": 0,
+  "total_active_after": 150,
+  "avg_pass_rate": 1.0,
+  "total_split_count": 150,
+  "total_quarantine_count": 0,
+  "avg_exploration_pct": 0.1,
+  "strategic_rounds_invoked": 1,
+  "total_rate_limit_events": 0,
+  "total_timeout_events": 0,
+  "avg_backoff_jitter_ms": 750.0,
+  "total_window_changes": 1,
+  "session_id": "fdc81a8f-c49e-4164-a71a-68050345392a",
+  "complexity": {
+    "estimated_ops": 201001,
+    "level": "complex",
+    "file_count": 200,
+    "task_length": 119
+  },
+  "per_tick_results": [
+    {
+      "tick": 0,
+      "profile": "lab-burst",
+      "materialised": 150,
+      "duplicates_removed": 0,
+      "pruned": 0,
+      "active_after": 150,
+      "pass_rate": 1.0,
+      "mean_runtime_ms": 1000,
+      "split_count": 150,
+      "quarantine_count": 0,
+      "exploration_pct": 0.1,
+      "entropy_topk": 0.5,
+      "novelty_score": 0.7,
+      "llm_round_invoked": true,
+      "rate_limit_events": 0,
+      "timeout_events": 0,
+      "backoff_jitter_ms": 750,
+      "window_change": 1,
+      "top_attractors": [
+        {
+          "name": "main_cluster",
+          "share_pct": 0.6
+        }
+      ]
+    }
+  ],
+  "aggregate_metrics": {
+    "replicates": 1,
+    "seeds": [
+      "seed_0"
+    ],
+    "winner_consistency": 0.85,
+    "attractor_jaccard_mean": 0.7,
+    "window_grow_events": 1,
+    "window_shrink_events": 0
+  },
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "ca6774574467c3225fa165435380b2956d99cc89b6c2a3ae0c555e92e61487e9",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "a4ef2f075e4296f0f32076e58255e923b14c063bd376122b06fc64951261ab0d",
+    "integrity_verified": true
+  }
+}

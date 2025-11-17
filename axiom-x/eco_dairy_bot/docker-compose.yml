@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  eco-dairy-bot:
+    build: ./eco_dairy_bot
+    ports:
+      - "8001:8001"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/eco_dairy
+    depends_on:
+      - db
+    volumes:
+      - ./eco_dairy_bot:/app
+  
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=eco_dairy
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - eco-dairy-data:/var/lib/postgresql/data
+
+volumes:
+  eco-dairy-data:

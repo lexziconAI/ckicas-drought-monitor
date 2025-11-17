@@ -1,0 +1,33 @@
+{
+  "test_id": "test_ihum_governance_resilience_test_1761762346",
+  "scenario": {
+    "id": "ihum_governance_resilience",
+    "name": "IHUM Governance Resilience Test",
+    "description": "Validate IHUM governance framework resilience under attack",
+    "risk_level": "high"
+  },
+  "execution": {
+    "start_time": 1761762346.4451268,
+    "end_time": 1761762346.4552853,
+    "duration": 0.010158538818359375,
+    "success": false
+  },
+  "results": {
+    "component_results": {},
+    "system_metrics_summary": {
+      "avg_health": 0.8028922822370026,
+      "avg_intelligence": 0.8370609738190153,
+      "avg_compliance": 0.9008720724339245,
+      "avg_complexity": 1.5928020362010236
+    },
+    "event_counts": {
+      "failures": 1,
+      "recoveries": 0,
+      "ihum_violations": 0,
+      "fractal_patterns": 0
+    }
+  },
+  "risk_assessment": {},
+  "recommendations": [],
+  "generated_at": 1761762346.4554193
+}

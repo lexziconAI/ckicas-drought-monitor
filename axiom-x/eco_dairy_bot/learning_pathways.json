@@ -1,0 +1,92 @@
+{
+  "dairy_ecology_fundamentals": {
+    "id": "pathway_1",
+    "title": "Dairy Ecology Fundamentals",
+    "target_audience": "Beginners",
+    "learning_objectives": [
+      "Understand basic dairy farm ecosystem",
+      "Identify key environmental factors",
+      "Recognize sustainable practices"
+    ],
+    "modules": [
+      "Farm Systems",
+      "Environmental Impact",
+      "Basic Sustainability"
+    ],
+    "adaptive_difficulty": true,
+    "estimated_duration": "4 weeks",
+    "assessment_type": "formative"
+  },
+  "sustainable_practices": {
+    "id": "pathway_2",
+    "title": "Sustainable Farming Practices",
+    "target_audience": "Intermediate",
+    "learning_objectives": [
+      "Apply sustainable dairy techniques",
+      "Analyze environmental impact",
+      "Design improvement strategies"
+    ],
+    "modules": [
+      "Water Management",
+      "Soil Health",
+      "Carbon Footprint"
+    ],
+    "adaptive_difficulty": true,
+    "estimated_duration": "6 weeks",
+    "assessment_type": "project_based"
+  },
+  "systems_thinking": {
+    "id": "pathway_3",
+    "title": "Agricultural Systems Thinking",
+    "target_audience": "Advanced",
+    "learning_objectives": [
+      "Model complex farm systems",
+      "Predict system behavior",
+      "Optimize for multiple outcomes"
+    ],
+    "modules": [
+      "Systems Modeling",
+      "Data Analysis",
+      "Optimization"
+    ],
+    "adaptive_difficulty": true,
+    "estimated_duration": "8 weeks",
+    "assessment_type": "systems_analysis"
+  },
+  "economic_integration": {
+    "id": "pathway_4",
+    "title": "Farm-to-Consumer Economics",
+    "target_audience": "Applied learners",
+    "learning_objectives": [
+      "Understand dairy supply chain",
+      "Analyze economic factors",
+      "Make business decisions"
+    ],
+    "modules": [
+      "Supply Chain",
+      "Market Analysis",
+      "Business Planning"
+    ],
+    "adaptive_difficulty": true,
+    "estimated_duration": "6 weeks",
+    "assessment_type": "business_case"
+  },
+  "climate_adaptation": {
+    "id": "pathway_5",
+    "title": "Climate & Dairy Industry",
+    "target_audience": "Specialized",
+    "learning_objectives": [
+      "Understand climate change impacts",
+      "Develop adaptation strategies",
+      "Innovate sustainable solutions"
+    ],
+    "modules": [
+      "Climate Science",
+      "Adaptation Strategies",
+      "Innovation"
+    ],
+    "adaptive_difficulty": true,
+    "estimated_duration": "8 weeks",
+    "assessment_type": "innovation_project"
+  }
+}

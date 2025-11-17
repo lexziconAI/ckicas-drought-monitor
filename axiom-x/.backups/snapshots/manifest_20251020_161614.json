@@ -1,0 +1,66 @@
+{
+  "version": "v8.1-RC1",
+  "timestamp": "2025-10-20T16:16:14.915194+00:00",
+  "validation": {
+    "baseline_valid": true,
+    "expectations": {
+      "entropy < 1.0 bits/sec": true,
+      "collision_rate < 0.7%": true,
+      "integrity_success > 99%": true
+    },
+    "file_audits": {
+      "sprint_runner.py": {
+        "exists": true,
+        "passed": true,
+        "entropy": 0.5241149665333447,
+        "line_count": 641,
+        "syntax_valid": true
+      },
+      "src/integrity/transactional_writer.py": {
+        "exists": true,
+        "passed": true,
+        "entropy": 0.5489498614440217,
+        "line_count": 228,
+        "syntax_valid": true
+      },
+      "src/integrity/autosave_coordinator.py": {
+        "exists": true,
+        "passed": true,
+        "entropy": 0.5501147532351657,
+        "line_count": 147,
+        "syntax_valid": true
+      },
+      "src/integrity/compression_isolator.py": {
+        "exists": true,
+        "passed": true,
+        "entropy": 0.5450260759002192,
+        "line_count": 94,
+        "syntax_valid": true
+      },
+      "src/integrity/integrity_auditor.py": {
+        "exists": true,
+        "passed": true,
+        "entropy": 0.548738439445316,
+        "line_count": 214,
+        "syntax_valid": true
+      }
+    }
+  },
+  "governance_snapshot": ".backups\\snapshots\\integrity_governance_20251020_161614.yaml",
+  "signed_files": [
+    "sprint_runner.py",
+    "src/integrity/transactional_writer.py",
+    "src/integrity/autosave_coordinator.py",
+    "src/integrity/compression_isolator.py",
+    "src/integrity/integrity_auditor.py"
+  ],
+  "integrity_mode": "PARANOID",
+  "antifragility_features": [
+    "transactional_writes",
+    "autosave_coordination",
+    "compression_isolation",
+    "integrity_auditing",
+    "entropy_monitoring",
+    "automatic_rollback"
+  ]
+}

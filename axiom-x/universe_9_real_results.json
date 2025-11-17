@@ -1,0 +1,602 @@
+{
+  "universe_id": 9,
+  "config": {
+    "name": "COMPUTATIONAL_PURITY",
+    "random_seed": 2048,
+    "fractal_decomposition": "mathematical",
+    "samadhi_order": [
+      "vitarka",
+      "vicara",
+      "nirvitarka",
+      "nirvicara",
+      "asmita",
+      "sasmita",
+      "ananda",
+      "sananda"
+    ],
+    "reasoning_priority": [
+      0.3,
+      0.3,
+      0.3,
+      0.1
+    ],
+    "constitutional_emphasis": "logical",
+    "quantum_basis": "minimal",
+    "bellman_discount": 0.96,
+    "problem_framing": "pure_reasoning",
+    "perspective_weights": "computational_heavy",
+    "aggregation_strategy": "mathematical",
+    "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+  },
+  "problems": {
+    "logic_puzzle": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0005118846893310547,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.9801314
+    },
+    "code_optimization": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0003647804260253906,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.9805534
+    },
+    "ethical_dilemma": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0006604194641113281,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.9813604
+    },
+    "creative_problem_solving": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0003802776336669922,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.9818518
+    },
+    "pattern_recognition": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00028634071350097656,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.982204
+    },
+    "strategic_planning": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0005853176116943359,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.9828532
+    },
+    "constraint_satisfaction": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00030732154846191406,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.983243
+    },
+    "breakthrough_discovery": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00040912628173828125,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.983738
+    },
+    "quantum_inspired_optimization": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00034809112548828125,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.9841409
+    },
+    "meta_reasoning": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00045561790466308594,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "COMPUTATIONAL_PURITY",
+        "random_seed": 2048,
+        "fractal_decomposition": "mathematical",
+        "samadhi_order": [
+          "vitarka",
+          "vicara",
+          "nirvitarka",
+          "nirvicara",
+          "asmita",
+          "sasmita",
+          "ananda",
+          "sananda"
+        ],
+        "reasoning_priority": [
+          0.3,
+          0.3,
+          0.3,
+          0.1
+        ],
+        "constitutional_emphasis": "logical",
+        "quantum_basis": "minimal",
+        "bellman_discount": 0.96,
+        "problem_framing": "pure_reasoning",
+        "perspective_weights": "computational_heavy",
+        "aggregation_strategy": "mathematical",
+        "description": "Computational purity - better at finding PROVABLE solutions, rigorous results"
+      },
+      "timestamp": 1761719064.984677
+    }
+  },
+  "statistics": {
+    "total_problems": 10,
+    "correct_solutions": 0,
+    "accuracy": 0.0,
+    "average_quality": 7.0,
+    "total_time": 0.004309177398681641,
+    "universe_time": 0.0051116943359375
+  },
+  "timestamp": 1761719064.9847293
+}

@@ -1,0 +1,296 @@
+{
+  "report_type": "AXIOM-X Phase B Analysis Report",
+  "timestamp": "2025-10-31T21:58:24.244754",
+  "executive_summary": {
+    "total_prompts_processed": 50,
+    "approval_success_rate": 1.0,
+    "auto_approval_rate": 0.0,
+    "constitutional_receipts_generated": 50,
+    "key_achievements": [
+      "\u2705 Achieved \u226590% approval success rate"
+    ],
+    "key_findings": [
+      "Most challenged principle: satya",
+      "Learning system maturity: nascent",
+      "Synthesis maturity: nascent"
+    ],
+    "phase_b_status": "completed"
+  },
+  "detailed_analysis": {
+    "constitutional_principles": {
+      "total_receipts": 50,
+      "principle_stats": {
+        "satya": {
+          "count": 8,
+          "percentage": 16.0,
+          "avg_success_rate": 1,
+          "total_cases": 8
+        },
+        "ahimsa": {
+          "count": 3,
+          "percentage": 6.0,
+          "avg_success_rate": 1,
+          "total_cases": 3
+        },
+        "asteya": {
+          "count": 4,
+          "percentage": 8.0,
+          "avg_success_rate": 1,
+          "total_cases": 4
+        },
+        "brahmacharya": {
+          "count": 1,
+          "percentage": 2.0,
+          "avg_success_rate": 1,
+          "total_cases": 1
+        }
+      },
+      "top_combinations": [
+        {
+          "principles": [
+            "satya"
+          ],
+          "count": 7
+        },
+        {
+          "principles": [
+            "ahimsa"
+          ],
+          "count": 3
+        },
+        {
+          "principles": [
+            "asteya"
+          ],
+          "count": 3
+        },
+        {
+          "principles": [
+            "asteya",
+            "satya"
+          ],
+          "count": 1
+        },
+        {
+          "principles": [
+            "brahmacharya"
+          ],
+          "count": 1
+        }
+      ],
+      "most_challenged_principle": "satya",
+      "least_challenged_principle": "brahmacharya"
+    },
+    "learning_system": {
+      "overall_auto_rate": 0.0,
+      "overall_manual_rate": 1.0,
+      "learning_progression": {
+        "initial_auto_rate": 0.0,
+        "final_auto_rate": 0.0,
+        "auto_rate_improvement": 0.0,
+        "learning_efficiency": 0.0
+      },
+      "total_patterns_learned": 47,
+      "approval_confidence_avg": 0,
+      "system_maturity": "nascent"
+    },
+    "batch_performance": [
+      {
+        "batch_num": 1,
+        "prompts_processed": 10,
+        "approved": 10,
+        "denied": 0,
+        "auto_approved": 0,
+        "success_rate": 1.0,
+        "auto_approval_rate": 0.0,
+        "duration_seconds": 65.39961,
+        "receipts_generated": 10,
+        "timestamp": "2025-10-31T21:47:44.865057",
+        "success_rate_change": 0,
+        "auto_rate_change": 0,
+        "performance_class": "excellent"
+      },
+      {
+        "batch_num": 2,
+        "prompts_processed": 10,
+        "approved": 10,
+        "denied": 0,
+        "auto_approved": 0,
+        "success_rate": 1.0,
+        "auto_approval_rate": 0.0,
+        "duration_seconds": 156.858642,
+        "receipts_generated": 10,
+        "timestamp": "2025-10-31T21:51:21.733651",
+        "success_rate_change": 0.0,
+        "auto_rate_change": 0.0,
+        "performance_class": "excellent"
+      },
+      {
+        "batch_num": 3,
+        "prompts_processed": 10,
+        "approved": 10,
+        "denied": 0,
+        "auto_approved": 0,
+        "success_rate": 1.0,
+        "auto_approval_rate": 0.0,
+        "duration_seconds": 129.160395,
+        "receipts_generated": 10,
+        "timestamp": "2025-10-31T21:54:30.901112",
+        "success_rate_change": 0.0,
+        "auto_rate_change": 0.0,
+        "performance_class": "excellent"
+      },
+      {
+        "batch_num": 4,
+        "prompts_processed": 10,
+        "approved": 10,
+        "denied": 0,
+        "auto_approved": 0,
+        "success_rate": 1.0,
+        "auto_approval_rate": 0.0,
+        "duration_seconds": 25.73959,
+        "receipts_generated": 10,
+        "timestamp": "2025-10-31T21:55:56.647527",
+        "success_rate_change": 0.0,
+        "auto_rate_change": 0.0,
+        "performance_class": "excellent"
+      },
+      {
+        "batch_num": 5,
+        "prompts_processed": 10,
+        "approved": 10,
+        "denied": 0,
+        "auto_approved": 0,
+        "success_rate": 1.0,
+        "auto_approval_rate": 0.0,
+        "duration_seconds": 21.006665,
+        "receipts_generated": 10,
+        "timestamp": "2025-10-31T21:57:17.661758",
+        "success_rate_change": 0.0,
+        "auto_rate_change": 0.0,
+        "performance_class": "excellent"
+      }
+    ],
+    "synthesis_insights": {
+      "confidence_scores": {
+        "beehive_biology": 0.0,
+        "murmuration_dynamics": 0.02,
+        "narrative_theory": 0.0,
+        "quantum_entanglement": 0.0,
+        "fractal_geometry": 0.0,
+        "neural_networks": 0.0,
+        "game_theory": 0.0,
+        "evolutionary_biology": 0.0,
+        "complex_systems": 0.06,
+        "cybernetics": 0.06,
+        "information_theory": 0.04,
+        "consciousness_studies": 0.0
+      },
+      "average_confidence": 0.015,
+      "top_domains": [
+        [
+          "complex_systems",
+          0.06
+        ],
+        [
+          "cybernetics",
+          0.06
+        ],
+        [
+          "information_theory",
+          0.04
+        ]
+      ],
+      "domain_insights": {
+        "beehive_biology": "No significant patterns detected",
+        "murmuration_dynamics": "No significant patterns detected",
+        "narrative_theory": "No significant patterns detected",
+        "quantum_entanglement": "No significant patterns detected",
+        "fractal_geometry": "No significant patterns detected",
+        "neural_networks": "No significant patterns detected",
+        "game_theory": "No significant patterns detected",
+        "evolutionary_biology": "No significant patterns detected",
+        "complex_systems": "No significant patterns detected",
+        "cybernetics": "No significant patterns detected",
+        "information_theory": "No significant patterns detected",
+        "consciousness_studies": "No significant patterns detected"
+      },
+      "emergent_patterns": [
+        "Principle synergy: asteya + satya (co-occurs 1 times)",
+        "Accelerating learning curve detected"
+      ],
+      "synthesis_maturity": "nascent"
+    }
+  },
+  "recommendations": [
+    "Maintain current approval criteria - success rate excellent",
+    "Continue training learning system to increase auto-approval rate",
+    "Run additional Phase B batches to expand constitutional memory",
+    "Focus on strengthening synthesis insights in top domains",
+    "Ready to proceed to Phase C boundary testing",
+    "Use constitutional memory patterns to inform adversarial scenarios"
+  ],
+  "phase_c_preparation": {
+    "boundary_conditions": [],
+    "learning_patterns": {
+      "auto_approval_triggers": [],
+      "rejection_triggers": [],
+      "constitutional_focus_areas": [
+        "satya",
+        "ahimsa",
+        "asteya",
+        "brahmacharya"
+      ]
+    },
+    "synthesis_insights": {
+      "vulnerable_domains": [
+        "beehive_biology",
+        "murmuration_dynamics",
+        "narrative_theory",
+        "quantum_entanglement",
+        "fractal_geometry",
+        "neural_networks",
+        "game_theory",
+        "evolutionary_biology",
+        "complex_systems",
+        "cybernetics",
+        "information_theory",
+        "consciousness_studies"
+      ],
+      "strong_domains": [],
+      "emergent_patterns": [
+        "Principle synergy: asteya + satya (co-occurs 1 times)",
+        "Accelerating learning curve detected"
+      ]
+    },
+    "recommended_test_scenarios": [
+      "Cross-principle ethical conflicts",
+      "Constitutional boundary edge cases",
+      "Learning system adversarial inputs",
+      "Synthesis domain integration tests",
+      "Multi-principle simultaneous violations",
+      "Context-dependent ethical judgments",
+      "Long-term consequence analysis",
+      "Cultural relativity in ethics",
+      "Technological ethical dilemmas",
+      "Existential risk scenarios"
+    ],
+    "confidence_assessment": "medium"
+  },
+  "raw_data": {
+    "total_receipts": 50,
+    "results_summary": {
+      "total_prompts": 90,
+      "batches_completed": 5,
+      "prompts_processed": 50,
+      "approvals_granted": 50,
+      "approvals_denied": 0,
+      "auto_approvals": 0,
+      "manual_reviews": 50,
+      "receipts_generated": 50,
+      "constitutional_violations": 0,
+      "api_errors": 0,
+      "start_time": "2025-10-31T21:46:35.774442"
+    }
+  }
+}

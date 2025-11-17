@@ -1,0 +1,93 @@
+{
+  "config": {
+    "n_samples": 2000,
+    "perturbation_pct": 20.0,
+    "seed": 42
+  },
+  "stability_metrics": {
+    "per_option": {
+      "opt_a": {
+        "baseline_rank": 1,
+        "mean_rank": 1.0005,
+        "rank_volatility": 0.022355088906108156,
+        "top3_stability_pct": 100.0,
+        "avg_position_change": 0.0005
+      },
+      "opt_c": {
+        "baseline_rank": 2,
+        "mean_rank": 2.182,
+        "rank_volatility": 0.38584452827531457,
+        "top3_stability_pct": 100.0,
+        "avg_position_change": 0.182
+      },
+      "opt_d": {
+        "baseline_rank": 3,
+        "mean_rank": 3.0525,
+        "rank_volatility": 0.7243919864272381,
+        "top3_stability_pct": 81.95,
+        "avg_position_change": 0.4175
+      },
+      "opt_b": {
+        "baseline_rank": 4,
+        "mean_rank": 3.832,
+        "rank_volatility": 0.37386628625753354,
+        "top3_stability_pct": 16.8,
+        "avg_position_change": 0.168
+      },
+      "opt_e": {
+        "baseline_rank": 5,
+        "mean_rank": 4.933,
+        "rank_volatility": 0.29582258196425776,
+        "top3_stability_pct": 1.25,
+        "avg_position_change": 0.067
+      }
+    },
+    "overall": {
+      "baseline_winner": "opt_a",
+      "winner_stability_pct": 99.95,
+      "n_perturbations": 2000
+    }
+  },
+  "tornado_data": {
+    "cost": {
+      "low_impact": 0,
+      "high_impact": 0,
+      "range": 0,
+      "baseline_weight": 0.25
+    },
+    "benefit": {
+      "low_impact": 0,
+      "high_impact": 0,
+      "range": 0,
+      "baseline_weight": 0.3
+    },
+    "risk": {
+      "low_impact": 0,
+      "high_impact": 0,
+      "range": 0,
+      "baseline_weight": 0.2
+    },
+    "carbon": {
+      "low_impact": 0,
+      "high_impact": 0,
+      "range": 0,
+      "baseline_weight": 0.1
+    },
+    "time": {
+      "low_impact": 0,
+      "high_impact": 0,
+      "range": 0,
+      "baseline_weight": 0.15
+    }
+  },
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "129d89c8914417113a59f9e481398a2c10efda41a365ad100edf26f1e83f899c",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "ee40b599d84ea9f13fd4b7c437bbd19c53f69f0d46402f7043500fdc36055164",
+    "integrity_verified": true
+  }
+}

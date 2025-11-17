@@ -1,0 +1,30 @@
+{
+  "failures": [
+    {
+      "timestamp": "2025-11-05T17:46:10.979247",
+      "error_type": "TypeError",
+      "error_message": "test_infrastructure_systems.<locals>.failing_provider() missing 1 required positional argument: 'prompt'",
+      "attempted_action": "Test prompt",
+      "yama_violation": "Provider error: validation_failure",
+      "hash": "22da19fc123a1182"
+    },
+    {
+      "timestamp": "2025-11-05T17:46:24.335569",
+      "error_type": "TypeError",
+      "error_message": "test_infrastructure_systems.<locals>.failing_provider() missing 1 required positional argument: 'prompt'",
+      "attempted_action": "Test prompt",
+      "yama_violation": "Provider error: validation_failure",
+      "hash": "45fe1c1f0f85081d"
+    },
+    {
+      "timestamp": "2025-11-05T17:46:59.184384",
+      "error_type": "TypeError",
+      "error_message": "test_infrastructure_systems.<locals>.failing_provider() missing 1 required positional argument: 'prompt'",
+      "attempted_action": "Test prompt",
+      "yama_violation": "Provider error: validation_failure",
+      "hash": "a87fbb797451107c"
+    }
+  ],
+  "last_updated": "2025-11-05T17:46:59.184454",
+  "total_failures": 3
+}

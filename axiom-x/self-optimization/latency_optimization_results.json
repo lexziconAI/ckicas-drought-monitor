@@ -1,0 +1,123 @@
+{
+  "batch_size_tests": [
+    {
+      "batch_size": 1,
+      "avg_batch_latency": 0.00015652974446614583,
+      "avg_total_latency": 4.50687575340271,
+      "min_total_latency": 4.505959749221802,
+      "max_total_latency": 4.508546590805054,
+      "throughput": 2.2188319685649107
+    },
+    {
+      "batch_size": 2,
+      "avg_batch_latency": 0.00014050801595052084,
+      "avg_total_latency": 2.0023187001546225,
+      "min_total_latency": 2.0017731189727783,
+      "max_total_latency": 2.003108024597168,
+      "throughput": 4.994209962294105
+    },
+    {
+      "batch_size": 3,
+      "avg_batch_latency": 0.00018670161565144858,
+      "avg_total_latency": 1.5028026898701985,
+      "min_total_latency": 1.5023586750030518,
+      "max_total_latency": 1.5035412311553955,
+      "throughput": 6.654233498120588
+    },
+    {
+      "batch_size": 4,
+      "avg_batch_latency": 0.00022554397583007812,
+      "avg_total_latency": 1.0014363924662273,
+      "min_total_latency": 1.0009753704071045,
+      "max_total_latency": 1.002241611480713,
+      "throughput": 9.98565667797742
+    },
+    {
+      "batch_size": 5,
+      "avg_batch_latency": 0.00031618277231852215,
+      "avg_total_latency": 0.501439094543457,
+      "min_total_latency": 0.5009992122650146,
+      "max_total_latency": 0.501899003982544,
+      "throughput": 19.942601422221884
+    },
+    {
+      "batch_size": 6,
+      "avg_batch_latency": 0.00023837884267171225,
+      "avg_total_latency": 0.5008395512898763,
+      "min_total_latency": 0.500603437423706,
+      "max_total_latency": 0.5009605884552002,
+      "throughput": 19.966474241592376
+    },
+    {
+      "batch_size": 8,
+      "avg_batch_latency": 0.00028387705485026043,
+      "avg_total_latency": 0.5011270840962728,
+      "min_total_latency": 0.5006804466247559,
+      "max_total_latency": 0.5019011497497559,
+      "throughput": 19.955018033068182
+    },
+    {
+      "batch_size": 10,
+      "avg_batch_latency": 0.0004361470540364583,
+      "avg_total_latency": 0.00043845176696777344,
+      "min_total_latency": 0.00038123130798339844,
+      "max_total_latency": 0.0004930496215820312,
+      "throughput": 22807.52582925503
+    }
+  ],
+  "concurrency_tests": [
+    {
+      "concurrent_limit": 3,
+      "avg_total_latency": 0.00046507517496744793,
+      "min_total_latency": 0.0003943443298339844,
+      "max_total_latency": 0.0005779266357421875,
+      "throughput": 21501.9002050581
+    },
+    {
+      "concurrent_limit": 5,
+      "avg_total_latency": 0.00047214825948079425,
+      "min_total_latency": 0.00045490264892578125,
+      "max_total_latency": 0.0004935264587402344,
+      "throughput": 21179.78791449251
+    },
+    {
+      "concurrent_limit": 8,
+      "avg_total_latency": 0.0008720556894938151,
+      "min_total_latency": 0.0005643367767333984,
+      "max_total_latency": 0.0012998580932617188,
+      "throughput": 11467.157568577417
+    },
+    {
+      "concurrent_limit": 10,
+      "avg_total_latency": 0.0007968743642171224,
+      "min_total_latency": 0.0007138252258300781,
+      "max_total_latency": 0.0009291172027587891,
+      "throughput": 12549.029620025929
+    },
+    {
+      "concurrent_limit": 15,
+      "avg_total_latency": 0.0006415843963623047,
+      "min_total_latency": 0.0005602836608886719,
+      "max_total_latency": 0.0007638931274414062,
+      "throughput": 15586.413972500928
+    },
+    {
+      "concurrent_limit": 20,
+      "avg_total_latency": 0.0007205804189046224,
+      "min_total_latency": 0.0006299018859863281,
+      "max_total_latency": 0.0008449554443359375,
+      "throughput": 13877.701555089885
+    }
+  ],
+  "recommendations": {
+    "optimal_batch_size": 10,
+    "expected_throughput_batch": 22807.52582925503,
+    "optimal_concurrency_limit": 3,
+    "expected_throughput_concurrency": 21501.9002050581,
+    "combined_strategy": {
+      "batch_size": 10,
+      "concurrency_limit": 3,
+      "estimated_total_throughput": 21501.9002050581
+    }
+  }
+}

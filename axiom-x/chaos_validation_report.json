@@ -1,0 +1,139 @@
+{
+  "timestamp": 1761762127.0106173,
+  "total_experiments": 10,
+  "successful_experiments": 7,
+  "success_rate": 0.7,
+  "resilience_score": 67.78562452111925,
+  "average_recovery_rate": 0.6557124904223851,
+  "failure_type_summary": {
+    "memory": {
+      "success_rate": 0.0,
+      "total_experiments": 1
+    },
+    "compute": {
+      "success_rate": 1.0,
+      "total_experiments": 1
+    },
+    "network": {
+      "success_rate": 0.0,
+      "total_experiments": 1
+    },
+    "data": {
+      "success_rate": 1.0,
+      "total_experiments": 1
+    },
+    "storage": {
+      "success_rate": 0.0,
+      "total_experiments": 1
+    },
+    "security": {
+      "success_rate": 1.0,
+      "total_experiments": 1
+    },
+    "ai_model": {
+      "success_rate": 1.0,
+      "total_experiments": 1
+    },
+    "constitutional": {
+      "success_rate": 1.0,
+      "total_experiments": 1
+    },
+    "system": {
+      "success_rate": 1.0,
+      "total_experiments": 1
+    },
+    "infrastructure": {
+      "success_rate": 1.0,
+      "total_experiments": 1
+    }
+  },
+  "recommendations": [
+    "Overall system resilience needs improvement",
+    "Improve failure handling for better success rates",
+    "Optimize recovery mechanisms for faster restoration",
+    "Focus improvement efforts on: memory, network, storage"
+  ],
+  "validation_status": "NEEDS_IMPROVEMENT",
+  "experiment_details": [
+    {
+      "name": "memory_exhaustion_test",
+      "success": false,
+      "recovery_time": 9.12289810180664,
+      "recommendations": [
+        "Improve memory failure handling"
+      ]
+    },
+    {
+      "name": "cpu_overload_test",
+      "success": true,
+      "recovery_time": 11.579934358596802,
+      "recommendations": [
+        "Experiment completed successfully - no action required"
+      ]
+    },
+    {
+      "name": "network_partition_test",
+      "success": false,
+      "recovery_time": 21.011057138442993,
+      "recommendations": [
+        "Improve network failure handling"
+      ]
+    },
+    {
+      "name": "database_corruption_test",
+      "success": true,
+      "recovery_time": 30.003016710281372,
+      "recommendations": [
+        "Experiment completed successfully - no action required"
+      ]
+    },
+    {
+      "name": "disk_space_exhaustion_test",
+      "success": false,
+      "recovery_time": 10.32821249961853,
+      "recommendations": [
+        "Improve storage failure handling"
+      ]
+    },
+    {
+      "name": "security_certificate_expiry_test",
+      "success": true,
+      "recovery_time": 15.20054841041565,
+      "recommendations": [
+        "Experiment completed successfully - no action required"
+      ]
+    },
+    {
+      "name": "ai_model_corruption_test",
+      "success": true,
+      "recovery_time": 39.91237950325012,
+      "recommendations": [
+        "Experiment completed successfully - no action required"
+      ]
+    },
+    {
+      "name": "constitutional_violation_injection_test",
+      "success": true,
+      "recovery_time": 1.4798483848571777,
+      "recommendations": [
+        "Experiment completed successfully - no action required"
+      ]
+    },
+    {
+      "name": "system_clock_skew_test",
+      "success": true,
+      "recovery_time": 5.815130710601807,
+      "recommendations": [
+        "Experiment completed successfully - no action required"
+      ]
+    },
+    {
+      "name": "infrastructure_server_kill_test",
+      "success": true,
+      "recovery_time": 40.60989594459534,
+      "recommendations": [
+        "Experiment completed successfully - no action required"
+      ]
+    }
+  ]
+}

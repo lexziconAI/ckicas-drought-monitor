@@ -1,0 +1,231 @@
+{
+  "config": {
+    "replicates": 5,
+    "seeds": 5,
+    "injection_mode": "none",
+    "profile_sequence": [
+      "cpu-swarm",
+      "lab-burst",
+      "turbo"
+    ]
+  },
+  "tick_results": [
+    {
+      "tick": 0,
+      "profile": "cpu-swarm",
+      "replicates": 41,
+      "seeds": 3,
+      "materialised": 22,
+      "duplicates": 10,
+      "pruned": 4,
+      "active": 39,
+      "pass_rate": 0.7648315428214858,
+      "runtime": 5.0067901611328125e-06,
+      "split": {
+        "exploration": 15,
+        "exploitation": 35
+      },
+      "quarantine": 1,
+      "exploration": 0.1,
+      "entropy": 0.4860049530260022,
+      "novelty": 0.3743529331257731,
+      "llm_round": 1,
+      "rate_limits": 1,
+      "timeouts": 2,
+      "backoff": 3,
+      "window_change": false,
+      "top_attractors": [
+        "attractor_0",
+        "attractor_1",
+        "attractor_2",
+        "attractor_3",
+        "attractor_4"
+      ]
+    },
+    {
+      "tick": 1,
+      "profile": "cpu-swarm",
+      "replicates": 21,
+      "seeds": 3,
+      "materialised": 45,
+      "duplicates": 1,
+      "pruned": 3,
+      "active": 59,
+      "pass_rate": 0.739764649706726,
+      "runtime": 4.5299530029296875e-06,
+      "split": {
+        "exploration": 15,
+        "exploitation": 35
+      },
+      "quarantine": 1,
+      "exploration": 0.1,
+      "entropy": 0.2307172223047048,
+      "novelty": 0.2905684966828132,
+      "llm_round": 2,
+      "rate_limits": 0,
+      "timeouts": 2,
+      "backoff": 2,
+      "window_change": false,
+      "top_attractors": [
+        "attractor_0",
+        "attractor_1",
+        "attractor_2",
+        "attractor_3",
+        "attractor_4"
+      ]
+    },
+    {
+      "tick": 2,
+      "profile": "lab-burst",
+      "replicates": 28,
+      "seeds": 3,
+      "materialised": 30,
+      "duplicates": 4,
+      "pruned": 2,
+      "active": 40,
+      "pass_rate": 0.8136266500724749,
+      "runtime": 2.6226043701171875e-06,
+      "split": {
+        "exploration": 15,
+        "exploitation": 35
+      },
+      "quarantine": 1,
+      "exploration": 0.1,
+      "entropy": 0.1382513457256253,
+      "novelty": 0.28755442038385315,
+      "llm_round": 1,
+      "rate_limits": 1,
+      "timeouts": 2,
+      "backoff": 3,
+      "window_change": true,
+      "top_attractors": [
+        "attractor_0",
+        "attractor_1",
+        "attractor_2",
+        "attractor_3",
+        "attractor_4"
+      ]
+    },
+    {
+      "tick": 3,
+      "profile": "lab-burst",
+      "replicates": 31,
+      "seeds": 3,
+      "materialised": 45,
+      "duplicates": 7,
+      "pruned": 0,
+      "active": 40,
+      "pass_rate": 0.7767745810021258,
+      "runtime": 4.0531158447265625e-06,
+      "split": {
+        "exploration": 15,
+        "exploitation": 35
+      },
+      "quarantine": 1,
+      "exploration": 0.1,
+      "entropy": 0.7086939203820513,
+      "novelty": 0.8014200616425395,
+      "llm_round": 2,
+      "rate_limits": 2,
+      "timeouts": 1,
+      "backoff": 1,
+      "window_change": false,
+      "top_attractors": [
+        "attractor_0",
+        "attractor_1",
+        "attractor_2",
+        "attractor_3",
+        "attractor_4"
+      ]
+    },
+    {
+      "tick": 4,
+      "profile": "turbo",
+      "replicates": 17,
+      "seeds": 3,
+      "materialised": 28,
+      "duplicates": 8,
+      "pruned": 0,
+      "active": 21,
+      "pass_rate": 0.9350598185893918,
+      "runtime": 7.152557373046875e-06,
+      "split": {
+        "exploration": 15,
+        "exploitation": 35
+      },
+      "quarantine": 0,
+      "exploration": 0.1,
+      "entropy": 0.2831135174006163,
+      "novelty": 0.5499240014382027,
+      "llm_round": 1,
+      "rate_limits": 0,
+      "timeouts": 2,
+      "backoff": 0,
+      "window_change": true,
+      "top_attractors": [
+        "attractor_0",
+        "attractor_1",
+        "attractor_2",
+        "attractor_3",
+        "attractor_4"
+      ]
+    },
+    {
+      "tick": 5,
+      "profile": "turbo",
+      "replicates": 29,
+      "seeds": 3,
+      "materialised": 40,
+      "duplicates": 5,
+      "pruned": 3,
+      "active": 55,
+      "pass_rate": 0.9391711351234132,
+      "runtime": 2.384185791015625e-06,
+      "split": {
+        "exploration": 15,
+        "exploitation": 35
+      },
+      "quarantine": 3,
+      "exploration": 0.12,
+      "entropy": 0.3771037489583843,
+      "novelty": 0.5441155090989351,
+      "llm_round": 2,
+      "rate_limits": 1,
+      "timeouts": 0,
+      "backoff": 0,
+      "window_change": true,
+      "top_attractors": [
+        "attractor_0",
+        "attractor_1",
+        "attractor_2",
+        "attractor_3",
+        "attractor_4"
+      ]
+    }
+  ],
+  "aggregate": {
+    "replicates": 167,
+    "seeds": 18,
+    "winner_consistency": 0.16666666666666666,
+    "attractor_jaccard": 1.0,
+    "window_grow_shrink": {
+      "grow_events": 0,
+      "shrink_events": 0,
+      "final_window": 6144,
+      "profile": "turbo"
+    },
+    "total_ticks": 6,
+    "profile": "turbo"
+  },
+  "passed_assertions": false,
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "fa155d75cbeb1db33cf33c919948717d5c43930802ce9f6704ffeb728c544633",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "aa7941b569531a143fa4b6d4078805bcfc139f6a397dc3f7d49f7e62aea8484c",
+    "integrity_verified": true
+  }
+}

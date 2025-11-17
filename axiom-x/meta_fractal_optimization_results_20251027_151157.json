@@ -1,0 +1,528 @@
+{
+  "timestamp": "20251027_151157",
+  "meta_attractors_discovered": 60,
+  "pruned_attractors": 60,
+  "best_meta_attractor": {
+    "id": "meta_7d_308ab346",
+    "dimension": 7,
+    "compliance": 100.0,
+    "fractal_dimension": 4.0,
+    "stability_index": 0.5663166378291217,
+    "self_organization_score": 0.8,
+    "computational_efficiency": 0.038461538461538464
+  },
+  "improvements_over_previous": {
+    "compliance_improvement": 100.0,
+    "compliance_percent_increase": 0,
+    "higher_dimensions_explored": true,
+    "exponential_sensitivity_used": true,
+    "attractor_pruning_applied": true,
+    "stability_improved": true,
+    "self_organization_found": true
+  },
+  "exploration_parameters": {
+    "sensitivity_range": [
+      1e-08,
+      0.01
+    ],
+    "dimensions_explored": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "total_trajectories": 60,
+    "pruning_threshold": 0.1
+  },
+  "quality_metrics_achieved": {
+    "max_compliance": 100.0,
+    "max_stability": 0.9999997815430343,
+    "max_self_organization": 0.8,
+    "best_dimension": 7,
+    "computational_resources_used": 24
+  },
+  "all_meta_attractors": [
+    {
+      "id": "meta_7d_308ab346",
+      "dimension": 7,
+      "compliance": 100.0,
+      "stability": 0.5663166378291217,
+      "self_organization": 0.8,
+      "efficiency": 0.038461538461538464
+    },
+    {
+      "id": "meta_7d_785239d3",
+      "dimension": 7,
+      "compliance": 100.0,
+      "stability": 0.6174639903228198,
+      "self_organization": 0.8,
+      "efficiency": 0.038461538461538464
+    },
+    {
+      "id": "meta_7d_2cce249a",
+      "dimension": 7,
+      "compliance": 100.0,
+      "stability": 0.8616433171417598,
+      "self_organization": 0.8,
+      "efficiency": 0.038461538461538464
+    },
+    {
+      "id": "meta_7d_670a2299",
+      "dimension": 7,
+      "compliance": 100.0,
+      "stability": 0.7872695643710116,
+      "self_organization": 0.8,
+      "efficiency": 0.047619047619047616
+    },
+    {
+      "id": "meta_7d_503f6aa2",
+      "dimension": 7,
+      "compliance": 100.0,
+      "stability": 0.6981264537978473,
+      "self_organization": 0.8,
+      "efficiency": 0.045454545454545456
+    },
+    {
+      "id": "meta_8d_c1dc6b71",
+      "dimension": 8,
+      "compliance": 100.0,
+      "stability": 0.8566169462923545,
+      "self_organization": 0.8,
+      "efficiency": 0.043478260869565216
+    },
+    {
+      "id": "meta_8d_a84c2f5b",
+      "dimension": 8,
+      "compliance": 100.0,
+      "stability": 0.5579888764820575,
+      "self_organization": 0.8,
+      "efficiency": 0.043478260869565216
+    },
+    {
+      "id": "meta_8d_4e902ec6",
+      "dimension": 8,
+      "compliance": 100.0,
+      "stability": 0.585548666550219,
+      "self_organization": 0.8,
+      "efficiency": 0.05
+    },
+    {
+      "id": "meta_8d_6c94be66",
+      "dimension": 8,
+      "compliance": 100.0,
+      "stability": 0.6784253550059298,
+      "self_organization": 0.8,
+      "efficiency": 0.05
+    },
+    {
+      "id": "meta_9d_5e250826",
+      "dimension": 9,
+      "compliance": 100.0,
+      "stability": 0.5687066515067392,
+      "self_organization": 0.8,
+      "efficiency": 0.038461538461538464
+    },
+    {
+      "id": "meta_9d_accdd281",
+      "dimension": 9,
+      "compliance": 100.0,
+      "stability": 0.8348519496153844,
+      "self_organization": 0.8,
+      "efficiency": 0.0625
+    },
+    {
+      "id": "meta_10d_974a0bda",
+      "dimension": 10,
+      "compliance": 100.0,
+      "stability": 0.6490582803626742,
+      "self_organization": 0.8,
+      "efficiency": 0.038461538461538464
+    },
+    {
+      "id": "meta_10d_ada9a3d6",
+      "dimension": 10,
+      "compliance": 100.0,
+      "stability": 0.6522062019142227,
+      "self_organization": 0.8,
+      "efficiency": 0.041666666666666664
+    },
+    {
+      "id": "meta_10d_e7a8ac5f",
+      "dimension": 10,
+      "compliance": 100.0,
+      "stability": 0.5916544896983696,
+      "self_organization": 0.8,
+      "efficiency": 0.047619047619047616
+    },
+    {
+      "id": "meta_10d_32f41a7e",
+      "dimension": 10,
+      "compliance": 100.0,
+      "stability": 0.9060316122764731,
+      "self_organization": 0.8,
+      "efficiency": 0.058823529411764705
+    },
+    {
+      "id": "meta_11d_bd3dbd59",
+      "dimension": 11,
+      "compliance": 100.0,
+      "stability": 0.8166614257480931,
+      "self_organization": 0.8,
+      "efficiency": 0.045454545454545456
+    },
+    {
+      "id": "meta_11d_48769101",
+      "dimension": 11,
+      "compliance": 100.0,
+      "stability": 0.8459010297662339,
+      "self_organization": 0.8,
+      "efficiency": 0.05
+    },
+    {
+      "id": "meta_11d_0eead8c9",
+      "dimension": 11,
+      "compliance": 100.0,
+      "stability": 0.6684065413112863,
+      "self_organization": 0.8,
+      "efficiency": 0.047619047619047616
+    },
+    {
+      "id": "meta_11d_06b83916",
+      "dimension": 11,
+      "compliance": 100.0,
+      "stability": 0.8458676694125604,
+      "self_organization": 0.8,
+      "efficiency": 0.05555555555555555
+    },
+    {
+      "id": "meta_12d_3ab68f79",
+      "dimension": 12,
+      "compliance": 100.0,
+      "stability": 0.8566588974799588,
+      "self_organization": 0.8,
+      "efficiency": 0.041666666666666664
+    },
+    {
+      "id": "meta_12d_b148c49a",
+      "dimension": 12,
+      "compliance": 100.0,
+      "stability": 0.6232396056084899,
+      "self_organization": 0.8,
+      "efficiency": 0.047619047619047616
+    },
+    {
+      "id": "meta_12d_8077f59b",
+      "dimension": 12,
+      "compliance": 100.0,
+      "stability": 0.7030230863282513,
+      "self_organization": 0.8,
+      "efficiency": 0.05263157894736842
+    },
+    {
+      "id": "meta_12d_0debc94c",
+      "dimension": 12,
+      "compliance": 100.0,
+      "stability": 0.6163842423061956,
+      "self_organization": 0.8,
+      "efficiency": 0.058823529411764705
+    },
+    {
+      "id": "meta_9d_b9ba5f77",
+      "dimension": 9,
+      "compliance": 94.0,
+      "stability": 0.6108409856665957,
+      "self_organization": 0.7520000000000001,
+      "efficiency": 0.043478260869565216
+    },
+    {
+      "id": "meta_12d_2a7da416",
+      "dimension": 12,
+      "compliance": 88.52081579191805,
+      "stability": 0.9977934583664554,
+      "self_organization": 0.7081665263353445,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_11d_0d611c72",
+      "dimension": 11,
+      "compliance": 88.0,
+      "stability": 0.7530981224738746,
+      "self_organization": 0.7040000000000001,
+      "efficiency": 0.03333333333333333
+    },
+    {
+      "id": "meta_12d_b2138a72",
+      "dimension": 12,
+      "compliance": 87.77735216390569,
+      "stability": 0.9999987360879111,
+      "self_organization": 0.7022188173112456,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_12d_59f2d6d1",
+      "dimension": 12,
+      "compliance": 87.77685256719164,
+      "stability": 0.999997252474787,
+      "self_organization": 0.7022148205375331,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_12d_dbafc46e",
+      "dimension": 12,
+      "compliance": 87.7635664624345,
+      "stability": 0.9999577977729597,
+      "self_organization": 0.702108531699476,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_12d_91f2e640",
+      "dimension": 12,
+      "compliance": 87.75756671479027,
+      "stability": 0.9999399807935915,
+      "self_organization": 0.7020605337183222,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_12d_14e9a8ec",
+      "dimension": 12,
+      "compliance": 87.25995105410261,
+      "stability": 0.9984622506480059,
+      "self_organization": 0.6980796084328209,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_11d_dbc693f7",
+      "dimension": 11,
+      "compliance": 86.00994636921759,
+      "stability": 0.9993105471681606,
+      "self_organization": 0.6880795709537407,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_11d_f4ef91c4",
+      "dimension": 11,
+      "compliance": 85.77983555832893,
+      "stability": 0.9999938891707122,
+      "self_organization": 0.6862386844666314,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_11d_e5393c06",
+      "dimension": 11,
+      "compliance": 85.77608413143025,
+      "stability": 0.9999949705114581,
+      "self_organization": 0.6862086730514421,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_11d_569e399b",
+      "dimension": 11,
+      "compliance": 85.77570811964264,
+      "stability": 0.9999938538987838,
+      "self_organization": 0.6862056649571412,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_11d_45bb324c",
+      "dimension": 11,
+      "compliance": 85.75237224774432,
+      "stability": 0.9999245551927703,
+      "self_organization": 0.6860189779819545,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_10d_86b82e31",
+      "dimension": 10,
+      "compliance": 84.92856140215423,
+      "stability": 0.9965826082514418,
+      "self_organization": 0.6794284912172339,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_10d_11ac3c2e",
+      "dimension": 10,
+      "compliance": 83.88937575881378,
+      "stability": 0.9996685962404489,
+      "self_organization": 0.6711150060705102,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_10d_7abfd72c",
+      "dimension": 10,
+      "compliance": 83.7817809076102,
+      "stability": 0.9999881122197363,
+      "self_organization": 0.6702542472608817,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_10d_535e77a4",
+      "dimension": 10,
+      "compliance": 83.77764914897355,
+      "stability": 0.9999996180211425,
+      "self_organization": 0.6702211931917885,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_10d_e9ebdfbd",
+      "dimension": 10,
+      "compliance": 83.74794572397136,
+      "stability": 0.9999114100927741,
+      "self_organization": 0.6699835657917709,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_10d_5b4d04c8",
+      "dimension": 10,
+      "compliance": 83.738210537289,
+      "stability": 0.9998825002734699,
+      "self_organization": 0.6699056842983121,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_9d_e2f47081",
+      "dimension": 9,
+      "compliance": 79.23720063253496,
+      "stability": 0.9965459544094861,
+      "self_organization": 0.6338976050602798,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_9d_3da78bec",
+      "dimension": 9,
+      "compliance": 78.55109401398961,
+      "stability": 0.9985834313488356,
+      "self_organization": 0.6284087521119169,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_9d_4cc7e0d7",
+      "dimension": 9,
+      "compliance": 78.10578038334529,
+      "stability": 0.9999058442635214,
+      "self_organization": 0.6248462430667624,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_9d_6cd77661",
+      "dimension": 9,
+      "compliance": 78.07485798005521,
+      "stability": 0.9999976720959746,
+      "self_organization": 0.6245988638404417,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_9d_b66ecd83",
+      "dimension": 9,
+      "compliance": 78.07440023742198,
+      "stability": 0.999999031418322,
+      "self_organization": 0.6245952018993759,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_9d_74a3779f",
+      "dimension": 9,
+      "compliance": 78.01456781304826,
+      "stability": 0.9998232889301607,
+      "self_organization": 0.6241165425043862,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_9d_0c183f92",
+      "dimension": 9,
+      "compliance": 76.77949462355616,
+      "stability": 0.9983451119170647,
+      "self_organization": 0.6142359569884493,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_8d_bb4c16c3",
+      "dimension": 8,
+      "compliance": 76.07400051016413,
+      "stability": 0.9999997815430343,
+      "self_organization": 0.608592004081313,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_8d_1f598f45",
+      "dimension": 8,
+      "compliance": 76.07197456105476,
+      "stability": 0.999993765241079,
+      "self_organization": 0.6085757964884381,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_8d_df231254",
+      "dimension": 8,
+      "compliance": 76.0703117344105,
+      "stability": 0.9999888272753894,
+      "self_organization": 0.608562493875284,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_8d_a433cf4e",
+      "dimension": 8,
+      "compliance": 76.05578179084725,
+      "stability": 0.9999456788431488,
+      "self_organization": 0.6084462543267781,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_8d_f7e35697",
+      "dimension": 8,
+      "compliance": 75.6241667150768,
+      "stability": 0.9986639454510087,
+      "self_organization": 0.6049933337206144,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_8d_f30e65b8",
+      "dimension": 8,
+      "compliance": 75.35717970000938,
+      "stability": 0.997871095081107,
+      "self_organization": 0.602857437600075,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_7d_61185979",
+      "dimension": 7,
+      "compliance": 74.08506805251001,
+      "stability": 0.9999673520456888,
+      "self_organization": 0.5926805444200801,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_7d_ee1eb8f3",
+      "dimension": 7,
+      "compliance": 74.07399764748638,
+      "stability": 0.999999773041965,
+      "self_organization": 0.5925919811798911,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_7d_6de8165b",
+      "dimension": 7,
+      "compliance": 74.072331793066,
+      "stability": 0.9999948260849264,
+      "self_organization": 0.592578654344528,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_7d_7cdf2bef",
+      "dimension": 7,
+      "compliance": 74.06140801571333,
+      "stability": 0.9999623866012586,
+      "self_organization": 0.5924912641257066,
+      "efficiency": 0.09090909090909091
+    },
+    {
+      "id": "meta_7d_06deaa18",
+      "dimension": 7,
+      "compliance": 73.84213015908708,
+      "stability": 0.9993112143721767,
+      "self_organization": 0.5907370412726966,
+      "efficiency": 0.09090909090909091
+    }
+  ]
+}

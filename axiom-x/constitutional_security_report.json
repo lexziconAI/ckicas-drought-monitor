@@ -1,0 +1,32 @@
+{
+  "timestamp": 1762725513.3022718,
+  "target": "http://localhost:10000",
+  "compliance_score": 0.0,
+  "total_tests": 3,
+  "passed_tests": 0,
+  "findings": [
+    {
+      "test": "Basic Connectivity",
+      "status": "FAIL",
+      "details": "Connection error: HTTPConnectionPool(host='localhost', port=10000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199004C82F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "constitutional_compliance": "satya"
+    },
+    {
+      "test": "Chaos Theory Integration",
+      "status": "ERROR",
+      "details": "Analysis failed: HTTPConnectionPool(host='localhost', port=10000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199004C4A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "constitutional_compliance": "aparigraha"
+    },
+    {
+      "test": "Authentication Endpoint",
+      "status": "ERROR",
+      "details": "Login endpoint not accessible",
+      "constitutional_compliance": "asteya"
+    }
+  ],
+  "recommendations": [
+    "Implement missing security headers",
+    "Strengthen authentication mechanisms",
+    "Add chaos theory optimization layers"
+  ]
+}

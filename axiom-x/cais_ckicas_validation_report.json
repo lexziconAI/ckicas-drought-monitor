@@ -1,0 +1,75 @@
+{
+  "compliance_score": 65.0,
+  "total_issues": 7,
+  "errors": 0,
+  "warnings": 7,
+  "suggestions": 0,
+  "validation_details": [
+    {
+      "line_number": 609,
+      "issue_type": "Citation Format",
+      "severity": "warning",
+      "original_text": "The CKICAS framework extends this theoretical foundation by positioning intelligence as an architectural component rather than emergent property, drawing on insights from constitutional AI research (Anthropic, 2023) and participatory design methodologies (Sanders & Stappers, 2008). This integration addresses the theoretical gap identified by Prehofer & Bettstetter (2005) regarding the need for formal frameworks  can account for intentional steering in self-organizing systems.",
+      "suggested_fix": "Use \"and\" instead of \"&\" in citations",
+      "explanation": "CAIS citation style requirements"
+    },
+    {
+      "line_number": 621,
+      "issue_type": "Citation Format",
+      "severity": "warning",
+      "original_text": "The integration of Yama principles from classical Indian philosophy represents a novel contribution to constitutional AI research. While previous work by Winfield & Jirotka (2018) explores ethical frameworks for autonomous systems, and Russell (2019) examines value alignment in AI, the systematic integration of ancient wisdom traditions with contemporary AI development remains underexplored.",
+      "suggested_fix": "Use \"and\" instead of \"&\" in citations",
+      "explanation": "CAIS citation style requirements"
+    },
+    {
+      "line_number": 623,
+      "issue_type": "Citation Format",
+      "severity": "warning",
+      "original_text": "Singh & Sinha (2020) examine applications of yogic principles in technology design, while Kapoor & Sarkar (2021) explore indigenous knowledge integration in AI systems. The CKICAS framework extends this work by demonstrating how traditional ethical frameworks can be operationalized through measurable community outcomes rather than abstract principle implementation.",
+      "suggested_fix": "Use \"and\" instead of \"&\" in citations",
+      "explanation": "CAIS citation style requirements"
+    },
+    {
+      "line_number": 628,
+      "issue_type": "Citation Format",
+      "severity": "warning",
+      "original_text": "Recent pandemic research by Masten & Motti-Stefanidi (2020) examines adaptive capacity development during crisis periods, while Ungar (2018) explores resilience mechanisms in diverse cultural contexts. However, this literature lacks frameworks for understanding how AI systems can support rather than supplant community adaptive capacity during crisis periods.",
+      "suggested_fix": "Use \"and\" instead of \"&\" in citations",
+      "explanation": "CAIS citation style requirements"
+    },
+    {
+      "line_number": 630,
+      "issue_type": "Citation Format",
+      "severity": "warning",
+      "original_text": "The community decision episode analysis  grounds CKICAS development builds on crisis informatics research by Palen & Anderson (2016) and Hughes & Palen (2009), that examines how communities use information technology during disasters. The Episode Evidence Pack methodology extends this work by providing systematic frameworks for documenting and analyzing community intelligence in crisis response.",
+      "suggested_fix": "Use \"and\" instead of \"&\" in citations",
+      "explanation": "CAIS citation style requirements"
+    },
+    {
+      "line_number": 633,
+      "issue_type": "Citation Format",
+      "severity": "warning",
+      "original_text": "Participatory design literature provides essential foundations for community-centered technology development. Sanders & Stappers (2008) establish frameworks for co-design with communities, while Björgvinsson et al. (2010) examine participatory design in complex social contexts.",
+      "suggested_fix": "Use \"and\" instead of \"&\" in citations",
+      "explanation": "CAIS citation style requirements"
+    },
+    {
+      "line_number": 637,
+      "issue_type": "Citation Format",
+      "severity": "warning",
+      "original_text": "Indigenous computing research by Lewis et al. (2020) and Sheehan & Rode (2021) offers frameworks for integrating indigenous knowledge systems with contemporary technology. The cultural adaptation mechanisms in CKICAS build on this work while extending it to AI system implementation across diverse community contexts.",
+      "suggested_fix": "Use \"and\" instead of \"&\" in citations",
+      "explanation": "CAIS citation style requirements"
+    }
+  ],
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "d29306c5ada5f7c3b1220124d53a96953cd91af54838d14dfadfbb09648547cd",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "69a46fa37478ca8edd7995a8815608673fa4d6ee3d3f891e6b38bf9fa78db4d9",
+    "integrity_verified": true
+  }
+}

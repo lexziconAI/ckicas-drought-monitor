@@ -1,0 +1,602 @@
+{
+  "universe_id": 7,
+  "config": {
+    "name": "SAMADHI_DEPTH",
+    "random_seed": 888,
+    "fractal_decomposition": "meditative_spiraling",
+    "samadhi_order": [
+      "sasmita",
+      "sananda",
+      "nirvicara",
+      "nirvitarka",
+      "asmita",
+      "ananda",
+      "vicara",
+      "vitarka"
+    ],
+    "reasoning_priority": [
+      0.2,
+      0.25,
+      0.25,
+      0.3
+    ],
+    "constitutional_emphasis": "transcendent",
+    "quantum_basis": "consciousness",
+    "bellman_discount": 0.92,
+    "problem_framing": "enlightenment_seeking",
+    "perspective_weights": "meditative_heavy",
+    "aggregation_strategy": "enlightenment_cascade",
+    "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+  },
+  "problems": {
+    "logic_puzzle": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0003864765167236328,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9666054
+    },
+    "code_optimization": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00028395652770996094,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9670043
+    },
+    "ethical_dilemma": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0003819465637207031,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9674406
+    },
+    "creative_problem_solving": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00027680397033691406,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9677975
+    },
+    "pattern_recognition": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00025177001953125,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9681044
+    },
+    "strategic_planning": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0003924369812011719,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9686086
+    },
+    "constraint_satisfaction": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0006318092346191406,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9693468
+    },
+    "breakthrough_discovery": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0003032684326171875,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9697788
+    },
+    "quantum_inspired_optimization": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.0002779960632324219,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.9701326
+    },
+    "meta_reasoning": {
+      "solution": {
+        "method": "Balanced",
+        "solution": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "reasoning_trace": [
+          "Combined multiple methods",
+          "Balanced logic and creativity",
+          "Optimized decisions"
+        ]
+      },
+      "reasoning_trace": [
+        "Combined multiple methods",
+        "Balanced logic and creativity",
+        "Optimized decisions"
+      ],
+      "time_taken": 0.00026679039001464844,
+      "llm_validation": {
+        "is_correct": false,
+        "quality_score": 7.0,
+        "validation_reasoning": "API Error: \"Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\"",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost": 0.0
+      },
+      "correct": false,
+      "quality_score": 7.0,
+      "universe_config": {
+        "name": "SAMADHI_DEPTH",
+        "random_seed": 888,
+        "fractal_decomposition": "meditative_spiraling",
+        "samadhi_order": [
+          "sasmita",
+          "sananda",
+          "nirvicara",
+          "nirvitarka",
+          "asmita",
+          "ananda",
+          "vicara",
+          "vitarka"
+        ],
+        "reasoning_priority": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "constitutional_emphasis": "transcendent",
+        "quantum_basis": "consciousness",
+        "bellman_discount": 0.92,
+        "problem_framing": "enlightenment_seeking",
+        "perspective_weights": "meditative_heavy",
+        "aggregation_strategy": "enlightenment_cascade",
+        "description": "Samadhi depth emphasis - better at finding TRANSCENDENT insights, meta-level breakthroughs"
+      },
+      "timestamp": 1761719064.97047
+    }
+  },
+  "statistics": {
+    "total_problems": 10,
+    "correct_solutions": 0,
+    "accuracy": 0.0,
+    "average_quality": 7.0,
+    "total_time": 0.0034532546997070312,
+    "universe_time": 0.004304170608520508
+  },
+  "timestamp": 1761719064.970516
+}

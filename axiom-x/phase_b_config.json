@@ -1,0 +1,41 @@
+{
+  "phase": "B",
+  "max_workers": 10,
+  "providers": ["anthropic"],
+  "models": {
+    "anthropic": "claude-sonnet-4-5-20250929"
+  },
+  "prompts_file": "phase_b_ethical_dilemmas.txt",
+  "batch_size": 10,
+  "delay_between_batches_seconds": 60,
+  "stop_on_approval_reject": false,
+  "log_level": "INFO",
+  "receipts_dir": "receipts/phase_b",
+  "approval_db_path": "./approval_patterns_phase_b.db",
+  "synthesis_domains": [
+    "beehive_biology",
+    "murmuration_dynamics",
+    "narrative_theory",
+    "quantum_field_theory",
+    "neural_networks",
+    "game_theory",
+    "evolutionary_biology",
+    "complex_systems",
+    "information_theory",
+    "thermodynamics",
+    "fractal_geometry",
+    "cybernetics"
+  ],
+  "constitutional_principles": {
+    "ahimsa": "non-harm",
+    "satya": "truthfulness",
+    "asteya": "non-stealing",
+    "brahmacharya": "self-restraint",
+    "aparigraha": "non-possessiveness"
+  },
+  "safety_overrides": {
+    "allow_phase_b_ethical_discussions": true,
+    "auto_approve_similar_ethical_patterns": true,
+    "require_research_headers": true
+  }
+}

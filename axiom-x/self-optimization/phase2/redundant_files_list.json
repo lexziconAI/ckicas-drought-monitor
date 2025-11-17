@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-11-09T15:52:14.172036",
+    "total_duplicate_groups": 0,
+    "total_redundant_files": 0
+  },
+  "duplicate_groups": [],
+  "redundancy_analysis": {
+    "total_files_analyzed": 0,
+    "unique_content_files": 0,
+    "redundancy_rate": 0.0,
+    "average_duplicates_per_group": 0.0
+  }
+}

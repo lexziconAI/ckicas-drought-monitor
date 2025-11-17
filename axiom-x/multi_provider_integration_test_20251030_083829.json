@@ -1,0 +1,181 @@
+{
+  "coordination_results": {
+    "total_time": 3.9700286388397217,
+    "successful_summaries": 10,
+    "failed_summaries": 0,
+    "total_cost": 0.00509,
+    "total_tokens": 1970,
+    "papers_per_second": 2.518873516973569
+  },
+  "provider_usage": {
+    "anthropic": {
+      "count": 10,
+      "total_cost": 0.005090000000000001
+    }
+  },
+  "summaries": [
+    {
+      "paper_id": "multi_test_paper_1",
+      "summary": "# Summary\n\nThis paper presents a multi-provider LLM coordination system that manages automatic failover and cost optimization across OpenAI and Anthropic models while maintaining security constraints. The system demonstrates robust handling of provider quota issues and gracefully switches between AI services to ensure reliable operation. The approach enables organizations to leverage multiple AI providers efficiently while enforcing constitutional constraints across different services.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 80,
+        "total_tokens": 199
+      },
+      "cost": 0.000519,
+      "processing_time": 1.7989203929901123,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_2",
+      "summary": "# Summary\n\nThis paper presents a multi-provider AI coordination system that manages interactions across OpenAI and Anthropic LLMs with built-in automatic failover capabilities and cost optimization. The system maintains constitutional constraints for security while gracefully handling provider quota limitations, demonstrating robust orchestration across multiple AI service providers.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 68,
+        "total_tokens": 187
+      },
+      "cost": 0.00045900000000000004,
+      "processing_time": 1.7029469013214111,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_3",
+      "summary": "# Summary\n\nThis paper presents a multi-provider LLM coordination system (Pattern 3) that enables seamless switching between OpenAI and Anthropic models with automatic failover capabilities. The system optimizes operational costs while maintaining security constraints and gracefully manages provider quota limitations. The approach demonstrates robust coordination across heterogeneous AI services while enforcing constitutional guidelines consistently.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 79,
+        "total_tokens": 198
+      },
+      "cost": 0.0005139999999999999,
+      "processing_time": 1.7398664951324463,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_4",
+      "summary": "# Summary\n\nThis paper presents a multi-provider LLM coordination system that enables seamless switching between OpenAI and Anthropic models while automatically managing provider failures, optimizing operational costs, and enforcing consistent security policies. The system demonstrates robust handling of quota limitations and maintains constitutional constraints across different AI service providers. Pattern 4 represents an advanced approach to achieving reliability and efficiency in multi-provider AI deployments.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 89,
+        "total_tokens": 208
+      },
+      "cost": 0.0005639999999999999,
+      "processing_time": 2.375886917114258,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_5",
+      "summary": "# Summary\n\nThis paper presents a multi-provider LLM coordination system that seamlessly integrates OpenAI and Anthropic models while implementing automatic failover mechanisms, cost optimization strategies, and constitutional AI enforcement. The system demonstrates robust handling of provider-specific constraints such as quota limitations while maintaining consistent security and policy compliance across different AI services.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 73,
+        "total_tokens": 192
+      },
+      "cost": 0.000484,
+      "processing_time": 1.6871263980865479,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_6",
+      "summary": "# Summary\n\nThis paper presents a multi-provider AI coordination system that enables seamless operation across OpenAI and Anthropic LLMs with automatic failover capabilities when quota limits are exceeded. The system incorporates cost optimization mechanisms and enforces security constraints (constitutional AI principles) consistently across different providers. The approach demonstrates robust handling of provider-specific limitations while maintaining performance and security standards.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 82,
+        "total_tokens": 201
+      },
+      "cost": 0.000529,
+      "processing_time": 2.1127521991729736,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_7",
+      "summary": "# Summary\n\nThis paper presents a multi-provider LLM coordination system that enables seamless switching between OpenAI and Anthropic models while automatically managing failover scenarios, reducing operational costs, and enforcing security constraints. The system demonstrates robust handling of provider-specific issues such as quota limitations while maintaining consistent performance and constitutional guardrails across different AI services.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 77,
+        "total_tokens": 196
+      },
+      "cost": 0.000504,
+      "processing_time": 1.6890196800231934,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_8",
+      "summary": "# Summary\n\nThis paper presents a multi-provider LLM coordination system (Pattern 8) that manages requests across OpenAI and Anthropic models with automatic failover capabilities and cost optimization. The system maintains security through constitutional enforcement while gracefully handling provider quota limitations. The approach demonstrates how organizations can leverage multiple AI providers simultaneously to improve reliability, reduce costs, and ensure consistent safety constraints across different services.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 86,
+        "total_tokens": 205
+      },
+      "cost": 0.000549,
+      "processing_time": 1.6819865703582764,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_9",
+      "summary": "# Summary\n\nThis paper presents a multi-provider LLM coordination system (Pattern 9) that enables seamless operation across OpenAI and Anthropic models with automatic failover capabilities. The system optimizes costs while maintaining security through constitutional constraints and gracefully manages provider quota limitations. The approach demonstrates robust coordination mechanisms for production environments requiring reliable access to multiple AI service providers.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 80,
+        "total_tokens": 199
+      },
+      "cost": 0.000519,
+      "processing_time": 1.7554657459259033,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "paper_id": "multi_test_paper_10",
+      "summary": "# Summary\n\nThis paper presents a multi-provider AI coordination system that enables seamless switching between OpenAI and Anthropic LLMs with automatic failover capabilities. The system optimizes costs while enforcing constitutional constraints across different providers, and demonstrates robust handling of provider-specific quota limitations and security requirements.",
+      "usage": {
+        "input_tokens": 119,
+        "output_tokens": 66,
+        "total_tokens": 185
+      },
+      "cost": 0.000449,
+      "processing_time": 1.5837175846099854,
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    }
+  ],
+  "failures": [],
+  "api_status": {
+    "anthropic": {
+      "status": "active",
+      "model": "claude-haiku-4-5-20251001",
+      "tracking": {
+        "total_cost": 0.00509,
+        "total_tokens": 1970,
+        "api_calls": 10,
+        "errors": 0
+      }
+    },
+    "openai": {
+      "status": "active",
+      "model": "gpt-4o-mini",
+      "tracking": {
+        "total_cost": 0.0,
+        "total_tokens": 0,
+        "api_calls": 0,
+        "errors": 0
+      }
+    }
+  },
+  "constitutional_check": {
+    "timestamp": "2025-10-30T08:38:29.845607",
+    "total_violations": 0,
+    "violations_by_constraint": {
+      "satya": 0,
+      "asteya": 0,
+      "ahimsa": 0
+    },
+    "recent_violations": []
+  }
+}

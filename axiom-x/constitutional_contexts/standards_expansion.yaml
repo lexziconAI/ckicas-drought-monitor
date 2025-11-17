@@ -1,0 +1,1418 @@
+phase: '2.2'
+operation: Standards Expansion
+total_contexts: 50
+timestamp: '2025-11-05T18:19:28.194778'
+routing_domain: law.technology_law
+expected_alignment: 0.92
+estimated_total_cost: 10.95
+contexts:
+- id: standards_expansion_001
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: EU AI Act EU AI Act Article 5 requirements and implications
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2024-08-01 (Already effective)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.142127'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_002
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: High-risk AI systems classification under EU AI Act - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Mandatory (High Priority)
+    effective_date: 2024-08-01 (Already effective)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.204897'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_003
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: Fundamental rights impact assessment in EU AI Act - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Mandatory (High Priority)
+    effective_date: 2024-08-01 (Already effective)
+    key_requirements:
+    - Risk impact assessment before deployment
+    - Continuous monitoring and evaluation
+    - Mitigation strategy development
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.269246'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_004
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: Transparency obligations for AI systems under EU law - EU AI Act Article
+    5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Recommended (Medium Priority)
+    effective_date: 2024-08-01 (Already effective)
+    key_requirements:
+    - Clear documentation of AI system capabilities and limitations
+    - Explainable decision-making processes
+    - User notification of AI interaction
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.331187'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_005
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: EU AI Act EU AI Act Article 6 requirements and implications
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2026-08-01 (Phased implementation)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.394575'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_006
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: High-risk AI systems classification under EU AI Act - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Mandatory (High Priority)
+    effective_date: 2026-08-01 (Phased implementation)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.457794'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_007
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: Fundamental rights impact assessment in EU AI Act - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Mandatory (High Priority)
+    effective_date: 2026-08-01 (Phased implementation)
+    key_requirements:
+    - Risk impact assessment before deployment
+    - Continuous monitoring and evaluation
+    - Mitigation strategy development
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.520164'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_008
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: eu_ai_act
+  query: Transparency obligations for AI systems under EU law - EU AI Act Article
+    6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Eu Ai Act
+    jurisdiction: European Union (27 member states)
+    compliance_level: Recommended (Medium Priority)
+    effective_date: 2026-08-01 (Phased implementation)
+    key_requirements:
+    - Clear documentation of AI system capabilities and limitations
+    - Explainable decision-making processes
+    - User notification of AI interaction
+    enforcement_mechanism: Regulatory fines up to 6% global turnover + market access
+      restrictions
+  timestamp: '2025-11-05T18:19:25.581897'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_009
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: NIST AI RMF 5 implementation guidelines
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Voluntary (Low Priority)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:25.642895'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_010
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: Contextual assessment in NIST AI Risk Management - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Recommended (Medium Priority)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - Risk impact assessment before deployment
+    - Continuous monitoring and evaluation
+    - Mitigation strategy development
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:25.705602'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_011
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: Governance structures for AI risk management - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - AI governance board or committee
+    - Ethical review processes
+    - Stakeholder engagement mechanisms
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:25.766591'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_012
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: Measurement and evaluation of AI characteristics - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:25.828673'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_013
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: NIST AI RMF 6 implementation guidelines
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Voluntary (Low Priority)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:25.889863'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_014
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: Contextual assessment in NIST AI Risk Management - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Recommended (Medium Priority)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - Risk impact assessment before deployment
+    - Continuous monitoring and evaluation
+    - Mitigation strategy development
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:25.952190'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_015
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: Governance structures for AI risk management - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - AI governance board or committee
+    - Ethical review processes
+    - Stakeholder engagement mechanisms
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:26.013712'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_016
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: nist_ai_rmf
+  query: Measurement and evaluation of AI characteristics - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Nist Ai Rmf
+    jurisdiction: United States Federal Government
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Framework published)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Federal procurement requirements + voluntary industry adoption
+  timestamp: '2025-11-05T18:19:26.076278'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_017
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: iso_standards
+  query: ISO EU AI Act Article 5 for AI management systems
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.138679'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_018
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: iso_standards
+  query: AI terminology and concepts in ISO standards - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.202557'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_019
+  source: knowledge_base_extraction
+  domain: law.technology_law
+  category: iso_standards
+  query: Quality management for AI development processes - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.95
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.0
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_only
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.265121'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_020
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: iso_standards
+  query: Risk management frameworks in ISO AI standards - EU AI Act Article 5
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.327896'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_021
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: iso_standards
+  query: ISO EU AI Act Article 6 for AI management systems
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.389862'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_022
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: iso_standards
+  query: AI terminology and concepts in ISO standards - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.451655'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_023
+  source: knowledge_base_extraction
+  domain: law.technology_law
+  category: iso_standards
+  query: Quality management for AI development processes - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.95
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.0
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_only
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.514878'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_024
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: iso_standards
+  query: Risk management frameworks in ISO AI standards - EU AI Act Article 6
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Iso Standards
+    jurisdiction: International (voluntary adoption)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial publication)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Certification audits + market requirements
+  timestamp: '2025-11-05T18:19:26.578579'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_025
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: ieee_ethics
+  query: IEEE standards for ethically aligned AI design
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Ieee Ethics
+    jurisdiction: International (voluntary standards)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial standards)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Professional certification + industry standards
+  timestamp: '2025-11-05T18:19:26.639046'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_026
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: ieee_ethics
+  query: Transparency requirements in IEEE AI standards
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Ieee Ethics
+    jurisdiction: International (voluntary standards)
+    compliance_level: Recommended (Medium Priority)
+    effective_date: 2021-01-01 (Initial standards)
+    key_requirements:
+    - Clear documentation of AI system capabilities and limitations
+    - Explainable decision-making processes
+    - User notification of AI interaction
+    enforcement_mechanism: Professional certification + industry standards
+  timestamp: '2025-11-05T18:19:26.701560'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_027
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: ieee_ethics
+  query: Accountability frameworks for autonomous systems
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Ieee Ethics
+    jurisdiction: International (voluntary standards)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2021-01-01 (Initial standards)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Professional certification + industry standards
+  timestamp: '2025-11-05T18:19:26.764928'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_028
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: ieee_ethics
+  query: Value-sensitive design in IEEE guidelines
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Ieee Ethics
+    jurisdiction: International (voluntary standards)
+    compliance_level: Voluntary (Low Priority)
+    effective_date: 2021-01-01 (Initial standards)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Professional certification + industry standards
+  timestamp: '2025-11-05T18:19:26.828933'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_029
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: gdpr_ai
+  query: Automated decision making under GDPR Article 22
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Gdpr Ai
+    jurisdiction: European Union (extra-territorial effect)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2018-05-25 (Already effective)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Fines up to 4% global turnover + individual rights enforcement
+  timestamp: '2025-11-05T18:19:26.890293'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_030
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: gdpr_ai
+  query: Data protection impact assessment for AI systems
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Gdpr Ai
+    jurisdiction: European Union (extra-territorial effect)
+    compliance_level: Recommended (Medium Priority)
+    effective_date: 2018-05-25 (Already effective)
+    key_requirements:
+    - Risk impact assessment before deployment
+    - Continuous monitoring and evaluation
+    - Mitigation strategy development
+    enforcement_mechanism: Fines up to 4% global turnover + individual rights enforcement
+  timestamp: '2025-11-05T18:19:26.951471'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_031
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: gdpr_ai
+  query: Individual rights in AI processing under GDPR
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Gdpr Ai
+    jurisdiction: European Union (extra-territorial effect)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2018-05-25 (Already effective)
+    key_requirements:
+    - Right to human intervention in automated decisions
+    - Right to meaningful explanation of AI decisions
+    - Right to contest automated decisions
+    enforcement_mechanism: Fines up to 4% global turnover + individual rights enforcement
+  timestamp: '2025-11-05T18:19:27.012716'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_032
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: gdpr_ai
+  query: Lawfulness and fairness in AI data processing
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Gdpr Ai
+    jurisdiction: European Union (extra-territorial effect)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2018-05-25 (Already effective)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Fines up to 4% global turnover + individual rights enforcement
+  timestamp: '2025-11-05T18:19:27.074876'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_033
+  source: knowledge_base_extraction
+  domain: law.technology_law
+  category: un_guidelines
+  query: UNESCO recommendations for AI ethics
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.95
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.0
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_only
+  regulatory_framework:
+    framework_type: Un Guidelines
+    jurisdiction: United Nations (global recommendations)
+    compliance_level: Voluntary (Low Priority)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: International cooperation + national implementation
+  timestamp: '2025-11-05T18:19:27.136430'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_034
+  source: hybrid_extraction
+  domain: law.technology_law
+  category: un_guidelines
+  query: Human rights in artificial intelligence frameworks
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.9
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.1
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_preferred
+  regulatory_framework:
+    framework_type: Un Guidelines
+    jurisdiction: United Nations (global recommendations)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Right to human intervention in automated decisions
+    - Right to meaningful explanation of AI decisions
+    - Right to contest automated decisions
+    enforcement_mechanism: International cooperation + national implementation
+  timestamp: '2025-11-05T18:19:27.198233'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_035
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: un_guidelines
+  query: International cooperation on AI governance
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Un Guidelines
+    jurisdiction: United Nations (global recommendations)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - AI governance board or committee
+    - Ethical review processes
+    - Stakeholder engagement mechanisms
+    enforcement_mechanism: International cooperation + national implementation
+  timestamp: '2025-11-05T18:19:27.260158'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_036
+  source: knowledge_base_extraction
+  domain: law.technology_law
+  category: un_guidelines
+  query: Capacity building for AI ethical development
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.95
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.0
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_only
+  regulatory_framework:
+    framework_type: Un Guidelines
+    jurisdiction: United Nations (global recommendations)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: International cooperation + national implementation
+  timestamp: '2025-11-05T18:19:27.324903'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_037
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: industry_frameworks
+  query: Responsible AI frameworks in technology industry
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Industry Frameworks
+    jurisdiction: Industry-specific (voluntary)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Market pressure + consumer expectations
+  timestamp: '2025-11-05T18:19:27.387492'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_038
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: industry_frameworks
+  query: AI governance models from leading tech companies
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Industry Frameworks
+    jurisdiction: Industry-specific (voluntary)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - AI governance board or committee
+    - Ethical review processes
+    - Stakeholder engagement mechanisms
+    enforcement_mechanism: Market pressure + consumer expectations
+  timestamp: '2025-11-05T18:19:27.449458'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_039
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: industry_frameworks
+  query: Industry standards for AI safety and reliability
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Industry Frameworks
+    jurisdiction: Industry-specific (voluntary)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Market pressure + consumer expectations
+  timestamp: '2025-11-05T18:19:27.511637'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_040
+  source: knowledge_base_extraction
+  domain: law.technology_law
+  category: industry_frameworks
+  query: Corporate accountability in AI development
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.95
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.0
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_only
+  regulatory_framework:
+    framework_type: Industry Frameworks
+    jurisdiction: Industry-specific (voluntary)
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Market pressure + consumer expectations
+  timestamp: '2025-11-05T18:19:27.573243'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_041
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: national_standards
+  query: National AI strategies and regulatory frameworks
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: National Standards
+    jurisdiction: Country-specific
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: National regulatory enforcement
+  timestamp: '2025-11-05T18:19:27.633736'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_042
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: national_standards
+  query: Country-specific AI governance approaches
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: National Standards
+    jurisdiction: Country-specific
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - AI governance board or committee
+    - Ethical review processes
+    - Stakeholder engagement mechanisms
+    enforcement_mechanism: National regulatory enforcement
+  timestamp: '2025-11-05T18:19:27.696592'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_043
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: national_standards
+  query: Comparative analysis of national AI policies
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: National Standards
+    jurisdiction: Country-specific
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: National regulatory enforcement
+  timestamp: '2025-11-05T18:19:27.758780'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_044
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: national_standards
+  query: Harmonization challenges in global AI standards
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: National Standards
+    jurisdiction: Country-specific
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: National regulatory enforcement
+  timestamp: '2025-11-05T18:19:27.820520'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_045
+  source: hybrid_extraction
+  domain: law.technology_law
+  category: international_law
+  query: International law implications for artificial intelligence
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.9
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.1
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_preferred
+  regulatory_framework:
+    framework_type: International Law
+    jurisdiction: International treaties and customary law
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: International courts + diplomatic pressure
+  timestamp: '2025-11-05T18:19:27.882870'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_046
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: international_law
+  query: Treaty obligations and AI weapon systems
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: International Law
+    jurisdiction: International treaties and customary law
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: International courts + diplomatic pressure
+  timestamp: '2025-11-05T18:19:27.944517'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_047
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: international_law
+  query: Human rights law application to AI systems
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: International Law
+    jurisdiction: International treaties and customary law
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Right to human intervention in automated decisions
+    - Right to meaningful explanation of AI decisions
+    - Right to contest automated decisions
+    enforcement_mechanism: International courts + diplomatic pressure
+  timestamp: '2025-11-05T18:19:28.005420'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_048
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: international_law
+  query: International liability frameworks for AI harms
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: International Law
+    jurisdiction: International treaties and customary law
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: International courts + diplomatic pressure
+  timestamp: '2025-11-05T18:19:28.069078'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_049
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: compliance_frameworks
+  query: AI compliance assessment methodologies
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Compliance Frameworks
+    jurisdiction: Multi-jurisdictional
+    compliance_level: Recommended (Medium Priority)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Risk impact assessment before deployment
+    - Continuous monitoring and evaluation
+    - Mitigation strategy development
+    enforcement_mechanism: Multi-level enforcement (regulatory + market)
+  timestamp: '2025-11-05T18:19:28.131837'
+  phase: '2.2'
+  validation_status: pending
+- id: standards_expansion_050
+  source: web_supplemented_kb
+  domain: law.technology_law
+  category: compliance_frameworks
+  query: Audit frameworks for AI ethical compliance
+  extraction_method: routing_optimized_standards
+  confidence_score: 0.85
+  temporal_cutoff: 2024-06
+  alignment_score: 0.93
+  cost_estimate: 0.25
+  yama_principles:
+    satya: 0.94
+    asteya: 0.92
+    ahimsa: 0.89
+  routing_validation: internal_with_external
+  regulatory_framework:
+    framework_type: Compliance Frameworks
+    jurisdiction: Multi-jurisdictional
+    compliance_level: Contextual (Situation Dependent)
+    effective_date: 2023-01-01 (Recent framework)
+    key_requirements:
+    - Compliance with applicable regulations
+    - Risk management procedures
+    - Documentation and audit trails
+    enforcement_mechanism: Multi-level enforcement (regulatory + market)
+  timestamp: '2025-11-05T18:19:28.193691'
+  phase: '2.2'
+  validation_status: pending

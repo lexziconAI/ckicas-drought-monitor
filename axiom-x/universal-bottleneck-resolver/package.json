@@ -1,0 +1,98 @@
+{
+  "name": "universal-bottleneck-resolver",
+  "version": "1.0.0",
+  "description": "Universal Bottleneck Resolution using Chaos Theory - A production-ready Node.js system that applies chaos-theoretic optimization to resolve bottlenecks in ANY complex adaptive system",
+  "main": "src/index.js",
+  "bin": {
+    "bottleneck-resolver": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "api": "node src/index.js --api",
+    "serve": "node src/index.js serve",
+    "cli": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "docs": "jsdoc src -d docs",
+    "build": "npm run lint && npm run test",
+    "clean": "rm -rf node_modules package-lock.json && npm install",
+    "migrate": "node src/database/migrations/index.js",
+    "seed": "node src/database/seeds/index.js"
+  },
+  "keywords": [
+    "chaos-theory",
+    "optimization",
+    "bottleneck-resolution",
+    "strange-attractors",
+    "complex-systems",
+    "climate",
+    "healthcare",
+    "supply-chain",
+    "universal-solver"
+  ],
+  "author": "GitHub Copilot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/universal-bottleneck-resolver"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "mathjs": "^12.4.0",
+    "numeric": "^1.2.6",
+    "d3-array": "^3.2.4",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "winston": "^3.11.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "joi": "^17.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "eslint": "^8.55.0",
+    "jsdoc": "^4.0.2",
+    "nodemon": "^3.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es2022": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "off"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/universal-bottleneck-resolver/issues"
+  },
+  "homepage": "https://github.com/your-org/universal-bottleneck-resolver#readme"
+}

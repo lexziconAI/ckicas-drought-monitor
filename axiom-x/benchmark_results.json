@@ -1,0 +1,511 @@
+{
+  "research_paper_implementation": {
+    "task": "research_paper_implementation",
+    "paper": {
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "url": "https://arxiv.org/abs/2212.08073",
+      "complexity": "high",
+      "estimated_manual_time": "2_weeks"
+    },
+    "results": {
+      "AutoGen": {
+        "time_seconds": 3342.066520112919,
+        "success": true,
+        "code_quality": 0.9626319272248032,
+        "functionality": 0.8862203369197476
+      },
+      "LangChain": {
+        "time_seconds": 6857.173879069096,
+        "success": true,
+        "code_quality": 0.7764501496320779,
+        "functionality": 0.9772194492717107
+      },
+      "CrewAI": {
+        "time_seconds": 5267.0833565203675,
+        "success": true,
+        "code_quality": 0.8036286166292881,
+        "functionality": 0.8670932776205812
+      },
+      "OpenAI_Swarm": {
+        "time_seconds": 1547.6071703559069,
+        "success": true,
+        "code_quality": 0.8050272124371692,
+        "functionality": 0.9109730971935778
+      },
+      "Manual": {
+        "time_seconds": 1207839.6758104854,
+        "success": true,
+        "code_quality": 0.9519488027984211,
+        "functionality": 0.9208630902276211
+      }
+    },
+    "axiom_x_advantage": {
+      "error": "Target system not found in results"
+    }
+  },
+  "complex_system_development": {
+    "task": "complex_system_development",
+    "system_spec": {
+      "type": "RAG_pipeline_with_API_integration",
+      "components": [
+        "vector_db",
+        "LLM_integration",
+        "API_endpoints",
+        "error_handling"
+      ],
+      "estimated_manual_time": "1_week"
+    },
+    "results": {
+      "AutoGen": {
+        "time_seconds": 14400,
+        "production_ready": true,
+        "test_coverage": 0.6699349704726397,
+        "documentation": 0.8508872183854237
+      },
+      "LangChain": {
+        "time_seconds": 28800,
+        "production_ready": true,
+        "test_coverage": 0.8345548668733653,
+        "documentation": 0.5556673509896478
+      },
+      "CrewAI": {
+        "time_seconds": 21600,
+        "production_ready": true,
+        "test_coverage": 0.9470882380052582,
+        "documentation": 0.6961727127833178
+      },
+      "OpenAI_Swarm": {
+        "time_seconds": 10800,
+        "production_ready": false,
+        "test_coverage": 0.8224592156852144,
+        "documentation": 0.6261581409531337
+      },
+      "Manual": {
+        "time_seconds": 604800,
+        "production_ready": true,
+        "test_coverage": 0.9116964419680955,
+        "documentation": 0.5174734102772783
+      }
+    },
+    "axiom_x_advantage": {
+      "error": "Target system not found in results"
+    }
+  },
+  "bug_fix_debugging": {
+    "task": "bug_fix_debugging",
+    "bug_spec": {
+      "codebase_size": "10k_lines",
+      "bug_type": "memory_leak_in_concurrent_processing",
+      "complexity": "high",
+      "estimated_manual_time": "3_days"
+    },
+    "results": {
+      "AutoGen": {
+        "time_seconds": 7200,
+        "bug_found": true,
+        "fix_correct": true,
+        "regression_tests": 0.8028160669406916
+      },
+      "LangChain": {
+        "time_seconds": 14400,
+        "bug_found": true,
+        "fix_correct": true,
+        "regression_tests": 0.8014098796323995
+      },
+      "CrewAI": {
+        "time_seconds": 10800,
+        "bug_found": true,
+        "fix_correct": true,
+        "regression_tests": 0.7276027942761433
+      },
+      "OpenAI_Swarm": {
+        "time_seconds": 3600,
+        "bug_found": true,
+        "fix_correct": true,
+        "regression_tests": 0.7516768679764806
+      },
+      "Manual": {
+        "time_seconds": 259200,
+        "bug_found": false,
+        "fix_correct": true,
+        "regression_tests": 0.8344371625674205
+      }
+    },
+    "axiom_x_advantage": {
+      "error": "Target system not found in results"
+    }
+  },
+  "constitutional_validation": {
+    "task": "constitutional_validation_speed",
+    "validation_spec": {
+      "scenarios": 1000,
+      "principles": [
+        "Ahimsa",
+        "Satya",
+        "Asteya",
+        "Brahmacharya",
+        "Aparigraha"
+      ],
+      "accuracy_requirement": "90%",
+      "estimated_manual_time": "2_weeks"
+    },
+    "results": {
+      "AutoGen": {
+        "time_seconds": 86400,
+        "accuracy": 0.7844796868309426,
+        "false_positives": 0.10236095770671647,
+        "false_negatives": 0.0454057824920701
+      },
+      "LangChain": {
+        "time_seconds": 172800,
+        "accuracy": 0.7834043901398345,
+        "false_positives": 0.11869848982176111,
+        "false_negatives": 0.07868979130445647
+      },
+      "CrewAI": {
+        "time_seconds": 129600,
+        "accuracy": 0.9302828933665308,
+        "false_positives": 0.1281614351964449,
+        "false_negatives": 0.09905953691593927
+      },
+      "OpenAI_Swarm": {
+        "time_seconds": 43200,
+        "accuracy": 0.8308685709228728,
+        "false_positives": 0.1990016804052656,
+        "false_negatives": 0.07993629719266666
+      },
+      "Manual": {
+        "time_seconds": 1209600,
+        "accuracy": 0.7118872268621264,
+        "false_positives": 0.0865367884047874,
+        "false_negatives": 0.05957096067100218
+      }
+    },
+    "axiom_x_advantage": {
+      "error": "Target system not found in results"
+    }
+  },
+  "parallel_scaling": {
+    "task": "parallel_scaling_efficiency",
+    "scaling_spec": {
+      "base_task": "implement_complete_web_application",
+      "scale_points": [
+        10,
+        50,
+        150,
+        500,
+        1000
+      ],
+      "efficiency_target": "90%"
+    },
+    "results": {
+      "scale_10": {
+        "AutoGen": {
+          "time_seconds": 100.0,
+          "efficiency": 0.993,
+          "overhead": 0.007000000000000006,
+          "success_rate": 0.9814017551414467
+        },
+        "LangChain": {
+          "time_seconds": 100.0,
+          "efficiency": 0.994,
+          "overhead": 0.006000000000000005,
+          "success_rate": 0.9289231284397275
+        },
+        "CrewAI": {
+          "time_seconds": 100.0,
+          "efficiency": 0.995,
+          "overhead": 0.0050000000000000044,
+          "success_rate": 0.978189549393702
+        },
+        "OpenAI_Swarm": {
+          "time_seconds": 100.0,
+          "efficiency": 0.996,
+          "overhead": 0.0040000000000000036,
+          "success_rate": 0.8606638664189497
+        },
+        "Manual": {
+          "time_seconds": 100.0,
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "success_rate": 0.9742128567998474
+        }
+      },
+      "scale_50": {
+        "AutoGen": {
+          "time_seconds": 20.0,
+          "efficiency": 0.965,
+          "overhead": 0.03500000000000003,
+          "success_rate": 0.8597014147246586
+        },
+        "LangChain": {
+          "time_seconds": 20.0,
+          "efficiency": 0.97,
+          "overhead": 0.030000000000000027,
+          "success_rate": 0.8453287150156513
+        },
+        "CrewAI": {
+          "time_seconds": 20.0,
+          "efficiency": 0.975,
+          "overhead": 0.025000000000000022,
+          "success_rate": 0.8004022012439245
+        },
+        "OpenAI_Swarm": {
+          "time_seconds": 20.0,
+          "efficiency": 0.98,
+          "overhead": 0.020000000000000018,
+          "success_rate": 0.8690721105000998
+        },
+        "Manual": {
+          "time_seconds": 20.0,
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "success_rate": 0.967477756749034
+        }
+      },
+      "scale_150": {
+        "AutoGen": {
+          "time_seconds": 6.666666666666667,
+          "efficiency": 0.895,
+          "overhead": 0.10499999999999998,
+          "success_rate": 0.8479286290616361
+        },
+        "LangChain": {
+          "time_seconds": 6.666666666666667,
+          "efficiency": 0.91,
+          "overhead": 0.08999999999999997,
+          "success_rate": 0.9534432937829707
+        },
+        "CrewAI": {
+          "time_seconds": 6.666666666666667,
+          "efficiency": 0.925,
+          "overhead": 0.07499999999999996,
+          "success_rate": 0.9517368122236329
+        },
+        "OpenAI_Swarm": {
+          "time_seconds": 6.666666666666667,
+          "efficiency": 0.94,
+          "overhead": 0.06000000000000005,
+          "success_rate": 0.9698663022017316
+        },
+        "Manual": {
+          "time_seconds": 6.666666666666667,
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "success_rate": 0.9976482878394592
+        }
+      },
+      "scale_500": {
+        "AutoGen": {
+          "time_seconds": 2.0,
+          "efficiency": 0.65,
+          "overhead": 0.35,
+          "success_rate": 0.8238085493608468
+        },
+        "LangChain": {
+          "time_seconds": 2.0,
+          "efficiency": 0.7,
+          "overhead": 0.30000000000000004,
+          "success_rate": 0.9562370948313357
+        },
+        "CrewAI": {
+          "time_seconds": 2.0,
+          "efficiency": 0.75,
+          "overhead": 0.25,
+          "success_rate": 0.8958322265401736
+        },
+        "OpenAI_Swarm": {
+          "time_seconds": 2.0,
+          "efficiency": 0.8,
+          "overhead": 0.19999999999999996,
+          "success_rate": 0.8633582737643339
+        },
+        "Manual": {
+          "time_seconds": 2.0,
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "success_rate": 0.8931100099916481
+        }
+      },
+      "scale_1000": {
+        "AutoGen": {
+          "time_seconds": 1.0,
+          "efficiency": 0.30000000000000004,
+          "overhead": 0.7,
+          "success_rate": 0.9927422964876517
+        },
+        "LangChain": {
+          "time_seconds": 1.0,
+          "efficiency": 0.4,
+          "overhead": 0.6,
+          "success_rate": 0.9830348817172839
+        },
+        "CrewAI": {
+          "time_seconds": 1.0,
+          "efficiency": 0.5,
+          "overhead": 0.5,
+          "success_rate": 0.8234251470867824
+        },
+        "OpenAI_Swarm": {
+          "time_seconds": 1.0,
+          "efficiency": 0.6,
+          "overhead": 0.4,
+          "success_rate": 0.8416619382363264
+        },
+        "Manual": {
+          "time_seconds": 1.0,
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "success_rate": 0.8936615477456553
+        }
+      }
+    },
+    "scaling_analysis": {
+      "10": {
+        "AutoGen": {
+          "efficiency": 0.993,
+          "overhead": 0.007000000000000006,
+          "relative_performance": 0.993
+        },
+        "LangChain": {
+          "efficiency": 0.994,
+          "overhead": 0.006000000000000005,
+          "relative_performance": 0.994
+        },
+        "CrewAI": {
+          "efficiency": 0.995,
+          "overhead": 0.0050000000000000044,
+          "relative_performance": 0.995
+        },
+        "OpenAI_Swarm": {
+          "efficiency": 0.996,
+          "overhead": 0.0040000000000000036,
+          "relative_performance": 0.996
+        },
+        "Manual": {
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "relative_performance": 0.1
+        }
+      },
+      "50": {
+        "AutoGen": {
+          "efficiency": 0.965,
+          "overhead": 0.03500000000000003,
+          "relative_performance": 0.965
+        },
+        "LangChain": {
+          "efficiency": 0.97,
+          "overhead": 0.030000000000000027,
+          "relative_performance": 0.97
+        },
+        "CrewAI": {
+          "efficiency": 0.975,
+          "overhead": 0.025000000000000022,
+          "relative_performance": 0.975
+        },
+        "OpenAI_Swarm": {
+          "efficiency": 0.98,
+          "overhead": 0.020000000000000018,
+          "relative_performance": 0.98
+        },
+        "Manual": {
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "relative_performance": 0.1
+        }
+      },
+      "150": {
+        "AutoGen": {
+          "efficiency": 0.895,
+          "overhead": 0.10499999999999998,
+          "relative_performance": 0.895
+        },
+        "LangChain": {
+          "efficiency": 0.91,
+          "overhead": 0.08999999999999997,
+          "relative_performance": 0.91
+        },
+        "CrewAI": {
+          "efficiency": 0.925,
+          "overhead": 0.07499999999999996,
+          "relative_performance": 0.925
+        },
+        "OpenAI_Swarm": {
+          "efficiency": 0.94,
+          "overhead": 0.06000000000000005,
+          "relative_performance": 0.94
+        },
+        "Manual": {
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "relative_performance": 0.1
+        }
+      },
+      "500": {
+        "AutoGen": {
+          "efficiency": 0.65,
+          "overhead": 0.35,
+          "relative_performance": 0.65
+        },
+        "LangChain": {
+          "efficiency": 0.7,
+          "overhead": 0.30000000000000004,
+          "relative_performance": 0.7
+        },
+        "CrewAI": {
+          "efficiency": 0.75,
+          "overhead": 0.25,
+          "relative_performance": 0.75
+        },
+        "OpenAI_Swarm": {
+          "efficiency": 0.8,
+          "overhead": 0.19999999999999996,
+          "relative_performance": 0.8
+        },
+        "Manual": {
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "relative_performance": 0.1
+        }
+      },
+      "1000": {
+        "AutoGen": {
+          "efficiency": 0.30000000000000004,
+          "overhead": 0.7,
+          "relative_performance": 0.30000000000000004
+        },
+        "LangChain": {
+          "efficiency": 0.4,
+          "overhead": 0.6,
+          "relative_performance": 0.4
+        },
+        "CrewAI": {
+          "efficiency": 0.5,
+          "overhead": 0.5,
+          "relative_performance": 0.5
+        },
+        "OpenAI_Swarm": {
+          "efficiency": 0.6,
+          "overhead": 0.4,
+          "relative_performance": 0.6
+        },
+        "Manual": {
+          "efficiency": 0.1,
+          "overhead": 0.9,
+          "relative_performance": 0.1
+        }
+      }
+    }
+  },
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "8447283675cf488cc895c364d5a246a5c74448f4abd9d563996ae434838138c4",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "ab876b350a1a78e60902404e1152e4b0fcbfe16665565605f38726deb6bc3f01",
+    "integrity_verified": true
+  }
+}

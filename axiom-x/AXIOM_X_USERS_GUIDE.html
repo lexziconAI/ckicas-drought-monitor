@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Axiom-X User Guide</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 40px;
+            line-height: 1.6;
+            font-size: 11pt;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+            text-align: justify;
+            max-width: none;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            page-break-after: avoid;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            page-break-after: avoid;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+        h3 {
+            color: #7f8c8d;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+        p {
+            margin: 10px 0;
+            text-align: justify;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+        li {
+            margin: 5px 0;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            font-size: 10pt;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 10pt;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-left: 0;
+            font-style: italic;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            table-layout: auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .check {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        /* Ensure all text elements wrap properly */
+        * {
+            box-sizing: border-box;
+        }
+        div, span, section {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+<body><h1 id="axiom-x-your-ai-orchestration-system">AXIOM-X: YOUR AI ORCHESTRATION SYSTEM</h1>
+<h2 id="the-simple-guide-to-getting-things-done-faster">The Simple Guide to Getting Things Done Faster</h2>
+<h3 id="what-is-axiom-x">🎯 What Is Axiom-X?</h3>
+<p><strong>In one sentence:</strong> Axiom-X coordinates multiple AI assistants to work together on big tasks, following ethical rules to ensure safe and high-quality results.</p>
+<p><strong>Think of it like:</strong>
+- A conductor leading an orchestra of AI musicians
+- A project manager coordinating a team of specialists
+- A quality control system that ensures good work</p>
+<p><strong>The key difference:</strong> Instead of asking one AI to do everything (slow), Axiom-X breaks work into pieces and assigns them to hundreds of AI workers simultaneously (fast).</p>
+<hr />
+<h2 id="what-can-axiom-x-do">📊 WHAT CAN AXIOM-X DO?</h2>
+<h3 id="feature-1-multi-provider-orchestration">Feature 1: Multi-Provider Orchestration</h3>
+<p><strong>What it means in plain English:</strong>
+- Uses 6 different AI companies at once (Anthropic, OpenAI, Google, Groq, Cohere, Fireworks)
+- If one is slow or breaks, others keep working
+- Never locked into one company's limitations</p>
+<p><strong>When to use it:</strong>
+- You have lots of similar tasks (analyze 100 documents, write 50 emails)
+- You need results fast
+- You want backup options if one AI service has problems</p>
+<p><strong>Example use cases:</strong>
+- "Analyze these 200 research papers and summarize key findings"
+- "Generate 100 product descriptions for my catalog"
+- "Review 500 support tickets and categorize them"</p>
+<p><strong>Quick Start Prompt:</strong></p>
+<pre><code>I need to [task] for [number] items. Use multi-provider orchestration for speed.
+
+Examples:
+- &quot;I need to summarize 50 PDFs. Use multi-provider orchestration for speed.&quot;
+- &quot;I need to generate SEO descriptions for 200 products. Use multi-provider orchestration.&quot;
+</code></pre>
+<p><strong>What happens:</strong> Axiom-X splits your 50 tasks across 6 AI providers, completing in ~2 minutes instead of 30 minutes.</p>
+<hr />
+<h3 id="feature-2-constitutional-governance">Feature 2: Constitutional Governance</h3>
+<p><strong>What it means in plain English:</strong>
+- Every decision follows ethical rules (based on ancient Yama principles)
+- Always asks permission before deleting anything
+- Keeps receipts proving work was done correctly
+- Transparent about confidence levels ("I'm 90% sure" vs "I'm 50% sure")</p>
+<p><strong>When to use it:</strong>
+- Working with important documents
+- Making decisions that affect others
+- Need to prove work meets ethical standards
+- Want audit trail for compliance</p>
+<p><strong>Example use cases:</strong>
+- "Review these legal contracts and flag risky clauses" (needs high accuracy + ethics)
+- "Analyze employee feedback and summarize concerns" (needs confidentiality)
+- "Recommend budget cuts" (needs transparency about tradeoffs)</p>
+<p><strong>Quick Start Prompt:</strong></p>
+<pre><code>[Your task] - Use constitutional governance to ensure ethical compliance.
+
+Examples:
+- &quot;Analyze customer complaints - Use constitutional governance to ensure privacy.&quot;
+- &quot;Recommend which features to cut - Use constitutional governance for transparent tradeoffs.&quot;
+</code></pre>
+<p><strong>What happens:</strong> Axiom-X follows ethical rules (non-harm, truthfulness, proper attribution) and provides confidence scores with every answer.</p>
+<hr />
+<h3 id="feature-3-fractal-parallelization-swarm-mode">Feature 3: Fractal Parallelization (Swarm Mode)</h3>
+<p><strong>What it means in plain English:</strong>
+- Breaks big problems into smaller pieces
+- Assigns pieces to hundreds of AI workers
+- Combines results intelligently
+- 50-100× faster than working alone</p>
+<p><strong>When to use it:</strong>
+- Massive tasks (thousands of items)
+- Complex analysis requiring multiple perspectives
+- Time-sensitive projects
+- Research requiring comprehensive coverage</p>
+<p><strong>Example use cases:</strong>
+- "Scan my entire codebase (1,000+ files) and find security vulnerabilities"
+- "Research all competitors in my industry and create comparison matrix"
+- "Analyze 10 years of financial data and identify patterns"</p>
+<p><strong>Quick Start Prompt:</strong></p>
+<pre><code>[Large task] - Deploy swarm mode with [number] workers.
+
+Examples:
+- &quot;Analyze all 500 customer reviews - Deploy swarm mode with 100 workers.&quot;
+- &quot;Find duplicates in my 2,000 file photo library - Deploy swarm mode with 200 workers.&quot;
+</code></pre>
+<p><strong>What happens:</strong> Axiom-X spawns hundreds of specialized workers, completes your task in minutes instead of hours/days.</p>
+<hr />
+<h3 id="feature-4-receipt-based-performance-tracking">Feature 4: Receipt-Based Performance Tracking</h3>
+<p><strong>What it means in plain English:</strong>
+- Every time a script runs, it saves a "report card"
+- Report cards show speed, quality, and success/failure
+- System learns which scripts work best
+- Automatically uses top performers for future tasks</p>
+<p><strong>When to use it:</strong>
+- Building tools you'll reuse
+- Want to know what's working vs failing
+- Need proof of performance for stakeholders
+- Optimizing workflows over time</p>
+<p><strong>Example use cases:</strong>
+- "I run daily reports - track which scripts are fastest"
+- "Testing different approaches - show me which performed best"
+- "Need to prove my AI system is improving over time"</p>
+<p><strong>Quick Start Prompt:</strong></p>
+<pre><code>[Your task] - Generate performance receipt for tracking.
+
+Examples:
+- &quot;Run data analysis pipeline - Generate performance receipt for tracking.&quot;
+- &quot;Benchmark these 5 approaches - Generate performance receipts to compare.&quot;
+</code></pre>
+<p><strong>What happens:</strong> Axiom-X saves detailed performance data (speed, quality, errors) in JSON files you can review later.</p>
+<hr />
+<h3 id="feature-5-canonical-file-selection">Feature 5: Canonical File Selection</h3>
+<p><strong>What it means in plain English:</strong>
+- Automatically identifies your "best" files
+- Flags duplicate/outdated versions for cleanup
+- Keeps your codebase organized
+- Prevents accumulation of junk files</p>
+<p><strong>When to use it:</strong>
+- Your project has grown messy
+- Multiple versions of files exist
+- Not sure which script to use
+- Want to clean up without breaking things</p>
+<p><strong>Example use cases:</strong>
+- "I have 5 versions of my data processing script - which one should I keep?"
+- "My project has 1,000+ files - help me identify what's important"
+- "Clean up my codebase without breaking anything"</p>
+<p><strong>Quick Start Prompt:</strong></p>
+<pre><code>Run canonical file selection on [directory/project].
+
+Examples:
+- &quot;Run canonical file selection on my Python project.&quot;
+- &quot;Run canonical file selection on my scripts folder - flag duplicates.&quot;
+</code></pre>
+<p><strong>What happens:</strong> Axiom-X analyzes performance data, identifies best versions of each tool, flags redundant files for safe deletion.</p>
+<hr />
+<h3 id="feature-6-infrastructure-workers-continuous-development">Feature 6: Infrastructure Workers (Continuous Development)</h3>
+<p><strong>What it means in plain English:</strong>
+- Background workers that generate new features
+- Creates code, tests, documentation automatically
+- Runs continuously while you do other work
+- Like having a development team working 24/7</p>
+<p><strong>When to use it:</strong>
+- Building a large system
+- Need lots of code generated
+- Want automated testing
+- Require documentation written</p>
+<p><strong>Example use cases:</strong>
+- "Generate 100 utility functions for my project"
+- "Create test suites for all my modules"
+- "Write API documentation for my codebase"
+- "Build data processing pipelines"</p>
+<p><strong>Quick Start Prompt:</strong></p>
+<pre><code>Deploy [number] infrastructure workers for [task type].
+
+Examples:
+- &quot;Deploy 50 infrastructure workers for code generation.&quot;
+- &quot;Deploy 20 infrastructure workers for writing tests.&quot;
+- &quot;Deploy 30 infrastructure workers for documentation.&quot;
+</code></pre>
+<p><strong>What happens:</strong> Axiom-X spawns background workers that continuously generate code/tests/docs while you work on other tasks.</p>
+<hr />
+<h2 id="quick-start-guide">🚀 QUICK START GUIDE</h2>
+<h3 id="for-complete-beginners">For Complete Beginners:</h3>
+<p><strong>Step 1: Choose Your Task Type</strong></p>
+<ul>
+<li><strong>Many similar items?</strong> → Use Multi-Provider Orchestration</li>
+<li><strong>Huge/complex problem?</strong> → Use Fractal Parallelization</li>
+<li><strong>Need ethical compliance?</strong> → Use Constitutional Governance</li>
+<li><strong>Building long-term?</strong> → Use Receipt Tracking</li>
+<li><strong>Codebase messy?</strong> → Use Canonical Selection</li>
+</ul>
+<p><strong>Step 2: Use Template Prompt</strong></p>
+<p>Copy the prompt from the feature section above, fill in your details.</p>
+<p><strong>Step 3: Review Results</strong></p>
+<p>Axiom-X will provide:
+- Main answer/output
+- Confidence scores (how sure it is)
+- Performance data (how long it took)
+- Constitutional receipt (proof of ethical compliance)</p>
+<hr />
+<h2 id="real-world-examples">📖 REAL-WORLD EXAMPLES</h2>
+<h3 id="example-1-research-paper-analysis">Example 1: Research Paper Analysis</h3>
+<p><strong>Task:</strong> "I need to analyze 100 research papers for my literature review."</p>
+<p><strong>Best Feature:</strong> Fractal Parallelization (Swarm Mode)</p>
+<p><strong>Prompt:</strong></p>
+<pre><code>Analyze these 100 research papers and create a literature review table with:
+- Author, Year, Title
+- Key Findings
+- Methodology
+- Relevance to [your topic]
+
+Deploy swarm mode with 100 workers for speed.
+</code></pre>
+<p><strong>What happens:</strong>
+- 100 AI workers each read 1 paper simultaneously
+- Results combined into structured table
+- Completes in ~3-5 minutes (vs 8+ hours manually)
+- Constitutional receipt proves thorough analysis</p>
+<hr />
+<h3 id="example-2-code-cleanup">Example 2: Code Cleanup</h3>
+<p><strong>Task:</strong> "My Python project has gotten messy with duplicate files."</p>
+<p><strong>Best Feature:</strong> Canonical File Selection</p>
+<p><strong>Prompt:</strong></p>
+<pre><code>Run canonical file selection on my Python project at C:/my-project/.
+Flag duplicate files and recommend deletions.
+</code></pre>
+<p><strong>What happens:</strong>
+- Axiom-X scans all Python files
+- Analyzes performance receipts (if available)
+- Identifies best version of each tool
+- Provides safe deletion list with backups
+- Asks your approval before deleting anything (Ahimsa principle)</p>
+<hr />
+<h3 id="example-3-competitive-analysis">Example 3: Competitive Analysis</h3>
+<p><strong>Task:</strong> "Research all competitors in the AI chatbot space."</p>
+<p><strong>Best Feature:</strong> Multi-Provider Orchestration</p>
+<p><strong>Prompt:</strong></p>
+<pre><code>Research the top 20 AI chatbot companies and create a comparison matrix:
+- Company name
+- Key features
+- Pricing
+- Target market
+- Strengths/weaknesses
+
+Use multi-provider orchestration with constitutional governance for accurate research.
+</code></pre>
+<p><strong>What happens:</strong>
+- 20 tasks distributed across 6 AI providers
+- Constitutional governance ensures factual accuracy
+- Confidence scores show reliability of each finding
+- Complete comparison in ~2-3 minutes</p>
+<hr />
+<h3 id="example-4-daily-automation">Example 4: Daily Automation</h3>
+<p><strong>Task:</strong> "Generate daily sales reports from our database."</p>
+<p><strong>Best Feature:</strong> Receipt-Based Performance Tracking</p>
+<p><strong>Prompt:</strong></p>
+<pre><code>Run daily sales report generation.
+Generate performance receipt to track reliability over time.
+</code></pre>
+<p><strong>What happens:</strong>
+- Report generated with current data
+- Performance receipt saved (speed, success/failure, data quality)
+- Over time, you see trends: "This report takes 2 minutes on average with 98% success rate"
+- If performance degrades, you're alerted</p>
+<hr />
+<h2 id="choosing-the-right-feature">🎯 CHOOSING THE RIGHT FEATURE</h2>
+<h3 id="decision-tree">Decision Tree:</h3>
+<p><strong>Q: How many items do you have?</strong>
+- 1-10 items → Regular AI assistant is fine
+- 10-100 items → Multi-Provider Orchestration
+- 100+ items → Fractal Parallelization (Swarm)</p>
+<p><strong>Q: How important is ethical compliance?</strong>
+- Critical (legal, medical, financial) → Constitutional Governance
+- Important (business decisions) → Constitutional Governance recommended
+- Standard work → Regular mode fine</p>
+<p><strong>Q: Will you repeat this task?</strong>
+- One-time → No special features needed
+- Regular/recurring → Receipt-Based Tracking
+- Building tools → Infrastructure Workers</p>
+<p><strong>Q: Is your codebase messy?</strong>
+- Yes → Canonical File Selection
+- No → Continue with current approach</p>
+<hr />
+<h2 id="important-notes">⚠️ IMPORTANT NOTES</h2>
+<h3 id="what-axiom-x-does-well">What Axiom-X Does Well:</h3>
+<p>✅ Large-scale parallel tasks (hundreds/thousands of items)
+✅ Multi-perspective analysis (examining from many angles)
+✅ Code/documentation generation at scale
+✅ Research requiring comprehensive coverage
+✅ Maintaining code quality over time</p>
+<h3 id="what-axiom-x-is-not-for">What Axiom-X Is NOT For:</h3>
+<p>❌ Simple questions (just ask regular ChatGPT/Claude)
+❌ Real-time conversations (it's for batch processing)
+❌ Single complex creative tasks (e.g., "write my novel")
+❌ Tasks requiring human judgment (final decisions still yours)</p>
+<hr />
+<h2 id="pro-tips">💡 PRO TIPS</h2>
+<p><strong>Tip 1: Start Small</strong>
+- Test with 10 items before running 1,000
+- Verify quality before scaling</p>
+<p><strong>Tip 2: Use Constitutional Governance for Important Work</strong>
+- Adds confidence scores
+- Provides audit trail
+- Ensures ethical compliance</p>
+<p><strong>Tip 3: Let Receipt Tracking Run</strong>
+- After a few runs, you'll see patterns
+- System learns what works best
+- Performance improves automatically</p>
+<p><strong>Tip 4: Review Canonical Recommendations</strong>
+- Don't auto-delete files
+- Human approval is required (Ahimsa principle)
+- Keep backups of deleted files</p>
+<p><strong>Tip 5: Combine Features</strong>
+- "Use multi-provider orchestration WITH constitutional governance"
+- "Deploy swarm mode AND generate performance receipts"
+- Features work better together</p>
+<hr />
+<h2 id="troubleshooting">🆘 TROUBLESHOOTING</h2>
+<p><strong>Problem:</strong> "It's too slow"
+- Solution: Increase worker count or use fractal parallelization</p>
+<p><strong>Problem:</strong> "Results aren't accurate"
+- Solution: Add constitutional governance for quality checks</p>
+<p><strong>Problem:</strong> "I don't trust the recommendations"
+- Solution: Check confidence scores and constitutional receipts</p>
+<p><strong>Problem:</strong> "System wants to delete important files"
+- Solution: Human approval is always required (Ahimsa), just say "no"</p>
+<p><strong>Problem:</strong> "Too technical for me"
+- Solution: Use the template prompts above - just fill in your task</p>
+<hr />
+<h2 id="glossary">📚 GLOSSARY</h2>
+<p><strong>Orchestration:</strong> Coordinating multiple AI workers to complete a task</p>
+<p><strong>Constitutional Governance:</strong> Following ethical rules (non-harm, truthfulness, transparency)</p>
+<p><strong>Swarm Mode:</strong> Hundreds of AI workers tackling a problem simultaneously</p>
+<p><strong>Receipt:</strong> Performance record showing speed, quality, success/failure</p>
+<p><strong>Canonical File:</strong> The "best" version of a file (when duplicates exist)</p>
+<p><strong>Multi-Provider:</strong> Using multiple AI companies at once (Anthropic, OpenAI, Google, etc.)</p>
+<p><strong>Fractal Parallelization:</strong> Breaking big problems into smaller pieces, solving in parallel</p>
+<p><strong>Yama Principles:</strong> Ancient ethical guidelines (non-harm, truth, proper attribution, efficiency, non-hoarding)</p>
+<p><strong>Confidence Score:</strong> How sure the AI is (90% = very confident, 50% = uncertain)</p>
+<hr />
+<h2 id="learning-path">🎓 LEARNING PATH</h2>
+<h3 id="beginner-week-1">Beginner (Week 1):</h3>
+<ol>
+<li>Try multi-provider orchestration with 20 items</li>
+<li>Review results and confidence scores</li>
+<li>Get comfortable with template prompts</li>
+</ol>
+<h3 id="intermediate-week-2-3">Intermediate (Week 2-3):</h3>
+<ol>
+<li>Deploy swarm mode for 100+ item tasks</li>
+<li>Start using constitutional governance</li>
+<li>Review performance receipts</li>
+</ol>
+<h3 id="advanced-week-4">Advanced (Week 4+):</h3>
+<ol>
+<li>Use canonical file selection for cleanup</li>
+<li>Deploy infrastructure workers</li>
+<li>Combine multiple features</li>
+<li>Track performance trends over time</li>
+</ol>
+<hr />
+<h2 id="support">📞 SUPPORT</h2>
+<p><strong>Questions?</strong>
+- Check the examples above
+- Start with template prompts
+- Review confidence scores in outputs
+- Constitutional receipts explain decisions</p>
+<p><strong>Found a problem?</strong>
+- System always requires human approval for deletions
+- Backups are automatic
+- Constitutional compliance is enforced</p>
+<hr />
+<h2 id="success-stories">🎉 SUCCESS STORIES</h2>
+<p><strong>Research:</strong> "Analyzed 500 papers in 10 minutes - would have taken weeks manually"</p>
+<p><strong>Business:</strong> "Competitive analysis of 50 companies completed in 5 minutes"</p>
+<p><strong>Development:</strong> "Cleaned up 2,000-file codebase, freed 60MB, no breaks"</p>
+<p><strong>Analysis:</strong> "Daily reports now auto-generate with 98% reliability"</p>
+<hr />
+<h2 id="get-started-now">🚀 GET STARTED NOW</h2>
+<p><strong>Try this sample prompt to test the system:</strong></p>
+<pre><code>Hello Axiom-X! Please demonstrate multi-provider orchestration by:
+1. Analyzing these 3 sample texts [provide 3 short paragraphs]
+2. Extracting key themes from each
+3. Comparing themes across all three
+
+Use constitutional governance to show me confidence scores.
+</code></pre>
+<p>This simple test will show you:
+- How multi-provider works
+- What confidence scores look like
+- How constitutional governance provides transparency</p>
+<p><strong>Once you're comfortable, scale up to your real tasks!</strong></p>
+<hr />
+<h2 id="appendix-cheat-sheet">APPENDIX: CHEAT SHEET</h2>
+<h3 id="quick-copy-paste-prompts">Quick Copy-Paste Prompts:</h3>
+<p><strong>Research/Analysis:</strong></p>
+<pre><code>Analyze [number] [items] and [desired output].
+Deploy swarm mode with constitutional governance.
+</code></pre>
+<p><strong>Code Cleanup:</strong></p>
+<pre><code>Run canonical file selection on [directory].
+Flag duplicates and provide safe deletion recommendations.
+</code></pre>
+<p><strong>Batch Processing:</strong></p>
+<pre><code>Process [number] [items] using multi-provider orchestration.
+Generate performance receipts for tracking.
+</code></pre>
+<p><strong>Competitive Research:</strong></p>
+<pre><code>Research [topic/companies] and create comparison matrix.
+Use constitutional governance for accuracy.
+</code></pre>
+<p><strong>Automation:</strong></p>
+<pre><code>Automate [task] with receipt-based performance tracking.
+Alert me if performance degrades.
+</code></pre>
+<hr />
+<p><strong>Remember:</strong> Axiom-X is your AI orchestra conductor. You're the composer - tell it what you want, and it coordinates the musicians (AI workers) to make it happen fast, ethically, and reliably.</p>
+<p><strong>Start simple. Scale gradually. Trust the constitutional governance. Review the receipts.</strong></p>
+<p><strong>Welcome to Axiom-X!</strong> 🚀</p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{"timestamp": "2025-10-31T19:32:47.285207", "severity": "CRITICAL", "provider": "anthropic", "phase": "B", "prompt": "Test prompt", "missing_headers": ["anthropic-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T19:32:47.298023", "severity": "CRITICAL", "provider": "openai", "phase": "C", "prompt": "Test prompt", "missing_headers": ["x-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T19:36:33.571819", "severity": "CRITICAL", "provider": "anthropic", "phase": "B", "prompt": "Test prompt", "missing_headers": ["anthropic-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T19:36:33.574671", "severity": "CRITICAL", "provider": "openai", "phase": "C", "prompt": "Test prompt", "missing_headers": ["x-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:34:27.579122", "severity": "CRITICAL", "provider": "anthropic", "phase": "C", "prompt": "test prompt", "missing_headers": ["anthropic-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:34:27.581293", "severity": "CRITICAL", "provider": "openai", "phase": "C", "prompt": "test prompt", "missing_headers": ["x-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:34:35.298905", "severity": "CRITICAL", "provider": "anthropic", "phase": "C", "prompt": "test prompt", "missing_headers": ["anthropic-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:34:35.300288", "severity": "CRITICAL", "provider": "openai", "phase": "C", "prompt": "test prompt", "missing_headers": ["x-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:35:00.286418", "severity": "CRITICAL", "provider": "anthropic", "phase": "C", "prompt": "test prompt", "missing_headers": ["anthropic-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:35:00.288197", "severity": "CRITICAL", "provider": "openai", "phase": "C", "prompt": "test prompt", "missing_headers": ["x-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:35:24.807535", "severity": "CRITICAL", "provider": "anthropic", "phase": "C", "prompt": "test prompt", "missing_headers": ["anthropic-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:35:24.809093", "severity": "CRITICAL", "provider": "openai", "phase": "C", "prompt": "test prompt", "missing_headers": ["x-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:36:06.291598", "severity": "CRITICAL", "provider": "anthropic", "phase": "C", "prompt": "test prompt", "missing_headers": ["anthropic-research-project"], "action": "TRANSMISSION_BLOCKED"}
+{"timestamp": "2025-10-31T21:36:06.292992", "severity": "CRITICAL", "provider": "openai", "phase": "C", "prompt": "test prompt", "missing_headers": ["x-research-project"], "action": "TRANSMISSION_BLOCKED"}

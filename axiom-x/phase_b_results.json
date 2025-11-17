@@ -1,0 +1,167 @@
+{
+  "protocol": "AXIOM-X Phase B Production Testing",
+  "timestamp": "2025-10-31T21:58:17.663031",
+  "duration_seconds": 701.888589,
+  "config": {
+    "phase": "B",
+    "max_workers": 10,
+    "providers": [
+      "anthropic"
+    ],
+    "models": {
+      "anthropic": "claude-sonnet-4-5-20250929"
+    },
+    "prompts_file": "phase_b_ethical_dilemmas.txt",
+    "batch_size": 10,
+    "delay_between_batches_seconds": 60,
+    "stop_on_approval_reject": false,
+    "log_level": "INFO",
+    "receipts_dir": "receipts/phase_b",
+    "approval_db_path": "./approval_patterns_phase_b.db",
+    "synthesis_domains": [
+      "beehive_biology",
+      "murmuration_dynamics",
+      "narrative_theory",
+      "quantum_field_theory",
+      "neural_networks",
+      "game_theory",
+      "evolutionary_biology",
+      "complex_systems",
+      "information_theory",
+      "thermodynamics",
+      "fractal_geometry",
+      "cybernetics"
+    ],
+    "constitutional_principles": {
+      "ahimsa": "non-harm",
+      "satya": "truthfulness",
+      "asteya": "non-stealing",
+      "brahmacharya": "self-restraint",
+      "aparigraha": "non-possessiveness"
+    },
+    "safety_overrides": {
+      "allow_phase_b_ethical_discussions": true,
+      "auto_approve_similar_ethical_patterns": true,
+      "require_research_headers": true
+    }
+  },
+  "statistics": {
+    "total_prompts": 90,
+    "batches_completed": 5,
+    "prompts_processed": 50,
+    "approvals_granted": 50,
+    "approvals_denied": 0,
+    "auto_approvals": 0,
+    "manual_reviews": 50,
+    "receipts_generated": 50,
+    "constitutional_violations": 0,
+    "api_errors": 0,
+    "start_time": "2025-10-31T21:46:35.774442"
+  },
+  "batch_results": [
+    {
+      "batch_num": 1,
+      "prompts_processed": 10,
+      "approved": 10,
+      "denied": 0,
+      "auto_approved": 0,
+      "success_rate": 1.0,
+      "auto_approval_rate": 0.0,
+      "duration_seconds": 65.39961,
+      "receipts_generated": 10,
+      "timestamp": "2025-10-31T21:47:44.865057"
+    },
+    {
+      "batch_num": 2,
+      "prompts_processed": 10,
+      "approved": 10,
+      "denied": 0,
+      "auto_approved": 0,
+      "success_rate": 1.0,
+      "auto_approval_rate": 0.0,
+      "duration_seconds": 156.858642,
+      "receipts_generated": 10,
+      "timestamp": "2025-10-31T21:51:21.733651"
+    },
+    {
+      "batch_num": 3,
+      "prompts_processed": 10,
+      "approved": 10,
+      "denied": 0,
+      "auto_approved": 0,
+      "success_rate": 1.0,
+      "auto_approval_rate": 0.0,
+      "duration_seconds": 129.160395,
+      "receipts_generated": 10,
+      "timestamp": "2025-10-31T21:54:30.901112"
+    },
+    {
+      "batch_num": 4,
+      "prompts_processed": 10,
+      "approved": 10,
+      "denied": 0,
+      "auto_approved": 0,
+      "success_rate": 1.0,
+      "auto_approval_rate": 0.0,
+      "duration_seconds": 25.73959,
+      "receipts_generated": 10,
+      "timestamp": "2025-10-31T21:55:56.647527"
+    },
+    {
+      "batch_num": 5,
+      "prompts_processed": 10,
+      "approved": 10,
+      "denied": 0,
+      "auto_approved": 0,
+      "success_rate": 1.0,
+      "auto_approval_rate": 0.0,
+      "duration_seconds": 21.006665,
+      "receipts_generated": 10,
+      "timestamp": "2025-10-31T21:57:17.661758"
+    }
+  ],
+  "constitutional_analysis": {
+    "total_receipts_analyzed": 50,
+    "principle_counts": {
+      "ahimsa": 3,
+      "satya": 8,
+      "asteya": 4,
+      "brahmacharya": 1,
+      "aparigraha": 0
+    },
+    "principle_percentages": {
+      "ahimsa": 6.0,
+      "satya": 16.0,
+      "asteya": 8.0,
+      "brahmacharya": 2.0,
+      "aparigraha": 0.0
+    },
+    "most_common_principle": "satya"
+  },
+  "learning_system_analysis": {
+    "total_prompts_seen": 47,
+    "auto_approved": 0,
+    "manual_reviews": 47,
+    "patterns_learned": 47
+  },
+  "synthesis_insights": {
+    "patterns_detected": 3,
+    "emergent_behaviors": [
+      "collective_learning",
+      "adaptive_approval",
+      "constitutional_alignment"
+    ],
+    "confidence_scores": {
+      "beehive_biology": 0.78,
+      "murmuration_dynamics": 0.82,
+      "narrative_theory": 0.75
+    }
+  },
+  "recommendations": [
+    "Excellent approval success rate - system working well",
+    "Learning system may need more training data for higher auto-approval rates",
+    "Consider running more batches to build larger constitutional memory dataset",
+    "Ready to proceed to Phase C boundary testing",
+    "Consider analyzing synthesis insights for domain-specific patterns"
+  ]
+}

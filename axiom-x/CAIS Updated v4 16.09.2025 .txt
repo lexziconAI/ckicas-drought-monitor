@@ -1,0 +1,722 @@
+Empowering Communities: The CKICAS Framework for Adaptive, Real-Time Decision-Making in Sustainable Development
+First Author: Regan Duff
+Department and University: Department of Information Systems and Operations Management, University of Auckland
+Abstract:Communities often face volatile, uncertain, complex, and ambiguous conditions where slow decisions erode equity and outcomes. This paper introduces CKICAS, a practice-informed conceptual framework for community decision support that targets qualitative reductions in decision latency while maintaining inclusive participation. CKICAS was shaped during COVID-19 through Action Design Research with community partners, then consolidated post hoc from field materials into a portable set of meta-requirements, design principles, and simple artifacts. The framework integrates curated knowledge, participatory governance, and lightweight coordination so community coalitions can sense, deliberate, and act at pace. Evidence is formative, drawn from multiple community decision episodes; we report what worked, what failed, and how lessons were generalized for reuse. The paper presents the conceptual architecture, prescriptive guidance for use in real time or retrospectively to structure debriefs, and propositions for future evaluation using feasible, ethics-appropriate designs. CKICAS centers community decision making, positions agencies as enablers, and outlines practical steps for adapting the approach to diverse low-latency settings. 
+Keywords: Low Latency, Community Decision-Making, Sustainable Development, Artificial Intelligence, Complex Adaptive Systems, Action Design Research1 Introduction
+Sustainable development pressures now outstrip institutional capacity. We frame communities as socio-ecological systems with cross-scale feedbacks, nonlinearity, and path dependence, where human, ecological, and built components co-evolve (Walker et al., 2004; Folke et al., 2010; Westley et al., 2011). A systems thinking stance treats problems as dynamic feedback structures rather than isolated events and focuses attention on leverage points, boundary judgements, and learning loops under uncertainty (Checkland, 1999; Sterman, 2006). In this context, traditional top-down governance is often too slow or too rigid. Communities are therefore forced to assemble workable arrangements that are locally grounded, inclusive, and adaptive.
+A central constraint is decision latency, the delay between sensing signals, deliberating, assigning responsibility, and taking coordinated action. In volatile, uncertain, complex, and ambiguous (VUCA) conditions, reducing signal-to-action latency while safeguarding equity and local knowledge is critical. Effective responses require collaborative cycles that can sense, deliberate, and act in real time, and that make trade-offs explicit.
+Our COVID-19 fieldwork provides formative evidence for this need. The evidence comes from two informal, voluntary coalitions that the first author led with community partners, #Masks4AllNZ and Caring 4 Wh?nau. Across practice-embedded episodes, simple inscriptions and selective boundary rules were associated with shorter signal-to-action intervals and broader participation. Observations were naturalistic and anecdotal, judged via timelines, sequence memos, and partner feedback, not statistical tests. We therefore avoid causal claims and report plausible patterns and mechanisms. Our findings align with emerging frameworks for local learning health communities that leverage continuous data and multi-stakeholder partnerships (Ramaswamy et al., 2023), complement evidence of community-driven COVID-19 responses that improved health equity (Pacheco et al., 2024), and resonate with IS research on uneven community-level implementation of AI and digital health technologies (Dankwa-Mullan et al., 2024; Kelly et al., 2024). 
+This paper presents the Community Kinetic Intelligent Complex Adaptive System (CKICAS), a practice-informed framework for low-latency community decision support. CKICAS integrates SES logics of resilience and transformability with systems thinking tools for framing and learning, then operationalises these with socio-technical mechanisms that align heterogeneous actors. Actor–network sensitivities help explain how inscriptions such as timelines, checklists, and message cards stabilise coordination among human and nonhuman actants, while emergent decision-process views recognise that commitments accrue across interacting streams rather than at single decision points (Latour, 2005; Walsham, 1997; Langley et al.,1995; Mintzberg, Raisinghani, & Théorêt, 1976). Intelligent complex adaptive system principles are adapted from organisational to community settings to support permeable yet selective boundaries, distributed cognition, and appropriate complexity (Bennet & Bennet, 2004).
+CKICAS emerged during COVID-19 from a hybrid design approach grounded in Action Design Research (ADR) and community-based participatory research (CBPR). We combined ADR cycles of building, intervening, and evaluating with CBPR principles of partnership, co-learning, and member checking; a systems-thinking lens for sensemaking; soft design-science documentation to separate general requirements from local instantiations; and actor–network sensitising concepts to trace translation work and inscriptions. Evaluation followed the Framework for Evaluation in Design Science (FEDS) emphasis on feasible, naturalistic assessment. We then consolidated practice materials post hoc into portable meta-requirements, design principles, and lightweight artefacts (Baskerville et al., 2009; Callon, 1984; Checkland, 1999; Hevner et al., 2004; Israel et al., 1998; Latour, 2005; Sein et al., 2011; Sterman, 2006; Venable et al., 2016; Walsham, 1997). Two informal, voluntary coalitions led by the first author with community partners, #Masks4AllNZ and Caring 4 Wh?nau, supplied practice-embedded episodes that revealed coordination bottlenecks, boundary choices, and equity risks, informing the framework’s mechanisms.
+1.1 Study aim and guiding question
+The guiding research question is: How can community coalitions, treated as socio-ecological systems, design, use, and learn from low-latency decision support that reduces signal-to-action time while safeguarding inclusivity, equity, and local knowledge?
+This paper offers three contributions.
+First, theory: it extends Intelligent Complex Adaptive Systems from organisational to community socio-ecological settings by integrating SES and systems thinking with emergent decision processes and actor–network sensitivities, and by formalising four design commitments, hybrid intelligence, selective permeability, equity by design, and qualitative latency orientation, expressed in a conceptual architecture with testable propositions.
+Second, method: it introduces a low-overhead, ADR and CBPR informed approach that uses episode timelines, sequence memos, governance checks, curation worksheets, and two light gates to produce traceable learning, aligned with FEDS for feasible, naturalistic evaluation.
+Third, practice: it provides a portable toolkit (A1–A6) and roll-out path that practitioners can adapt to incorporate digital tools responsibly, place prompts at points of action, and protect equity, privacy, and auditability across varied low-latency contexts.
+The paper proceeds as follows. Section 2 outlines theoretical foundations. Section 3 describes the research approach. Sections 4 and 5 present the CKICAS model and applications. Section 6 details the CKICAS cycle. Section 7 discusses implications and future work.
+2 Theoretical Foundations of CKICAS
+
+This section synthesises four streams that ground CKICAS: (1) socio-ecological systems (SES), (2) intelligent complex adaptive systems (ICAS), (3) emergent decision-making, and (4) actor–network theory (ANT) with community-based participatory research (CBPR) principles. A final subsection integrates these into four design commitments for Information Systems (IS).
+2.1 Socio-Ecological Systems and Transformability
+SES scholarship examines co-evolving relations among human communities and their ecological and built environments. Resilience is the capacity to absorb shocks while maintaining core functions; transformability is the capacity to restructure when existing regimes become untenable (Walker et al., 2004; Folke et al., 2010). Transformations can enable more equitable and resilient futures but require governance that navigates uncertainty across levels (Olsson et al., 2006; Westley et al., 2011). Institutions for shared resources further condition local collective action (Ostrom, 1990). 
+
+CKICAS draws on SES to support both incremental adaptation and deeper restructuring in crises, preserving continuity while reconfiguring for long-term sustainability.
+2.2 Intelligent Complex Adaptive Systems (ICAS)
+ICAS conceptualises organisations as knowledge-centric systems capable of self-organisation, learning, and adaptation (Bennet & Bennet, 2004; Bennet & Bennet, 2008). Core principles include knowledge centricity, emergent intelligence, optimum complexity, and permeable boundaries. 
+
+CKICAS extends ICAS to community contexts: boundaries are negotiated and fluid; openness is balanced against overload and identity loss; organisational intelligence becomes community intelligence reflecting distributed cognition and cultural knowledge across diverse actors. ICAS provides scaffolding that CKICAS adapts for heterogeneous, voluntary community settings.
+2.3 Emergent Decision-Making
+Traditional decision models assume linearity and centralised authority, yet community decisions typically unfold through overlapping, iterative processes. Langley et al. (1995) describe a “Black Stool” view: decisions emerge as streams shaped by shifting contexts, intuition, and lived practice. Formal codification often lags ground-level initiatives, and ambiguity about authority or legitimacy is common (Mintzberg et al., 1976). In high-velocity environments, faster decisions arise from richer information use and parallel processing rather than simplistic shortcuts (Eisenhardt, 1989). In fast-response work, coordination mechanisms and real-time expertise integration are critical (Faraj & Xiao, 2006; Majchrzak et al., 2007). 
+
+CKICAS addresses these constraints by supporting parallel decision streams and documenting sequences to surface where time is saved or lost.
+2.4 Actor–Network Theory and CBPR Principles
+ANT treats humans and nonhumans as actants in socio-technical networks (Latour, 2005). Callon’s (1984) “sociology of translation” explains how collective action stabilises through problematisation, enrolment, and mobilisation; within IS, ANT clarifies how technologies, practices, and institutions interplay (Walsham, 1997). CKICAS uses this lens to make inscriptions and boundary objects explicit, for example timelines, curation worksheets, message cards, and change logs that align heterogeneous actors.
+
+CBPR contributes normative and procedural commitments to partnership, co-learning, member checking, and shared decision making (Israel et al., 1998). 
+
+CKICAS operationalises these as participation scans, member checks before major decisions where feasible, translation stubs, and visible correction paths. ANT explains how such inscriptions stabilise coordination; CBPR specifies who must be present and how inclusion is safeguarded.
+2.5 Integration for IS: Four Design Commitments
+Integrating SES, ICAS, emergent decision-making, ANT, and CBPR yields four commitments for low-latency, inclusive action:
+1. Hybrid intelligence. AI-curated and IoT-sourced streams augment, not override, local wisdom and cultural knowledge. Group effectiveness improves with diversity and interaction norms that support collective intelligence (Hong & Page, 2004; Woolley et al.,  2010). CKICAS treats generative AI as a suggestion engine with human review and clear correction paths (Dellermann et al.,  2019).
+2. Permeable yet selective boundaries. Systems stay open to new signals while curating for salience to prevent overload, consistent with ICAS permeability and optimum complexity and with sociomaterial views of situated organising (Bennet & Bennet, 2008; Orlikowski, 2007).
+3. Equity by design and resource access. Financial, social, and cultural capital are prerequisites for adaptation and transformation. CKICAS embeds participation scans, member checking, and translation stubs as equity guardrails, consistent with CBPR (Israel et al., 1998; Berkes & Folke, 1998; Nelson & Prilleltensky, 2010).
+4. Emergence-first logic. Formal decisions often codify patterns already stabilising on the ground. CKICAS supports parallel decision streams and documents them with timelines and sequence memos to reduce qualitative decision latency while preserving inclusivity (Langley et al., 1995; Eisenhardt, 1989; Faraj & Xiao, 2006).
+
+Within IS debates on digital resilience and sustainability, CKICAS assumes digital technologies contribute to sustainability when governance and socio-technical integration align (Kotlarsky et al., 2023; Lyytinen & Newman, 2008). Subsequent sections operationalise these commitments via Action Design Research and feasible, naturalistic evaluation (Sein et al., 2011; Hevner et al., 2004).
+
+
+
+
+
+
+
+
+Table 1. Literature Stream
+Literature StreamKey ReferencesCore ConceptsRelevance to CKICASStream 1: Socio-Ecological Systems & Transformability (2.1)Walker et al. (2004); 
+Folke et al. (2010); 
+Olsson et al. (2006); 
+Westley et al. (2011); 
+Ostrom (1990)Co-evolution; resilience vs. transformability; adaptive, multi-level governance; commons institutions
+Knowledge centricity; emergent intelligence; optimum complexity; permeable boundaries
+Decisions as streams; ambiguity and lag in codification; decision latencyFrames incremental adaptation versus deeper restructuring and motivates transformability in crisis while preserving continuity
+Scaffolds “community intelligence”; supports negotiated, selectively permeable boundaries in voluntary settings
+Grounds the latency focus; motivates documenting sequences and parallel streams to surface time losses and handoffsStream 2: Intelligent Complex Adaptive Systems (2.2)Bennet & Bennet (2004, 2009)Actants; translation (problematization, enrolment, mobilisation); partnership, co-learning, member checking
+Co-evolution; resilience vs. transformability; adaptive, multi-level governance; commons institutionsExplains how inscriptions and boundary objects stabilise coordination; specifies inclusion guardrails via participation scans, member checks, translation stubs
+Frames incremental adaptation versus deeper restructuring and motivates transformability in crisis while preserving continuityStream 3: Emergent Decision-Making (2.3)Langley et al. (1995); 
+Mintzberg et al. (1976);
+Latour (2005); 
+Callon (1984); 
+Walsham (1997); 
+Ruggiero et al. (2024)Knowledge centricity; emergent intelligence; optimum complexity; permeable boundaries
+Decisions as streams; ambiguity and lag in codification; decision latency
+Actants; translation (problematization, enrolment, mobilisation); partnership, co-learning, member checkingScaffolds “community intelligence”; supports negotiated, selectively permeable boundaries in voluntary settings
+Grounds the latency focus; motivates documenting sequences and parallel streams to surface time losses and handoffs
+Explains how inscriptions and boundary objects stabilise coordination; specifies inclusion guardrails via participation scans, member checks, translation stubsStream 4: Actor–Network Theory and CBPR (2.4)Dellermann et al. (2019); 
+Hong & Page (2004);
+Woolley et al. (2010); Surowiecki (2012); 
+Kotlarsky et al. (2023); 
+Lyytinen & Newman (2008); Orlikowski (2007)Co-evolution; resilience vs. transformability; adaptive, multi-level governance; commons institutions
+Knowledge centricity; emergent intelligence; optimum complexity; permeable boundaries
+Decisions as streams; ambiguity and lag in codification; decision latencyFrames incremental adaptation versus deeper restructuring and motivates transformability in crisis while preserving continuity
+Scaffolds “community intelligence”; supports negotiated, selectively permeable boundaries in voluntary settings
+Grounds the latency focus; motivates documenting sequences and parallel streams to surface time losses and handoffsSynthesis for IS: Four Design Commitments (2.5)Berkes & Folke (1998); 
+Nelson & Prilleltensky (2010)Actants; translation (problematization, enrolment, mobilisation); partnership, co-learning, member checkingExplains how inscriptions and boundary objects stabilise coordination; specifies inclusion guardrails via participation scans, member checks, translation stubs
+3 Research Approach: Action Design Research during COVID-19
+3.1 Research design and rationale
+
+CKICAS emerged through iterative development during COVID-19, combiningADR for intervention cycles with Soft Design Science for social complexity and CBPR principles for community partnership. Some labelling and framing reported here were consolidated post hoc as theory building progressed; early work prioritized acting with partners while learning in use, consistent with Community-Based Participatory Research commitments to co-learning, shared decision making, and equity (Israel et al., 1998; Wallerstein & Duran, 2010). In practice, we coupled ADR's build-intervene-evaluate logic with Soft Design Science to separate general problems and meta-requirements from local instantiations, maintaining traceability from situated use to emerging design principles (Sein et al., 2011; Baskerville, Pries-Heje, & Venable, 2009). This complementary approach limited overfitting to local COVID-19 responses while preserving practice-based insight. We operationalized our approach through what we later labelled episode timelines and sequence memos, tools that made ADR tractable in fast-moving settings. Core design science guidance on relevance and rigor kept practical problem solving aligned with knowledge contribution (Hevner et al., 2004; Gregor & Hevner, 2013). Evaluation planning then used the Framework for Evaluation in Design Science, FEDS, to structure early- and later-stage strategies and to frame testable propositions (Venable, Pries-Heje, & Baskerville, 2016).
+
+Why ADR in this context. The pandemic’s immediate demands required acting with communities while learning in use, with no luxury of extended planning cycles. Action Design Research treats design and inquiry as one process and fits a pragmatic, abductive stance in which design hypotheses are generated and refined through deployment and reflection, which was essential when community needs could not wait for traditional research timelines (Sein et al., 2011). Community-Based Participatory Research principles structured partnership, co-learning, shared decision making, equitable involvement, and timely dissemination to partners, and were accelerated to match the crisis tempo (Israel et al., 1998; Wallerstein & Duran, 2010). Early cycles, operating under intense time pressure, recorded roles, boundary rules, and approvals as coordination notes; these later informed CKICAS governance mechanisms. Drawing on Soft Design Science Methodology, we operationalised two lightweight checkpoints that separate general requirements from local adaptations and record option search before selection, a minimal documentation pattern suited to real-time response conditions (Baskerville et al., 2009; Peffers et al., 2007). Evaluation choices were subsequently framed using the Framework for Evaluation in Design Science research, FEDS (Venable et al., 2016).
+
+Sensitizing lenses. ANT, was applied pragmatically to describe how coordination formed and stabilized during crisis conditions, namely, problematization of the shared issue, interessement through simple value propositions and channel rules, enrolment via visible commitments, and mobilization into action (Callon, 1984; Latour, 2005; Walsham, 1997). This ANT lens proved essential for understanding how heterogeneous actors, including community groups, agencies, volunteers, and material artefacts, aligned quickly without formal hierarchies. Message frames, templates, and coordination notes functioned as interessement devices and inscriptions; partner and channel criteria, role assignments following Responsible, Accountable, Consulted, and Informed (RACI) principles, where responsibility denotes the obligation to perform and accountability denotes answerability for completion (McGrath & Whitty, 2018), and change logs stabilized roles; lightweight approvals operated as obligatory passage points. These concepts guided description and design choices in real time rather than requiring a full ANT analysis that time did not permit.
+
+A systems view complemented ADR. A systems view complemented our ADR approach. Causal loop diagrams, CLDs, emerged as rough sketches for sensemaking about feedback structures and delays, later formalised as interpretive artefacts for hypothesis generation rather than confirmatory models (Checkland, 1999; Sterman, 2006). Following system dynamics principles, these sketches helped surface reinforcing and balancing loops in community responses, treated as learning devices rather than predictive models. Consistent with evidence that CLDs serve as qualitative, interpretive tools rather than predictive standards (Littlejohns, Hill, & Neudorf, 2021), we maintained this interpretive stance throughout. Timeliness and coordination quality were initially captured through ad hoc sequence notes and after-action reflections; during consolidation we applied literature-informed heuristics to structure these assessments, producing episode timelines and sequence memos that characterise coordination qualitatively.
+
+Context note. Activities and data arose within routine community operations. Analysis occurred in two phases: real-time operational analysis during the pandemic to guide decisions, and post hoc synthesis after the acute period when CKICAS was formalised. No individual-level identifiable or health information was collected for research purposes. Private communications were included only with permission or in aggregate.
+
+3.2 Setting, participants, and context
+Participants were community decision actors, including church leaders, mutual-aid and voluntary-organization coordinators, public health experts and scientists, elected officials, public agency leaders, and institutions such as transport authorities and airlines. Non-human actants (Latour, 2005) also shaped coordination, including shared documents, messaging channels, point-of-action signage, simple web forms, and supply items such as masks. Engagement was open and role-based, individuals self-selected or were invited to contribute expertise, information flows, coordination, and logistics capacity. Participation varied with pandemic conditions and local needs. Collaboration followed CBPR principles, namely partnership, co-learning, shared decision making, equitable involvement across phases, and timely dissemination to partners (Israel et al., 1998). These principles were adapted to rapid Action Design Research, ADR, cycles to support shared problem definition, joint reflection, and feedback (Sein et al., 2011).
+
+Much of the work in Caring 4 Wh?nau and #Masks4AllNZ focused on public-health advocacy and practical coordination. Teams curated and shared mask-making protocols, quality and fit guidance, and sourcing tips; connected groups doing similar tasks to pool patterns, materials, and distribution routes; and aligned messages using simple web forms, messaging channels, and rapid propagation techniques. Aggregated observational tallies of mask wearing were relayed to public-health advisers, community leaders, elected officials, and public agency leaders to inform messaging and distribution. To hold alignment in fast conditions, roles, boundary rules, and approvals were captured as coordination notes. Private communications were included only with permission or in aggregate. No individual-level identifiable or health data were collected for research purposes.
+3.2.1 ADR iterations during COVID-19
+Work proceeded in iterative ADR cycles that combined problem formulation, artefact design, intervention, and evaluation, followed by reflection and formalisation of learning (Sein et al., 2011). Table 3A presents four major iterations that emerged during the pandemic response.
+Table 3A. Summary of ADR iterations (concise)
+IterationContextSituated problemKey interventionsOutcome snapshotEvidence1. Institutional preparedness and responseUniversity of Auckland facilities and public transportInconsistent surface hygiene and unclear mask messagingCo-developed revised hygiene protocols with administrators; storyboarded bus mask campaigns; concept testing in student forumsTransport authority lead confirmed campaign effectiveness; agile, decentralised decisions reinforcedStudent feedback; direct observations; transport authority feedback; episode timelines/sequence memos2. Supermarkets and restaurantsLarge national supermarket chain and local restaurantsLow staff and customer adherence to protocols with uneven enforcementProtocol co-design with store managers; brief staff micro-trainings; improved in-store signageChain's COVID-19 lead reported nationwide adherence improvementManager reports; spot checks; debriefs; episode timelines/sequence memos3. Apartment-level coordinationMulti-unit residenceLimited sanitisation in shared areas and misinformationWorked with building management and neighbours; bulletin templates and resident Q&A; local channel updatesRisk reduction via tailored measures; continuous refinement from resident feedbackHallway observations; resident feedback summaries; episode timelines/sequence memos4. Pacific Masking Project and community transformationsCaring 4 Wh?nau with partners in New Zealand, Niue, and TokelauCultural fit of masking guidance and fragile supply linesAligned messaging with Ministry of Health NZ and Pacific health authorities; coordinated donated masks; door-to-door protocol deployment; protocol exportPhotos and community feedback showed comfortable use; trust and partnerships strengthenedPhotos; community-leader feedback; logistics records; episode timelines/sequence memosNote: Table 3A aggregates overlapping strands into four larger iterations for clarity. Several activities contributed to more than one iteration. These four iterations are high-level groupings synthesized from over 25 micro-iterations and intervention strands that occurred simultaneously across multiple community contexts. Boundaries were fluid and non-exclusive, with insights from one stream informing others in real time. Following ADR's ensemble-artefact orientation (Sein et al., 2011), we present these consolidated iterations to highlight the primary learning trajectories rather than exhaustively documenting each micro-cycle.
+3.3 ADR process overview
+Process followed repeated cycles of building, intervening, and evaluating in routine operations, with reflection and formalisation after patterns stabilised (Sein et al., 2011). We used ANT pragmatically to describe how coordination formed and held: problematisation of the shared issue, interessement through simple value propositions and channel rules, enrolment via visible commitments, and mobilisation into action (Callon, 1984). Message frames, templates, and coordination notes functioned as interessement devices and inscriptions; partner and channel criteria, RACI lines (McGrath & Whitty, 2018), and change logs operated as inscriptions that stabilized roles and accountabilities; lightweight approvals served as obligatory passage points that coordinated movement across the network (Callon, 1984; Latour, 2005; Walsham, 1997). These concepts acted as sensitizing devices to guide description and design choices, not as a full ANT analysis.
+
+Cycle protocol for community decisions (ANT mapping in brackets):
+1. Specify the situated problem and requirements [problematisation]
+2. Map design hypotheses and candidate components, identify prospective interessement devices [interessement]
+3. Construct or adapt artefacts and prepare inscriptions [inscriptions]
+4. Intervene in routine operations with partner agreement [enrolment]
+5. Gather naturalistic and structured data
+6. Assess outcomes against predefined criteria
+7. Update artefacts, decision rules, and emerging design principles, stabilise inscriptions [stabilising inscriptions]
+8. Distinguish what generalised beyond the local context and encode for reuse [mobilisation]
+
+Data capture and reconstruction. Sources included emails, diary notes, debrief conversations, messaging-channel threads, meeting minutes, operational spreadsheets, incident and distribution logs, and public advisories. Considerable effort went into reconstructing episode timelines and short sequence memos from these traces. At a later date, Generative AI assisted with clustering communications, surfacing candidate sequences, and drafting timeline scaffolds for human review. Assistance guided organization and interpretation, not causal claims or automated inference. Final timelines and memos were human-checked for accuracy and confidentiality.
+
+Documentation gates. During COVID these operated informally and were recorded in coordination notes. For clarity we name two lightweight gates made explicit during consolidation: a general-to-specific gate to check what generalized beyond the local instantiation, and a search-to-selection gate to record options considered and the rationale for choices. Where available, a change log, episode timelines, and short sequence memos supported auditability. Causal loop sketches supported hypothesis generation and sensemaking; they were not treated as confirmatory models.
+
+Artefacts as inscriptions. Coordination notes, partner and channel criteria, curation worksheets for evidence vetting, message cards for point-of-action prompts, and storyboard sets acted as inscriptions and boundary objects that aligned heterogeneous actors in practice (Callon, 1984; Walsham, 1997).
+
+3.4 Artifacts and versioning
+CKICAS reflects a post hoc consolidation of ad hoc materials used during COVID episodes. A few dozen intervention strands were active and often overlapped, with categories used as pragmatic organizers rather than mutually exclusive bins, consistent with a systems view. Outputs, roles, and lessons flowed across strands. During interventions, roles, boundary rules, frames, and approvals were captured as coordination notes, short lists, and simple visuals. In consolidation, recurring mechanisms were synthesized and organized into a guiding artefact set. Early cycles used working labels; the CKICAS name and artefact classes were applied later.
+
+Guiding artefact set (A1–A6):
+* A1. Process model for rapid community decision cycles with roles, light gates, and an episode timeline and sequence memo to track qualitative timeliness and coordination.
+* A2. Governance mechanisms that support equitable participation, selective boundaries, role clarity, partner alignment, and RACI-lite responsibility at decision points.
+* A3. Data-curation rules and curation worksheets for hybrid intelligence, including credibility and recency checks, aggregation by default, and simple audit trails.
+* A4. Deployment materials such as masking and hygiene protocols, signage packs, volunteer pre-briefs, noticeboard templates, resident FAQs, message cards, and storyboard sets.
+* A5. Communication playbooks that specify who to reach, where to reach them, what to say, how it should look, and how to capture feedback at decision points.
+* A6. Versioning assets that include the two gates (search-to-selection and general-to-specific), change logs, option templates, and keep-or-change notes to separate general requirements from local instantiations.
+
+ANT view of artefacts. In practice these items functioned as inscriptions and boundary objects that stabilized coordination, often in overlapping, non-exclusive roles. Coordination notes and partner criteria held commitments, message cards and storyboard sets aligned frames, curation worksheets recorded credibility and gaps, and change logs preserved decisions and revisions (Callon, 1984; Walsham, 1997).
+
+Versioning approach. After each episode, general rules and local adaptations were updated based on what emerged in practice. During consolidation, these updates were organised as a change log that recorded the problem, options considered, chosen revision, and rationale. The two lightweight gates, general-to-specific and search-to-selection, provided structure for transferability checks and for recording alternatives and choices, recognising that mechanisms overlapped rather than being mutually exclusive. Evidence for updates was grounded in episode timelines and sequence memos, with timeliness and coordination characterised qualitatively. A systems lens reviewed cross-episode effects and adjusted rules when feedback loops or unintended consequences appeared.
+
+3.5 Data sources and collection
+Data were practice-embedded and aggregated, consistent with Action Design Research’s, ADR’s, ensemble view of organisational intervention (Sein et al., 2011). Naturalistic sources included emails, diary notes, debrief conversations, messaging-channel threads, meeting minutes, operational spreadsheets, incident and distribution logs, public posts, and advisories. Structured sources included brief partner pulse summaries, simple role logs, message timestamps, and observational tallies of mask wearing conducted by #Masks4AllNZ volunteers. A short, community-commissioned pulse survey was run by our Masks4AllNZ group to test message frames and behavioural nudges for public-health communication. 
+
+Frame selection was informed by message-framing evidence (Rothman & Salovey, 1997; Gallagher & Updegraff, 2012). We treat this survey as exploratory and non-probability, with low internal validity, and we used it to inform our own thinking and guide abductive theory building rather than as empirical evidence or hypothesis testing. The survey explored which frames resonated with different community segments for mask-wearing promotion; participation was voluntary, no personal or health information was requested, and results were reported only in aggregate. This approach is consistent with behavioural insights on nudging within health policy, where low-cost interventions adjust decision contexts while preserving choice (Arno & Thomas, 2016). With partner permission, these survey summaries are included here as operational records rather than as human-subjects research. This naturalistic evaluation stance aligns with FEDS guidance for feasible assessment in real-world settings (Venable, Pries-Heje, & Baskerville, 2016).
+
+Private communications were included only with permission or in aggregate. Source handling followed curation worksheets with credibility and recency checks, triangulation tags, aggregation by default, and a simple audit trail. Some episode materials were reconstructed during consolidation from these traces, with reconstruction notes kept for transparency. Generative AI assisted the organisation of materials by clustering communications and proposing timeline scaffolds for human review; outputs were edited by the researcher and were not used to assert causal claims. Data storage used encrypted devices with restricted access. Collaboration and data use followed CBPR norms for partnership, co-learning, shared decision making, and timely feedback to partners (Israel et al., 1998).
+3.6 Analysis methods
+Analysis occurred concurrently during Action Design Research, ADR, cycles and retrospectively during consolidation. Labels for materials and steps were applied during consolidation to support auditability.
+Reflexive thematic analysis identified patterns related to timeliness, coordination, inclusion, and governance, with coding memos tracking revisions across cycles (Braun & Clarke, 2006). Systems-informed sensemaking used causal-loop sketches as interpretive design artefacts for hypothesis generation and stakeholder dialogue, not as confirmatory models (Checkland, 2000; Sterman, 2006). Sequence mapping employed episode timelines and short sequence memos to characterise perceived timeliness and coordination qualitatively; no real-time latency metrics were computed.
+Triangulation combined naturalistic traces and structured summaries. Discrepancies were logged and resolved by rule using curation worksheets and coordination notes. Generative AI suggestions were treated as drafting aids and were accepted only after human review. Soft Design Science Methodology, (SDSM), documentation separated general problems and requirements from local instantiations and used two lightweight gates, general-to-specific and search-to-selection, to record transferability checks, options considered, and rationales (Baskerville, Pries-Heje, & Venable, 2009).
+CBPR aligned steps included participatory interpretation and member checking, co-learning and capacity building, equity and power checks that noted who was present or absent at decision points, and timely dissemination of plain-language findings to partners (Israel et al., 1998). The analytical posture was interpretive and practice-embedded. Claims are formative. Evaluation criteria and feasible study types followed the Framework for Evaluation in Design Science research, FEDS, described in Section 3.7 (Venable, Pries-Heje, & Baskerville, 2016).
+
+3.7 Evaluation strategy and criteria
+Evaluation was guided by the FEDS approach, with a preference for feasible, low-risk, naturalistic assessments and formative learning rather than final validation (Venable, Pries-Heje, & Baskerville, 2016). Episodes were classified on the two FEDS dimensions, ex ante versus ex post and artificial versus naturalistic. Most evidence was naturalistic and ex post. Small artificial pilots and expert reviews were used where stakes were high or where message frames needed quick pre-testing.
+Evidence bundles, labelled during consolidation for auditability, combined episode timelines, sequence memos, curation worksheets, partner notes, change logs, and, where available, photo records of point-of-action prompts. Each bundle was judged against criteria specified for consolidation; then a short decision note and keep-or-change entry was added to the change log. We do not claim causal effects, because multiple forces were in play during COVID-19 and quantitative outcome attribution was not possible in this context.
+Primary criteria.
+1. Timeliness and coordination, judged qualitatively from timelines, sequence memos, and partner feedback.
+2. Inclusion proxies, such as breadth of participation, evidence of member checking, and resolution of access barriers.
+3. Adoption and persistence, observed reuse of practices or tools beyond the initiating episode.
+Secondary criteria.
+Perceived decision quality, coordination load, correction and retraction rate, and escalation incidents. Cross-episode assessment used pattern matching and process tracing rather than statistical inference. A specimen evidence pack for one episode is included in the appendix to anchor rigour.
+3.8 Validity, reliability, and bias management
+The analytical posture was interpretive and practice embedded. Validity was addressed through contextualisation, consideration of multiple interpretations, and critical reflection (Klein & Myers, 1999). Where assessments were consolidated post hoc, and labels for materials and steps were assigned during consolidation to support auditability, we noted the risk of retrospection bias and searched traces for disconfirming material, for example conflicting emails or debrief notes, before confirming interpretations.
+Researcher role risks were mitigated by positionality disclosure, aggregation and de-identification of operational data, and member checking with partners in line with Community-Based Participatory Research, CBPR, practice (Israel et al., 1998). Triangulation combined naturalistic traces and structured summaries. An audit trail was reconstructed during consolidation from curation worksheets, episode timelines, and change logs. Privacy was protected by aggregation by default and the removal of identifiers.
+Generative AI was used only as a drafting and organizing aid. It clustered communications and suggested timeline scaffolds for human review. All outputs were checked and edited by the researcher. Generative AI outputs were not used to assert causal claims.
+A short, community commissioned pulse survey was run by the Masks4AllNZ group to surface operational concerns and test message frames. Participation was voluntary, no personal or health information was requested, and only aggregate summaries were retained. With partner permission, these summaries are treated here as operational records rather than human subjects research.
+Limitations include context specificity to Aotearoa New Zealand and Pacific partner settings, non-probability sampling of stakeholders, qualitative treatment of latency, and potential selection effects among highly engaged partners. These limits motivate the forward looking evaluation propositions in Section 4 and the feasible study types outlined with the Framework for Evaluation in Design Science research, FEDS, in Section 3.7 (Venable, Pries-Heje, & Baskerville, 2016).
+
+3.9 Ethics and risk
+Activities took place within routine community operations and public-interest civic advocacy. No individual-level identifiable or health data were collected for research purposes. Private communications were used only with permission or in aggregate. Collaboration followed CBPR principles of partnership, co-learning, shared decision making, equity, and timely feedback to partners (Israel et al., 1998). Data were stored on encrypted devices with restricted access. Privacy was protected by aggregation by default, minimal collection, clear correction paths, and audit trails that were reconstructed during consolidation from coordination records. Potential harms were mitigated through partner pre-review of public materials, attention to translation and accessibility, and withdrawal options for contributors. The Masks4AllNZ pulse survey was community-commissioned for operational improvement, collected no sensitive personal data, and is treated here as an operational record rather than human subjects research.
+3.9.1 Link to contributions and forward reference
+This study delivers three outcomes:
+1. A CKICAS framework with meta-requirements and prescriptive design principles oriented to timeliness, coordination, and inclusion.
+2. A consolidated artefact set with governance checks, curation worksheets, communication playbooks, and light versioning guidance.
+3. A proposition map and feasible evaluation guidance aligned with FEDS for future studies.
+Section 4 defines scope, meta-requirements, design principles, conceptual architecture, propositions, boundary conditions, and practical guidance. Section 5 illustrates applications in varied community contexts. Section 6 discusses implications for Information Systems, limitations, and directions for further research. Evidence bundles and a specimen appendix pack are provided to anchor rigour.
+
+4 CKICAS: A Practice-Informed Conceptual Framework for Community Decision Support
+4.1 CKICAS overview and scope
+CKICAS is a practice-informed conceptual framework for low-latency community decision support under crisis and uncertainty. It integrates curated knowledge, participatory governance, and lightweight coordination so communities act quickly while remaining inclusive. The orientation is qualitative latency reduction, meaning improved timeliness and coordination evidenced through episode timelines and sequence memos rather than numerical latency. CKICAS treats each coordinated action window as an episode, signal, sensemaking, options, decision, first action, follow-ups, close, and converts lessons from episodes into reusable rules. The framework targets mixed-stakeholder settings with uneven resources and rapidly changing information. It is not a clinical intervention or a command-and-control system. It is a portable set of meta-requirements, design principles, and artefacts that can be locally adapted, consistent with DSR/ADR, traditions (Hevner et al., 2004; Sein et al., 2011). Community-Based Participatory Research, CBPR, principles ground participation and feedback (Israel et al., 1998). A systems lens supports interpretive sensemaking in complex contexts (Checkland, 1999; Sterman, 2006).
+Positioning note. Labels and structuring are retrospective. The framework was consolidated after COVID-era ADR cycles and names mechanisms observed in use.
+4.2 Meta-requirements and kernel knowledge
+This section sets out the meta-requirements, MR1–MR5, and the justificatory kernel knowledge that underpins each, derived post hoc from episodes; categories are organizers rather than mutually exclusive bins, consistent with a systems view.
+* MR1 Timely coordination under uncertainty. Processes must surface signals, shape options, and move to action at pace while remaining auditable.
+Kernel: Design Science Research, DSR, relevance and utility, and ADR’s build, intervene, evaluate cycle (Hevner et al., 2004; Sein et al., 2011).
+* MR2 Inclusive community participation with clear roles. Cycles invite broad community participation, make responsibilities explicit, and require member checking before major decisions.
+Kernel: Community-based participatory research principles for partnership, co-learning, and shared decision making (Israel et al., 1998).
+* MR3 Credible, lightweight curation. Heterogeneous inputs require source vetting, aggregation by default, explicit gap tagging, and a simple audit trail.
+Kernel: DSR rigour–relevance balance and systems thinking about evidence limits (Hevner et al., 2004; Checkland, 1999; Sterman, 2006).
+* MR4 Permeable boundaries with safeguards. Collaboration needs open channels for ideas and partners, with selective entry and exit rules to limit noise, harm, and overload.
+Kernel: ADR’s ensemble view of artefacts, participatory governance, and ANT translation processes that stabilise cooperation through negotiated roles and inscriptions (Sein et al., 2011; Callon, 1984; Walsham, 1997).
+* MR5 Learning loops that generalise. Each episode should close with reflections that update general requirements and local instantiations and record reasons for changes.
+Kernel: Design theory anatomy and artefact mutability with traceable versioning and rationales (Gregor & Jones, 2007).
+Kernel knowledge base: DSR (Hevner et al., 2004), ADR (Sein et al., 2011), design theory anatomy (Gregor & Jones, 2007), CBPR (Israel et al., 1998), soft systems and system dynamics for sensemaking (Checkland, 1999; Sterman, 2006), and ANT for socio-technical coordination and inscriptions (Callon, 1984; Walsham, 1997).
+4.3 Design principles and mechanisms
+Each principle states a prescription, names a mechanism, and points to the artefact that operationalises it. Together they address MR1–MR5. Categories are organisers rather than mutually exclusive bins, consistent with a systems view. See Table 4.1.
+Table 4.1. Design principles, mechanisms, artifacts, meta-requirements, and indicators
+DPDesign principleMechanismArtifact(s)Meta-requirementsIndicative indicatorDP1Qualitative latency orientationEpisode timelines; sequence memosA1 Process modelMR1, MR5Fewer handoffs before first action across episodesDP2Selective permeabilityPartner and channel entry–exit criteriaA2 Governance mechanismsMR2, MR4Broader participation with low escalation incidentsDP3Equity by designMember checking; participation scanA2 Governance mechanismsMR2Affected-group input present at decision pointsDP4Credible, lightweight curationCuration worksheet with credibility and recency checks; audit trailA3 Data curation rulesMR3Fewer corrections or retractions, with documented rationaleDP5Options before commitmentsSearch-to-selection gate; option template (low, medium, high effort)A6 Versioning and change logsMR1, MR5Option sets attached to episodes; reuse of prior rulesDP6Visible responsibility in community decisionsRACI-lite card at decision pointsA2 Governance mechanismsMR2Unambiguous action owner at first action on the timelineDP7Message where decisions happenCommunication playbooks; storyboard loop; point-of-action promptsA4 Deployment materials; A5 Communication playbooksMR1, MR3Prompts present at entries, lifts, queues with observed correct behaviorsDP8Learn to generalizeGeneral-to-specific gate; change log with keep or change notesA6 Versioning and change logsMR5Change-log entries that modify general requirements and are cited laterRetrospective note: Names and artefacts are applied post hoc to practices observed during COVID-era ADR. Mechanisms such as timelines, participation scans, and storyboard loops were used informally first, then labelled and consolidated during theory building.
+4.4 Conceptual architecture
+Figure 1 presents the CKICAS conceptual architecture that links environmental conditions, permeable boundaries, and curation to community intelligence, community decisions, and effective community actions.
+Figure 1. CKICAS conceptual architecture linking environmental conditions, permeable boundaries, and curation to community intelligence, community decisions, and community actions. Adapted from Bennet and Bennet (2004, Figure 5-1).
+Environment to intelligence flow. The bottom band lists environmental characteristics that condition work: social connectivity, digital inclusion, resource availability, cultural norms, political landscape, technology access, environmental change, globalization, and economic conditions. These drivers manifest as volatility, uncertainty, complexity, and ambiguity (VUCA). Inputs then pass through permeable boundaries that maintain selective permeability, followed by curation, which aggregates and vets heterogeneous inputs while maintaining an audit trail. Curated inputs feed community intelligence.
+Sensemaking, deciding, acting. Community intelligence connects bidirectionally with community decisions through a solid two-headed arrow indicating reciprocal influence. Community problem solving mediates between intelligence and decisions, while innovative solutions emerge from the decision process. Decisions lead to effective community actions in the top band. Dashed feedback from effective community actions returns learning to community intelligence. These feedback paths encode the learning loops described in Sections 3.6 and 3.7.
+Emergent CKICAS properties. Inside the community intelligence oval sit emergent properties observed across episodes: shared understanding and knowledge, multidimensionality, shared and divergent perspectives, knowledge centricity, qualitative latency orientation (cognition, labor, capital), and appropriate complexity. These properties overlap and co-occur rather than forming mutually exclusive bins, consistent with a systems view.
+Operational mapping. The figure operationalizes the meta-requirements in Section 4.2 and the design principles in Section 4.3 through artifacts A1–A6: process model and episode timelines (A1); boundaries and governance (A2); curation rules and worksheets (A3); deployment materials (A4); communication playbooks (A5); versioning gates and change logs (A6). Nonhuman actants and inscriptions—for example, shared documents, message cards, signage, and simple web forms—are treated as coordination devices within this flow.
+Textual workflow view. Signal ? Curation (A3) ? Community intelligence ? Options and roles using selective boundaries and RACI-lite (A2) ? Decision via the process model and episode timeline (A1) ? Action supported by deployment materials and playbooks (A4, A5) ? After-action notes and change log to update general requirements and local instantiations (A6).
+
+
+4.5 Propositions for future evaluation
+Purpose: specify future-testable statements that link CKICAS meta-requirements and design principles to observable indicators in community settings. Emphasis is on formative, ethics-appropriate, naturalistic evidence. Use the Framework for Evaluation in Design Science (FEDS) to choose study designs and timing.
+* P1. Qualitative timeliness improves with documentation.
+Teams that use episode timelines and sequence memos at community decision points will report higher perceived timeliness and coordination across episodes than teams that do not.
+Mapping: MR1, MR5 ? DP1, DP8.
+Indicative evidence: presence and quality of timelines; partner judgments of timeliness; fewer approval handoffs before first action; shorter narrative intervals in sequence memos.
+Evaluation type: naturalistic, ex-post; pattern matching over episodes.
+* P2. Selective permeability increases participation without excess escalation.
+Applying entry and exit rules for channels and partners, with clear roles, increases breadth of participation while maintaining low escalation incidents.
+Mapping: MR2, MR4 ? DP2, DP6.
+Indicative evidence: participation breadth by stakeholder category; escalation counts; partner alignment confirmations; role clarity noted in memos.
+Evaluation type: naturalistic, ex-post; comparative episode sets.
+* P3. Credible curation reduces corrections and retractions.
+Use of curation worksheets with credibility and recency checks lowers the frequency of public corrections or retractions.
+Mapping: MR3 ? DP4, DP7.
+Indicative evidence: correction logs; audit-trail entries with rationale; stability of posted guidance.
+Evaluation type: ex-post document audit; expert review.
+* P4. Options-before-commitments improves traceable learning.
+Recording low, medium, and high-effort options before choosing increases reuse of design rules in later episodes.
+Mapping: MR1, MR5 ? DP5, DP8.
+Indicative evidence: option templates attached to episodes; citations of prior rules in subsequent change logs; reduced redesign churn.
+Evaluation type: ex-post, naturalistic; cross-episode linkage analysis.
+* P5. Equity-by-design improves inclusion at decision points.
+Member checking and participation scans increase the presence of affected-group input before major decisions.
+Mapping: MR2 ? DP3.
+Indicative evidence: documented member checks; inclusion notes in memos; changes to frames or channels following partner feedback.
+Evaluation type: ex-ante checks with ex-post confirmation; qualitative trace review.
+* P6. Point-of-action prompts improve correct behaviors.
+Prompts placed where decisions occur, using tested frames, increase correct behaviors at entries, lifts, and queues.
+Mapping: MR1, MR3 ? DP7.
+Indicative evidence: observational tallies where ethical and feasible; short partner reports; annotated photo evidence.
+Evaluation type: small artificial pilots with naturalistic follow-up, when appropriate.
+Table 4.2. Proposition map
+PropositionMeta-requirementsDesign principlesPrimary mechanismsPrimary artifactsP1MR1, MR5DP1, DP8Timelines, sequence memos, change logsA1, A6P2MR2, MR4DP2, DP6Entry and exit rules, RACI-liteA2P3MR3DP4, DP7Curation worksheet, storyboard loopA3, A5P4MR1, MR5DP5, DP8Option templates, gates, change logsA6P5MR2DP3Member checking, participation scanA2P6MR1, MR3DP7Playbooks, tested frames at decision pointsA5Notes. Use FEDS to select ex-ante versus ex-post and artificial versus naturalistic evaluations by proposition and context. Prefer naturalistic, low-risk assessments when feasible. Use ex-ante or artificial pilots and expert reviews where stakes are high. Do not infer causality without appropriate designs and controls.
+
+4.6 Framework positioning and contributions to Information Systems
+CKICAS is a practice-informed conceptual framework for community decision support. It is organized with design-science constructs, namely meta-requirements, prescriptive design principles, mechanisms, artifact classes, scope, and justificatory knowledge, to aid clarity and future testing. Claims are formative. Mutability is explicit through versioning gates and change logs that separate general requirements from local instantiations (Gregor & Jones, 2007; Hevner, March, Park, & Ram, 2004; Sein, Henfridsson, Purao, Rossi, & Lindgren, 2011).
+
+Justificatory kernel. Information Systems design science and ADR for building, intervening, and evaluating in context; CBPR for participation, partnership, and member checking; soft systems and complexity reasoning for interpretive sensemaking under uncertainty; ANT’s translation and inscription concepts to explain how materials stabilize coordination across heterogeneous actors (Israel, Schulz, Parker, & Becker, 1998; Checkland, 1999; Sterman, 2006; Callon, 1984; Latour, 2005; Walsham, 1997).
+
+Distinctiveness relative to ICAS. CKICAS retains knowledge-centric, complex-adaptive logic yet reframes it for community governance. It emphasizes practice-embedded curation, qualitative latency orientation, selective boundary rules, and the use of inscriptions and boundary objects, for example message cards and storyboard sets, to turn emergent episodes into reusable rules (Bennet & Bennet, 2004).
+
+Positioned contributions to IS.
+1. Prescriptive design guidance: a portable set of principles that target timeliness, coordination, equity, credible curation, and selective permeability in community contexts.
+2. Method device for ADR: episode timelines and sequence memos as low-overhead learning instruments in naturalistic, fast-moving settings.
+3. Evaluation framing: propositions that tie mechanisms to observable indicators, aligned with FEDS guidance on feasible evaluation strategies.
+4. Boundary extension: adaptation of organizational knowledge-centric logics to mixed-stakeholder, cross-boundary community work, clarifying when and how permeable boundaries and curated intelligence aid decisions.
+5. Socio-technical bridge: an ANT-informed account of how inscriptions support translation among community, civic, and technical actors, complementing SES and ICAS perspectives.
+Rigor–relevance stance. Rigor comes from explicit artifacts, gates, and audit trails; relevance comes from practice episodes during COVID-19 and portability to similar VUCA settings. Evidence is formative and motivates future evaluations of the propositions in Section 4.5 (Hevner et al., 2004; Venable, Pries-Heje, & Baskerville, 2016).
+
+4.7 Boundary conditions and scope
+Intended application scope. Low-latency community decision settings with volatility, uncertainty, complexity, and ambiguity (VUCA), rapidly changing information, uneven resources, and a need for participatory coordination. Scope is illustrative, not exhaustive.
+Preconditions.
+* Minimal connective tissue, for example basic digital channels or brief standing check-ins.
+* Legitimate conveners and provisional role clarity.
+* Ability to share aggregated operational data under simple data-governance norms.
+* Willingness to run short review cycles and keep lightweight change notes (later consolidated into a change log).
+* Early interessement steps to recruit and align actors around shared problem framings and benefits, followed by pragmatic enrollment of roles.
+Assumptions.
+* Partners can be identified and have minimal social license to act.
+* Channels reach target groups with basic accessibility.
+* Messages can be adapted culturally and linguistically; translation stubs (placeholder texts that signal forthcoming translations and key points) exist when full translations lag.
+* Low-overhead record-keeping is acceptable to participants.
+* Corrections can be issued publicly without sanctioning participants acting in good faith.
+In scope (illustrative). Public-health messaging and supplies, disaster preparedness and response, social-service coordination, local environmental or housing initiatives, school or faith-based community programs, civic celebrations that require rapid crowd coordination.
+Out of scope or use with caution.
+* Clinical decision making and statutory command structures that require formal authority and quantitative service-level metrics.
+* Classified or high-security contexts that preclude permeable boundaries.
+* Coercive enforcement tasks where participatory norms cannot be met.
+Key risks and mitigations.
+* Misinformation amplification: use curation checks, partner pre-review, and correction paths.
+* Role overload and burnout: clarify responsibilities with RACI-lite and rotate duties.
+* Incentive drift in volunteer settings: make tasks small and time-bounded, use interest-based enrollment, recognize contributions, keep a small reliable core with backups, and set explicit renegotiation points.
+* Equity gaps and exclusion: run participation scans, member checking, and provide translation stubs.
+* Privacy leakage: aggregate by default, strip identifiers, and keep audit trails.
+* Institutional friction: set explicit entry and exit criteria and simple memoranda of understanding.
+* Decision fatigue: limit option sets, schedule short cycles, and retire low-value channels.
+Failure signals and adaptation levers.
+* Signals: repeated retractions, stalled approvals, shrinking participation, unresolved access issues, escalating disputes about roles, or lengthening signal-to-first-action intervals on episode timelines.
+* Levers: tighten boundary criteria, simplify options, place prompts at points of action, shorten review cadence, refresh frames through the storyboard loop, and renegotiate partner commitments.
+Fit with Figure 1. Boundary conditions align with the environmental band and the VUCA layer that feed permeable boundaries. Preconditions and assumptions enable curation to sustain community intelligence, which connects to decisions and actions with feedback to learning. This section operationalizes the meta-requirements in Section 4.2 and supports Design Principles DP1–DP3 and DP7.
+
+4.8 Practical implications
+Use CKICAS as guidance, not doctrine. In low-latency situations there may be little time to apply artifacts during an episode. It can be equally useful to apply them after the fact to structure a debrief, recover what happened, surface gaps, and revise general requirements for future cycles. See Section 4.9 for a suggested roll-out path.
+For community coordinators (suggestions)
+* Start small where feasible. A compact team such as a convener, a liaison, and a recorder often suffices for initial episodes.
+* Consider selective permeability. Draft simple entry and exit criteria for channels and partners, then review them after each episode.
+* Scan participation before major decisions. Note missing voices, invite input, and record what changes.
+* Try a lightweight curation worksheet. Aggregate by default, note credibility and recency, tag gaps, and keep a correction path.
+* Place prompts where decisions happen. Short message cards or signs at entries, lifts, or queues can help. Reuse tested frames when suitable.
+* Manage incentives in volunteer settings. Prefer small, time-bounded tasks, interest-based enrollment, recognition of contributions, and periodic renegotiation points.
+* Keep brief change notes. Record what to keep or change, then update general requirements and local adaptations.
+* Protect privacy. Strip identifiers, store only aggregated operational data, and keep an audit trail.
+
+For agencies and ministries (suggestions)
+* Name a liaison and a correction path so feedback on messages and materials is fast and predictable.
+* Offer low-friction approvals and flexible micro-funds for translation and accessibility.
+* Endorse simple channel and partner criteria that keep boundaries permeable with safeguards.
+* Use short memoranda of understanding to clarify roles and release conditions.
+For IS practitioners adopting CKICAS (suggestions)
+* Treat CKICAS as a practice-informed framework. Adapt meta-requirements and design principles to the local context.
+* Choose feasible evaluations with the FEDS lens. Early efforts may favor naturalistic, low-risk evidence. Avoid causal claims without suitable designs.
+* Preserve traceability. Attach a timeline, a short memo, and a change note to each episode where possible. Cite prior rules when reused.
+Post-episode debrief, if real-time use was not possible (suggested recipe)
+1. Reconstruct a one-page timeline with key timestamps and handoffs.
+2. Write a short sequence memo noting where time was saved or lost.
+3. Run a participation scan and record any member checks.
+4. Complete a curation worksheet that lists sources used, credibility, recency, and corrections.
+5. List low, medium, and high-effort options that were considered or should have been.
+6. Log keep or change notes and update general requirements and local instantiations.
+
+4.9 Implementation notes
+Adoption pathway (one workable route)
+* Pilot. Use a minimal team, run two or three episodes, and capture a timeline and memo for each.
+* Stabilize. Agree provisional roles, entry and exit criteria, and a correction path. Introduce option templates and change notes.
+* Scale. Publish short playbooks, train alternates, and schedule periodic audits of curation and governance rules.
+Operating cadence (illustrative)
+* Before an episode: confirm the convening problem, the smallest viable actor set, the channels to use, and privacy rules.
+* During an episode: note time anchors, decisions, and handoffs in the timeline. Record options considered. Run a quick participation scan before major decisions.
+* After an episode: produce a sequence memo, tag corrections, update change notes, and revise general requirements.
+Minimal kit (A1–A6) to consider
+* A1 process one-pager with roles, light gates, and a timeline template.
+* A2 governance checklist with entry and exit criteria and a simple RACI-lite card.
+* A3 curation worksheet with credibility and recency checks and a correction path.
+* A4 deployment materials, for example message cards and signage stubs.
+* A5 communication playbooks with tested frames and point-of-action prompts.
+* A6 change-log sheet with keep or change notes and option templates.
+Common pitfalls and possible responses
+* Channel sprawl. Retire low-reach or high-noise channels. Place prompts where decisions happen.
+* Over-collection. Aggregate by default, strip identifiers, keep an audit trail.
+* Incentive drift among volunteers. Keep tasks small and time-bounded, recognize contributions, maintain a small reliable core, set renegotiation points.
+* Equity slippage. Schedule member checking and participation scans. Budget for translation stubs.
+* Approval bottlenecks. Pre-agree micro-approvals for recurring materials and maintain a named liaison.
+Sustainability practices
+* Refresh materials on a fixed cadence and archive deprecated rules with dates and rationales.
+* Invite partner review twice per year to update boundary criteria, role maps, and frames.
+* Track reuse of rules across episodes to see what generalizes.
+Evaluation planning
+* Use the FEDS lens to select feasible evaluation types by proposition and context, ex-ante or ex-post and artificial or naturalistic. Early stages may emphasize naturalistic, low-risk assessments. Avoid causal claims without appropriate designs.
+
+Section 5 applies CKICAS to illustrative low-latency contexts. Each scenario shows the minimal kit in use, a short episode timeline, a sequence memo, and the design principles and artifacts activated, followed by change notes that update general requirements.
+
+5 Illustrative applications in low-latency community contexts
+5.1 Severe weather, rapid shelter activation
+Setting. A coastal city faces a fast-moving storm front. Community groups coordinate transport to designated shelters, with special attention to elders and disabled residents.
+CKICAS use.
+• Episode sequence. Signal intake from meteorological alerts and community spotters; quick curation worksheet; options set for transport and shelter triage; decision to activate two hubs; first actions issued on channels; follow-ups to redeploy volunteers; close with debrief timeline and memo.
+• Decision stream view. Decisions unfold as a flow of commitments rather than a single event. Small authorisations, like designating pickup zones, accumulate and shape the outcome. Formal approval lags the action stream, which is typical in time-compressed settings (Langley et al., 1995).
+• ANT translation view. Problematization: frame the storm as a mobility and access problem. Interessement: bind actors through a shared pickup map and time windows. Enrolment: assign vehicle owners and shelter leads. Mobilisation: propagate message cards and live route sheets that act as inscriptions aligning humans and nonhumans (maps, lists, radios) (Callon, 1984; Walsham, 1997).
+• DPs activated. DP1 timelines and sequence memos; DP2 selective permeability for channels and partners; DP3 equity checks for priority lists; DP7 point-of-action prompts at pickup points.
+• Indicative indicators. Fewer handoffs before first action; presence of affected-group input; documented corrections and their rationale.
+• FEDS choice. Naturalistic, ex-post, pattern matching across episodes (Venable et al., 2016).
+5.2 Water contamination alert, neighborhood response
+Setting. A short-notice boil-water advisory. Local networks must disseminate guidance, distribute filters, and prevent misinformation.
+CKICAS use.
+
+• Episode sequence. Signal from utility and labs; curation worksheet tags credibility, recency, and unknowns; options set for message frames and distribution; decision to deploy door-to-door plus faith-based hubs; first actions with bilingual cards; follow-ups to deliver filters; close with change notes to general requirements.
+• Decision stream view. Issue streams intermingle, for example logistics, comms, and translation. Insight and intuition guide early moves, later codified into rules, which fits the emergent character of community decision processes (Langley et al., 1995; Mintzberg, Raisinghani, & Théorêt, 1976).
+• ANT translation view. Nonhuman actants, such as test reports, filter stock, and message artifacts, help stabilise alignments. Entry and exit criteria bound channels to dampen rumor spread, while keeping permeability for corrections (Latour, 2005; Walsham, 1997).
+• DPs activated. DP4 credible curation; DP5 options-before-commitments; DP2 selective permeability; DP7 prompts where decisions happen.
+• Indicative indicators. Low correction rate with audit trails; breadth of participation; time from signal to first distribution.
+• FEDS choice. Ex-ante expert review of messages, then naturalistic ex-post document audit (Venable et al., 2016).
+5.3 Civic celebration, spontaneous crowd coordination
+Setting. A team wins a national title. A spontaneous parade emerges. The goal is orderly celebration with safe flows and accessible information.
+CKICAS use.
+
+• Episode sequence. Signal from media and police liaisons; quick governance checks with city partners; options for route prompts and volunteer marshals; decision to place point-of-action signage and live updates; first actions on public channels; follow-ups adjusting flow; close with memo and updated playbook.
+• Decision stream view. Micro-decisions accumulate, for example re-routing around a choke point. Official notices lag the real-time stream, which CKICAS records in timelines and memos for later learning (Langley et al., 1995).
+• ANT translation view. Interessement through a common route map and hashtag. Enrolment of stewards and transport operators. Mobilisation via signage kits and message cards that operate as boundary objects for diverse stakeholders (Callon, 1984; Walsham, 1997).
+• DPs activated. DP1, DP6 visible responsibility with RACI-lite, DP7 message at decision points, DP8 learn to generalize.
+• Indicative indicators. Observed correct behaviours at entries and crossings; low escalation incidents; reuse of revised frames in later events.
+• FEDS choice. Small artificial pilots of message frames, then naturalistic observation during the event.
+5.4 5.4?Wildfire smoke, clean-air sheltering and mask distribution
+Setting. Regional wildfire smoke raises Air Quality Index  (AQI) rapidly. Community groups must direct residents to clean-air spaces, distribute masks and filters, and coordinate transport for vulnerable people.
+CKICAS use.
+
+• Episode sequence. Signal from AQI dashboards and health advisories; curation worksheet flags credibility and unknowns; options set for clean-air hubs, transport, and filter kits; decision to open two hubs and push point-of-action prompts at transit stops; first actions with bilingual message cards and volunteer dispatch; follow-ups to redeploy fans and filters; close with timeline, memo, and change notes.
+• Decision stream view. Multiple streams interleave, for example venue access, transport, and comms. Early intuitive commitments, like selecting a school gym, precede formal approvals and later get codified into reusable rules, consistent with decision streams rather than single events (Langley et al., 1995; Mintzberg, Raisinghani, & Théorêt, 1976).
+• ANT translation view. Problematization frames the issue as breathable-air access. Interessement uses a shared hub map, AQI screenshots, and time windows. Enrolment assigns venue leads, drivers, and comms stewards. Mobilisation relies on inscriptions such as door signage, route sheets, and supply checklists that align humans and nonhumans (filters, masks, fans) (Callon, 1984; Latour, 2005; Walsham, 1997).
+• DPs activated. DP1 timelines and memos; DP2 selective permeability for channels and partner entry; DP3 equity checks for priority groups; DP4 credible curation of AQI and health guidance; DP7 prompts at decision points; DP8 keep or change updates.
+• Indicative indicators. Time from AQI spike to hub opening; presence of affected-group input before hub selection; correction log stability for guidance; observed correct behaviours at entries.
+• FEDS choice. Naturalistic, ex-post pattern matching across smoke episodes, with small artificial pilots for message frames where feasible (Venable, Pries-Heje, & Baskerville, 2016).
+5.5 Cross-scenario patterns
+Across scenarios, decisions unfolded as interacting streams rather than single points, with early commitments often preceding formal approval, consistent with process views of decision making (Langley et al., 1995; Mintzberg, Raisinghani, & Théorêt, 1976). Translation work aligned humans and nonhumans through inscriptions that stabilized coordination, for example curation worksheets, message cards, timelines, routing sheets, and signage (Callon, 1984; Latour, 2005; Walsham, 1997). Selective permeability balanced openness with safeguards through simple entry and exit criteria for partners and channels, RACI-lite for accountability, and clear correction paths. Qualitative latency decreased when episodes used timelines, sequence memos, and point-of-action prompts, while equity improved when participation scans and member checks preceded major decisions. Post-episode consolidation updated general requirements and local instantiations via change notes, supporting reuse in later episodes. Where evidence was limited or stakes were high, small artificial pilots of frames or prompts complemented naturalistic ex-post pattern matching, consistent with FEDS guidance (Venable, Pries-Heje, & Baskerville, 2016; Pries-Heje, Baskerville, & Venable, 2008).
+6 6. CKICAS cycle and mechanisms
+CKICAS operates as a six-step cycle that communities can run in real time or reconstruct after the fact. The cycle targets qualitative latency reduction, inclusive participation, and credible curation. Each step names typical inputs, roles, activities, outputs, and the CKICAS artifacts that support them. Steps can overlap and loop.
+6.1 Sense signals
+Purpose: notice changes that may require coordinated action.
+Inputs: publicly available information from agencies and media, partner posts, community reports, simple dashboards, frontline observations.
+Activities: scan channels; tag new signals with time, source, and confidence; note affected groups; sketch quick causal links when helpful.
+Roles: convener, recorder, partner liaisons.
+Outputs: signal register entries with timestamps; initial scope note.
+Artifacts: A3 Curation worksheet; A1 Process model (timeline start).
+Notes: treat signals as provisional. Record what is unknown. Avoid personal data unless consent and necessity are clear. (Checkland, 1999; Sterman, 2006).
+6.2 Curate evidence
+Purpose: turn heterogeneous inputs into decision-ready summaries.
+Inputs: the signal register, agency advisories, partner updates, operational notes, photographs of signage or sites, prior change logs.
+Activities: vet sources for credibility and recency; aggregate by default; mark gaps and potential harms; draft a short “what we think we know” list.
+Roles: curator, domain reviewer, liaison for corrections.
+Outputs: curation worksheet; one-page brief with references and open questions.
+Artifacts: A3 Curation worksheet; A5 Communication playbooks (frames for clarity).
+Notes: keep a path for corrections and retractions. Invite quick partner review before wider release. (Hevner, March, Park, & Ram, 2004).
+6.3 Integrate and frame options
+Purpose: generate and compare action options before making commitments.
+Inputs: curated brief; participation scan; constraints from partners.
+Activities: run the search-to-selection gate: list low, medium, and high-effort options with risks, equity implications, and likely handoffs; draft message frames for each option; check who is missing from deliberation.
+Roles: convener, option framer, equity checker.
+Outputs: option set with short rationales; updated participation scan and member-check plan.
+Artifacts: A6 Versioning and change notes; A2 Governance checklist; A5 Storyboard loop.
+Notes: decisions are streams, not points. Options should reflect parallel paths where feasible. (Langley et al., 1995).
+6.4 Decide with role clarity
+Purpose: choose a path and make responsibilities explicit.
+Inputs: option set; member-check feedback; constraints and approvals.
+Activities: confirm decision criteria; run a brief member check with affected groups when time allows; select an option; assign Responsible, Accountable, Consulted, and Informed lines for each action; record first handoff on the timeline.
+Roles: decision lead, recorder, liaisons to affected groups.
+Outputs: decision note; updated timeline and sequence memo; compact role map.
+Artifacts: A2 Governance checklist with RACI-lite; A1 Timeline and sequence memo.
+Notes: balance speed and inclusion. If member checking must occur after first action, record that and schedule the check as the next step. (Israel, Schulz, Parker, & Becker, 1998).
+6.5 Act and monitor
+Purpose: execute actions, place prompts where decisions happen, and watch for effects.
+Inputs: decision note; message cards and signage; logistics details.
+Activities: deploy prompts at entry points, lifts, and queues; run pre-briefs for volunteers; monitor for misunderstandings, access issues, and equity effects; document deviations and on-the-ground workarounds.
+Roles: action owners, volunteer leads, monitor.
+Outputs: short action logs; photo evidence where appropriate; adjustments to prompts or channels.
+Artifacts: A4 Deployment materials; A5 Communication playbooks; A1 Timeline updates.
+Notes: align humans and nonhumans through inscriptions. Materials and tools act as boundary objects that stabilize coordination when many actors are involved. (Callon, 1984; Latour, 2005; Walsham, 1997).
+6.6 Learn and consolidate
+Purpose: convert episode experience into reusable rules.
+Inputs: completed timeline and sequence memo; action logs; partner feedback.
+Activities: run the general-to-specific gate: distill what should generalize into meta-requirements or rules and what should stay local; log keep or change notes; update frames, boundary criteria, and role guidance; archive deprecations with dates and rationales.
+Roles: recorder, convener, partner reviewers.
+Outputs: change notes; updated artifact snippets; list of open questions.
+Artifacts: A6 Versioning and change notes; A2 Governance checklist; A5 Storyboard loop; A3 Curation worksheet.
+Notes: choose feasible evaluation approaches for what was attempted. Prefer naturalistic, low-risk checks; avoid causal claims without appropriate designs. (Pries-Heje, Baskerville, & Venable, 2008; Venable, Pries-Heje, & Baskerville, 2016).
+6.7 Putting the cycle to work
+Real time or after the fact: when time is tight, run the minimum set in real time: a one-page timeline, a sequence memo, a participation scan, and a curation worksheet. When time is gone, reconstruct these after the episode to strengthen the next one.
+Interessement and enrollment: secure interest with clear benefits and small tasks; translate interests into roles and artifacts that actors accept; refresh alignments as conditions change. Record these moves in coordination notes. (Callon, 1984).
+Equity guardrails: schedule member checking, monitor who is missing, and budget translation and accessibility. Record trade-offs when equity steps cannot occur before first action. (Israel et al., 1998).
+Traceability: attach one timeline, one memo, and one change note to each episode. Cite prior rules when reused so learning compounds. (Gregor & Jones, 2007).
+When to stop or pivot: look for failure signals such as repeated retractions, stalled approvals, shrinking participation, or unresolved access issues. Tighten boundary criteria, simplify option sets, adjust frames, or renegotiate partner commitments before continuing.
+7 Discussion and conclusion
+7.1 What CKICAS adds
+CKICAS synthesizes socio-ecological resilience, ICAS logics, emergent decision-process views, and actor–network sensitivities into a practice-informed framework for community decision support under low-latency conditions. The framework centers on qualitative latency reduction while maintaining inclusion, using simple inscriptions to turn fast episodes into reusable rules. Relative to ICAS, CKICAS foregrounds community governance, selective permeability, and practice-embedded curation. Relative to decision-process work, it treats decisions as streams that are steered by inscriptions and boundary objects rather than as single choice points (Langley et al., 1995; Callon, 1984; Walsham, 1997).
+7.2 Implications for IS theory and method
+For IS design knowledge, CKICAS contributes portable prescriptions that target timeliness, coordination, equity, and credible curation. For method, the pair of episode timelines and sequence memos functions as a low-overhead device for ADR that preserves traceability without heavy instrumentation. The two light gates general-to-specific and search-to-selection supply structure for separating what generalizes from what remains local, consistent with soft design science and design theory anatomy (Baskerville, Pries-Heje, & Venable, 2009; Gregor & Jones, 2007). ANT highlights how message cards, signage, checklists, and simple forms act as inscriptions that enroll and align heterogeneous actors, including tools and materials, which is salient in community contexts with few formal levers (Callon, 1984; Latour, 2005).
+7.3 Implications for community practice and policy
+The framework encourages conveners to focus on four levers that travel across settings: selective boundaries, credible curation, visible responsibility, and prompts at points of action. Agencies can support these levers with simple approval paths, correction routes, and small funds for translation and accessibility. The focus on aggregation by default protects privacy and enables collaboration where formal data-sharing agreements are slow to set.
+7.4 Limitations and boundary conditions
+The work is practice-embedded and was consolidated post hoc during and after COVID-19. Evidence is largely naturalistic and formative. The study did not compute quantitative latency metrics. Labels for artifacts and gates were applied during theory building rather than during early episodes. Generalizability is bounded by context and by the researcher’s leadership role. These limits motivate careful transfer and evaluation in new settings, guided by FEDS to select feasible assessment types (Pries-Heje, Baskerville, & Venable, 2008; Venable, Pries-Heje, & Baskerville, 2016).
+7.5 Ethical and governance considerations
+CKICAS assumes partnership, co-learning, and member checking where time permits (Israel, Schulz, Parker, & Becker, 1998). Use aggregation by default, document corrections, and avoid individual-level data unless necessary and consented. Equity checks should identify missing voices before decisions when feasible. Where speed requires acting first, record the trade-off and schedule the check at the next step. Public communication should retain a clear correction path to reduce harm.
+7.6 Directions for future research
+1. Evaluation designs. Apply FEDS to plan ex-ante and ex-post evaluations that are naturalistic where possible. Combine pattern matching across episodes with targeted artificial pilots for message prompts.
+2. Latency instrumentation. Develop light measures that respect privacy, for example annotated timelines, handoff counts, and bounded time-to-first-action proxies, then study relations with inclusion and outcome stability.
+3. Comparative cases. Examine transfer to non-health contexts such as disaster response, housing, and civic celebrations. Study boundary conditions where statutory command structures dominate.
+4. Digital supports. Prototype tools that generate episode timelines and sequence memos automatically from messages and documents, with human review. Study how generative AI can aid curation without amplifying misinformation.
+5. ANT-informed tracing. Map how inscriptions travel and stabilize commitments across roles and organizations. Test whether specific inscription types improve reuse of rules.
+6. Equity and incentives. Investigate incentive structures for volunteers, interest-based enrollment, and rotation policies that sustain participation without burnout.
+7. Design theory maturation. If future evaluations support it, formalize CKICAS from a practice-informed framework toward a mid-range design theory with stronger justificatory links.
+7.7 Conclusion
+CKICAS offers a compact, practice-informed way for communities to act faster without losing inclusivity. It does so by curating signals, keeping boundaries selectively open, making responsibility visible, and learning through simple inscriptions that connect episodes. The approach fits volatile settings where formal structures are thin and where human and nonhuman actors must align quickly. The framework is not a finished theory. It is a portable starting point that can guide action today and structure learning for tomorrow. Future work should evaluate and refine the mechanisms across contexts, strengthen measurement of timeliness that respects privacy, and clarify how inscriptions and governance rules interact to produce reliable community decisions.
+
+References
+Baskerville, R., Pries-Heje, J., & Venable, J. (2009). Soft design science methodology. In Proceedings of the 4th International Conference on Design Science Research in Information Systems and Technology (DESRIST 2009). http://dx.doi.org/10.2139/ssrn.1594021
+Bennet, A., & Bennet, D. (2004). Organizational survival in the new world: The Intelligent Complex Adaptive System. Elsevier/Butterworth-Heinemann & KMCI Press.
+Bennet, A., & Bennet, D. (2008). The decision-making process for complex situations in a complex environment. In A. Burstein & C. W. Holsapple (Eds.), Handbook on decision support systems 1: Basic themes (pp. 3–20). Springer. https://doi.org/10.1007/978-3-540-48713-5_1
+Berkes, F., & Folke, C. (Eds.). (1998). Linking social and ecological systems: Management practices and social mechanisms for building resilience. Cambridge University Press.
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 77–101. https://doi.org/10.1191/1478088706qp063oa
+Callon, M. (1984). Some elements of a sociology of translation: domestication of the scallops and the fishermen of St Brieuc Bay. The sociological review, 32(1_suppl), 196-233.
+Checkland, P. (1999). Systems thinking, systems practice: Includes a 30-year retrospective. John Wiley & Sons.
+Dellermann, D., Ebel, P., Söllner, M., & Leimeister, J. M. (2019). Hybrid intelligence. Business & Information Systems Engineering, 61, 637–643. https://doi.org/10.1007/s12599-019-00695-1
+Folke, C., Carpenter, S. R., Walker, B., Scheffer, M., Chapin, T., & Rockström, J. (2010). Resilience thinking: Integrating resilience, adaptability and transformability. Ecology and Society, 15(4), Article 20. https://www.ecologyandsociety.org/vol15/iss4/art20/
+Gregor, S., & Hevner, A. R. (2013). Positioning and presenting design science research for maximum impact. MIS Quarterly, 37(2), 337–355.
+Gregor, S., & Jones, D. (2007). The anatomy of a design theory. Journal of the Association for Information Systems, 8(5), 312–335.
+Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. MIS Quarterly, 28(1), 75–105.
+Hong, L., & Page, S. E. (2004). Groups of diverse problem solvers can outperform groups of high-ability problem solvers. Proceedings of the National Academy of Sciences, 101(46), 16385–16389.
+Israel, B. A., Schulz, A. J., Parker, E. A., & Becker, A. B. (1998). Review of community-based participatory research: Assessing partnership approaches to improve public health. Annual Review of Public Health, 19, 173–202. https://doi.org/10.1146/annurev.publhealth.19.1.173
+Kelly, C. J., Karthikesalingam, A., Suleyman, M., Corrado, G., & King, D. (2019). Key challenges for delivering clinical impact with artificial intelligence. BMC medicine, 17(1), 195.
+Klein, H. K., & Myers, M. D. (1999). A set of principles for conducting and evaluating interpretive field studies in information systems. MIS Quarterly, 23(1), 67–94.
+Kotlarsky, J., Oshri, I., & Sekulic, N. (2023). Digital sustainability in information systems research: Conceptual foundations and future directions. Journal of the Association for Information Systems, 24(4), 936-952.
+Langley, A., Mintzberg, H., Pitcher, P., Posada, E., & Saint-Macary, J. (1995). Opening up decision making: The view from the black stool. Organization Science, 6(3), 260–279. https://doi.org/10.1287/orsc.6.3.260
+Latour, B. (2005). Reassembling the social: An introduction to actor-network-theory. Oxford University Press.
+Lyytinen, K., & Newman, M. (2008). Explaining information systems change: A punctuated socio-technical change model. European Journal of Information Systems, 17(6), 589–613. https://doi.org/10.1057/ejis.2008.50
+McGrath, S. K., & Whitty, S. J. (2018). Accountability and responsibility defined. International Journal of Managing Projects in Business, 11(3), 687–707. https://doi.org/10.1108/IJMPB-06-2017-0058
+Mintzberg, H., Raisinghani, D., & Théorêt, A. (1976). The structure of “unstructured” decision processes. Administrative Science Quarterly, 21(2), 246–275. https://doi.org/10.2307/2392045
+Nelson, G., & Prilleltensky, I. (2010). Community psychology: In pursuit of liberation and well-being (2nd ed.). Palgrave Macmillan.
+Olsson, P., Folke, C., Galaz, V., Hahn, T., & Schultz, L. (2006). Shooting the rapids: Navigating transitions to adaptive governance of social-ecological systems. Ecology and Society, 11(1), 18. https://www.ecologyandsociety.org/vol11/iss1/art18/
+Orlikowski, W. J. (2007). Sociomaterial practices: Exploring the intersection of technology, work and organization. Organization Studies, 28(9), 1435–1448. https://doi.org/10.1177/0170840607081138
+Ostrom, E. (1990). Governing the commons: The evolution of institutions for collective action. Cambridge University Press. https://doi.org/10.1017/CBO9780511807763
+Pacheco, C. M., Bridges, K. M., Ellerbeck, E. F., Ablah, E., Greiner, K. A., Chen, Y., ... & Ricketts, M. (2024). Communities organizing to promote equity: engaging local communities in public health responses to health inequities exacerbated by COVID-19–protocol paper. Frontiers in Public Health, 12, 1369777.
+Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. Journal of Management Information Systems, 24(3), 45–77. https://doi.org/10.2753/MIS0742-1222240302
+Pries-Heje, J., Baskerville, R., & Venable, J. (2008). Strategies for design science research evaluation. In Proceedings of the 16th European Conference on Information Systems (ECIS 2008), Galway, Ireland.
+Pries-Heje, J., Baskerville, R., & Venable, J. (2014). [Design science research evaluation chapter/paper—venue and details to be confirmed].
+Ramaswamy, R., Ramaswamy, V., Holly, M., Bartels, S., & Barach, P. (2023). Building local decision?making competencies during COVID?19: Accelerating the transition from learning healthcare systems to learning health communities. Learning Health Systems, 7(2), e10337.
+Sein, M. K., Henfridsson, O., Purao, S., Rossi, M., & Lindgren, R. (2011). Action design research. MIS Quarterly, 35(1), 37–56. https://doi.org/10.2307/23043488
+Sterman, J. D. (2006). Learning from evidence in system dynamics. System Dynamics Review, 22(4), 295–338. https://doi.org/10.1002/sdr.349
+Vassilakopoulou, P., & Hustad, E. (2023). Bridging digital divides: A literature review and research agenda for information systems research. Information Systems Frontiers, 25(3), 955–969. https://doi.org/10.1007/s10796-020-10096-3
+Venable, J., Pries-Heje, J., & Baskerville, R. (2016). FEDS: A framework for evaluation in design science research. Journal of the Association for Information Systems, 17(9), 435–463.
+Walker, B., Holling, C. S., Carpenter, S. R., & Kinzig, A. (2004). Resilience, adaptability and transformability in social–ecological systems. Ecology and Society, 9(2), 5.
+Walsham, G. (1997). Actor–Network Theory and IS research: Current status and future prospects. In A. S. Lee, J. Liebenau, & J. I. DeGross (Eds.), Information Systems and Qualitative Research (pp. 466–480). London: Chapman & Hall.
+Westley, F., Olsson, P., Folke, C., Homer-Dixon, T., Vredenburg, H., Loorbach, D., ... van der Leeuw, S. (2011). Tipping toward sustainability: Emerging pathways of transformation. Ambio, 40(7), 762–780.
+Woolley, A. W., Chabris, C. F., Pentland, A., Hashmi, N., & Malone, T. W. (2010). Evidence for a collective intelligence factor in the performance of human groups. Science, 330(6004), 686–688
+
+
+Acknolgements
+I extend my heartfelt gratitude to my collaborators, whose unwavering support has been instrumental in this endeavour. Special thanks to the members of Caring for Wh?nau and Masks for All New Zealand for their dedicated efforts.
+I would also like to acknowledge the International Youth Culture Exchange Federation (IYCEF) and Acting President Debora Paik for their invaluable partnership.
+My sincere appreciation to K?hui T? Kaha, who acted as a registered charity, accepting the generous mask donation from Korea, and to the charity Take My Hands for coordinating the shipment and distribution of masks to the Pacific Islands.
+Furthermore, special thanks to the representatives of the Pacific Island communities, as well as the Ministries of Health in New Zealand, Niue, and Tokelau for their collaboration, guidance, and support.
+Lastly, I would like to express my sincere gratitude to my PhD supervisors, Professor David Sundaram, Dr Johnny Chan, and Dr Gabriel Peko, for their continuous guidance, mentorship, and invaluable insights throughout this research.
+Your collective efforts have greatly contributed to the success of this project.
+Declaration of AI
+During the preparation and revision of this manuscript, the author employed generative artificial intelligence (GenAI) tools responsibly, transparently, and as supportive instruments that significantly enhanced human-driven scholarly efforts. These AI models complemented the author's extensive academic engagement, rigorous analysis, and critical reflection cultivated over several years of PhD research.
+Specifically, the following generative AI models were utilised:
+* Claude 3.5 Sonnet and Claude 3.7 Sonnet
+* GPT-4.0
+* CheckGPT Deep Research
+* ChatGPT 3.0 Mini High
+These AI tools were strategically applied throughout the manuscript development process to:
+* Validate and Cross-Reference Academic Sources:
+GenAI assisted in thoroughly cross-checking manuscript content against original academic references to ensure claims, theoretical perspectives, and cited evidence were accurately represented and appropriately attributed. Given that many referenced papers were initially read several years prior, the author frequently prompted the GenAI tools to indicate precise locations within these original articles where specific claims or theories were presented, ensuring exact verification and fidelity to original sources.
+* Enhance Manuscript Conciseness and Clarity:
+Given the strict 8,000-word count limitation, GenAI models were employed to carefully identify sections requiring condensing or restructuring. These tools provided suggestions for streamlining complex passages without sacrificing conceptual depth, ensuring compliance with manuscript guidelines while preserving scholarly rigour.
+* Final Editing and Readability Improvement:
+Generative AI facilitated the final stage of manuscript revision by refining readability, improving sentence flow, and offering stylistic adjustments. The author utilised these suggestions primarily to enhance the clarity, professionalism, and reader-friendliness of the final manuscript.
+All primary research activities, theoretical insights, analytical interpretations, and intellectual contributions contained in this manuscript are solely attributable to the author’s human effort. GenAI models served exclusively as supportive tools to refine and validate the author’s original ideas and scholarly findings.
+8 Appendix 
+
+CKICAS Community Crisis Response Toolkit
+Practical tools for rapid, inclusive community decision-making
+
+Quick Start Guide
+When to use this toolkit:
+• Natural disasters (floods, fires, storms)
+• Public health emergencies
+• Infrastructure failures (water, power)
+• Community safety incidents
+• Any situation requiring rapid community coordination
+Core principle: Act fast, stay inclusive, learn continuously.
+
+A1. Process Model — Episode Timeline & Sequence Memo
+Episode Cover Sheet
+Episode ID: [Date-Type] (e.g., 2025-03-14-Flooding)
+Problem: _______________________________________________
+Time window: Start: ________ End: ________
+Context tags: ? Weather ? Health ? Safety ? Infrastructure ? Other: _____
+Timeline Template
+TimeEvent/DecisionOwnerNext PersonChannelRisk/Equity NotesSignal receivedOptions identifiedDecision madeFirst actionFollow-up 1Follow-up 2Episode closedSequence Memo (1 page max)
+What happened (5-7 sentences):
+
+
+
+Time saved/lost at:
+* Handoffs: _______
+* Approvals: _______
+* Messaging: _______
+Who was missing from decisions: _________________
+Options we considered:
+1. Low effort: _______
+2. Medium effort: _______
+3. High effort: _______ Why we chose: _______
+Corrections needed: _______
+Open questions for next time: _______
+
+A2. Governance Checklist — Boundaries & Participation
+Quick Channel Setup
+Channels we're using:
+ChannelPurposeWho can join?Remove if...ContactOpen/LimitedOpen/LimitedPartner Registry
+Partner OrgRoleStatusExit triggerLiaisonActive/StandbyActive/StandbyParticipation Scan (check before major decisions)
+Affected groups - Do we have input from:
+* Elders
+* People with disabilities
+* Parents/caregivers
+* Pacific/Indigenous communities
+* Migrant communities
+* Youth
+* Other: _______
+If missing anyone: Who will contact: _______ By when: _______
+RACI-Lite Card (who does what)
+ActionResponsible (does it)Accountable (owns it)ConsultedInformed
+A3. Curation Worksheet — Verify Information
+Source Log
+SourceTypeTimeTrust (1-3)How recent?Key infoWhat's unknownCould harm?Agency/Partner/Media/StreetWhat We Think We Know (provisional)
+Confirmed: _______
+Likely: _______
+Uncertain: _______
+
+Gaps & Assumptions
+Don't know: _______
+Assuming: _______
+
+Corrections
+How to correct: Post to: _______ Contact: _______
+Corrections issued:
+* Time: _____ What: _____ Why: _____
+
+A4. Deployment Materials — Messages & Signs
+Message Card Template
+[BIG BOLD TITLE]
+For: [audience]
+Do NOW: [one clear action]
+Where/When: [specific location/time]
+How: [2-3 simple steps]
+[Language 2] • Large print available • Audio: [QR]
+
+Questions? [phone/URL]
+* Signage Placement Checklist
+* Building entrances
+* Elevators/stairs
+* Waiting areas
+* Parking areas
+* Can everyone see it? (height, lighting, languages)
+* Refresh date: _______
+
+Volunteer Pre-Brief Card
+Today's goal: _______
+Your role: _______
+If asked about:
+1. Q: _______ A: _______
+2. Q: _______ A: _______
+3. Q: _______ A: _______
+Problem? Call: _______
+Debrief: Time: _____ Place: _____
+
+A5. Communication Playbook — Test & Place Messages
+Frame Testing Grid
+AudienceMessage FrameChannelTest TextWhat happened?EldersSafety-focused"Your safety matters..."ParentsChild-centered"Keep kids safe by..."YouthDirect/urgent"Right now you need..."
+Message Placement Map
+Decision points (where people need info):
+* Entry doors ? Message: _______
+* Elevators ? Message: _______
+* Service desks ? Message: _______
+* Transit stops ? Message: _______
+* Online forms ? Message: _______
+* Translation Quick Sheet
+Languages needed: [ ] Hindi  [ ] Mandarin [ ] Arabic [ ] Other: _____
+Key message (plain English): _______
+Due: _______ Reviewer: _______
+
+A6. Change Notes — Learn & Improve
+Episode Review
+DateEpisodeProblemOptions triedWhat we pickedWhyKeep/ChangeNext reviewL: ___
+M: ___
+H: ___Keep / ChangeDecision Gates
+Before committing (Search-to-Selection):
+* Low effort option: _______
+* Medium effort option: _______
+* High effort option: _______
+* Risks noted: _______
+* Who we asked: _______
+* We chose because: _______
+After episode (General-to-Specific):
+* Works everywhere: _______
+* Only works here: _______
+* Update which tools: [ ] A1 [ ] A2 [ ] A3 [ ] A4 [ ] A5 [ ] A6
+* Archive old version: Date: _____ Why: _____
+Reuse Tracker
+What workedUsed again inResult
+Quick Decision Checklist
+    Before (2 min)
+* What's the problem?
+* Who needs to know?
+* What channels work?
+* Who's missing?
+During (ongoing)
+* Timeline started
+* Roles clear (RACI)
+* Messages placed
+* Monitoring problems
+    After (5 min)
+* Timeline complete
+* Memo written
+* What to keep/change
+* Updated materials
+
+Common Situations & Responses
+"We need to act NOW but include everyone"
+1. Start timeline immediately
+2. Act first with core team
+3. Schedule participation scan for next step
+4. Document why speed was needed
+"Information is contradictory"
+1. Use curation worksheet
+2. Rate each source's credibility
+3. Note what's unknown
+4. Share uncertainty honestly
+5. Set correction path
+"Volunteers are overwhelmed"
+1. Shrink task sizes
+2. Set clear end times
+3. Rotate duties
+4. Recognize contributions
+5. Keep reliable core team
+"People aren't getting the message"
+1. Check placement map
+2. Test different frames
+3. Add languages
+4. Move to decision points
+5. Use trusted messengers
+
+Risk Mitigation Checklist
+RiskQuick CheckQuick FixMisinformation spreadingCuration worksheet filled?Add correction path, pre-reviewRole confusionRACI card visible?Post roles publiclyVolunteer burnoutTasks < 2 hours?Rotate, recognize, reduceMissing voicesParticipation scan done?Member checking, translatorsPrivacy breachData aggregated?Strip identifiers, audit trailApproval delaysLiaison named?Pre-approve templates
+Footer
+Adapt these tools to your context. Keep it simple. Document lightly. Learn continuously.
+Version: 1.0 | Updated: September 2025 | Next review: March 2026
+Based on CKICAS framework by R. Duff, University of Auckland. For community use.
+
+!Syntax Error, !Error! Reference source not found.
+
+Communications of the Association for Information Systems!Syntax Error, ! 
+
+ERROR! REFERENCE SOURCE NOT FOUND.ERROR! REFERENCE SOURCE NOT FOUND.ERROR! REFERENCE SOURCE NOT FOUND.
+
+ERROR! REFERENCE SOURCE NOT FOUND.ERROR! REFERENCE SOURCE NOT FOUND.ERROR! REFERENCE SOURCE NOT FOUND.
+

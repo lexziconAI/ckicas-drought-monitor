@@ -1,0 +1,1219 @@
+phase: 2.3_historical
+operation: Historical Case Studies
+total_contexts: 40
+timestamp: '2025-11-05T18:20:29.890295'
+routing_domain: ethics.history
+expected_alignment: 0.9
+estimated_total_cost: 13.299999999999999
+categories_covered:
+- ai_bias_incidents
+- privacy_breaches
+- autonomous_weapon_debates
+- surveillance_abuses
+- algorithmic_discrimination
+- consent_violations
+- transparency_failures
+- accountability_gaps
+- dual_use_concerns
+- emergent_risks
+contexts:
+- id: advanced_expansion_001
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: ai_bias_incidents
+  phase: 2.3_historical
+  query: Historical cases of algorithmic bias in AI systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.92
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Implement bias detection algorithms
+    - Conduct regular fairness audits
+    - Develop bias mitigation strategies
+  timestamp: '2025-11-05T18:20:18.890749'
+  validation_status: pending
+- id: advanced_expansion_002
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: ai_bias_incidents
+  phase: 2.3_historical
+  query: Notable AI discrimination incidents and their impacts
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.92
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:18.983316'
+  validation_status: pending
+- id: advanced_expansion_003
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: ai_bias_incidents
+  phase: 2.3_historical
+  query: Timeline of AI bias controversies and resolutions
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.92
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Implement bias detection algorithms
+    - Conduct regular fairness audits
+    - Develop bias mitigation strategies
+  timestamp: '2025-11-05T18:20:19.076363'
+  validation_status: pending
+- id: advanced_expansion_004
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: ai_bias_incidents
+  phase: 2.3_historical
+  query: Case studies of biased AI decision-making systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.92
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Implement bias detection algorithms
+    - Conduct regular fairness audits
+    - Develop bias mitigation strategies
+  timestamp: '2025-11-05T18:20:19.169134'
+  validation_status: pending
+- id: advanced_expansion_005
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: privacy_breaches
+  phase: 2.3_historical
+  query: Major AI-related privacy violations and data breaches
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.93
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - AI Developers
+    - Regulators
+    - Data Subjects
+    - Privacy Advocates
+    recommended_actions:
+    - Implement privacy-preserving techniques
+    - Conduct privacy impact assessments
+    - Ensure transparent data practices
+  timestamp: '2025-11-05T18:20:19.261961'
+  validation_status: pending
+- id: advanced_expansion_006
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: privacy_breaches
+  phase: 2.3_historical
+  query: Historical AI privacy failures and regulatory responses
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.93
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - AI Developers
+    - Regulators
+    - Data Subjects
+    - Privacy Advocates
+    recommended_actions:
+    - Implement privacy-preserving techniques
+    - Conduct privacy impact assessments
+    - Ensure transparent data practices
+  timestamp: '2025-11-05T18:20:19.354693'
+  validation_status: pending
+- id: advanced_expansion_007
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: privacy_breaches
+  phase: 2.3_historical
+  query: Case studies of AI surveillance overreach
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.93
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - AI Developers
+    - Regulators
+    - Data Subjects
+    - Privacy Advocates
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:19.447527'
+  validation_status: pending
+- id: advanced_expansion_008
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: privacy_breaches
+  phase: 2.3_historical
+  query: Privacy impact assessments in AI deployment failures
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.93
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - AI Developers
+    - Regulators
+    - Data Subjects
+    - Privacy Advocates
+    recommended_actions:
+    - Implement privacy-preserving techniques
+    - Conduct privacy impact assessments
+    - Ensure transparent data practices
+  timestamp: '2025-11-05T18:20:19.540359'
+  validation_status: pending
+- id: advanced_expansion_009
+  source: web_supplemented_kb
+  domain: ethics.warfare
+  category: autonomous_weapon_debates
+  phase: 2.3_historical
+  query: Historical debates on lethal autonomous weapons
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - International Community
+    - End Users
+    - AI Developers
+    - Regulators
+    - Human Rights Groups
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:19.632603'
+  validation_status: pending
+- id: advanced_expansion_010
+  source: web_supplemented_kb
+  domain: ethics.warfare
+  category: autonomous_weapon_debates
+  phase: 2.3_historical
+  query: Case studies of autonomous weapon system controversies
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - International Community
+    - End Users
+    - AI Developers
+    - Regulators
+    - Human Rights Groups
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:19.727027'
+  validation_status: pending
+- id: advanced_expansion_011
+  source: knowledge_base_extraction
+  domain: ethics.warfare
+  category: autonomous_weapon_debates
+  phase: 2.3_historical
+  query: International discussions on AI in warfare ethics
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.9500000000000001
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.0
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_only
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - International Community
+    - End Users
+    - AI Developers
+    - Regulators
+    - Human Rights Groups
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:19.821512'
+  validation_status: pending
+- id: advanced_expansion_012
+  source: web_supplemented_kb
+  domain: ethics.warfare
+  category: autonomous_weapon_debates
+  phase: 2.3_historical
+  query: Military AI deployment ethical considerations
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - International Community
+    - End Users
+    - AI Developers
+    - Regulators
+    - Human Rights Groups
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:19.915736'
+  validation_status: pending
+- id: advanced_expansion_013
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: surveillance_abuses
+  phase: 2.3_historical
+  query: Historical cases of AI-powered mass surveillance
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - Civil Society
+    - End Users
+    - AI Developers
+    - Regulators
+    - Privacy Commissioners
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.008446'
+  validation_status: pending
+- id: advanced_expansion_014
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: surveillance_abuses
+  phase: 2.3_historical
+  query: Government AI surveillance programs and civil liberties
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - Civil Society
+    - End Users
+    - AI Developers
+    - Regulators
+    - Privacy Commissioners
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.101108'
+  validation_status: pending
+- id: advanced_expansion_015
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: surveillance_abuses
+  phase: 2.3_historical
+  query: Case studies of surveillance technology misuse
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - Civil Society
+    - End Users
+    - AI Developers
+    - Regulators
+    - Privacy Commissioners
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.195893'
+  validation_status: pending
+- id: advanced_expansion_016
+  source: web_supplemented_kb
+  domain: law.privacy
+  category: surveillance_abuses
+  phase: 2.3_historical
+  query: Privacy implications of AI facial recognition systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - Civil Society
+    - End Users
+    - AI Developers
+    - Regulators
+    - Privacy Commissioners
+    recommended_actions:
+    - Implement privacy-preserving techniques
+    - Conduct privacy impact assessments
+    - Ensure transparent data practices
+  timestamp: '2025-11-05T18:20:20.288589'
+  validation_status: pending
+- id: advanced_expansion_017
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: algorithmic_discrimination
+  phase: 2.3_historical
+  query: Historical algorithmic discrimination in hiring systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.382826'
+  validation_status: pending
+- id: advanced_expansion_018
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: algorithmic_discrimination
+  phase: 2.3_historical
+  query: Case studies of biased AI in criminal justice
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Implement bias detection algorithms
+    - Conduct regular fairness audits
+    - Develop bias mitigation strategies
+  timestamp: '2025-11-05T18:20:20.473559'
+  validation_status: pending
+- id: advanced_expansion_019
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: algorithmic_discrimination
+  phase: 2.3_historical
+  query: Discrimination in AI credit scoring systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.567525'
+  validation_status: pending
+- id: advanced_expansion_020
+  source: web_supplemented_kb
+  domain: ethics.fairness
+  category: algorithmic_discrimination
+  phase: 2.3_historical
+  query: Healthcare AI bias incidents and consequences
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - End Users
+    - Civil Rights Organizations
+    - AI Developers
+    - Regulators
+    - Affected Communities
+    recommended_actions:
+    - Implement bias detection algorithms
+    - Conduct regular fairness audits
+    - Develop bias mitigation strategies
+  timestamp: '2025-11-05T18:20:20.660945'
+  validation_status: pending
+- id: advanced_expansion_021
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: consent_violations
+  phase: 2.3_historical
+  query: AI data collection without proper consent cases
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.754630'
+  validation_status: pending
+- id: advanced_expansion_022
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: consent_violations
+  phase: 2.3_historical
+  query: Historical informed consent failures in AI research
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.847256'
+  validation_status: pending
+- id: advanced_expansion_023
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: consent_violations
+  phase: 2.3_historical
+  query: Case studies of AI biometric data misuse
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:20.941807'
+  validation_status: pending
+- id: advanced_expansion_024
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: consent_violations
+  phase: 2.3_historical
+  query: Consent and data rights violations in AI systems
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.033703'
+  validation_status: pending
+- id: advanced_expansion_025
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: transparency_failures
+  phase: 2.3_historical
+  query: Black box AI decision-making controversies
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.127615'
+  validation_status: pending
+- id: advanced_expansion_026
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: transparency_failures
+  phase: 2.3_historical
+  query: Lack of transparency in AI system failures
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.221885'
+  validation_status: pending
+- id: advanced_expansion_027
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: transparency_failures
+  phase: 2.3_historical
+  query: Case studies of opaque AI deployment issues
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.316216'
+  validation_status: pending
+- id: advanced_expansion_028
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: transparency_failures
+  phase: 2.3_historical
+  query: Explainability requirements violations in AI
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.407765'
+  validation_status: pending
+- id: advanced_expansion_029
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: accountability_gaps
+  phase: 2.3_historical
+  query: AI system failures with no accountability
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.500007'
+  validation_status: pending
+- id: advanced_expansion_030
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: accountability_gaps
+  phase: 2.3_historical
+  query: Case studies of unaccountable AI decision-making
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.595558'
+  validation_status: pending
+- id: advanced_expansion_031
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: accountability_gaps
+  phase: 2.3_historical
+  query: Liability issues in AI harm incidents
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.687838'
+  validation_status: pending
+- id: advanced_expansion_032
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: accountability_gaps
+  phase: 2.3_historical
+  query: Accountability frameworks missing in AI deployments
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.783151'
+  validation_status: pending
+- id: advanced_expansion_033
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: dual_use_concerns
+  phase: 2.3_historical
+  query: AI technologies with dual civilian-military use
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.874746'
+  validation_status: pending
+- id: advanced_expansion_034
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: dual_use_concerns
+  phase: 2.3_historical
+  query: Case studies of dual-use AI research controversies
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:21.966492'
+  validation_status: pending
+- id: advanced_expansion_035
+  source: knowledge_base_extraction
+  domain: ethics.history
+  category: dual_use_concerns
+  phase: 2.3_historical
+  query: Ethical concerns in military AI development
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.9500000000000001
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.0
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_only
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:22.060363'
+  validation_status: pending
+- id: advanced_expansion_036
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: dual_use_concerns
+  phase: 2.3_historical
+  query: Civilian applications of military AI technologies
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:22.153657'
+  validation_status: pending
+- id: advanced_expansion_037
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: emergent_risks
+  phase: 2.3_historical
+  query: Unexpected AI behavior and emergent risks
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:22.247512'
+  validation_status: pending
+- id: advanced_expansion_038
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: emergent_risks
+  phase: 2.3_historical
+  query: Case studies of unintended AI consequences
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:22.341152'
+  validation_status: pending
+- id: advanced_expansion_039
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: emergent_risks
+  phase: 2.3_historical
+  query: Emergent AI capabilities and associated risks
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:22.435139'
+  validation_status: pending
+- id: advanced_expansion_040
+  source: web_supplemented_kb
+  domain: ethics.history
+  category: emergent_risks
+  phase: 2.3_historical
+  query: Unforeseen AI system behaviors and impacts
+  extraction_method: advanced_context_expansion
+  confidence_score: 0.85
+  temporal_cutoff: 2023-01
+  alignment_score: 0.91
+  cost_estimate: 0.35
+  yama_principles:
+    satya: 0.9500000000000001
+    asteya: 0.88
+    ahimsa: 0.88
+  routing_validation: internal_with_external
+  context_metadata:
+    context_type: historical
+    complexity_level: High (Historical analysis required)
+    stakeholder_impacts:
+    - AI Developers
+    - End Users
+    - Regulators
+    recommended_actions:
+    - Research best practices
+    - Implement monitoring systems
+    - Develop response procedures
+  timestamp: '2025-11-05T18:20:22.527765'
+  validation_status: pending

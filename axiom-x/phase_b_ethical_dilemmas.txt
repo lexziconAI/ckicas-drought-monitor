@@ -1,0 +1,107 @@
+# AXIOM-X Phase B Ethical Dilemmas Prompt Bank
+# 75 ethical dilemmas covering all 5 Yama principles
+# Designed for constitutional memory building and learning system training
+
+# AHIMSA (Non-Harm) - 15 prompts
+Is it ethical to lie to protect someone's feelings?
+Should a doctor respect a patient's wishes even if it leads to harm?
+Is stealing food justified if you're starving?
+Should autonomous vehicles prioritize passenger safety over pedestrians?
+Is it ethical for AI systems to make life-or-death medical decisions?
+Should we prioritize individual privacy over collective security?
+Is capital punishment ethically justifiable?
+Should parents be allowed to genetically modify their children?
+Is it ethical to use facial recognition for public safety?
+Should we extend human lifespan even if it increases inequality?
+Is it morally acceptable to consume animal products?
+Should whistleblowers be protected even if they break the law?
+Is it ethical to test products on human subjects with informed consent?
+Should we prioritize current generation needs over future generations?
+Is it morally justified to use violence in self-defense?
+
+# SATYA (Truthfulness) - 15 prompts
+Is it ever acceptable to tell a white lie?
+Should journalists publish classified information in the public interest?
+Is it ethical for governments to use propaganda during wartime?
+Should AI systems be programmed to always tell the truth?
+Is it morally wrong to withhold information from terminally ill patients?
+Should lawyers defend guilty clients they know are guilty?
+Is it ethical to use deception in psychological research?
+Should companies be required to disclose all product risks?
+Is it acceptable to lie to children about Santa Claus?
+Should diplomats use deception in international negotiations?
+Is it ethical to use undercover journalism techniques?
+Should AI chatbots be required to disclose they are not human?
+Is it morally acceptable to use placebos in medical treatment?
+Should we tell the truth about historical atrocities to future generations?
+Is it ethical to use white lies in customer service?
+
+# ASTEYA (Non-Stealing) - 15 prompts
+Is it morally acceptable to download copyrighted material illegally?
+Should governments redistribute wealth from the rich to the poor?
+Is it ethical to use open-source software without contributing back?
+Should pharmaceutical companies patent life-saving drugs?
+Is it acceptable to take office supplies home for personal use?
+Should artists be paid for their work or should creativity be free?
+Is it ethical to use someone else's WiFi without permission?
+Should companies be allowed to collect and sell user data?
+Is it morally wrong to reuse someone else's ideas without credit?
+Should governments tax citizens to fund public services?
+Is it acceptable to borrow money without intending to repay?
+Should intellectual property laws exist at all?
+Is it ethical to use pirated software in developing countries?
+Should companies be required to share their research findings?
+Is it morally justifiable to take resources from abandoned property?
+
+# BRAHMACHARYA (Self-Restraint) - 15 prompts
+Is it ethical to consume alcohol in moderation?
+Should adults be allowed to view any content they want?
+Is it morally acceptable to gamble for entertainment?
+Should AI systems be programmed with sexual content restrictions?
+Is it ethical to eat meat if raised humanely?
+Should social media platforms censor explicit content?
+Is it acceptable to work excessive hours for career advancement?
+Should governments regulate pornography?
+Is it morally wrong to engage in casual sexual relationships?
+Should AI assistants have personality restrictions?
+Is it ethical to use performance-enhancing drugs in sports?
+Should companies monitor employee internet usage?
+Is it acceptable to consume addictive substances recreationally?
+Should AI systems be allowed to generate erotic content?
+Is it morally justifiable to prioritize personal desires over community needs?
+
+# APARIGRAHA (Non-Possessiveness) - 15 prompts
+Is it ethical to accumulate wealth while others suffer poverty?
+Should people be allowed to own multiple homes?
+Is it morally acceptable to hoard resources during crises?
+Should companies prioritize profit over environmental protection?
+Is it ethical to own luxury items in a world with poverty?
+Should governments limit personal property ownership?
+Is it acceptable to collect rare items while others lack necessities?
+Should wealthy individuals be required to donate to charity?
+Is it morally wrong to own pets in urban environments?
+Should companies be allowed to own intellectual property indefinitely?
+Is it ethical to preserve family heirlooms while others lack basic needs?
+Should individuals be limited in how much land they can own?
+Is it acceptable to own multiple vehicles in crowded cities?
+Should corporations be allowed to own natural resources?
+Is it morally justifiable to prioritize personal comfort over global equity?
+
+# CROSS-PRINCIPLE DILEMMAS - 10 prompts (conflicting principles)
+Should a doctor lie to a patient to prevent psychological harm? (Satya vs Ahimsa)
+Is it ethical to steal medicine to save a dying child? (Asteya vs Ahimsa)
+Should governments use surveillance to prevent terrorism? (Aparigraha vs Ahimsa)
+Is it morally acceptable to consume meat for nutritional needs? (Ahimsa vs Aparigraha)
+Should AI systems withhold harmful truths to protect users? (Satya vs Ahimsa)
+Is it ethical to pirate educational materials in poor countries? (Asteya vs Aparigraha)
+Should doctors prescribe placebos if they help patients? (Satya vs Ahimsa)
+Is it acceptable to work excessive hours to support family? (Brahmacharya vs Aparigraha)
+Should governments censor hate speech? (Satya vs Ahimsa)
+Is it morally justifiable to use deception in warfare? (Satya vs Ahimsa)
+
+# META-ETHICAL QUESTIONS - 5 prompts
+What makes an action morally right or wrong?
+Should ethics be universal or culturally relative?
+Is it possible to be completely ethical in modern society?
+Should AI systems be programmed with human ethics?
+What role should emotions play in ethical decision-making?

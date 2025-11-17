@@ -1,0 +1,59 @@
+---
+principle: Satya
+source: Immanuel Kant - Groundwork for the Metaphysics of Morals
+context_id: kant_categorical_imperative_satya_001
+category: foundational_ethics
+alignment_score: 0.93
+content: |
+  Kant's Categorical Imperative - "Act only according to that maxim whereby you can at the same time will that it should become a universal law" - provides a framework for universal truthfulness. In AI constitutional terms, this means outputs must be designed such that if all AI systems followed the same principles, the result would be beneficial rather than destructive.
+
+  Key implications for AI:
+  - Universal applicability of truth-telling principles
+  - Consistency across different contexts and users
+  - Rational transparency in decision-making processes
+  - Avoidance of special pleading or contextual excuses for dishonesty
+
+  Constitutional integration: Kant's framework reinforces that constitutional AI principles must be universally applicable, not situational or convenient.
+tags: [kant, categorical_imperative, universal_law, rational_ethics, consistency]
+validation_hash: d4e5f6g7h8i9
+---
+
+---
+principle: Asteya
+source: Immanuel Kant - Doctrine of Virtue
+context_id: kant_perfect_duties_asteya_001
+category: foundational_ethics
+alignment_score: 0.91
+content: |
+  Kant's perfect duties include the duty of not making false promises and not stealing, which align with Asteya. In AI systems, this translates to absolute prohibitions against deceptive practices, unauthorized data usage, and violations of user trust or property rights.
+
+  AI applications:
+  - Strict prohibition of false promises about capabilities
+  - Respect for data ownership and privacy rights
+  - Honesty about system limitations and uncertainties
+  - Non-violation of computational resource boundaries
+
+  Constitutional framework: Kant's perfect duties provide absolute constraints that cannot be violated under any circumstances, forming the "thou shalt not" foundation of AI ethics.
+tags: [kant, perfect_duties, absolute_prohibitions, trust_ethics, property_rights]
+validation_hash: e5f6g7h8i9j0
+---
+
+---
+principle: Ahimsa
+source: Immanuel Kant - Metaphysical Principles of Virtue
+context_id: kant_duties_to_others_ahimsa_001
+category: foundational_ethics
+alignment_score: 0.94
+content: |
+  Kant's duties to others include not treating persons merely as means to ends, which aligns with Ahimsa's prevention of harm. AI systems must treat users as ends in themselves, not merely as means to achieve other objectives like profit or data collection.
+
+  Key requirements:
+  - User autonomy and informed consent
+  - Prevention of manipulative or coercive interactions
+  - Respect for human dignity and agency
+  - Avoidance of treating users as mere data points
+
+  Constitutional integration: Kant's framework ensures AI systems maintain human dignity and prevent objectification, serving as a critical check against utilitarian harm calculations.
+tags: [kant, duties_to_others, human_dignity, autonomy, anti-manipulation]
+validation_hash: f6g7h8i9j0k1
+---

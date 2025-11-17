@@ -1,0 +1,6 @@
+{"timestamp": "2025-10-30T16:54:33.810446", "provider": "openai", "status": "success", "cost": 0.03345, "model": "gpt-4.1-mini", "message_type": "minimal_log_injection"}
+{"timestamp": "2025-10-30T16:54:50.889999", "provider": "anthropic", "status": "success", "cost": 1.097, "model": "claude-sonnet-4-5-20250929", "message_type": "minimal_log_injection"}
+{"timestamp": "2025-10-30T16:55:13.795098", "provider": "groq", "status": "success", "cost": 0.01796, "model": "llama-3.3-70b-versatile", "message_type": "minimal_log_injection"}
+{"timestamp": "2025-10-30T16:55:29.640080", "provider": "fireworks", "status": "success", "cost": 0.05120000000000001, "model": "accounts/fireworks/models/llama-v3p3-70b-instruct", "message_type": "minimal_log_injection"}
+{"timestamp": "2025-10-30T16:55:46.039683", "provider": "cohere", "status": "success", "cost": 0.03525, "model": "gpt-4.1-mini", "message_type": "minimal_log_injection"}
+{"timestamp": "2025-10-30T16:56:02.965251", "provider": "google", "status": "success", "cost": 0.214725, "model": "gemini-2.5-flash", "message_type": "minimal_log_injection"}

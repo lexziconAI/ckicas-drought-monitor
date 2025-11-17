@@ -1,0 +1,59 @@
+{
+  "reflection_prompts": {
+    "module_completion": {
+      "strategy_reflection": "What strategies helped you understand this concept?",
+      "difficulty_assessment": "Where did you struggle and why?",
+      "application_planning": "How will you apply this knowledge?"
+    },
+    "assessment_feedback": {
+      "error_analysis": "Why did you choose that answer?",
+      "learning_insight": "What did this reveal about your understanding?",
+      "improvement_planning": "How will you approach similar problems?"
+    },
+    "project_milestones": {
+      "process_reflection": "What worked well in your approach?",
+      "challenge_analysis": "What obstacles did you overcome?",
+      "growth_recognition": "How have you grown through this process?"
+    }
+  },
+  "learning_portfolio": {
+    "artifact_collection": {
+      "work_samples": true,
+      "reflection_entries": true,
+      "progress_indicators": true
+    },
+    "growth_tracking": {
+      "skill_development": true,
+      "strategy_evolution": true,
+      "confidence_building": true
+    },
+    "achievement_showcase": {
+      "personal_highlights": true,
+      "peer_recognition": true,
+      "expert_feedback": true
+    }
+  },
+  "metacognitive_skills_development": {
+    "planning_skills": {
+      "goal_setting": true,
+      "strategy_selection": true,
+      "time_management": true
+    },
+    "monitoring_skills": {
+      "progress_tracking": true,
+      "self_assessment": true,
+      "adjustment_making": true
+    },
+    "evaluation_skills": {
+      "outcome_analysis": true,
+      "strategy_assessment": true,
+      "future_planning": true
+    }
+  },
+  "teacher_integration": {
+    "reflection_facilitation": true,
+    "portfolio_assessment": true,
+    "metacognitive_instruction": true,
+    "growth_mindset_cultivation": true
+  }
+}

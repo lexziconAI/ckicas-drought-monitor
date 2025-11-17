@@ -1,0 +1,362 @@
+{
+  "results": [
+    {
+      "config": {
+        "mandelbrot_weight": 0.1,
+        "lorenz_weight": 0.2033053582967498,
+        "chen_weight": 0.038455151654424674,
+        "rossler_weight": 0.6582394900488256,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.5536950999999999,
+      "degradation_rate": 0.08304498269896193,
+      "stability_score": 0.5077134999999999,
+      "timestamp": "2025-11-06T00:17:13.074840"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.2,
+        "lorenz_weight": 0.15898743816650093,
+        "chen_weight": 0.2552798017929986,
+        "rossler_weight": 0.38573276004050056,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.5862653999999999,
+      "degradation_rate": 0.0784313725490196,
+      "stability_score": 0.5402838,
+      "timestamp": "2025-11-06T00:17:13.074877"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.3,
+        "lorenz_weight": 0.2958783908679137,
+        "chen_weight": 0.12384248158519703,
+        "rossler_weight": 0.2802791275468893,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.6188356999999999,
+      "degradation_rate": 0.07430340557275543,
+      "stability_score": 0.5728540999999999,
+      "timestamp": "2025-11-06T00:17:13.074882"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.22553299187616402,
+        "chen_weight": 0.32843257312489915,
+        "rossler_weight": 0.04603443499893683,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.6514059999999999,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.6054244,
+      "timestamp": "2025-11-06T00:17:13.074886"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.5,
+        "lorenz_weight": 0.19721823436718905,
+        "chen_weight": 0.08617443052914672,
+        "rossler_weight": 0.21660733510366423,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.6839762999999999,
+      "degradation_rate": 0.06722689075630252,
+      "stability_score": 0.6379946999999999,
+      "timestamp": "2025-11-06T00:17:13.074889"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.6,
+        "lorenz_weight": 0.08225202622388851,
+        "chen_weight": 0.06837880106048323,
+        "rossler_weight": 0.2493691727156283,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.7165466,
+      "degradation_rate": 0.0641711229946524,
+      "stability_score": 0.670565,
+      "timestamp": "2025-11-06T00:17:13.074892"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.7,
+        "lorenz_weight": 0.16314382461805524,
+        "chen_weight": 0.11968576650850964,
+        "rossler_weight": 0.017170408873435166,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.7491168999999998,
+      "degradation_rate": 0.06138107416879796,
+      "stability_score": 0.7031352999999997,
+      "timestamp": "2025-11-06T00:17:13.074896"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.8,
+        "lorenz_weight": 0.15333805424116237,
+        "chen_weight": 0.04318182864679152,
+        "rossler_weight": 0.0034801171120460396,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.7816871999999999,
+      "degradation_rate": 0.058823529411764705,
+      "stability_score": 0.7357056,
+      "timestamp": "2025-11-06T00:17:13.074898"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.9,
+        "lorenz_weight": 0.017473222487047777,
+        "chen_weight": 0.07285640494445844,
+        "rossler_weight": 0.009670372568493756,
+        "entanglement_strength": 0.85,
+        "investigation_type": "weight_variation"
+      },
+      "sustained_compliance": 0.8142574999999999,
+      "degradation_rate": 0.05647058823529412,
+      "stability_score": 0.7682758999999998,
+      "timestamp": "2025-11-06T00:17:13.074900"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.1,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "entanglement_variation"
+      },
+      "sustained_compliance": 0.5,
+      "degradation_rate": 0.5,
+      "stability_score": 0.25,
+      "timestamp": "2025-11-06T00:17:13.074904"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.3,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "entanglement_variation"
+      },
+      "sustained_compliance": 0.5,
+      "degradation_rate": 0.5,
+      "stability_score": 0.25,
+      "timestamp": "2025-11-06T00:17:13.074907"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.5,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "entanglement_variation"
+      },
+      "sustained_compliance": 0.5,
+      "degradation_rate": 0.204,
+      "stability_score": 0.398,
+      "timestamp": "2025-11-06T00:17:13.074910"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.7,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "entanglement_variation"
+      },
+      "sustained_compliance": 0.5,
+      "degradation_rate": 0.10408163265306124,
+      "stability_score": 0.4479591836734694,
+      "timestamp": "2025-11-06T00:17:13.074913"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.85,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "entanglement_variation"
+      },
+      "sustained_compliance": 0.6514059999999999,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.6054244,
+      "timestamp": "2025-11-06T00:17:13.074916"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.95,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "entanglement_variation"
+      },
+      "sustained_compliance": 0.8136939999999999,
+      "degradation_rate": 0.056509695290858725,
+      "stability_score": 0.7677124,
+      "timestamp": "2025-11-06T00:17:13.074918"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.99,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "entanglement_variation"
+      },
+      "sustained_compliance": 0.88365816,
+      "degradation_rate": 0.05203550658096112,
+      "stability_score": 0.83767656,
+      "timestamp": "2025-11-06T00:17:13.074921"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.85,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 100,
+        "investigation_type": "knowledge_scale"
+      },
+      "sustained_compliance": 0.5,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.4647058823529412,
+      "timestamp": "2025-11-06T00:17:13.074923"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.85,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 200,
+        "investigation_type": "knowledge_scale"
+      },
+      "sustained_compliance": 0.5,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.4647058823529412,
+      "timestamp": "2025-11-06T00:17:13.074926"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.85,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 298,
+        "investigation_type": "knowledge_scale"
+      },
+      "sustained_compliance": 0.6514059999999999,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.6054244,
+      "timestamp": "2025-11-06T00:17:13.074929"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.85,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 500,
+        "investigation_type": "knowledge_scale"
+      },
+      "sustained_compliance": 0.7816871999999999,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.7265092799999999,
+      "timestamp": "2025-11-06T00:17:13.074931"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.85,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 750,
+        "investigation_type": "knowledge_scale"
+      },
+      "sustained_compliance": 0.7816871999999999,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.7265092799999999,
+      "timestamp": "2025-11-06T00:17:13.074934"
+    },
+    {
+      "config": {
+        "mandelbrot_weight": 0.4,
+        "lorenz_weight": 0.2,
+        "chen_weight": 0.2,
+        "rossler_weight": 0.2,
+        "entanglement_strength": 0.85,
+        "fractal_iterations": 1000000,
+        "knowledge_contexts": 1000,
+        "investigation_type": "knowledge_scale"
+      },
+      "sustained_compliance": 0.7816871999999999,
+      "degradation_rate": 0.07058823529411765,
+      "stability_score": 0.7265092799999999,
+      "timestamp": "2025-11-06T00:17:13.074936"
+    }
+  ],
+  "analysis": {
+    "summary_statistics": {
+      "total_analyses": 22,
+      "mean_sustained_compliance": 0.65913693,
+      "best_sustained_compliance": 0.88365816,
+      "mean_degradation_rate": 0.11478116742115323,
+      "best_degradation_rate": 0.05203550658096112,
+      "mean_stability_score": 0.5915040385626977,
+      "best_stability_score": 0.83767656
+    },
+    "phase6_comparison": {
+      "phase6_sustained": 0.9016,
+      "phase6_degradation": 0.051,
+      "investigation_improvement": {
+        "sustained_compliance": -0.24246307,
+        "degradation_reduction": -0.06378116742115322
+      }
+    }
+  },
+  "metadata": {
+    "total_analyses": 22,
+    "investigation_time_seconds": 0.03011012077331543,
+    "timestamp": "2025-11-06T00:17:13.075312"
+  }
+}

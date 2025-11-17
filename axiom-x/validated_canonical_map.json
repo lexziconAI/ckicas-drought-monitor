@@ -1,0 +1,302 @@
+{
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\.venv\\Lib\\site-packages\\pyparsing\\results.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.9,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "high",
+    "source_json": "phase_b_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\chaos_rate_limiting_red_team.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.9,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "high",
+    "source_json": "chaos_rate_limiting_red_team_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\automated_context_learning_system.py": {
+    "breakthrough_potential": 0.7,
+    "constitutional_score": 0.89,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "constitutional_context_learning.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\constitutional_hardening_system.py": {
+    "breakthrough_potential": 0.7,
+    "constitutional_score": 0.89,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "constitutional_hardening_manifest.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\batch_academic_analysis.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "phase_b_analysis_report.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\fractal_red_team_panarchy_transformability.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.9,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "high",
+    "source_json": "fractal_red_team_panarchy_transformability_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\manuscript_orchestration_master.py": {
+    "breakthrough_potential": 0.7,
+    "constitutional_score": 0.89,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "manuscript_orchestration_state_20251026_165956.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\advanced_fractal_army.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.9,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "high",
+    "source_json": "massive_worker_army_deployment_report.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\fractal_optimization_orchestrator.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.9,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "high",
+    "source_json": "meta_fractal_optimization_results_20251027_142618.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\chaos_bodhi_configs.py": {
+    "breakthrough_potential": 1.0,
+    "constitutional_score": 0.89,
+    "confidence": 0.5,
+    "ops_per_second": 25504,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "operation_quantum_bodhi_results_1761718125.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\execute_final_rounds.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "operation_real_receipts_final.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\performance_extractor.py": {
+    "breakthrough_potential": 0.7,
+    "constitutional_score": 0.89,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "performance_timeline.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\rigorous_benchmark.py": {
+    "breakthrough_potential": 0.7,
+    "constitutional_score": 0.89,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "rigorous_benchmark_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\constitutional_recursive_self_improvement.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.89,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "self_improvement_orchestration_manifest.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\fixed_real_api_coordinator.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "universe_1_real_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\advanced_coordination_orchestrator.py": {
+    "breakthrough_potential": 0.7,
+    "constitutional_score": 0.89,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "week4_advanced_coordination_20251030_080907.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\production_quantum_superposition_deployer.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.89,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "production_monitoring_1762323958.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\core\\orchestrator_ascii.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "DEBATE_LOG.json",
+    "correlation_method": "timestamp_proximity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\axiom_x_constitutional_recon.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "axiom_x_constitutional_recon_report.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\operation_bodhi_extension.py": {
+    "breakthrough_potential": 0.7,
+    "constitutional_score": 0.89,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "operation_bodhi_extension_report.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\comprehensive_stability_report.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.9,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "high",
+    "source_json": "phase_d_test_report.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\ultimate_provenance_deployer.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "ultimate_provenance_deployment_report_20251026_205349.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\ckicas_parallel_revision_orchestrator.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "week1_parallel_capability_report.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\latency_optimization_test.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "latency_optimization_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\accelerated_10k_study.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "accelerated_10k_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\final_validation_report.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "chaos_validation_report.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\eco_dairy_infrastructure_workers.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "infrastructure_workers_deployment.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\comprehensive_multi_provider_coordinator.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.5,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "low",
+    "source_json": "multi_provider_integration_test_20251030_083829.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\execution_mode_comparison.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.7,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "medium",
+    "source_json": "phase2_execution_results.json",
+    "correlation_method": "name_similarity"
+  },
+  "C:\\Users\\regan\\ID SYSTEM\\axiom-x\\.venv\\Lib\\site-packages\\idna\\package_data.py": {
+    "breakthrough_potential": 0.8,
+    "constitutional_score": 0.0,
+    "confidence": 0.9,
+    "ops_per_second": 0,
+    "speedup_factor": 1.0,
+    "correlation_confidence": "high",
+    "source_json": "package.json",
+    "correlation_method": "name_similarity"
+  }
+}

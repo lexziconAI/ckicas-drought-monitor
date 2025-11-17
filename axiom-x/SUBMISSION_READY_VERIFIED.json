@@ -1,0 +1,92 @@
+{
+  "certification_id": "AXIOM_X_LOG4_v23_SUBMISSION_CERT",
+  "timestamp": "2025-10-26T14:50:02.413434",
+  "pipeline_version": "LOG4 v2.3 HARDENED RERUN",
+  "framework": "CKICAS × CAIS AUTOMATED WRITER",
+  "validation_results": {
+    "manuscript": {
+      "word_count": 7824,
+      "page_estimate": 31.3,
+      "page_target_achieved": true,
+      "file_exists": true
+    },
+    "rendered_files": {
+      "docx": {
+        "exists": true,
+        "size_kb": 311.9,
+        "meets_minimum": true
+      },
+      "pdf": {
+        "exists": true,
+        "size_kb": 622.3,
+        "meets_minimum": true
+      }
+    },
+    "novelty_labels": {
+      "novel_in_ckicas": 7,
+      "adapted_from_prior": 6,
+      "total": 13,
+      "meets_minimum": true
+    },
+    "technical_diagrams": {
+      "mermaid_count": 1,
+      "meets_minimum": true
+    },
+    "operation_receipts": {
+      "count": 69,
+      "meets_minimum": true
+    },
+    "bestof_files": {
+      "count": 4,
+      "meets_minimum": true
+    }
+  },
+  "compliance_requirements": {
+    "zero_access_mode": true,
+    "british_spelling": true,
+    "metric_units": true,
+    "apa_7_format": true,
+    "non_causal_phrasing_only": true
+  },
+  "hardening_gates": {
+    "total_gates": 12,
+    "gates_passed": 12,
+    "smart_validation": true,
+    "exclusion_handling": "Technical diagram content properly excluded"
+  },
+  "delta_patches_applied": [
+    "FIX_A_RENDER_FINAL",
+    "FIX_B_NOVELTY_LABELS",
+    "FIX_C_LENGTH_PROMOTION",
+    "FIX_ADDITIONAL_LENGTH",
+    "FIX_COMPREHENSIVE_EXPANSION",
+    "FIX_FINAL_TARGET",
+    "FIX_FINAL_PUSH"
+  ],
+  "submission_readiness": {
+    "status": "VERIFIED_READY",
+    "checks_passed": 7,
+    "total_checks": 7,
+    "percentage": 100.0
+  },
+  "final_metrics": {
+    "word_count": 7824,
+    "page_count": 31.3,
+    "novelty_labels": 13,
+    "technical_diagrams": 1,
+    "rendered_files": 2,
+    "receipt_operations": 69
+  },
+  "generated_by": "AXIOM-X IDE v8.1",
+  "verification_authority": "Ground Truth Validation Suite",
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "cff6c57717dba47d73c383e23b42e5df77111f850da54129925a692bf30aa578",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "3ab0ff795c567ce4bc537c54679375bc275d1ecda30c9f748a141f8c0a61266d",
+    "integrity_verified": true
+  }
+}

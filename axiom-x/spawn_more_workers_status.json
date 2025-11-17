@@ -1,0 +1,11 @@
+{
+  "army_id": "bellman_policy_army_993e1216",
+  "optimization_cycles": 8,
+  "active_workers": 166,
+  "active_optimizations": 525,
+  "fractal_policies": 12,
+  "bellman_value_functions": 28,
+  "policies_optimized": 63,
+  "bellman_convergences": 0,
+  "optimization_queue_length": 0
+}

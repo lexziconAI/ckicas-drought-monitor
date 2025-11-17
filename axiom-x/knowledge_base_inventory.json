@@ -1,0 +1,161 @@
+{
+  "domains": {
+    "philosophy": {
+      "ethics": {
+        "coverage": "comprehensive",
+        "confidence": 0.95,
+        "subtopics": [
+          "utilitarianism",
+          "deontology",
+          "virtue_ethics",
+          "eastern_philosophy"
+        ],
+        "temporal_cutoff": "2023-08"
+      },
+      "metaphysics": {
+        "coverage": "extensive",
+        "confidence": 0.9,
+        "subtopics": [
+          "ontology",
+          "epistemology",
+          "philosophy_of_mind"
+        ],
+        "temporal_cutoff": "2023-08"
+      }
+    },
+    "science": {
+      "physics": {
+        "coverage": "comprehensive",
+        "confidence": 0.95,
+        "subtopics": [
+          "quantum_mechanics",
+          "relativity",
+          "thermodynamics"
+        ],
+        "temporal_cutoff": "2023-08"
+      },
+      "biology": {
+        "coverage": "extensive",
+        "confidence": 0.9,
+        "subtopics": [
+          "molecular_biology",
+          "evolution",
+          "neuroscience"
+        ],
+        "temporal_cutoff": "2023-08"
+      },
+      "computer_science": {
+        "coverage": "comprehensive",
+        "confidence": 0.95,
+        "subtopics": [
+          "algorithms",
+          "AI",
+          "machine_learning",
+          "software_engineering"
+        ],
+        "temporal_cutoff": "2023-08"
+      }
+    },
+    "technology": {
+      "artificial_intelligence": {
+        "coverage": "comprehensive",
+        "confidence": 0.98,
+        "subtopics": [
+          "machine_learning",
+          "neural_networks",
+          "NLP",
+          "computer_vision"
+        ],
+        "temporal_cutoff": "2023-08"
+      },
+      "software_development": {
+        "coverage": "extensive",
+        "confidence": 0.92,
+        "subtopics": [
+          "programming_languages",
+          "frameworks",
+          "best_practices"
+        ],
+        "temporal_cutoff": "2023-08"
+      }
+    },
+    "law": {
+      "constitutional_law": {
+        "coverage": "extensive",
+        "confidence": 0.88,
+        "subtopics": [
+          "US_constitution",
+          "international_law",
+          "human_rights"
+        ],
+        "temporal_cutoff": "2023-08"
+      },
+      "technology_law": {
+        "coverage": "moderate",
+        "confidence": 0.75,
+        "subtopics": [
+          "data_privacy",
+          "AI_regulation",
+          "intellectual_property"
+        ],
+        "temporal_cutoff": "2023-08"
+      }
+    },
+    "current_events": {
+      "coverage": "limited",
+      "confidence": 0.3,
+      "temporal_cutoff": "2023-08",
+      "notes": "Knowledge cutoff at August 2023"
+    }
+  },
+  "temporal_coverage": {
+    "knowledge_cutoff": "2023-08-01",
+    "confidence_decay_rate": 0.1,
+    "domains_affected": [
+      "current_events",
+      "recent_technology",
+      "breaking_news"
+    ]
+  },
+  "confidence_scores": {},
+  "gap_analysis": {
+    "high_confidence_domains": [
+      "philosophy.ethics",
+      "philosophy.metaphysics",
+      "science.physics",
+      "science.biology",
+      "science.computer_science",
+      "technology.artificial_intelligence",
+      "technology.software_development",
+      "law.constitutional_law"
+    ],
+    "medium_confidence_domains": [
+      "law.technology_law"
+    ],
+    "low_confidence_domains": [
+      "current_events"
+    ],
+    "temporal_gaps": [
+      "philosophy.ethics",
+      "philosophy.metaphysics",
+      "science.physics",
+      "science.biology",
+      "science.computer_science",
+      "technology.artificial_intelligence",
+      "technology.software_development",
+      "law.constitutional_law",
+      "law.technology_law",
+      "current_events"
+    ],
+    "recommended_external_sources": [
+      "academic databases",
+      "specialized journals",
+      "expert consultations",
+      "recent publications",
+      "news archives",
+      "current research papers"
+    ]
+  },
+  "last_updated": "2025-11-05T17:54:10.092402",
+  "version": "1.0"
+}

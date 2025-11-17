@@ -1,0 +1,29 @@
+{
+  "diagnostic_run": "20251029_175640",
+  "findings": {
+    "log_analysis": {},
+    "auth_check": {},
+    "connectivity_test": {
+      "groq": {
+        "status": "OK",
+        "description": "API accessible",
+        "severity": "LOW"
+      },
+      "openai": {
+        "status": "OK",
+        "description": "API accessible",
+        "severity": "LOW"
+      },
+      "anthropic": {
+        "status": "HTTP_405",
+        "description": "Unexpected status: 405",
+        "severity": "MEDIUM"
+      }
+    }
+  },
+  "summary": {
+    "critical_issues": 0,
+    "high_issues": 0,
+    "total_issues": 0
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "test_type": "enhanced_mega_router_test",
+  "timestamp": 1761714519.9042373,
+  "total_time": 2.1883132457733154,
+  "queue_test": {
+    "total_requests": 20,
+    "successful": 20,
+    "failed": 0,
+    "total_time": 0.0013663768768310547,
+    "avg_time_per_request": 6.831884384155274e-05,
+    "rate_limit_errors": 0,
+    "throughput": 14637.250043622404
+  },
+  "adaptation_test": {
+    "initial_limits": {
+      "anthropic": 5.0,
+      "openai": 5.0,
+      "google": 5.0,
+      "cohere": 5.0,
+      "groq": 5.0,
+      "fireworks": 5.0,
+      "replicate": 5.0,
+      "fal": 5.0,
+      "stability": 5.0
+    },
+    "final_limits": {
+      "anthropic": 5.0,
+      "openai": 5.0,
+      "google": 5.0,
+      "cohere": 5.0,
+      "groq": 5.0,
+      "fireworks": 5.0,
+      "replicate": 5.0,
+      "fal": 5.0,
+      "stability": 5.0
+    },
+    "adaptation_results": [
+      {
+        "success": true,
+        "result": {
+          "content": "[SIMULATED RESPONSE] This is a simulated response for prompt: Explain quantum computing in simple terms....",
+          "provider": "simulated",
+          "model": "sim-balanced",
+          "tokens": {
+            "input": 6,
+            "output": 65.2,
+            "total": 71.2
+          },
+          "cost": 0.0006520000000000001,
+          "latency_ms": 1804
+        }
+      },
+      {
+        "success": true,
+        "result": {
+          "content": "[SIMULATED RESPONSE] This is a simulated response for prompt: What is machine learning?...",
+          "provider": "simulated",
+          "model": "sim-balanced",
+          "tokens": {
+            "input": 4,
+            "output": 83.8,
+            "total": 87.8
+          },
+          "cost": 0.000838,
+          "latency_ms": 1028
+        }
+      },
+      {
+        "success": true,
+        "result": {
+          "content": "[SIMULATED RESPONSE] This is a simulated response for prompt: Describe neural networks....",
+          "provider": "simulated",
+          "model": "sim-balanced",
+          "tokens": {
+            "input": 3,
+            "output": 105.6,
+            "total": 108.6
+          },
+          "cost": 0.001056,
+          "latency_ms": 1350
+        }
+      },
+      {
+        "success": true,
+        "result": {
+          "content": "[SIMULATED RESPONSE] This is a simulated response for prompt: How does AI work?...",
+          "provider": "simulated",
+          "model": "sim-balanced",
+          "tokens": {
+            "input": 4,
+            "output": 169.8,
+            "total": 173.8
+          },
+          "cost": 0.0016980000000000003,
+          "latency_ms": 1765
+        }
+      },
+      {
+        "success": true,
+        "result": {
+          "content": "[SIMULATED RESPONSE] This is a simulated response for prompt: What is the future of technology?...",
+          "provider": "simulated",
+          "model": "sim-balanced",
+          "tokens": {
+            "input": 6,
+            "output": 146.2,
+            "total": 152.2
+          },
+          "cost": 0.001462,
+          "latency_ms": 1903
+        }
+      }
+    ],
+    "successful_adaptations": 5
+  },
+  "circuit_test": {
+    "initial_states": {},
+    "test_provider": "anthropic",
+    "final_state": "open",
+    "recovery_state": "open",
+    "circuit_breaker_working": false
+  },
+  "overall_score": 0.6666666666666666,
+  "recommendations": [
+    "Debug circuit breaker state transitions"
+  ]
+}

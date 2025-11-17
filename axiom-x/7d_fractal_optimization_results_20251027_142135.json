@@ -1,0 +1,94 @@
+{
+  "timestamp": "20251027_142135",
+  "strange_attractors_discovered": 10,
+  "best_attractor": {
+    "id": "attractor_0_2b2d3751",
+    "final_compliance": 86.87482983914049,
+    "fractal_dimension": 2.0,
+    "self_organization_score": 0.6065012325786228,
+    "stability_index": 0.0
+  },
+  "chaos_analysis": {
+    "initial_conditions_variants": 10,
+    "sensitivity_parameter": 1e-06,
+    "attractor_diversity": 1
+  },
+  "quality_metrics_achieved": {
+    "max_compliance": 86.87482983914049,
+    "max_intelligence": 264.2066357044189,
+    "max_ethics": 91.89552461095002,
+    "self_organizing_systems": 0
+  },
+  "all_attractors": [
+    {
+      "id": "attractor_0_2b2d3751",
+      "compliance": 86.87482983914049,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.6065012325786228
+    },
+    {
+      "id": "attractor_6_6cb6a099",
+      "compliance": 85.97640780361412,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.6056017120168694
+    },
+    {
+      "id": "attractor_2_ce78296f",
+      "compliance": 85.75183891026384,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.6771934196955098
+    },
+    {
+      "id": "attractor_1_6d279e03",
+      "compliance": 85.57694146775752,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.641082335607532
+    },
+    {
+      "id": "attractor_3_75803ce6",
+      "compliance": 85.43352109788808,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.6002446805234137
+    },
+    {
+      "id": "attractor_4_d8355cff",
+      "compliance": 85.30315231123178,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.630365092773813
+    },
+    {
+      "id": "attractor_7_0490fd49",
+      "compliance": 85.05115997231768,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.6252568745332294
+    },
+    {
+      "id": "attractor_9_fb4647f0",
+      "compliance": 84.89421184496257,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.5993381570941052
+    },
+    {
+      "id": "attractor_8_641a10b4",
+      "compliance": 84.82657262308896,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.6861114702104315
+    },
+    {
+      "id": "attractor_5_a61ecdd6",
+      "compliance": 84.74324314980099,
+      "fractal_dimension": 2.0,
+      "stability": 0.0,
+      "self_organization": 0.6807589123601026
+    }
+  ]
+}

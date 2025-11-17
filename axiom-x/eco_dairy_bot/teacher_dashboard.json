@@ -1,0 +1,32 @@
+{
+  "ai_insights_panel": {
+    "student_progress_predictions": true,
+    "misconception_alerts": true,
+    "engagement_trends": true,
+    "intervention_suggestions": true
+  },
+  "transparency_tools": {
+    "ai_decision_audit_trail": true,
+    "explainable_recommendations": true,
+    "bias_detection_reports": true,
+    "privacy_compliance_status": true
+  },
+  "customization_features": {
+    "pathway_modification": true,
+    "assessment_adjustment": true,
+    "content_filtering": true,
+    "student_grouping": true
+  },
+  "analytics_dashboard": {
+    "class_performance_overview": true,
+    "individual_student_tracking": true,
+    "learning_outcome_analysis": true,
+    "engagement_metrics": true
+  },
+  "communication_tools": {
+    "parent_reports": true,
+    "administrator_summaries": true,
+    "peer_teacher_sharing": true,
+    "research_data_export": true
+  }
+}

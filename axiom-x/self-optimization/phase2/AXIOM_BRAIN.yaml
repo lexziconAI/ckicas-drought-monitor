@@ -1,0 +1,175 @@
+decision_frameworks:
+  checks_attempted:
+  - name: math_totals_consistency
+    status: skipped_no_input
+  - name: tax_breakdown_consistency
+    status: skipped_no_input
+  - name: date_time_validity_timezone
+    status: skipped_no_input
+  - name: currency_and_locale_consistency
+    status: skipped_no_input
+  - name: duplicate_receipt_detection
+    status: skipped_no_input
+  - name: ocr_vs_structured_alignment
+    status: skipped_no_input
+  - name: vendor_normalization_and_mcc
+    status: skipped_no_input
+  - name: exchange_rate_application_if_applicable
+    status: skipped_no_input
+  - name: swarm_consensus_verification
+    status: skipped_no_input
+  - name: swarm_discrepancy_root_cause
+    status: skipped_no_input
+  - name: constitutional_compliance_privacy_pii
+    status: skipped_no_input
+  - name: constitutional_compliance_safety_and_policy
+    status: skipped_no_input
+  compliance_score: null
+  expected_schemas:
+    extracted_receipt:
+      attachments:
+      - hash: string
+        type: enum[image,pdf,raw_email]
+        uri: string
+      buyer:
+        name: string|null
+        tax_id: string|null
+      currency: ISO 4217 code
+      datetime: ISO 8601 datetime or date+time+timezone
+      extraction_confidence: number 0..1|null
+      invoice_number: string|null
+      line_items:
+      - description: string
+        quantity: number
+        tax_amount: number|null
+        tax_rate: number|null
+        total: number
+        unit_price: number
+      location:
+        city: string|null
+        country_code: ISO 3166-1 alpha-2
+        state: string|null
+      notes: string|null
+      ocr_text: string|null
+      payment:
+        last4: string|null
+        method: enum[cash,card,bank,other]
+      po_number: string|null
+      receipt_id: string
+      receipt_number: string|null
+      source: string (e.g., ocr, email, upload); optional
+      subtotal: number
+      tax_breakdown:
+      - amount: number
+        rate: number
+      tax_total: number
+      total: number
+      vendor:
+        address: string|null
+        mcc: string|null
+        name: string
+        tax_id: string|null
+    swarm_findings:
+      agent_votes:
+      - agent_id: string
+        confidence: number 0..1
+        field_path: string
+        receipt_id: string
+        value: any
+      anomaly_scores:
+      - receipt_id: string
+        score: number 0..1
+      comments:
+      - string
+      consensus_status: enum[consensus,partial,none]
+      discrepancies:
+      - expected: any
+        field_path: string (e.g., line_items[2].total)
+        observed: any
+        rationale: string
+        receipt_id: string
+        severity: enum[low,medium,high]
+      policy_flags:
+      - code: string
+        description: string
+        severity: enum[info,warning,critical]
+  input_templates:
+    extracted_receipts:
+    - currency: USD
+      datetime: '2025-10-31T14:23:00-05:00'
+      line_items:
+      - description: Widget A
+        quantity: 2
+        tax_amount: 1.4
+        tax_rate: 0.07
+        total: 21.4
+        unit_price: 10.0
+      location:
+        country_code: US
+      payment:
+        last4: '1234'
+        method: card
+      receipt_id: rcpt_001
+      subtotal: 20.0
+      tax_total: 1.4
+      total: 21.4
+      vendor:
+        name: Acme Store
+        tax_id: US-12-3456789
+    swarm_findings:
+      agent_votes: []
+      anomaly_scores: []
+      consensus_status: consensus
+      discrepancies: []
+      policy_flags: []
+  inputs_received:
+    receipts: 0
+    swarm_findings: 0
+  issues_found: []
+  message: No specific receipts or swarm findings were provided for validation in
+    Current knowledge. Please supply data (receipts and/or swarm_findings) to proceed.
+  reason: No 'extracted_receipts' or 'swarm_findings' were provided in Current knowledge.
+    Only a prior notice indicating missing data was present.
+  recommendations:
+  - Provide extracted_receipts[] and swarm_findings{} to enable validation.
+  - Include OCR text or source artifacts (image/pdf hashes or URIs) for cross-checks.
+  - Provide currency, tax rates, and locale/country for correct tax and compliance
+    validation.
+  - If receipts are multi-currency, include exchange rate source and timestamp.
+  required_inputs:
+    extracted_receipts: Array of receipt objects (see expected_schemas.extracted_receipt)
+    swarm_findings: Object detailing consensus, discrepancies, and agent votes (see
+      expected_schemas.swarm_findings)
+  status: INCOMPLETE
+  summary: No data provided for validation
+  validation_results:
+    detailed_issues: []
+    issues_found_summary:
+      accuracy_issues: 0
+      compliance_issues: 0
+      consistency_issues: 0
+      total_issues: 0
+    receipts_validated: 0
+    swarm_findings_validated: 0
+  validation_run_id: vr_2025-11-09_001
+  validation_status: no_data_provided
+  version: '1.0'
+execution_plans:
+  receipts:
+  - label: ARTICLE
+    text: Article IV
+  - label: SECTION
+    text: Section 2
+  - label: CLAUSE
+    text: Clause 3
+  - label: AMENDMENT
+    text: Amendment 1
+knowledge_graph: {}
+optimization_strategies:
+  active_strategy:
+    communication_freq: 47.55352339837766
+    exploration_rate: 0.4510120372942893
+    mutation_rate: 0.09956826786760554
+    task_prioritization: priority
+  best_fitness: 0.9967788117394417
+  current_generation: 1

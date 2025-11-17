@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-11-01T17:05:09.807903",
+  "environment_models": {
+    "ANTHROPIC": "claude-sonnet-4-5-20250929",
+    "OPENAI": "gpt-5",
+    "GOOGLE": "gemini-2.5-pro",
+    "GROQ": "llama-3.3-70b-versatile",
+    "COHERE": "command-a-03-2025",
+    "FIREWORKS": "accounts/fireworks/models/llama-v3p3-70b-instruct"
+  },
+  "router_models": {
+    "anthropic": "claude-sonnet-4-5-20250929",
+    "openai": "gpt-5",
+    "gemini": "gemini-2.5-pro",
+    "groq": "llama-3.3-70b-versatile",
+    "cohere": "command-a-03-2025"
+  },
+  "debate_test_file": "debate_results_debate_20251101_165547.json",
+  "status": "COMPLETE"
+}

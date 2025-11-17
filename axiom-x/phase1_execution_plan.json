@@ -1,0 +1,81 @@
+{
+  "phase1_debate_timestamp": "2025-11-08T21:30:47.255878",
+  "execution_plan": {
+    "phase": "phase2_fractal_swarm",
+    "objective": "Optimize Axiom-X codebase through constitutional fractal swarm analysis",
+    "target_directory": "c:\\Users\\regan\\ID SYSTEM\\axiom-x",
+    "file_patterns": ["*.py", "*.json", "*.yaml", "*.md"],
+    "exclude_patterns": ["node_modules/**", ".git/**", "__pycache__/**", ".venv/**"],
+    "swarm_configuration": {
+      "total_scouts": 1647,
+      "scout_types": {
+        "file_analyzer": 500,
+        "receipt_miner": 400,
+        "redundancy_detector": 300,
+        "optimization_suggester": 300,
+        "yaml_brain_builder": 147
+      },
+      "concurrency_strategy": "beast_mode_parallelization",
+      "max_concurrent_tasks": 1000,
+      "provider_semaphores": {
+        "anthropic": 50,
+        "openai": 50,
+        "google": 50,
+        "groq": 50,
+        "cohere": 50,
+        "fireworks": 50
+      }
+    },
+    "optimization_criteria": {
+      "canonical_files": {
+        "identification_method": "hybrid_metadata_content_analysis",
+        "criteria": ["file_type", "size", "format", "content_relevance", "modification_frequency"]
+      },
+      "receipt_mining": {
+        "approaches": ["nlp_processing", "ocr_recognition", "ml_classification", "human_validation"],
+        "target_receipts": ["performance_receipts", "validation_receipts", "deployment_receipts"]
+      },
+      "redundancy_detection": {
+        "methods": ["content_similarity", "functional_duplication", "structural_analysis"],
+        "thresholds": {"similarity_score": 0.85, "functional_overlap": 0.7}
+      },
+      "yaml_brain_structure": {
+        "architecture": "modular_hierarchical",
+        "components": ["lists", "dictionaries", "anchors"],
+        "scalability": "adaptive_expansion"
+      }
+    },
+    "execution_phases": {
+      "phase2": {
+        "focus": "fractal_swarm_deployment",
+        "strategy": "hybrid_self_optimization",
+        "methodology": "iterative_testing_refinement"
+      },
+      "phase3": {
+        "focus": "adaptive_optimization",
+        "strategy": "feedback_loop_integration"
+      },
+      "phase4": {
+        "focus": "scalable_integration",
+        "strategy": "modular_expansion"
+      },
+      "phase5": {
+        "focus": "continuous_evaluation",
+        "strategy": "performance_monitoring"
+      }
+    },
+    "validation_flags": {
+      "green_flags": ["Axiom-X", ".py", "concrete_examples", "technical_specifics"],
+      "red_flags": ["constitution", "us_government", "external_systems", "non_technical_content"]
+    },
+    "output_requirements": {
+      "master_yaml_brain": "axiom_x_knowledge_graph.yaml",
+      "optimization_report": "phase2_optimization_results.json",
+      "redundancy_map": "codebase_redundancy_analysis.json",
+      "canonical_file_index": "canonical_files_registry.json"
+    }
+  },
+  "consensus_rating": 8.7,
+  "judge_evaluations": 1,
+  "resonance_score": 0.123
+}

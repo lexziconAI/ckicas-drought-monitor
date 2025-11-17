@@ -1,0 +1,56 @@
+{
+  "pattern_analysis": {
+    "pattern_type": "TRENDING_HIGH_COMPLEXITY",
+    "hurst_exponent": 0.9266776851895687,
+    "fractal_dimension": 1.0,
+    "confidence": 0.85,
+    "emergence_level": "accelerating",
+    "temporal_scope": "medium_term",
+    "spatial_scale": 0.3492133405986681,
+    "pattern_strength": 0.004937481168789514,
+    "validation_timestamp": 1761762214.7130773
+  },
+  "emergence_event": {
+    "event_id": "emergence_1761762214",
+    "timestamp": 1761762214.7137275,
+    "emergence_type": "TRENDING_HIGH_COMPLEXITY",
+    "intelligence_level": 3.0457214874880707,
+    "constitutional_compliance": 0.7686605369215749,
+    "pattern_complexity": 1.0,
+    "fractal_signature": {
+      "hurst": 0.9266776851895687,
+      "dimension": 1.0,
+      "strength": 0.004937481168789514
+    },
+    "validation_status": "pending"
+  },
+  "validation_result": {
+    "pattern_id": "pattern_1761762220_TRENDING_HIGH_COMPLEXITY",
+    "validation_score": 0.5,
+    "emergence_prediction": "unclear",
+    "risk_assessment": "unknown",
+    "recommendations": [
+      "Manual review required",
+      "API Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"
+    ],
+    "processing_cost": 0.0,
+    "response_time": 5.944439888000488,
+    "model_used": "fallback",
+    "timestamp": 1761762220.658355
+  },
+  "analysis_summary": {
+    "total_patterns_analyzed": 1,
+    "validated_events": 1,
+    "average_hurst_exponent": 0.9266776851895687,
+    "average_fractal_dimension": 1.0,
+    "average_confidence": 0.85,
+    "emergence_level_distribution": {
+      "accelerating": 1
+    },
+    "total_validation_cost": 0.0,
+    "average_response_time": 5.944439888000488,
+    "cost_per_pattern": 0.0,
+    "analysis_timestamp": 1761762220.6589782
+  },
+  "timestamp": 1761762220.6602185
+}

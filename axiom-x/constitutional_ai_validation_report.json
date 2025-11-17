@@ -1,0 +1,73 @@
+{
+  "timestamp": 1762317129.2691026,
+  "system_components": {
+    "constitutional_hardening": {
+      "status": "validated",
+      "compliance_before": 0.008,
+      "compliance_after": 0.083,
+      "improvement_factor": 10.375,
+      "measures_implemented": 30,
+      "validation_score": 0.95
+    },
+    "self_improvement_orchestration": {
+      "status": "validated",
+      "symbiotic_bonds": 7,
+      "orchestration_events": 3,
+      "harmony_index": 0.49585714285714283,
+      "validation_score": 0.6958571428571428
+    },
+    "constitutional_context_learning": {
+      "status": "validated",
+      "contexts_learned": 506,
+      "overall_alignment": 0.779245283018868,
+      "context_coverage": 0.6,
+      "validation_score": 0.689622641509434
+    },
+    "fractal_red_team_analysis": {
+      "status": "validated",
+      "dimensions_analyzed": [
+        7,
+        9,
+        14
+      ],
+      "components_analyzed": 18418,
+      "constitutional_compliance": 0.008042793526664494,
+      "transformability_potential": 0.015820571304442275,
+      "system_resilience": 0.011931682415553386,
+      "validation_score": 0.011931682415553388
+    }
+  },
+  "overall_assessment": {
+    "status": "needs_improvement",
+    "average_validation_score": 0.5868528666955326,
+    "components_validated": 4,
+    "total_components": 4
+  },
+  "improvement_metrics": {
+    "constitutional_compliance": {
+      "baseline": 0.008042793526664494,
+      "current": 0.008042793526664494,
+      "improvement": 1.0
+    },
+    "system_harmony": {
+      "baseline": 0.5,
+      "current": 0.49585714285714283,
+      "improvement": 0.9917142857142857
+    },
+    "contextual_alignment": {
+      "baseline": 0.5,
+      "current": 0.5,
+      "improvement": 1.0
+    }
+  },
+  "recommendations": [
+    "Improve self improvement orchestration validation score",
+    "Improve constitutional context learning validation score",
+    "Improve fractal red team analysis validation score",
+    "Implement continuous monitoring and improvement cycles",
+    "Enhance cross-component integration and validation",
+    "Strengthen constitutional hardening measures",
+    "Maintain regular red team analysis and system validation",
+    "Continue YAML/MD context learning and adaptation"
+  ]
+}

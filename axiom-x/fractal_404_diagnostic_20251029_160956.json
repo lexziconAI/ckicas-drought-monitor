@@ -1,0 +1,221 @@
+{
+  "diagnostic_run": "20251029_160956",
+  "diagnostic_type": "fractal_404_analysis",
+  "levels_analyzed": 4,
+  "findings": {
+    "level_1": {
+      "https://generativelanguage.googleapis.com/v1beta/models": {
+        "status": "NOT_FOUND",
+        "description": "Endpoint returns 404: https://generativelanguage.googleapis.com/v1beta/models",
+        "severity": "HIGH",
+        "category": "api_endpoint"
+      },
+      "groq/llama-3.3-70b-versatile": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model llama-3.3-70b-versatile for groq not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "anthropic/claude-haiku-4-5-20251001": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model claude-haiku-4-5-20251001 for anthropic not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "google/gemini-2.5-flash-lite": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model gemini-2.5-flash-lite for google not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "openai/o1-mini": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model o1-mini for openai not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "anthropic/claude-sonnet-4-5-20250929": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model claude-sonnet-4-5-20250929 for anthropic not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "google/gemini-2.5-pro": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model gemini-2.5-pro for google not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "openai/o1": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model o1 for openai not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "replicate/meta/llama-3.3-70b-instruct": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model meta/llama-3.3-70b-instruct for replicate not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "google/gemini-2.5-flash": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model gemini-2.5-flash for google not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model accounts/fireworks/models/llama-v3p3-70b-instruct for fireworks not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "fal/fal-ai/flux-pro": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model fal-ai/flux-pro for fal not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      },
+      "stability/stable-diffusion-xl-1024-v1-0": {
+        "status": "MODEL_NOT_PRICED",
+        "description": "Model stable-diffusion-xl-1024-v1-0 for stability not found in COST_PER_MILLION",
+        "severity": "MEDIUM",
+        "category": "model_pricing"
+      }
+    },
+    "level_2": {
+      "deprecated_claude-3-7-sonnet-20250219": {
+        "description": "Deprecated model claude-3-7-sonnet-20250219 found in 1 files",
+        "impact": "May cause 404 errors when API calls are made",
+        "severity": "HIGH",
+        "remediation": "Update to latest model versions in: ai_reconstruct.py"
+      }
+    },
+    "level_3": {
+      "missing_pricing": {
+        "description": "4 models missing pricing configuration",
+        "models": [
+          "replicate/meta/llama-3.3-70b-instruct",
+          "fireworks/accounts/fireworks/models/llama-v3p3-70b-instruct",
+          "fal/fal-ai/flux-pro",
+          "stability/stable-diffusion-xl-1024-v1-0"
+        ],
+        "severity": "HIGH",
+        "remediation": "Add pricing to COST_PER_MILLION in router.py"
+      }
+    },
+    "level_4": {}
+  },
+  "corrective_actions": [
+    {
+      "priority": "HIGH",
+      "issue": "Endpoint returns 404: https://generativelanguage.googleapis.com/v1beta/models",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "api_endpoint"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "Deprecated model claude-3-7-sonnet-20250219 found in 1 files",
+      "remediation": "Update to latest model versions in: ai_reconstruct.py",
+      "level": "level_2",
+      "category": "unknown"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "4 models missing pricing configuration",
+      "remediation": "Add pricing to COST_PER_MILLION in router.py",
+      "level": "level_3",
+      "category": "unknown"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model llama-3.3-70b-versatile for groq not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model claude-haiku-4-5-20251001 for anthropic not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model gemini-2.5-flash-lite for google not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model o1-mini for openai not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model claude-sonnet-4-5-20250929 for anthropic not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model gemini-2.5-pro for google not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model o1 for openai not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model meta/llama-3.3-70b-instruct for replicate not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model gemini-2.5-flash for google not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model accounts/fireworks/models/llama-v3p3-70b-instruct for fireworks not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model fal-ai/flux-pro for fal not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Model stable-diffusion-xl-1024-v1-0 for stability not found in COST_PER_MILLION",
+      "remediation": "Investigate manually",
+      "level": "level_1",
+      "category": "model_pricing"
+    }
+  ],
+  "summary": {
+    "total_findings": 15,
+    "critical_issues": 0,
+    "high_priority_issues": 3
+  }
+}

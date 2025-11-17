@@ -1,0 +1,344 @@
+{
+  "timestamp": "2025-11-01T16:28:55.457319",
+  "duration_seconds": 0.8355667591094971,
+  "overall_status": "HEALTHY",
+  "summary": {
+    "total_checks": 34,
+    "passed": 33,
+    "warned": 1,
+    "failed": 0,
+    "pass_rate": 97.05882352941177
+  },
+  "results": [
+    {
+      "component": "Core File: Capacity Discovery Engine",
+      "status": "PASS",
+      "message": "capacity_discovery_engine.py exists (40,524 bytes)",
+      "details": {
+        "file": "capacity_discovery_engine.py",
+        "size": 40524
+      },
+      "timestamp": "2025-11-01T16:28:54.622499"
+    },
+    {
+      "component": "Core File: Synthesis Engine",
+      "status": "PASS",
+      "message": "synthesis_engine.py exists (92,172 bytes)",
+      "details": {
+        "file": "synthesis_engine.py",
+        "size": 92172
+      },
+      "timestamp": "2025-11-01T16:28:54.622577"
+    },
+    {
+      "component": "Core File: Human Approval Gate",
+      "status": "PASS",
+      "message": "approval_gate.py exists (25,913 bytes)",
+      "details": {
+        "file": "approval_gate.py",
+        "size": 25913
+      },
+      "timestamp": "2025-11-01T16:28:54.622648"
+    },
+    {
+      "component": "Core File: Provider Router",
+      "status": "PASS",
+      "message": "optimized_provider_router.py exists (9,467 bytes)",
+      "details": {
+        "file": "optimized_provider_router.py",
+        "size": 9467
+      },
+      "timestamp": "2025-11-01T16:28:54.622881"
+    },
+    {
+      "component": "Core File: Constitutional Memory",
+      "status": "PASS",
+      "message": "constitutional_memory.py exists (8,224 bytes)",
+      "details": {
+        "file": "constitutional_memory.py",
+        "size": 8224
+      },
+      "timestamp": "2025-11-01T16:28:54.623028"
+    },
+    {
+      "component": "Core File: Multi-Provider Coordinator",
+      "status": "PASS",
+      "message": "multi_provider_coordinator.py exists (17,168 bytes)",
+      "details": {
+        "file": "multi_provider_coordinator.py",
+        "size": 17168
+      },
+      "timestamp": "2025-11-01T16:28:54.623128"
+    },
+    {
+      "component": "Config: Environment Variables",
+      "status": "PASS",
+      "message": ".env exists",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:54.623351"
+    },
+    {
+      "component": "Config: Docker Compose Config",
+      "status": "PASS",
+      "message": "docker-compose.yml exists",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:54.623429"
+    },
+    {
+      "component": "Config: Docker Image Config",
+      "status": "PASS",
+      "message": "Dockerfile exists",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:54.623509"
+    },
+    {
+      "component": "Config: Python Dependencies",
+      "status": "PASS",
+      "message": "requirements.txt exists",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:54.623562"
+    },
+    {
+      "component": "Config: Kubernetes Config",
+      "status": "PASS",
+      "message": "kubernetes/sidecar-monitoring.yaml exists",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:54.623638"
+    },
+    {
+      "component": "Directory: logs",
+      "status": "PASS",
+      "message": "Exists (0 items)",
+      "details": {
+        "path": "logs",
+        "items": 0
+      },
+      "timestamp": "2025-11-01T16:28:54.623879"
+    },
+    {
+      "component": "Directory: data",
+      "status": "PASS",
+      "message": "Exists (0 items)",
+      "details": {
+        "path": "data",
+        "items": 0
+      },
+      "timestamp": "2025-11-01T16:28:54.624030"
+    },
+    {
+      "component": "Directory: receipts",
+      "status": "PASS",
+      "message": "Exists (2 items)",
+      "details": {
+        "path": "receipts",
+        "items": 2
+      },
+      "timestamp": "2025-11-01T16:28:54.624109"
+    },
+    {
+      "component": "Directory: receipts/phase_b",
+      "status": "PASS",
+      "message": "Exists (0 items)",
+      "details": {
+        "path": "receipts/phase_b",
+        "items": 0
+      },
+      "timestamp": "2025-11-01T16:28:54.624175"
+    },
+    {
+      "component": "Directory: receipts/phase_c",
+      "status": "PASS",
+      "message": "Exists (0 items)",
+      "details": {
+        "path": "receipts/phase_c",
+        "items": 0
+      },
+      "timestamp": "2025-11-01T16:28:54.624247"
+    },
+    {
+      "component": "Directory: worker_results",
+      "status": "PASS",
+      "message": "Exists (4 items)",
+      "details": {
+        "path": "worker_results",
+        "items": 4
+      },
+      "timestamp": "2025-11-01T16:28:54.624525"
+    },
+    {
+      "component": "Directory: monitoring",
+      "status": "PASS",
+      "message": "Exists (0 items)",
+      "details": {
+        "path": "monitoring",
+        "items": 0
+      },
+      "timestamp": "2025-11-01T16:28:54.624634"
+    },
+    {
+      "component": "Directory: database",
+      "status": "PASS",
+      "message": "Exists (0 items)",
+      "details": {
+        "path": "database",
+        "items": 0
+      },
+      "timestamp": "2025-11-01T16:28:54.624771"
+    },
+    {
+      "component": "Directory: workers",
+      "status": "PASS",
+      "message": "Exists (13 items)",
+      "details": {
+        "path": "workers",
+        "items": 13
+      },
+      "timestamp": "2025-11-01T16:28:54.625553"
+    },
+    {
+      "component": "Directory: kubernetes",
+      "status": "PASS",
+      "message": "Exists (1 items)",
+      "details": {
+        "path": "kubernetes",
+        "items": 1
+      },
+      "timestamp": "2025-11-01T16:28:54.625687"
+    },
+    {
+      "component": "Docker: Dockerfile Quality",
+      "status": "PASS",
+      "message": "Dockerfile configured",
+      "details": {
+        "healthcheck": true,
+        "workdir": true,
+        "expose": true
+      },
+      "timestamp": "2025-11-01T16:28:54.626021"
+    },
+    {
+      "component": "Docker: Compose Configuration",
+      "status": "PASS",
+      "message": "docker-compose.yml configured",
+      "details": {
+        "services": true,
+        "volumes": true,
+        "networks": true
+      },
+      "timestamp": "2025-11-01T16:28:54.626385"
+    },
+    {
+      "component": "Workers: Deployment",
+      "status": "PASS",
+      "message": "13 worker scripts deployed",
+      "details": {
+        "worker_count": 13,
+        "workers": [
+          "cache_optimizer_worker.py",
+          "compose_architect_worker.py",
+          "database_optimizer_worker.py",
+          "disaster_recovery_worker.py",
+          "docker_builder_worker.py",
+          "environment_validator_worker.py",
+          "kubernetes_architect_worker.py",
+          "memory_optimizer_worker.py",
+          "monitoring_engineer_worker.py",
+          "router_engineer_worker.py",
+          "security_hardener_worker.py",
+          "startup_orchestrator_worker.py",
+          "worker_pool_tuner_worker.py"
+        ]
+      },
+      "timestamp": "2025-11-01T16:28:54.626743"
+    },
+    {
+      "component": "Workers: Execution Results",
+      "status": "WARN",
+      "message": "4 workers completed",
+      "details": {
+        "completed": 4
+      },
+      "timestamp": "2025-11-01T16:28:54.626880"
+    },
+    {
+      "component": "Python: Version",
+      "status": "PASS",
+      "message": "Python 3.13.3",
+      "details": {
+        "version": "3.13.3",
+        "meets_requirements": true
+      },
+      "timestamp": "2025-11-01T16:28:54.627097"
+    },
+    {
+      "component": "Dependency: Anthropic SDK",
+      "status": "PASS",
+      "message": "anthropic installed",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:55.145578"
+    },
+    {
+      "component": "Dependency: OpenAI SDK",
+      "status": "PASS",
+      "message": "openai installed",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:55.455955"
+    },
+    {
+      "component": "Dependency: Async IO",
+      "status": "PASS",
+      "message": "asyncio installed",
+      "details": null,
+      "timestamp": "2025-11-01T16:28:55.456118"
+    },
+    {
+      "component": "API Key: Anthropic",
+      "status": "PASS",
+      "message": "Anthropic API key configured (sk-ant-a...DgAA)",
+      "details": {
+        "configured": true
+      },
+      "timestamp": "2025-11-01T16:28:55.456639"
+    },
+    {
+      "component": "API Key: OpenAI",
+      "status": "PASS",
+      "message": "OpenAI API key configured (sk-proj-...ipsA)",
+      "details": {
+        "configured": true
+      },
+      "timestamp": "2025-11-01T16:28:55.456753"
+    },
+    {
+      "component": "API Key: Google",
+      "status": "PASS",
+      "message": "Google API key configured (AIzaSyCF...j9NE)",
+      "details": {
+        "configured": true
+      },
+      "timestamp": "2025-11-01T16:28:55.456894"
+    },
+    {
+      "component": "API Key: Groq",
+      "status": "PASS",
+      "message": "Groq API key configured (gsk_oxqY...3zMN)",
+      "details": {
+        "configured": true
+      },
+      "timestamp": "2025-11-01T16:28:55.457051"
+    },
+    {
+      "component": "API Key: Cohere",
+      "status": "PASS",
+      "message": "Cohere API key configured (mlykMX3T...81yh)",
+      "details": {
+        "configured": true
+      },
+      "timestamp": "2025-11-01T16:28:55.457199"
+    }
+  ],
+  "recommendations": [
+    "Review components with warnings",
+    "Deploy workers: python axiom_x_initialization_worker_spawner.py"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Gemini: Conversational Branching Scenario",
+  "description": "An interactive branching scenario app using Gemini for dynamic scene illustration (image editing), real-time voice conversation (Live API), and high-quality narration (TTS). Features parallel execution and constitutional receipt generation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

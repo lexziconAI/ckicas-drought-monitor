@@ -1,0 +1,105 @@
+{
+  "coordination_results": {
+    "total_time": 3.3385629653930664,
+    "successful_summaries": 5,
+    "failed_summaries": 0,
+    "total_cost": 0.002125,
+    "total_tokens": 845,
+    "avg_processing_time": 1.6540610313415527,
+    "papers_per_second": 1.4976503519116118
+  },
+  "summaries": [
+    {
+      "paper_id": "test_paper_1",
+      "summary": "# Summary\n\nThis research paper presents a validation test for AI coordination pattern 1 using live Anthropic API integration, verifying that constitutional constraints function correctly with real language model services. The comprehensive testing framework includes cost tracking and parallel processing capabilities to evaluate the pattern's practical performance and efficiency in production environments.",
+      "usage": {
+        "input_tokens": 105,
+        "output_tokens": 65,
+        "total_tokens": 170
+      },
+      "cost": 0.00043,
+      "processing_time": 1.7161152362823486,
+      "wait_time": 0.0
+    },
+    {
+      "paper_id": "test_paper_2",
+      "summary": "# Summary\n\nThis research paper describes a validation test for AI coordination pattern 2, which integrates real Anthropic API calls to verify that constitutional constraints function properly with live language model services. The testing framework includes cost tracking and parallel processing capabilities to comprehensively evaluate the pattern's performance and reliability in production conditions.",
+      "usage": {
+        "input_tokens": 105,
+        "output_tokens": 67,
+        "total_tokens": 172
+      },
+      "cost": 0.00044,
+      "processing_time": 1.8064639568328857,
+      "wait_time": 0.0
+    },
+    {
+      "paper_id": "test_paper_3",
+      "summary": "# Summary\n\nThis paper presents a validation test for AI coordination pattern 3, demonstrating its functionality with live Anthropic API integration while enforcing constitutional constraints. The testing framework includes cost tracking and parallel processing capabilities to ensure the pattern operates effectively with real LLM services.",
+      "usage": {
+        "input_tokens": 105,
+        "output_tokens": 59,
+        "total_tokens": 164
+      },
+      "cost": 0.0004,
+      "processing_time": 1.5990042686462402,
+      "wait_time": 0.0
+    },
+    {
+      "paper_id": "test_paper_4",
+      "summary": "# Summary\n\nThis research paper presents a validation test for AI Coordination Pattern 4, demonstrating its functionality with live Anthropic API integration rather than simulated environments. The study evaluates the pattern's ability to enforce constitutional constraints while managing real LLM service calls, including cost monitoring and parallel processing capabilities.",
+      "usage": {
+        "input_tokens": 105,
+        "output_tokens": 67,
+        "total_tokens": 172
+      },
+      "cost": 0.00044,
+      "processing_time": 1.5270235538482666,
+      "wait_time": 0.0
+    },
+    {
+      "paper_id": "test_paper_5",
+      "summary": "# Summary\n\nThis paper presents a validation test for AI Coordination Pattern 5, demonstrating its functionality with live Anthropic API calls rather than simulations. The test evaluates constitutional constraints' effectiveness in real-world LLM service integration while tracking costs and measuring parallel processing performance.",
+      "usage": {
+        "input_tokens": 105,
+        "output_tokens": 62,
+        "total_tokens": 167
+      },
+      "cost": 0.000415,
+      "processing_time": 1.6216981410980225,
+      "wait_time": 0.0
+    }
+  ],
+  "failures": [],
+  "constitutional_check": {
+    "enforcement_results": {
+      "satya": {
+        "constraint": "satya",
+        "principle": "Truth",
+        "valid": true,
+        "issues": []
+      },
+      "asteya": {
+        "constraint": "asteya",
+        "principle": "Non-stealing",
+        "valid": true,
+        "issues": []
+      },
+      "ahimsa": {
+        "constraint": "ahimsa",
+        "principle": "Non-harm",
+        "valid": true,
+        "issues": []
+      }
+    },
+    "overall_valid": true,
+    "action_required": false
+  },
+  "api_stats": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "total_api_calls": 5,
+    "total_cost": 0.002125,
+    "total_tokens": 845
+  }
+}

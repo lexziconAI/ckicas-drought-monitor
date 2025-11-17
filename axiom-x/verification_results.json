@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-10-26T14:48:54.997433",
+  "checks": {
+    "rendered_files": {
+      "docx_exists": true,
+      "docx_size_kb": 311.875,
+      "pdf_exists": true,
+      "pdf_size_kb": 622.32421875,
+      "docx_adequate": true,
+      "pdf_adequate": true
+    },
+    "novelty_labels": {
+      "novel_count": 7,
+      "adapted_count": 6,
+      "total_count": 13,
+      "target_met": true,
+      "examples": [
+        "The framework successfully integrated stakeholder input through structured episode management protocols. Episode documentation revealed participation breadth increasing from baseline 23% to 67% during active deployment periods. Engagement intensity metrics showed sustained contribution quality throughout deployment phases. *Novel in CKICAS: mechanism–artefact coupling for real-time stakeholder integration through structured episode protocols.*",
+        "The system demonstrated contextual adaptability across 94% of recorded episodes. Process modifications were documented through systematic change logs, with adaptation triggers clearly identified and rationale preserved for accountability. Framework flexibility enabled community-specific customisation whilst maintaining core structural integrity. *Adapted from prior stream: SES adaptive management principles applied to community decision-making contexts.*",
+        "Comprehensive audit trails were maintained for 98% of decision episodes, providing complete documentation for accountability and learning purposes. EEP generation followed standardised protocols whilst accommodating community-specific documentation preferences. Evidence quality metrics consistently exceeded baseline requirements. *Novel in CKICAS: mechanism–artefact coupling between decision processes and evidence generation systems.*",
+        "Technology integration maintained community sovereignty throughout deployment phases. Digital tools enhanced rather than replaced existing decision-making practices, with community control preserved over all technological adoption decisions. User adoption rates reflected voluntary engagement rather than imposed technological requirements. *Adapted from prior stream: CBPR principles for community-controlled technology deployment.*",
+        "The framework demonstrated scalability across multiple community contexts whilst preserving local customisation capacity. Coordination quality metrics showed consistent performance regardless of community size or complexity. Resource requirements remained proportional to community scale throughout deployment phases. *Novel in CKICAS: mechanism–artefact coupling enabling scalable coordination without centralised control structures.*",
+        "All decision processes maintained complete transparency through structured documentation and open access to decision rationale. Accountability mechanisms operated through community-defined oversight protocols rather than external audit requirements. Transparency tools adapted to community preferences whilst maintaining audit trail integrity. *Adapted from prior stream: Systems governance principles from SES literature.*",
+        "Democratic participation was enhanced rather than constrained through structured facilitation tools. Participation quality metrics showed improved substantive engagement alongside increased participation breadth. Democratic legitimacy was preserved through community control over participation protocols. *Novel in CKICAS: mechanism–artefact coupling between structured facilitation and democratic enhancement.*",
+        "Decision support tools provided evidence synthesis capabilities whilst preserving community interpretation autonomy. Evidence quality improved through structured collection protocols without imposing external evidence standards. Community knowledge systems were enhanced rather than replaced through evidence integration mechanisms. *Adapted from prior stream: ANT principles for network-based evidence systems.*",
+        "The framework integrated community voice through six-phase CKICAS architecture that maintains democratic legitimacy whilst enabling structured coordination. Community voice integration occurred through Black Stool principles ensuring authentic participation without technological mediation overwhelming human agency. *Novel in CKICAS: six-phase architecture enabling community voice integration without democratic compromise.*",
+        "Real-time decision support infrastructure provided immediate feedback capabilities whilst maintaining community control over decision timing and processes. Infrastructure scaled elastically based on community needs without requiring external technical expertise for maintenance. *Novel in CKICAS: real-time infrastructure with community sovereignty preservation.*"
+      ]
+    },
+    "mermaid_diagrams": {
+      "count": 1,
+      "present": true,
+      "target_met": true
+    },
+    "receipts": {
+      "count": 69,
+      "target_met": true,
+      "files": [
+        "additional_length_fix.json",
+        "bestof.json",
+        "comprehensive_expansion.json",
+        "discussion_1761438634.json",
+        "discussion_1761438636.json",
+        "execution_log.json",
+        "final_length_target.json",
+        "final_push_complete.json",
+        "glossary.json",
+        "glossary_1761438634.json",
+        "glossary_1761438636.json",
+        "ingest.json",
+        "intro_1761438634.json",
+        "intro_1761438636.json",
+        "length_budget.json",
+        "length_budget_final.json",
+        "methods_1761438634.json",
+        "methods_1761438636.json",
+        "novelty.json",
+        "novelty_mr_completion.json",
+        "patch_abstract_PD-QC-1_1761438853.json",
+        "patch_abstract_PD-QC-1_1761438900.json",
+        "patch_all_sections_PD-EB-2_1761438900.json",
+        "patch_all_sections_PD-IR-1_1761438900.json",
+        "patch_all_sections_PD-IR-3_1761438900.json",
+        "patch_all_sections_PD-QC-3_1761438900.json",
+        "patch_discussion_PD-AE-3_1761438853.json",
+        "patch_discussion_PD-AE-3_1761438900.json",
+        "patch_discussion_PD-IR-2_1761438853.json",
+        "patch_discussion_PD-IR-2_1761438900.json",
+        "patch_glossary_PD-QC-1_1761438853.json",
+        "patch_glossary_PD-QC-1_1761438900.json",
+        "patch_introduction_PD-AE-1_1761438853.json",
+        "patch_introduction_PD-AE-1_1761438900.json",
+        "patch_introduction_PD-IR-1_1761438853.json",
+        "patch_introduction_PD-IR-1_1761438900.json",
+        "patch_introduction_PD-IR-3_1761438853.json",
+        "patch_introduction_PD-IR-3_1761438900.json",
+        "patch_methods_PD-AE-3_1761438853.json",
+        "patch_methods_PD-AE-3_1761438900.json",
+        "patch_methods_PD-IR-1_1761438853.json",
+        "patch_methods_PD-IR-1_1761438900.json",
+        "patch_methods_PD-IR-3_1761438853.json",
+        "patch_methods_PD-IR-3_1761438900.json",
+        "patch_results_PD-AE-1_1761438853.json",
+        "patch_results_PD-AE-1_1761438900.json",
+        "patch_results_PD-AE-4_1761438900.json",
+        "patch_results_PD-IR-2_1761438853.json",
+        "patch_results_PD-IR-2_1761438900.json",
+        "patch_technical_architecture_PD-NS-2_1761438900.json",
+        "patch_validation_PD-EB-1_1761438900.json",
+        "patch_validation_PD-NS-1_1761438900.json",
+        "render.json",
+        "render_force.json",
+        "results_1761438634.json",
+        "results_1761438636.json",
+        "T0_ingest_render_receipt.json",
+        "T1_acronyms_glossary_receipt.json",
+        "T2_validation_contribution_section_receipt.json",
+        "T3_results_novelty_labels_receipt.json",
+        "T4_tech_architecture_spec_receipt.json",
+        "T5_crossref_cleanup_receipt.json",
+        "T6_length_budget_receipt.json",
+        "techarch.json",
+        "techarch_1761438634.json",
+        "techarch_1761438636.json",
+        "validation.json",
+        "validation_1761438634.json",
+        "validation_1761438636.json"
+      ]
+    },
+    "length": {
+      "word_count": 6052,
+      "page_count": 24,
+      "target_met": false,
+      "source": "render_receipt"
+    },
+    "bestof_files": {
+      "count": 4,
+      "target_met": true,
+      "files": [
+        {
+          "name": "discussion_bestof.json",
+          "size_kb": 1.6103515625
+        },
+        {
+          "name": "intro_bestof.json",
+          "size_kb": 1.66015625
+        },
+        {
+          "name": "methods_bestof.json",
+          "size_kb": 1.5625
+        },
+        {
+          "name": "results_bestof.json",
+          "size_kb": 1.7294921875
+        }
+      ]
+    }
+  },
+  "_provenance": {
+    "author": "Regan William DUFF",
+    "company": "AXIOM INTELLIGENCE LIMITED",
+    "company_number": "9287393",
+    "date": "October 26, 2025",
+    "cryptographic_signature": "b7aafb62578b42589f4c567f95f8795660681bb7ef7a87845644c1d3989f0370",
+    "constitutional_compliance": "Satya, Asteya, Ahimsa",
+    "provenance_hash": "bf0c944c9c5da8db422c3adba802e11ea353645c221b7e8c33e1c361239a4220",
+    "integrity_verified": true
+  }
+}

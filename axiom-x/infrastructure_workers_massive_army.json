@@ -1,0 +1,783 @@
+{
+  "timestamp": "2025-11-08T16:30:00.667016",
+  "total_workers": 129,
+  "active_workers": 129,
+  "categories": 13,
+  "worker_status": {
+    "code_generation_python_1": {
+      "worker_id": "code_generation_python_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.027686357498168945
+    },
+    "code_generation_python_2": {
+      "worker_id": "code_generation_python_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02751302719116211
+    },
+    "code_generation_python_3": {
+      "worker_id": "code_generation_python_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02740645408630371
+    },
+    "code_generation_javascript_1": {
+      "worker_id": "code_generation_javascript_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.027245044708251953
+    },
+    "code_generation_javascript_2": {
+      "worker_id": "code_generation_javascript_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.027137041091918945
+    },
+    "code_generation_javascript_3": {
+      "worker_id": "code_generation_javascript_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0268247127532959
+    },
+    "code_generation_typescript_1": {
+      "worker_id": "code_generation_typescript_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.026388883590698242
+    },
+    "code_generation_typescript_2": {
+      "worker_id": "code_generation_typescript_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02610921859741211
+    },
+    "code_generation_typescript_3": {
+      "worker_id": "code_generation_typescript_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.025908708572387695
+    },
+    "code_generation_go_1": {
+      "worker_id": "code_generation_go_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0257568359375
+    },
+    "code_generation_go_2": {
+      "worker_id": "code_generation_go_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.025470972061157227
+    },
+    "code_generation_go_3": {
+      "worker_id": "code_generation_go_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.025291919708251953
+    },
+    "code_generation_rust_1": {
+      "worker_id": "code_generation_rust_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02517223358154297
+    },
+    "code_generation_rust_2": {
+      "worker_id": "code_generation_rust_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.025064945220947266
+    },
+    "code_generation_rust_3": {
+      "worker_id": "code_generation_rust_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.024964094161987305
+    },
+    "architecture_systemdesign_1": {
+      "worker_id": "architecture_systemdesign_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.024852752685546875
+    },
+    "architecture_systemdesign_2": {
+      "worker_id": "architecture_systemdesign_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02475118637084961
+    },
+    "architecture_systemdesign_3": {
+      "worker_id": "architecture_systemdesign_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02466130256652832
+    },
+    "architecture_microservices_1": {
+      "worker_id": "architecture_microservices_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02443838119506836
+    },
+    "architecture_microservices_2": {
+      "worker_id": "architecture_microservices_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02422046661376953
+    },
+    "architecture_microservices_3": {
+      "worker_id": "architecture_microservices_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02393364906311035
+    },
+    "architecture_cloudnative_1": {
+      "worker_id": "architecture_cloudnative_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02381134033203125
+    },
+    "architecture_cloudnative_2": {
+      "worker_id": "architecture_cloudnative_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02373671531677246
+    },
+    "architecture_cloudnative_3": {
+      "worker_id": "architecture_cloudnative_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.023664236068725586
+    },
+    "testing_unittests_1": {
+      "worker_id": "testing_unittests_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02358698844909668
+    },
+    "testing_unittests_2": {
+      "worker_id": "testing_unittests_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.023386001586914062
+    },
+    "testing_unittests_3": {
+      "worker_id": "testing_unittests_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.022977828979492188
+    },
+    "testing_integrationtests_1": {
+      "worker_id": "testing_integrationtests_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.022650718688964844
+    },
+    "testing_integrationtests_2": {
+      "worker_id": "testing_integrationtests_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.022428035736083984
+    },
+    "testing_integrationtests_3": {
+      "worker_id": "testing_integrationtests_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.022206544876098633
+    },
+    "testing_e2etests_1": {
+      "worker_id": "testing_e2etests_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.021898269653320312
+    },
+    "testing_e2etests_2": {
+      "worker_id": "testing_e2etests_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.021637916564941406
+    },
+    "testing_e2etests_3": {
+      "worker_id": "testing_e2etests_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02145695686340332
+    },
+    "testing_performancetests_1": {
+      "worker_id": "testing_performancetests_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.020933151245117188
+    },
+    "testing_performancetests_2": {
+      "worker_id": "testing_performancetests_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02031683921813965
+    },
+    "testing_performancetests_3": {
+      "worker_id": "testing_performancetests_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.02001667022705078
+    },
+    "documentation_apidocs_1": {
+      "worker_id": "documentation_apidocs_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.019825458526611328
+    },
+    "documentation_apidocs_2": {
+      "worker_id": "documentation_apidocs_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.019626379013061523
+    },
+    "documentation_apidocs_3": {
+      "worker_id": "documentation_apidocs_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.019391536712646484
+    },
+    "documentation_userguides_1": {
+      "worker_id": "documentation_userguides_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.019192934036254883
+    },
+    "documentation_userguides_2": {
+      "worker_id": "documentation_userguides_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.018994808197021484
+    },
+    "documentation_userguides_3": {
+      "worker_id": "documentation_userguides_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.018856525421142578
+    },
+    "documentation_technicalspecs_1": {
+      "worker_id": "documentation_technicalspecs_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.018786191940307617
+    },
+    "documentation_technicalspecs_2": {
+      "worker_id": "documentation_technicalspecs_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01871776580810547
+    },
+    "documentation_technicalspecs_3": {
+      "worker_id": "documentation_technicalspecs_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.018642902374267578
+    },
+    "optimization_performance_1": {
+      "worker_id": "optimization_performance_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01831650733947754
+    },
+    "optimization_performance_2": {
+      "worker_id": "optimization_performance_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.018102645874023438
+    },
+    "optimization_performance_3": {
+      "worker_id": "optimization_performance_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01795220375061035
+    },
+    "optimization_securityhardening_1": {
+      "worker_id": "optimization_securityhardening_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.017867565155029297
+    },
+    "optimization_securityhardening_2": {
+      "worker_id": "optimization_securityhardening_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.017784595489501953
+    },
+    "optimization_securityhardening_3": {
+      "worker_id": "optimization_securityhardening_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.017670631408691406
+    },
+    "optimization_scalability_1": {
+      "worker_id": "optimization_scalability_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.017576932907104492
+    },
+    "optimization_scalability_2": {
+      "worker_id": "optimization_scalability_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0175018310546875
+    },
+    "optimization_scalability_3": {
+      "worker_id": "optimization_scalability_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01734185218811035
+    },
+    "security_codereview_1": {
+      "worker_id": "security_codereview_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.017192602157592773
+    },
+    "security_codereview_2": {
+      "worker_id": "security_codereview_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.017017126083374023
+    },
+    "security_codereview_3": {
+      "worker_id": "security_codereview_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.016849517822265625
+    },
+    "security_vulnerabilityscanning_1": {
+      "worker_id": "security_vulnerabilityscanning_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.016655921936035156
+    },
+    "security_vulnerabilityscanning_2": {
+      "worker_id": "security_vulnerabilityscanning_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.016453266143798828
+    },
+    "security_vulnerabilityscanning_3": {
+      "worker_id": "security_vulnerabilityscanning_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.016269445419311523
+    },
+    "security_compliance_1": {
+      "worker_id": "security_compliance_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.015898466110229492
+    },
+    "security_compliance_2": {
+      "worker_id": "security_compliance_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01565694808959961
+    },
+    "security_compliance_3": {
+      "worker_id": "security_compliance_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01531076431274414
+    },
+    "deployment_cicd_1": {
+      "worker_id": "deployment_cicd_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.015076398849487305
+    },
+    "deployment_cicd_2": {
+      "worker_id": "deployment_cicd_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.014883995056152344
+    },
+    "deployment_cicd_3": {
+      "worker_id": "deployment_cicd_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.014803886413574219
+    },
+    "deployment_containerization_1": {
+      "worker_id": "deployment_containerization_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.014735221862792969
+    },
+    "deployment_containerization_2": {
+      "worker_id": "deployment_containerization_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0146636962890625
+    },
+    "deployment_containerization_3": {
+      "worker_id": "deployment_containerization_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.014551162719726562
+    },
+    "deployment_orchestration_1": {
+      "worker_id": "deployment_orchestration_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.014383077621459961
+    },
+    "deployment_orchestration_2": {
+      "worker_id": "deployment_orchestration_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.014151334762573242
+    },
+    "deployment_orchestration_3": {
+      "worker_id": "deployment_orchestration_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.013981103897094727
+    },
+    "data_analytics_1": {
+      "worker_id": "data_analytics_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.013822793960571289
+    },
+    "data_analytics_2": {
+      "worker_id": "data_analytics_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.013691902160644531
+    },
+    "data_analytics_3": {
+      "worker_id": "data_analytics_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.013365983963012695
+    },
+    "data_processing_1": {
+      "worker_id": "data_processing_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.012921333312988281
+    },
+    "data_processing_2": {
+      "worker_id": "data_processing_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.012619495391845703
+    },
+    "data_processing_3": {
+      "worker_id": "data_processing_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01243448257446289
+    },
+    "data_visualization_1": {
+      "worker_id": "data_visualization_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.012350797653198242
+    },
+    "data_visualization_2": {
+      "worker_id": "data_visualization_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01220393180847168
+    },
+    "data_visualization_3": {
+      "worker_id": "data_visualization_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.011993408203125
+    },
+    "frontend_design_1": {
+      "worker_id": "frontend_design_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.011623859405517578
+    },
+    "frontend_design_2": {
+      "worker_id": "frontend_design_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.011403799057006836
+    },
+    "frontend_design_3": {
+      "worker_id": "frontend_design_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01115560531616211
+    },
+    "frontend_react_1": {
+      "worker_id": "frontend_react_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.010790109634399414
+    },
+    "frontend_react_2": {
+      "worker_id": "frontend_react_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.010591268539428711
+    },
+    "frontend_react_3": {
+      "worker_id": "frontend_react_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.010478496551513672
+    },
+    "frontend_vue_1": {
+      "worker_id": "frontend_vue_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.010290384292602539
+    },
+    "frontend_vue_2": {
+      "worker_id": "frontend_vue_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.01016378402709961
+    },
+    "frontend_vue_3": {
+      "worker_id": "frontend_vue_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.010040760040283203
+    },
+    "frontend_angular_1": {
+      "worker_id": "frontend_angular_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.009964227676391602
+    },
+    "frontend_angular_2": {
+      "worker_id": "frontend_angular_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.009782791137695312
+    },
+    "frontend_angular_3": {
+      "worker_id": "frontend_angular_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.009580135345458984
+    },
+    "database_management_1": {
+      "worker_id": "database_management_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.009344339370727539
+    },
+    "database_management_2": {
+      "worker_id": "database_management_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.009198665618896484
+    },
+    "database_management_3": {
+      "worker_id": "database_management_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.009010076522827148
+    },
+    "database_optimization_1": {
+      "worker_id": "database_optimization_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.008895635604858398
+    },
+    "database_optimization_2": {
+      "worker_id": "database_optimization_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.008799552917480469
+    },
+    "database_optimization_3": {
+      "worker_id": "database_optimization_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.008707523345947266
+    },
+    "database_migration_1": {
+      "worker_id": "database_migration_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.008577108383178711
+    },
+    "database_migration_2": {
+      "worker_id": "database_migration_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.008243083953857422
+    },
+    "database_migration_3": {
+      "worker_id": "database_migration_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.008084535598754883
+    },
+    "api_design_1": {
+      "worker_id": "api_design_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.007843494415283203
+    },
+    "api_design_2": {
+      "worker_id": "api_design_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.007613182067871094
+    },
+    "api_design_3": {
+      "worker_id": "api_design_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.00746464729309082
+    },
+    "api_rest_1": {
+      "worker_id": "api_rest_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0073909759521484375
+    },
+    "api_rest_2": {
+      "worker_id": "api_rest_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.007078647613525391
+    },
+    "api_rest_3": {
+      "worker_id": "api_rest_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.006880044937133789
+    },
+    "api_graphql_1": {
+      "worker_id": "api_graphql_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.006798982620239258
+    },
+    "api_graphql_2": {
+      "worker_id": "api_graphql_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0066394805908203125
+    },
+    "api_graphql_3": {
+      "worker_id": "api_graphql_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.006493091583251953
+    },
+    "monitoring_logging_1": {
+      "worker_id": "monitoring_logging_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.006413459777832031
+    },
+    "monitoring_logging_2": {
+      "worker_id": "monitoring_logging_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.006276845932006836
+    },
+    "monitoring_logging_3": {
+      "worker_id": "monitoring_logging_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.006064176559448242
+    },
+    "monitoring_metrics_1": {
+      "worker_id": "monitoring_metrics_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.005674839019775391
+    },
+    "monitoring_metrics_2": {
+      "worker_id": "monitoring_metrics_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.005389213562011719
+    },
+    "monitoring_metrics_3": {
+      "worker_id": "monitoring_metrics_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0051767826080322266
+    },
+    "monitoring_alerting_1": {
+      "worker_id": "monitoring_alerting_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.004632234573364258
+    },
+    "monitoring_alerting_2": {
+      "worker_id": "monitoring_alerting_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0041158199310302734
+    },
+    "monitoring_alerting_3": {
+      "worker_id": "monitoring_alerting_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0037834644317626953
+    },
+    "research_analysis_1": {
+      "worker_id": "research_analysis_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.003162384033203125
+    },
+    "research_analysis_2": {
+      "worker_id": "research_analysis_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0027930736541748047
+    },
+    "research_analysis_3": {
+      "worker_id": "research_analysis_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0025148391723632812
+    },
+    "research_prototyping_1": {
+      "worker_id": "research_prototyping_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0022611618041992188
+    },
+    "research_prototyping_2": {
+      "worker_id": "research_prototyping_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.002002716064453125
+    },
+    "research_prototyping_3": {
+      "worker_id": "research_prototyping_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.001882791519165039
+    },
+    "research_innovation_1": {
+      "worker_id": "research_innovation_1",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0017848014831542969
+    },
+    "research_innovation_2": {
+      "worker_id": "research_innovation_2",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0015952587127685547
+    },
+    "research_innovation_3": {
+      "worker_id": "research_innovation_3",
+      "status": "active",
+      "tasks_completed": 0,
+      "uptime_seconds": 0.0013742446899414062
+    }
+  },
+  "deployment_note": "Massive deployment with 3 instances per specialization"
+}

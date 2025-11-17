@@ -1,0 +1,46 @@
+{
+  "diagnostic_run": "20251029_175630",
+  "findings": {
+    "log_analysis": {},
+    "auth_check": {
+      "missing_anthropic_api_key": {
+        "description": "ANTHROPIC_API_KEY not set",
+        "severity": "CRITICAL"
+      },
+      "missing_openai_api_key": {
+        "description": "OPENAI_API_KEY not set",
+        "severity": "CRITICAL"
+      },
+      "missing_google_api_key": {
+        "description": "GOOGLE_API_KEY not set",
+        "severity": "CRITICAL"
+      },
+      "missing_groq_api_key": {
+        "description": "GROQ_API_KEY not set",
+        "severity": "CRITICAL"
+      }
+    },
+    "connectivity_test": {
+      "groq": {
+        "status": "NO_KEY",
+        "description": "No API key for groq",
+        "severity": "CRITICAL"
+      },
+      "openai": {
+        "status": "NO_KEY",
+        "description": "No API key for openai",
+        "severity": "CRITICAL"
+      },
+      "anthropic": {
+        "status": "NO_KEY",
+        "description": "No API key for anthropic",
+        "severity": "CRITICAL"
+      }
+    }
+  },
+  "summary": {
+    "critical_issues": 7,
+    "high_issues": 0,
+    "total_issues": 7
+  }
+}

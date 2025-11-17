@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//root/.config/**)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp remove:*)",
+      "Bash(claude mcp list:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

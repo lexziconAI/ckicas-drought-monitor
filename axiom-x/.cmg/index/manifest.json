@@ -1,0 +1,11 @@
+{
+  "total_records": 2001,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimension": 384,
+  "roots": [
+    ".",
+    "cmg"
+  ],
+  "chunk_size": 1200,
+  "chunk_overlap": 200
+}
