@@ -143,20 +143,21 @@ async def get_admin_logs():
     }
 
 @app.post("/api/admin/chat")
-async def chat_with_dashboard(request: ChatRequest):
+async def chat_with_dashboard(request: dict):
     try:
-        print(f"Chat request received: {request.message}")  # Debug log
-        response = chatbot.chat(request.message)
+        message = request.get("message", "")
+        print(f"Chat request received: {message}")  # Debug log
+        response = chatbot.chat(message)
         print(f"Chat response: {response.response}")  # Debug log
         return response
     except Exception as e:
         print(f"Chat error: {str(e)}")  # Debug log
-        return ChatResponse(
-            response=f"Sorry, I encountered an error: {str(e)}",
-            timestamp=datetime.utcnow(),
-            model_used="error",
-            tokens_used=0
-        )
+        return {
+            "response": f"Sorry, I encountered an error: {str(e)}",
+            "timestamp": datetime.utcnow().isoformat(),
+            "model_used": "error",
+            "tokens_used": 0
+        }
 
 # Serve React app
 from fastapi.responses import FileResponse
