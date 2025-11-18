@@ -120,42 +120,45 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
           />
 
           {/* NZ Region Circles */}
-          {nzRegions.map((region, index) => (
-            <Circle
-              key={index}
-              center={[region.lat, region.lon]}
-              radius={50000} // 50km radius
-              pathOptions={{
-                color: getRiskColor(region.risk),
-                fillColor: getRiskColor(region.risk),
-                fillOpacity: 0.6,
-                weight: 2
-              }}
-            >
-              <Popup>
-                <div className="p-2">
-                  <h3 className="font-semibold text-lg">{region.name}</h3>
-                  <p className="text-sm text-gray-600">
-                    Risk Score: <span className="font-medium">{region.risk}/100</span>
-                  </p>
-                  <p className="text-sm">
-                    Category: <span
-                      className="font-medium"
-                      style={{ color: getRiskColor(region.risk) }}
+          {nzRegions.map((region, index) => {
+            console.log('Rendering circle for region:', region.name, 'at', [region.lat, region.lon]);
+            return (
+              <Circle
+                key={index}
+                center={[region.lat, region.lon]}
+                radius={50000} // 50km radius
+                pathOptions={{
+                  color: getRiskColor(region.risk),
+                  fillColor: getRiskColor(region.risk),
+                  fillOpacity: 0.6,
+                  weight: 2
+                }}
+              >
+                <Popup>
+                  <div className="p-2">
+                    <h3 className="font-semibold text-lg">{region.name}</h3>
+                    <p className="text-sm text-gray-600">
+                      Risk Score: <span className="font-medium">{region.risk}/100</span>
+                    </p>
+                    <p className="text-sm">
+                      Category: <span
+                        className="font-medium"
+                        style={{ color: getRiskColor(region.risk) }}
+                      >
+                        {getRiskCategory(region.risk)}
+                      </span>
+                    </p>
+                    <button
+                      className="mt-2 px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600"
+                      onClick={() => setSelectedLocation({ lat: region.lat, lon: region.lon })}
                     >
-                      {getRiskCategory(region.risk)}
-                    </span>
-                  </p>
-                  <button
-                    className="mt-2 px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600"
-                    onClick={() => setSelectedLocation({ lat: region.lat, lon: region.lon })}
-                  >
-                    Get Details
-                  </button>
-                </div>
-              </Popup>
-            </Circle>
-          ))}
+                      Get Details
+                    </button>
+                  </div>
+                </Popup>
+              </Circle>
+            );
+          })}
 
           {/* Selected location marker */}
           {selectedLocation && (
