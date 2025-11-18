@@ -1,14 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import dynamic from 'next/dynamic';
-
-// Dynamically import map components to avoid SSR issues
-const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
-const TileLayer = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
-const Marker = dynamic(() => import('react-leaflet').then(mod => mod.Marker), { ssr: false });
-const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
-const Circle = dynamic(() => import('react-leaflet').then(mod => mod.Circle), { ssr: false });
+import { MapContainer, TileLayer, Marker, Popup, Circle } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
 
 // Fix for default markers in react-leaflet
 import L from 'leaflet';
@@ -116,6 +110,7 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
           style={{ height: '100%', width: '100%' }}
           maxBounds={[[-48, 165], [-34, 180]]} // Restrict panning to NZ region
           maxBoundsViscosity={1.0} // Prevent dragging outside bounds
+          scrollWheelZoom={false} // Prevent scroll hijacking
           // @ts-ignore - react-leaflet types issue
           onClick={handleMapClick}
         >
