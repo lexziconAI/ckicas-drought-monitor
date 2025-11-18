@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 // Dynamically import the map component to avoid SSR issues
 const DroughtMap = dynamic(() => import('../components/Map/DroughtMap'), {
   ssr: false,
-  loading: () => <div className="h-96 bg-gray-100 rounded-lg flex items-center justify-center">Loading map...</div>
+  loading: () => <div className="h-[600px] bg-gray-100 rounded-lg flex items-center justify-center">Loading map...</div>
 });
 
 interface ApiStatus {
@@ -16,15 +16,19 @@ interface ApiStatus {
 }
 
 interface DroughtRisk {
-  risk_level: string;
+  risk_score: number;      // Backend sends this (0-100 scale)
+  risk_level?: string;     // Optional fallback
   confidence: number;
   factors: string[];
 }
 
 interface DataSource {
-  name: string;
-  status: string;
-  last_updated: string;
+  provider: string;        // Backend sends this
+  dataset: string;
+  timestamp: string;
+  freshness_hours: number;
+  parameters: string[];
+  note: string;
 }
 
 export default function CKICASDroughtMonitor() {
@@ -99,11 +103,21 @@ export default function CKICASDroughtMonitor() {
     }
   };
 
+  const getRiskLevel = (score: number): string => {
+    if (score >= 80) return 'extreme';
+    if (score >= 60) return 'severe';
+    if (score >= 40) return 'moderate';
+    if (score >= 20) return 'mild';
+    return 'normal';
+  };
+
   const getRiskColor = (level: string) => {
     switch (level?.toLowerCase()) {
-      case 'high': return 'text-red-600 bg-red-100';
-      case 'medium': return 'text-yellow-600 bg-yellow-100';
-      case 'low': return 'text-green-600 bg-green-100';
+      case 'extreme': return 'text-red-600 bg-red-100';
+      case 'severe': return 'text-orange-600 bg-orange-100';
+      case 'moderate': return 'text-yellow-600 bg-yellow-100';
+      case 'mild': return 'text-blue-600 bg-blue-100';
+      case 'normal': return 'text-green-600 bg-green-100';
       default: return 'text-gray-600 bg-gray-100';
     }
   };
@@ -155,8 +169,8 @@ export default function CKICASDroughtMonitor() {
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Current Risk Assessment</h3>
             {droughtRisk ? (
               <div>
-                <div className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${getRiskColor(droughtRisk.risk_level)}`}>
-                  {droughtRisk.risk_level?.toUpperCase() || 'UNKNOWN'} RISK
+                <div className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${getRiskColor(getRiskLevel(droughtRisk.risk_score))}`}>
+                  {getRiskLevel(droughtRisk.risk_score).toUpperCase()} RISK
                 </div>
                 <p className="text-sm text-gray-600 mt-2">
                   Confidence: {Math.round(droughtRisk.confidence * 100)}%
@@ -181,8 +195,8 @@ export default function CKICASDroughtMonitor() {
             <div className="space-y-2">
               {dataSources.slice(0, 3).map((source, index) => (
                 <div key={index} className="flex justify-between items-center">
-                  <span className="text-sm text-gray-600">{source.name || 'Unknown Source'}</span>
-                  <div className={`w-2 h-2 rounded-full ${(source.status || 'unknown') === 'active' ? 'bg-green-500' : 'bg-yellow-500'}`}></div>
+                  <span className="text-sm text-gray-600">{source.provider || 'Unknown Source'}</span>
+                  <div className={`w-2 h-2 rounded-full ${source.freshness_hours <= 2 ? 'bg-green-500' : source.freshness_hours <= 8 ? 'bg-yellow-500' : 'bg-red-500'}`}></div>
                 </div>
               ))}
             </div>

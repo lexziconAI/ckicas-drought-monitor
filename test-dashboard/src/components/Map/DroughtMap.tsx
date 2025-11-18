@@ -107,7 +107,7 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
   }
 
   return (
-    <div className="relative w-full h-96 rounded-lg overflow-hidden border border-gray-200">
+    <div className="relative w-full h-[600px] rounded-lg overflow-hidden border border-gray-200">
       <div className="w-full h-full">
         <MapContainer
           key="drought-map" // Prevent React re-mounting
