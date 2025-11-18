@@ -26,26 +26,33 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
   const [droughtData, setDroughtData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [regionalData, setRegionalData] = useState<any[]>([]);
+  const [regionalLoading, setRegionalLoading] = useState(true);
 
-  // NZ regions with sample drought risk data (fallback)
+  // NZ regions with coordinates (no hardcoded risk scores)
   const nzRegions = [
-    { name: 'Northland', lat: -35.7, lon: 174.3, risk: 25 },
-    { name: 'Auckland', lat: -36.8, lon: 174.7, risk: 15 },
-    { name: 'Waikato', lat: -37.7, lon: 175.2, risk: 78 },
-    { name: 'Bay of Plenty', lat: -37.7, lon: 176.2, risk: 45 },
-    { name: 'Gisborne', lat: -38.6, lon: 178.0, risk: 62 },
-    { name: 'Hawke\'s Bay', lat: -39.5, lon: 176.8, risk: 55 },
-    { name: 'Taranaki', lat: -39.1, lon: 174.1, risk: 38 },
-    { name: 'Manawatu-Wanganui', lat: -40.0, lon: 175.7, risk: 42 },
-    { name: 'Wellington', lat: -41.3, lon: 174.8, risk: 28 },
-    { name: 'Tasman', lat: -41.3, lon: 173.0, risk: 35 },
-    { name: 'Nelson', lat: -41.3, lon: 173.3, risk: 32 },
-    { name: 'Marlborough', lat: -41.5, lon: 173.9, risk: 48 },
-    { name: 'West Coast', lat: -42.4, lon: 171.2, risk: 52 },
-    { name: 'Canterbury', lat: -43.5, lon: 171.2, risk: 71 },
-    { name: 'Otago', lat: -45.0, lon: 170.5, risk: 65 },
-    { name: 'Southland', lat: -46.4, lon: 168.4, risk: 58 }
+    { name: 'Northland', lat: -35.7, lon: 174.3 },
+    { name: 'Auckland', lat: -36.8, lon: 174.7 },
+    { name: 'Waikato', lat: -37.7, lon: 175.2 },
+    { name: 'Bay of Plenty', lat: -37.7, lon: 176.2 },
+    { name: 'Gisborne', lat: -38.6, lon: 178.0 },
+    { name: 'Hawke\'s Bay', lat: -39.5, lon: 176.8 },
+    { name: 'Taranaki', lat: -39.1, lon: 174.1 },
+    { name: 'Manawatu-Wanganui', lat: -40.0, lon: 175.7 },
+    { name: 'Wellington', lat: -41.3, lon: 174.8 },
+    { name: 'Tasman', lat: -41.3, lon: 173.0 },
+    { name: 'Nelson', lat: -41.3, lon: 173.3 },
+    { name: 'Marlborough', lat: -41.5, lon: 173.9 },
+    { name: 'West Coast', lat: -42.4, lon: 171.2 },
+    { name: 'Canterbury', lat: -43.5, lon: 171.2 },
+    { name: 'Otago', lat: -45.0, lon: 170.5 },
+    { name: 'Southland', lat: -46.4, lon: 168.4 }
   ];
+
+  // Fetch regional drought data on component mount
+  useEffect(() => {
+    fetchRegionalDroughtData();
+  }, []);
 
   // Fetch drought risk data when location is selected
   useEffect(() => {
@@ -53,6 +60,48 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
       fetchDroughtData(selectedLocation.lat, selectedLocation.lon);
     }
   }, [selectedLocation]);
+
+  const fetchRegionalDroughtData = async () => {
+    setRegionalLoading(true);
+    try {
+      const regionalPromises = nzRegions.map(async (region) => {
+        try {
+          const response = await fetch(`${apiBaseUrl}/api/public/drought-risk?lat=${region.lat}&lon=${region.lon}&forecast_days=7`);
+          if (!response.ok) {
+            throw new Error(`Failed to fetch data for ${region.name}`);
+          }
+          const data = await response.json();
+          return {
+            ...region,
+            risk: data.risk_score || 50, // Default to 50 if no risk_score
+            confidence: data.confidence || 0,
+            factors: data.factors || [],
+            lastUpdated: new Date().toISOString()
+          };
+        } catch (error) {
+          console.error(`Error fetching data for ${region.name}:`, error);
+          // Return region with default data if API fails
+          return {
+            ...region,
+            risk: 50, // Default moderate risk
+            confidence: 0.2,
+            factors: ['api_error'],
+            lastUpdated: new Date().toISOString(),
+            error: true
+          };
+        }
+      });
+
+      const regionalResults = await Promise.all(regionalPromises);
+      setRegionalData(regionalResults);
+      console.log('Fetched real regional drought data:', regionalResults);
+    } catch (error) {
+      console.error('Error fetching regional data:', error);
+      setError('Failed to load regional drought data');
+    } finally {
+      setRegionalLoading(false);
+    }
+  };
 
   const fetchDroughtData = async (lat: number, lon: number) => {
     setIsLoading(true);
@@ -120,45 +169,48 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
           />
 
           {/* NZ Region Circles */}
-          {nzRegions.map((region, index) => {
-            console.log('Rendering circle for region:', region.name, 'at', [region.lat, region.lon]);
-            return (
-              <Circle
-                key={index}
-                center={[region.lat, region.lon]}
-                radius={50000} // 50km radius
-                pathOptions={{
-                  color: getRiskColor(region.risk),
-                  fillColor: getRiskColor(region.risk),
-                  fillOpacity: 0.6,
-                  weight: 2
-                }}
-              >
-                <Popup>
-                  <div className="p-2">
-                    <h3 className="font-semibold text-lg">{region.name}</h3>
-                    <p className="text-sm text-gray-600">
-                      Risk Score: <span className="font-medium">{region.risk}/100</span>
-                    </p>
-                    <p className="text-sm">
-                      Category: <span
-                        className="font-medium"
-                        style={{ color: getRiskColor(region.risk) }}
-                      >
-                        {getRiskCategory(region.risk)}
-                      </span>
-                    </p>
-                    <button
-                      className="mt-2 px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600"
-                      onClick={() => setSelectedLocation({ lat: region.lat, lon: region.lon })}
+          {regionalData.map((region, index) => (
+            <Circle
+              key={index}
+              center={[region.lat, region.lon]}
+              radius={50000} // 50km radius
+              pathOptions={{
+                color: getRiskColor(region.risk),
+                fillColor: getRiskColor(region.risk),
+                fillOpacity: 0.6,
+                weight: 2
+              }}
+            >
+              <Popup>
+                <div className="p-2">
+                  <h3 className="font-semibold text-lg">{region.name}</h3>
+                  <p className="text-sm text-gray-600">
+                    Risk Score: <span className="font-medium">{region.risk}/100</span>
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Confidence: <span className="font-medium">{Math.round((region.confidence || 0) * 100)}%</span>
+                  </p>
+                  {region.error && (
+                    <p className="text-sm text-red-500">⚠️ Using fallback data</p>
+                  )}
+                  <p className="text-sm">
+                    Category: <span
+                      className="font-medium"
+                      style={{ color: getRiskColor(region.risk) }}
                     >
-                      Get Details
-                    </button>
-                  </div>
-                </Popup>
-              </Circle>
-            );
-          })}
+                      {getRiskCategory(region.risk)}
+                    </span>
+                  </p>
+                  <button
+                    className="mt-2 px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600"
+                    onClick={() => setSelectedLocation({ lat: region.lat, lon: region.lon })}
+                  >
+                    Get Details
+                  </button>
+                </div>
+              </Popup>
+            </Circle>
+          ))}
 
           {/* Selected location marker */}
           {selectedLocation && (
@@ -189,8 +241,21 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
       </div>
 
       {/* Map Controls */}
-      <div className="absolute top-4 right-4 bg-white p-4 rounded-lg shadow-lg z-[1000]">
-        <h4 className="font-semibold mb-2">Drought Risk Legend</h4>
+      <div className="absolute top-4 right-4 bg-white p-4 rounded-lg shadow-lg z-[1000] max-w-xs">
+        <div className="flex items-center justify-between mb-2">
+          <h4 className="font-semibold">Drought Risk Legend</h4>
+          <button
+            onClick={fetchRegionalDroughtData}
+            disabled={regionalLoading}
+            className="px-2 py-1 bg-blue-500 text-white text-xs rounded hover:bg-blue-600 disabled:bg-gray-400"
+            title="Refresh regional data"
+          >
+            {regionalLoading ? '⟳' : '↻'}
+          </button>
+        </div>
+        {regionalLoading && (
+          <p className="text-xs text-blue-600 mb-2">Loading regional data...</p>
+        )}
         <div className="space-y-1 text-sm">
           <div className="flex items-center">
             <div className="w-4 h-4 rounded mr-2" style={{ backgroundColor: '#dc2626' }}></div>
@@ -213,6 +278,9 @@ const DroughtMap: React.FC<DroughtMapProps> = ({ apiBaseUrl }) => {
             <span>Normal (0-19)</span>
           </div>
         </div>
+        <p className="text-xs text-gray-500 mt-2">
+          Data updated: {regionalData.length > 0 ? new Date(regionalData[0]?.lastUpdated || Date.now()).toLocaleTimeString() : 'Loading...'}
+        </p>
       </div>
 
       {/* Location Input */}
